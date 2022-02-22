@@ -104,8 +104,8 @@ turf/closed/wall/f13/wood/house/update_damage_overlay()
 	canSmoothWith = list(/turf/closed/wall/f13/wood/interior, /turf/closed/wall)
 
 /turf/closed/wall/f13/store
-	name = "store wall"
-	desc = "A pre-War store wall made of solid concrete."
+	name = "concrete wall"
+	desc = "A pre-War wall made of solid concrete."
 	icon = 'icons/turf/walls/f13store.dmi'
 	icon_state = "store"
 	icon_type_smooth = "store"
@@ -148,7 +148,7 @@ turf/closed/wall/f13/wood/house/update_damage_overlay()
 
 /turf/closed/wall/f13/tunnel
 	name = "utility tunnel wall"
-	desc = "A sturdy metal wall with various pipes and wiring set inside a special groove."
+	desc = "A sturdy metal and concrete wall with various pipes and wiring set inside."
 	icon = 'icons/fallout/turfs/walls/tunnel.dmi'
 	icon_state = "tunnel0"
 	icon_type_smooth = "tunnel"
