@@ -1,11 +1,10 @@
 {
-	"map_name": "Pahrump",
-	"map_path": "map_files/Pahrump",
+	"map_name": "Sunnyvale",
+	"map_path": "map_files/Sunnyvale",
 	"map_file": [
 		"Dungeons.dmm",
-		"Pahrump-Underground-1.dmm",
-		"Pahrump-Surface-2.dmm",
-		"Pahrump-Above-3.dmm"
+		"Sunnyvale-underground.dmm",
+		"Sunnyvale.dmm"
 	],
 	"station_ruin_budget":0,
 	"space_ruin_levels":0,
@@ -34,16 +33,8 @@
 			"Gravity": true,
 			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
 			"Station": 1,
-			"Up": 1,
 			"Down": -1,
 			"Linkage" : "Cross"
-		},
-		{
-			"Gravity": true,
-			"Baseturf": "/turf/open/transparent/openspace",
-			"Down": -1,
-			"Linkage" : "Cross",
-			"Above": true
 		}
 	],
 	"minetype": "none"
