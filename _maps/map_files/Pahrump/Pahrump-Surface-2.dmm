@@ -6356,13 +6356,13 @@
 	},
 /area/f13/wasteland)
 "cMx" = (
-/obj/structure/bed/mattress{
-	icon_state = "mattress6"
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/have_a_puff{
 	pixel_y = 32
+	},
+/obj/structure/bed/mattress{
+	icon_state = "mattress1"
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
