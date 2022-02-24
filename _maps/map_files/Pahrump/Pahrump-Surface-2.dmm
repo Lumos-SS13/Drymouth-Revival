@@ -3297,7 +3297,7 @@
 /obj/machinery/shower{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "bqF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10419,7 +10419,7 @@
 	pixel_x = -26;
 	pixel_y = -1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "evk" = (
 /obj/structure/fence/wooden{
@@ -16026,6 +16026,13 @@
 /obj/structure/simple_door/metal/ventilation,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/caves)
+"gDO" = (
+/obj/structure/window/fulltile/house{
+	icon_state = "housewindowbrokenvertical"
+	},
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/building)
 "gDW" = (
 /obj/structure/railing{
 	layer = 4.1
@@ -27905,7 +27912,7 @@
 "lpD" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "lpK" = (
 /obj/effect/overlay/junk/toilet{
@@ -42264,11 +42271,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "rEc" = (
-/obj/structure/fence/post{
-	desc = "A wooden post.";
-	icon_state = "end_wood";
-	name = "pole"
-	},
+/obj/structure/fence/wooden,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "rEd" = (
@@ -44410,7 +44413,7 @@
 	dir = 8
 	},
 /obj/item/storage/toolbox/mechanical/old,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "sEA" = (
 /obj/structure/rack,
@@ -45333,8 +45336,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "sXB" = (
-/obj/item/twohanded/required/kirbyplants/photosynthetic,
-/turf/open/floor/plasteel/grimy,
+/obj/structure/simple_door/room,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "sXJ" = (
 /obj/structure/fluff/rails{
@@ -46277,7 +46280,6 @@
 /obj/structure/decoration/clock/active{
 	pixel_x = 30
 	},
-/obj/item/modular_computer/laptop/preset/civillian,
 /turf/open/floor/plasteel/grimy,
 /area/f13/building)
 "tsS" = (
@@ -47248,7 +47250,7 @@
 	},
 /area/f13/building)
 "tQw" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "tQK" = (
 /obj/structure/chair/office/dark{
@@ -78835,11 +78837,11 @@ gvW
 gvW
 rpu
 klA
-sDp
+sXB
 tQw
 tQw
 lpD
-fGS
+gDO
 fyf
 vxC
 gtU
@@ -103215,7 +103217,7 @@ sgL
 pIq
 sgL
 kEI
-sXB
+tqM
 tqM
 tqM
 uhZ
