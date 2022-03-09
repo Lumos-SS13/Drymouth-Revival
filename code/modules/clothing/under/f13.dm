@@ -1255,11 +1255,6 @@
 	icon_state = "vaultcity"
 	item_state = "vaultcity"
 
-/obj/item/clothing/under/f13/vault/vcity/skirt
-	name = "VTCC jumpskirt"
-	icon_state = "vaultcity_skirt"
-	item_state = "vaultcity_skirt"
-
 /obj/item/clothing/under/f13/followers
 	name = "followers outfit"
 	desc = "A white shirt with a pair of dark brown cargo pants - an outfit commonly worn by Followers of the Apocalypse.<br><i>Nihil boni sine labore.</i>"
