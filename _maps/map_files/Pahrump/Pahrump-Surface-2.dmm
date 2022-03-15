@@ -18542,7 +18542,6 @@
 /area/f13/village)
 "hDM" = (
 /obj/structure/displaycase,
-/obj/item/clothing/under/f13/vault/vcity/skirt,
 /obj/machinery/door/poddoor/shutters{
 	id = "mus3"
 	},

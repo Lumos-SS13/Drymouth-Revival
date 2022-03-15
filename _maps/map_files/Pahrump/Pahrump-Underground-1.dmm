@@ -3614,13 +3614,13 @@
 /turf/open/water,
 /area/f13/tunnel)
 "clz" = (
-/obj/structure/bed/old,
 /obj/item/reagent_containers/hypospray/medipen/medx,
 /obj/structure/sign/poster/contraband/punch_shit{
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -4533,9 +4533,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/bunker)
 "cKX" = (
-/obj/structure/bed/old,
 /obj/item/trash/f13/dandyapples,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -9977,11 +9977,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/bunker)
 "fPm" = (
-/obj/structure/bed/oldalt,
 /obj/structure/sign/poster/contraband/smoke{
 	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -11402,11 +11402,11 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
 "gHA" = (
-/obj/structure/bed/old,
 /obj/structure/sign/poster/contraband/pinup_funk{
 	pixel_y = -32
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -14626,12 +14626,12 @@
 	},
 /area/f13/bunker)
 "jad" = (
-/obj/structure/bed/old,
 /obj/structure/sign/poster/contraband/tools{
 	pixel_x = 32
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -14977,12 +14977,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/den)
 "joi" = (
-/obj/structure/bed/old,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/raider{
 	max_mobs = 3;
 	pixel_y = 25
 	},
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -18089,9 +18089,9 @@
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/brotherhood/operations)
 "lGA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/old,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -20741,8 +20741,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "nAC" = (
-/obj/structure/bed/oldalt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -30519,8 +30519,8 @@
 	},
 /area/f13/brotherhood/operations)
 "uRZ" = (
-/obj/structure/bed/oldalt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "uSk" = (
@@ -30842,8 +30842,6 @@
 	icon_state = "mattress2";
 	pixel_y = 7
 	},
-/obj/item/crowbar/basic,
-/obj/item/screwdriver/basic,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -32004,12 +32002,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
 "wgm" = (
-/obj/structure/bed/oldalt,
 /obj/structure/sign/poster/contraband/atmosia_independence{
 	pixel_y = -32
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -32252,11 +32250,11 @@
 /turf/closed/wall/r_wall/rust,
 /area/f13/tunnel)
 "wom" = (
-/obj/structure/bed/old,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/prewar/poster61{
 	pixel_y = 32
 	},
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -33083,10 +33081,6 @@
 	},
 /turf/open/water,
 /area/f13/den)
-"wWd" = (
-/obj/structure/bed/oldalt,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "wWB" = (
 /obj/structure/handrail/g_central{
 	pixel_y = -16
@@ -84679,7 +84673,7 @@ nBk
 uhE
 rsB
 uHt
-wWd
+qpM
 wkx
 rsB
 xyk
@@ -85195,7 +85189,7 @@ rsB
 dEg
 qpM
 hkn
-wWd
+qpM
 xyk
 vPg
 vPg
@@ -86221,7 +86215,7 @@ nBk
 uhE
 uRZ
 hkn
-wWd
+qpM
 wHf
 rsB
 xyk

@@ -60,13 +60,6 @@
 	icon_state = "bed_dirty"
 	max_integrity = 50
 
-// Obsolete
-/obj/structure/bed/oldalt
-	name = "ancient bed"
-	desc = "Filthy beyond belief."
-	icon_state = "bed_dirty"
-	max_integrity = 50
-
 /*
  * Roller beds
  */
