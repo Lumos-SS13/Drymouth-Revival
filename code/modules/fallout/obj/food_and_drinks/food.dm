@@ -273,7 +273,7 @@
 	icon_state = "ghoul_steak"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
 	bonus_reagents = list(/datum/reagent/radium = 3, /datum/reagent/consumable/nutriment/vitamin = 0.5)
-	tastes = list("atomtic baked meat" = 3)
+	tastes = list("atomic baked meat" = 3)
 	filling_color = "#465945" //Gray Asparagus
 	foodtype = MEAT | GROSS
 
@@ -284,7 +284,7 @@
 	desc = "No matter how much you cook, it doesn't seem safe to eat."
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4)
 	bonus_reagents = list(/datum/reagent/radium = 5, /datum/reagent/consumable/nutriment/vitamin = 1)
-	tastes = list("atomtic baked meat" = 3, "abominable writhing" = 1)
+	tastes = list("atomic baked meat" = 3, "abominable writhing" = 1)
 	filling_color = "#465945"
 	foodtype = MEAT | GROSS
 
