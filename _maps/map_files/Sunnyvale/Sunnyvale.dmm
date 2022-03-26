@@ -777,8 +777,7 @@
 /area/f13/klamat)
 "adX" = (
 /obj/structure/destructible/tribal_torch/lit,
-/turf/open/floor/plating/f13/outside/road{
-	dir = 2;
+/turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "tinycornerhorizontal"
 	},
 /area/f13/desert)
@@ -12983,34 +12982,10 @@
 	icon_state = "tinycornerhorizontal"
 	},
 /area/f13/desert)
-"aRO" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 2;
-	icon_state = "tinycornervertical"
-	},
-/area/f13/desert)
-"aRP" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 1;
-	icon_state = "innerturn"
-	},
-/area/f13/desert)
 "aRQ" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottom0"
-	},
-/area/f13/desert)
-"aRR" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 4;
-	icon_state = "innerturn"
-	},
-/area/f13/desert)
-"aRS" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 8;
-	icon_state = "tinycornervertical"
 	},
 /area/f13/desert)
 "aRT" = (
@@ -13020,18 +12995,6 @@
 "aRU" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright3"
-	},
-/area/f13/desert)
-"aRW" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 2;
-	icon_state = "innerturn"
-	},
-/area/f13/desert)
-"aRX" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 1;
-	icon_state = "tinycornervertical"
 	},
 /area/f13/desert)
 "aRY" = (
@@ -13053,12 +13016,6 @@
 	icon_state = "bike_rust_med_no_wheels"
 	},
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
-"aSc" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 8;
-	icon_state = "tinycornerhorizontal"
-	},
 /area/f13/desert)
 "aSe" = (
 /obj/structure/sign/warning/radiation/rad_area,
@@ -14470,18 +14427,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
-"aWI" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 4;
-	icon_state = "tinycornervertical"
-	},
-/area/f13/desert)
-"aWJ" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 8;
-	icon_state = "innerturn"
-	},
-/area/f13/desert)
 "aWK" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier3,
@@ -14666,18 +14611,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
-"aXs" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 4;
-	icon_state = "tinycornerhorizontal"
-	},
-/area/f13/desert)
-"aXt" = (
-/turf/open/floor/plating/f13/outside/road{
-	dir = 1;
-	icon_state = "tinycornerhorizontal"
-	},
-/area/f13/desert)
 "aXu" = (
 /obj/machinery/light{
 	dir = 4
@@ -50834,11 +50767,11 @@ aag
 aag
 aag
 aFW
-aQL
-aQL
-aQL
-aQL
-aQL
+aZF
+aZF
+aZF
+aZF
+aZF
 akd
 ajn
 aRU
@@ -132986,7 +132919,7 @@ aaa
 aaa
 aaa
 qLG
-aRO
+aiQ
 acv
 acv
 acv
@@ -133388,7 +133321,7 @@ aaa
 aaa
 aFW
 adX
-aRP
+dLs
 baE
 baE
 baE
@@ -135002,7 +134935,7 @@ baE
 ajy
 acv
 acv
-aWI
+aZZ
 qLG
 afu
 afb
@@ -135404,8 +135337,8 @@ baE
 baE
 baE
 baE
-aWJ
-aXs
+oSy
+kaW
 afv
 aFW
 ahz
@@ -139015,15 +138948,15 @@ bKN
 aav
 aag
 aFW
-aSc
-aRR
+afp
+nFm
 baE
 baE
 baE
 baE
 baE
-aRW
-aXt
+shJ
+qaR
 baV
 baV
 baV
@@ -139418,13 +139351,13 @@ aav
 aaK
 aFW
 qLG
-aRS
+ajn
 acy
 acy
 acy
 acy
 acy
-aRX
+cGj
 qLG
 afH
 amc
