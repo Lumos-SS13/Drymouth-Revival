@@ -101,13 +101,34 @@
 		qdel(turfPlant)
 	return ..()
 
+// Desert-asphalt road
 /turf/open/indestructible/ground/outside/road
 	name = "\proper road"
 	icon_state = "innermiddle"
 	icon = 'icons/fallout/turfs/asphalt.dmi'
 	footstep = FOOTSTEP_ROAD
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
-//	step_sounds = list("human" = "erikafootsteps")
+
+/turf/open/indestructible/ground/outside/road/sidewalk
+	icon_state = "road-sidewalk"
+
+/turf/open/indestructible/ground/outside/road/edge
+	icon_state = "innerpavement"
+
+/turf/open/indestructible/ground/outside/road/corner
+	icon_state = "innerpavementcorner"
+
+/turf/open/indestructible/ground/outside/road/pavement
+	icon_state = "innermiddle"
+
+/turf/open/indestructible/ground/outside/road/pavement/sidewalk
+	icon_state = "innerpavementcorner"
+
+/turf/open/indestructible/ground/outside/road/pavement/edge
+	icon_state = "innerpavementcorner"
+
+/turf/open/indestructible/ground/outside/road/pavement/corner
+	icon_state = "innerpavementcorner"
 
 /turf/open/indestructible/ground/outside/sidewalk
 	name = "\proper sidewalk"
