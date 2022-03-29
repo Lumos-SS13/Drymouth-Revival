@@ -9817,7 +9817,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aDK" = (
 /obj/machinery/shower{
@@ -9825,7 +9825,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aDL" = (
 /obj/structure/closet/crate/freezer,
@@ -10013,7 +10013,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aEj" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -10022,7 +10022,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aEk" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -10031,7 +10031,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aEl" = (
 /obj/machinery/computer/operating,
@@ -10176,7 +10176,7 @@
 	dir = 9;
 	icon_state = "camera"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aEF" = (
 /obj/item/radio/intercom{
@@ -10335,14 +10335,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/red/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFb" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -10351,7 +10351,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFc" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -10443,19 +10443,19 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFm" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFo" = (
 /turf/open/floor/plasteel/f13{
@@ -10479,13 +10479,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/red/line,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/red/line,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFu" = (
 /obj/machinery/door/airlock/hatch{
@@ -10512,7 +10512,7 @@
 	pixel_y = -32
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFx" = (
 /obj/structure/table,
@@ -10537,7 +10537,7 @@
 	dir = 1;
 	icon_state = "warningline_red"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFz" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -10547,7 +10547,7 @@
 	dir = 1;
 	icon_state = "warningline_red"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "aFA" = (
 /obj/machinery/light{
@@ -25652,6 +25652,11 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/desert)
+"tcy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
 "tcD" = (
 /obj/structure/wreck/trash/engine,
 /turf/open/indestructible/ground/outside/road,
@@ -60209,7 +60214,7 @@ aDd
 aDv
 aDJ
 aEi
-axZ
+tcy
 aEZ
 aFl
 aFs
@@ -60609,9 +60614,9 @@ aoh
 avU
 aDd
 aDv
-axZ
+tcy
 aEj
-axZ
+tcy
 aFa
 aFm
 aFt
