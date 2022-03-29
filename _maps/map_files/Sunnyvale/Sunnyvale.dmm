@@ -10650,12 +10650,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
-"aFU" = (
-/mob/living/simple_animal/hostile/handy/protectron,
-/turf/open/floor/plasteel/f13{
-	icon_state = "bluefull"
-	},
-/area/f13/underground/enclave_base)
 "aFV" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
@@ -10680,15 +10674,6 @@
 /area/f13/desert)
 "aFZ" = (
 /turf/open/indestructible/ground/outside/ruins,
-/area/f13/desert)
-"aGa" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/obj/structure/fence/corner{
-	dir = 8
-	},
-/turf/open/floor/plating,
 /area/f13/desert)
 "aGe" = (
 /obj/structure/fence{
@@ -10844,15 +10829,6 @@
 /obj/machinery/vending/nukacolavend,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/desert)
-"aHb" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/fence{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/f13/desert)
 "aHc" = (
 /obj/structure/junk/locker,
 /obj/effect/decal/cleanable/dirt,
@@ -10860,12 +10836,6 @@
 	icon_state = "greendirtysolid"
 	},
 /area/f13/underground/enclave_base)
-"aHd" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/f13/desert)
 "aHe" = (
 /obj/structure/closet,
 /obj/item/clothing/gloves/color/latex/nitrile,
@@ -11108,13 +11078,6 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/underground/enclave_base)
-"aIe" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
-/obj/structure/fence/corner,
-/turf/open/floor/plating,
-/area/f13/desert)
 "aIf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/f13chair2{
@@ -11257,13 +11220,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
-"aJj" = (
-/obj/structure/fence,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/f13/desert)
 "aJm" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
@@ -11455,22 +11411,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
-"aKi" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating,
-/area/f13/desert)
-"aKj" = (
-/obj/structure/fence,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/f13/desert)
-"aKl" = (
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
-	},
-/area/f13/desert)
 "aKm" = (
 /obj/item/storage/backpack/satchel/flat,
 /turf/open/floor/plasteel/f13{
@@ -11524,29 +11464,6 @@
 "aKv" = (
 /turf/closed/wall/f13/supermart,
 /area/f13/sunny_dale)
-"aKw" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
-	},
-/obj/structure/fence/corner,
-/turf/open/floor/plating,
-/area/f13/desert)
-"aKx" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/obj/structure/fence/corner{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/f13/desert)
-"aKy" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/structure/fence{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/f13/desert)
 "aKF" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 9;
@@ -24410,10 +24327,6 @@
 /obj/item/reagent_containers/glass/bucket/wood,
 /turf/open/floor/f13/wood,
 /area/f13/legioncamp)
-"jGm" = (
-/mob/living/simple_animal/hostile/radscorpion,
-/turf/open/floor/wood/f13/old,
-/area/f13/underground/mountain)
 "jGx" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontalcorroded"
@@ -29758,7 +29671,7 @@ aGy
 aFP
 aFP
 aGL
-aFU
+aFP
 aFQ
 arf
 arf
@@ -30161,7 +30074,7 @@ aGh
 aFP
 aGO
 aPv
-aRo
+aPv
 arf
 bmD
 aER
@@ -30965,7 +30878,7 @@ aGh
 aFP
 aGi
 aPv
-aFU
+aFP
 aJo
 aGM
 aSh
@@ -86004,7 +85917,7 @@ tkV
 auR
 mxJ
 lZs
-jGm
+oGT
 lZs
 tkV
 acP
@@ -88013,7 +87926,7 @@ aaa
 tkV
 auS
 ciE
-jGm
+oGT
 oGT
 oGT
 oGT
@@ -89662,15 +89575,15 @@ aaa
 aaa
 aag
 aag
-aGa
-aKj
-aKj
-aKj
-aKj
-aKj
-aKj
-aKj
-aKx
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -90064,15 +89977,15 @@ aaa
 aaa
 aag
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -90466,15 +90379,15 @@ aaa
 acP
 aag
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -90868,15 +90781,15 @@ aaa
 acP
 acP
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -91270,15 +91183,15 @@ acP
 acP
 acP
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -91672,15 +91585,15 @@ acP
 acP
 acP
 aag
-aHd
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKi
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -92074,15 +91987,15 @@ aaa
 acP
 acP
 aag
-aHd
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKi
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -92476,15 +92389,15 @@ aaa
 acP
 aag
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -92878,15 +92791,15 @@ aaa
 aag
 aag
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -93280,15 +93193,15 @@ aaa
 aag
 aag
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -93682,15 +93595,15 @@ aag
 aag
 aag
 aag
-aHb
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKl
-aKy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag
@@ -94084,15 +93997,15 @@ aag
 aag
 aag
 aag
-aIe
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aKw
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
 aag
 aag
 aag

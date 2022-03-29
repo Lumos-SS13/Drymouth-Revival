@@ -50,18 +50,6 @@
 
 //////////////////////////////////////////////////////////////////////
 
-/turf/open/indestructible/ground/outside
-	sunlight_state = SUNLIGHT_SOURCE
-
-/turf/open/indestructible/ground/outside/Initialize()
-	. = ..()
-	flags_2 |= GLOBAL_LIGHT_TURF_2
-
-#define GRASS_SPONTANEOUS_GROUND 		2
-#define GRASS_WEIGHT_GROUND			4
-#define LUSH_PLANT_SPAWN_LIST_GROUND list(/obj/structure/flora/grass/wasteland = 10, /obj/structure/flora/wasteplant/wild_broc = 7, /obj/structure/flora/wasteplant/wild_mesquite = 4, /obj/structure/flora/wasteplant/wild_feracactus = 5, /obj/structure/flora/wasteplant/wild_punga = 5, /obj/structure/flora/wasteplant/wild_coyote = 5, /obj/structure/flora/wasteplant/wild_tato = 5, /obj/structure/flora/wasteplant/wild_yucca = 5, /obj/structure/flora/wasteplant/wild_mutfruit = 5, /obj/structure/flora/wasteplant/wild_prickly = 5, /obj/structure/flora/wasteplant/wild_datura = 5, /obj/structure/flora/wasteplant/wild_buffalogourd = 5, /obj/structure/flora/wasteplant/wild_pinyon = 3, /obj/structure/flora/wasteplant/wild_xander = 5, /obj/structure/flora/wasteplant/wild_agave = 5, /obj/structure/flora/tree/joshua = 3, /obj/structure/flora/tree/cactus = 2, /obj/structure/flora/tree/wasteland = 2)
-#define DESOLATE_PLANT_SPAWN_LIST_GROUND list(/obj/structure/flora/grass/wasteland = 1)
-
 /turf/open/indestructible/ground/outside/dirthole
 	name = "Dirt hole"
 	icon_state = "dirthole"
@@ -75,57 +63,6 @@
 	desc = "A river."
 	slowdown = 3
 	flags_1 = ADJACENCIES_OVERLAY
-
-
-//////////////
-// SAVANNAH //
-//////////////
-
-/turf/open/indestructible/ground/outside/savannah
-	name = "savannah"
-	desc = "Some savannah."
-	icon = 'icons/fallout/turfs/savannah.dmi'
-	icon_state = "savannahcenter"
-	slowdown = 0.4
-	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
-	footstep = FOOTSTEP_SAND
-	barefootstep = FOOTSTEP_SAND
-	clawfootstep = FOOTSTEP_SAND
-
-/turf/open/indestructible/ground/outside/savannah/center
-	icon_state = "savannahcenter"
-/turf/open/indestructible/ground/outside/savannah/bottomright
-	icon_state = "savannah1"
-/turf/open/indestructible/ground/outside/savannah/bottomcenter
-	icon_state = "savannah2"
-/turf/open/indestructible/ground/outside/savannah/bottomleft
-	icon_state = "savannah3"
-/turf/open/indestructible/ground/outside/savannah/leftcenter
-	icon_state = "savannah4"
-/turf/open/indestructible/ground/outside/savannah/topleft
-	icon_state = "savannah5"
-/turf/open/indestructible/ground/outside/savannah/topcenter
-	icon_state = "savannah6"
-/turf/open/indestructible/ground/outside/savannah/topright
-	icon_state = "savannah7"
-/turf/open/indestructible/ground/outside/savannah/rightcenter
-	icon_state = "savannah8"
-/turf/open/indestructible/ground/outside/savannah/bottomleftcorner
-	icon_state = "savannah9"
-/turf/open/indestructible/ground/outside/savannah/bottomrightcorner
-	icon_state = "savannah10"
-/turf/open/indestructible/ground/outside/savannah/topleftcorner
-	icon_state = "savannah11"
-/turf/open/indestructible/ground/outside/savannah/toprightcorner
-	icon_state = "savannah12"
-/turf/open/indestructible/ground/outside/savannah/cornersnew
-	icon_state = "savannah13"
-/turf/open/indestructible/ground/outside/savannah/edgesnew
-	icon_state = "savannah14"
-
-// Savannah merged with dark dirt 1-
-/turf/open/indestructible/ground/outside/savannah/dark
-	icon_state = "savannah1_dark"
 
 /turf/open/indestructible/ground/outside/dirt
 	name = "dirt"
@@ -142,10 +79,6 @@
 
 /turf/open/indestructible/ground/outside/dirt/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
 	return //same thing here, dirt absorbs the liquid... :(
-
-// DARK DIRT - the legacy one
-/turf/open/indestructible/ground/outside/dirt/dark
-
 
 /turf/open/indestructible/ground/outside/dirt_s
 	name = "dirt"
@@ -189,49 +122,6 @@
 	icon = 'icons/fallout/turfs/floors.dmi'
 	//	step_sounds = list("human" = "woodfootsteps")
 
-/turf/open/indestructible/ground/outside/water
-	gender = PLURAL
-	name = "river water"
-	desc = "Shallow river water."
-	icon = 'icons/turf/floors.dmi'
-	icon_state = "riverwater_motion"
-	slowdown = 2
-	depth = 1
-	bullet_sizzle = TRUE
-	bullet_bounce_sound = null //needs a splashing sound one day.
-	footstep = FOOTSTEP_WATER
-	barefootstep = FOOTSTEP_WATER
-	clawfootstep = FOOTSTEP_WATER
-	heavyfootstep = FOOTSTEP_WATER
-
-/turf/open/indestructible/ground/outside/water/Initialize()
-	. = ..()
-	update_icon()
-
-/turf/open/indestructible/ground/outside/water/Entered(atom/movable/AM, atom/oldloc)
-	if(istype(AM, /mob/living))
-		var/mob/living/L = AM
-		L.update_water()
-		if(L.check_submerged() <= 0)
-			return
-		if(!istype(oldloc, /turf/open/indestructible/ground/outside/water))
-			to_chat(L, "<span class='warning'>You get drenched in water!</span>")
-	AM.water_act(5)
-	..()
-
-/turf/open/indestructible/ground/outside/water/Exited(atom/movable/AM, atom/newloc)
-	if(istype(AM, /mob/living))
-		var/mob/living/L = AM
-		L.update_water()
-		if(L.check_submerged() <= 0)
-			return
-		if(!istype(newloc, /turf/open/indestructible/ground/outside/water))
-			to_chat(L, "<span class='warning'>You climb out of \the [src].</span>")
-	..()
-
-/turf/open/indestructible/ground/outside/water/update_icon()
-	. = ..()
-
 /turf/open/indestructible/ground/outside/snow
 	initial_gas_mix = "o2=22;n2=82;TEMP=285"
 	name = "snow"
@@ -241,103 +131,6 @@
 	footstep = FOOTSTEP_SNOW
 	barefootstep = FOOTSTEP_SNOW
 	clawfootstep = FOOTSTEP_SNOW
-
-/////////////////////////////////////////////////////////
-
-#define SHROOM_SPAWN_GROUND	1
-
-/turf/open/indestructible/ground/inside/mountain
-	name = "cave"
-	icon_state = "rockfloor1"
-	icon = 'icons/fallout/turfs/mining.dmi'
-//	allowed_plants = list(/obj/item/seeds/glow)
-//	step_sounds = list("human" = "erikafootsteps")
-
-/turf/open/indestructible/ground/inside/mountain/Initialize()
-	. = ..()
-	//If no fences, machines, etc. try to plant mushrooms
-	if(!(\
-			(locate(/obj/structure) in src) || \
-			(locate(/obj/machinery) in src) ))
-		plantShrooms()
-	for(var/direction in GLOB.cardinals)
-		var/turf/turf_to_check = get_step(src, direction)
-		if(istype(turf_to_check, /turf/open/water))
-			var/obj/effect/overlay/rockfloor_side/DS = new /obj/effect/overlay/rockfloor_side(src)
-			switch(direction)
-				if(NORTH)
-					DS.pixel_y = 32
-				if(SOUTH)
-					DS.pixel_y = -32
-				if(EAST)
-					DS.pixel_x = 32
-				if(WEST)
-					DS.pixel_x = -32
-			DS.dir = turn(direction, 180)
-
-/obj/effect/overlay/rockfloor_side
-	name = "cave"
-	icon = 'icons/fallout/turfs/smoothing.dmi'
-	icon_state = "rockfloor_side"
-	density = FALSE
-	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
-	plane = FLOOR_PLANE
-	layer = ABOVE_OPEN_TURF_LAYER
-	anchored = TRUE
-	resistance_flags = INDESTRUCTIBLE
-
-/turf/open/indestructible/ground/inside/mountain/proc/plantShrooms()
-	if(prob(SHROOM_SPAWN_GROUND))
-		turfPlant = new /obj/structure/flora/wasteplant/wild_fungus(src)
-		. = TRUE //in case we ever need this to return if we spawned
-		return.
-
-/turf/open/indestructible/ground/inside/mountain/New()
-	..()
-	icon_state = "rockfloor[rand(1,2)]"
-
-/turf/open/indestructible/ground/inside/dirt
-	name = "dirt"
-	icon_state = "dirtfull"
-//	step_sounds = list("human" = "dirtfootsteps")
-//	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
-//	/obj/item/seeds/potato, /obj/item/seeds/carrot, /obj/item/seeds/pumpkin, /obj/item/seeds/corn, /obj/item/seeds/agave)
-	slowdown = 0.2
-	flags_1 = CAN_HAVE_NATURE
-
-/turf/open/indestructible/ground/inside/subway
-	name = "subway tunnel"
-	icon = 'icons/fallout/turfs/ground.dmi'
-	icon_state = "railsnone"
-
-/turf/open/indestructible/ground/inside/subway/Initialize()
-	. = ..()
-	for(var/direction in GLOB.cardinals)
-		var/turf/turf_to_check = get_step(src, direction)
-		if(istype(turf_to_check, /turf/open))
-			var/obj/effect/overlay/railsnone_side/DS = new /obj/effect/overlay/railsnone_side(src)
-			switch(direction)
-				if(NORTH)
-					DS.pixel_y = 32
-				if(SOUTH)
-					DS.pixel_y = -32
-				if(EAST)
-					DS.pixel_x = 32
-				if(WEST)
-					DS.pixel_x = -32
-			DS.dir = turn(direction, 180)
-
-/obj/effect/overlay/railsnone_side
-	name = "cave"
-	icon = 'icons/fallout/turfs/smoothing.dmi'
-	icon_state = "railsnone_side"
-	density = FALSE
-	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
-	plane = FLOOR_PLANE
-	layer = ABOVE_OPEN_TURF_LAYER
-	anchored = TRUE
-	resistance_flags = INDESTRUCTIBLE
-
 
 /turf/open/indestructible/ground/outside/roaddirt
 	name = "road"
@@ -353,13 +146,6 @@
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 //	step_sounds = list("human" = "erikafootsteps")
 
-//Obsolete but used in yucky Pahrump
-/turf/open/indestructible/ground/outside/graveldirt
-	name = "gravel"
-	icon_state = "graveldirt"
-	icon = 'icons/fallout/turfs/ground.dmi'
-//	step_sounds = list("human" = "erikafootsteps")
-
 // New gravel, organized. Use directions for control. - Pebbles
 /turf/open/indestructible/ground/outside/gravel
 	name = "gravel"
@@ -368,10 +154,6 @@
 	footstep = FOOTSTEP_GRAVEL
 	barefootstep = FOOTSTEP_GRAVEL
 	clawfootstep = FOOTSTEP_GRAVEL
-
-/turf/open/indestructible/ground/outside/gravel/alt
-	name = "gravel"
-	icon_state = "gravel_alt"
 
 /turf/open/indestructible/ground/outside/gravel/path_desert
 	name = "gravel path"

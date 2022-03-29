@@ -1,6 +1,19 @@
 // EXTERIOR ground turfs //
 // This turf is affected by day/night and has outside plants
 
+
+/turf/open/indestructible/ground/outside
+	sunlight_state = SUNLIGHT_SOURCE
+
+/turf/open/indestructible/ground/outside/Initialize()
+	. = ..()
+	flags_2 |= GLOBAL_LIGHT_TURF_2
+
+#define GRASS_SPONTANEOUS_GROUND 		2
+#define GRASS_WEIGHT_GROUND			4
+#define LUSH_PLANT_SPAWN_LIST_GROUND list(/obj/structure/flora/grass/wasteland = 10, /obj/structure/flora/wasteplant/wild_broc = 7, /obj/structure/flora/wasteplant/wild_mesquite = 4, /obj/structure/flora/wasteplant/wild_feracactus = 5, /obj/structure/flora/wasteplant/wild_punga = 5, /obj/structure/flora/wasteplant/wild_coyote = 5, /obj/structure/flora/wasteplant/wild_tato = 5, /obj/structure/flora/wasteplant/wild_yucca = 5, /obj/structure/flora/wasteplant/wild_mutfruit = 5, /obj/structure/flora/wasteplant/wild_prickly = 5, /obj/structure/flora/wasteplant/wild_datura = 5, /obj/structure/flora/wasteplant/wild_buffalogourd = 5, /obj/structure/flora/wasteplant/wild_pinyon = 3, /obj/structure/flora/wasteplant/wild_xander = 5, /obj/structure/flora/wasteplant/wild_agave = 5, /obj/structure/flora/tree/joshua = 3, /obj/structure/flora/tree/cactus = 2, /obj/structure/flora/tree/wasteland = 2)
+#define DESOLATE_PLANT_SPAWN_LIST_GROUND list(/obj/structure/flora/grass/wasteland = 1)
+
 // DESERT //
 /turf/open/indestructible/ground/outside/desert
 	name = "desert"
@@ -166,3 +179,49 @@
 				ChangeTurf(baseturfs)
 		if(1)
 			ChangeTurf(baseturfs)
+
+/// WATER ///
+
+/turf/open/indestructible/ground/outside/water
+	gender = PLURAL
+	name = "river water"
+	desc = "Shallow river water."
+	icon = 'icons/turf/floors.dmi'
+	icon_state = "riverwater_motion"
+	slowdown = 2
+	depth = 1
+	bullet_sizzle = TRUE
+	bullet_bounce_sound = null //needs a splashing sound one day.
+	footstep = FOOTSTEP_WATER
+	barefootstep = FOOTSTEP_WATER
+	clawfootstep = FOOTSTEP_WATER
+	heavyfootstep = FOOTSTEP_WATER
+
+/turf/open/indestructible/ground/outside/water/Initialize()
+	. = ..()
+	update_icon()
+
+/turf/open/indestructible/ground/outside/water/Entered(atom/movable/AM, atom/oldloc)
+	if(istype(AM, /mob/living))
+		var/mob/living/L = AM
+		L.update_water()
+		if(L.check_submerged() <= 0)
+			return
+		if(!istype(oldloc, /turf/open/indestructible/ground/outside/water))
+			to_chat(L, "<span class='warning'>You get drenched in water!</span>")
+	AM.water_act(5)
+	..()
+
+/turf/open/indestructible/ground/outside/water/Exited(atom/movable/AM, atom/newloc)
+	if(istype(AM, /mob/living))
+		var/mob/living/L = AM
+		L.update_water()
+		if(L.check_submerged() <= 0)
+			return
+		if(!istype(newloc, /turf/open/indestructible/ground/outside/water))
+			to_chat(L, "<span class='warning'>You climb out of \the [src].</span>")
+	..()
+
+/turf/open/indestructible/ground/outside/water/update_icon()
+	. = ..()
+
