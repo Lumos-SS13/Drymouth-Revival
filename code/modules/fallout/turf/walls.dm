@@ -201,6 +201,16 @@ turf/closed/wall/f13/wood/house/update_damage_overlay()
 	icon = 'icons/fallout/turfs/walls/subway.dmi'
 	icon_state = "subwaytop"
 
+/turf/closed/indestructible/f13/obsidian //Just like that one game studio that worked on the original game, or that block in Minecraft!
+	name = "obsidian"
+	desc = "No matter what you do with this rock, there's not even a scratch left on its surface.<br><font color='#7e0707'>You shall not pass!!!</font>"
+	icon = 'icons/fallout/turfs/mining.dmi'
+	icon_state = "rock1"
+
+/turf/closed/indestructible/f13/obsidian/New()
+	..()
+	icon_state = "rock[rand(1,6)]"
+
 /turf/closed/indestructible/f13/matrix //The Chosen One from Arroyo!
 	name = "matrix"
 	desc = "<font color='#6eaa2c'>You suddenly realize the truth - there is no spoon.<br>Digital simulation ends here.</font>"
@@ -219,7 +229,7 @@ turf/closed/wall/f13/wood/house/update_damage_overlay()
 	if(departing_mob != user && departing_mob.client)
 		to_chat(user, "<span class='warning'>This one retains their free will. It's their choice if they want to depart or not.</span>")
 		return
-	if(alert("Are you sure you want to [departing_mob == user ? "depart the area for good (you" : "send this person away (they"] will be removed from the current round, the job slot freed)?", "Departing the Sonora", "Confirm", "Cancel") != "Confirm")
+	if(alert("Are you sure you want to [departing_mob == user ? "depart the area for good (you" : "send this person away (they"] will be removed from the current round, the job slot freed)?", "Departing the wasteland", "Confirm", "Cancel") != "Confirm")
 		return
 	if(user.incapacitated() || QDELETED(departing_mob) || (departing_mob != user && departing_mob.client) || get_dist(src, dropping) > 2 || get_dist(src, user) > 2)
 		return //Things have changed since the alert happened.
@@ -252,19 +262,8 @@ turf/closed/wall/f13/wood/house/update_damage_overlay()
 	if(departing_mob.stat == DEAD)
 		departing_mob.visible_message("<span class='notice'>[user] pushes the body of [departing_mob] over the border. They're someone else's problem now.</span>")
 	else
-		departing_mob.visible_message("<span class='notice'>[departing_mob == user ? "Out of their own volition, " : "Ushered by [user], "][departing_mob] crosses the border and departs the Sonora.</span>")
+		departing_mob.visible_message("<span class='notice'>[departing_mob == user ? "Out of their own volition, " : "Ushered by [user], "][departing_mob] crosses the border and departs the wasteland.</span>")
 	departing_mob.despawn()
-
-
-/turf/closed/indestructible/f13/obsidian //Just like that one game studio that worked on the original game, or that block in Minecraft!
-	name = "obsidian"
-	desc = "No matter what you do with this rock, there's not even a scratch left on its surface.<br><font color='#7e0707'>You shall not pass!!!</font>"
-	icon = 'icons/fallout/turfs/mining.dmi'
-	icon_state = "rock1"
-
-/turf/closed/indestructible/f13/obsidian/New()
-	..()
-	icon_state = "rock[rand(1,6)]"
 
 //Splashscreen
 /*
