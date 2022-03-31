@@ -709,8 +709,8 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Overseer"
 
 /obj/effect/landmark/start/f13/vaultheadofsecurity
-	name = "Chief of Security"
-	icon_state = "Chief of Security"
+	name = "Security Chief"
+	icon_state = "Security Chief"
 
 /obj/effect/landmark/start/f13/vaultdoctor
 	name = "Vault-tec Doctor"

@@ -1,6 +1,6 @@
 /*
 Vault access doors
-Overseer/Chief of security: 19 ACCESS_HEADS
+Overseer/Security Chief: 19 ACCESS_HEADS
 Security: 1 ACCESS_SECURITY
 General access: 31 ACCESS_CARGO
 Engineering: 10, 11 ACCESS_ENGINE_EQUIP, ACCESS_ENGINE
@@ -14,6 +14,7 @@ here's a tip, go search DEFINES/access.dm
 	faction = FACTION_VAULT
 
 /datum/outfit/job/vault
+	gloves = /obj/item/pda
 	ears = null
 
 /datum/outfit/job/vault/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -62,7 +63,6 @@ Overseer
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	glasses = 		/obj/item/clothing/glasses/sunglasses
-	neck = 			/obj/item/clothing/neck/mantle/overseer
 	backpack = 		/obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
 		/obj/item/storage/box/ids = 1,
@@ -71,11 +71,11 @@ Overseer
 		/obj/item/crowbar = 1)
 
 /*
-Head of Security
+Security Chief
 */
 
-/datum/job/vault/f13hos
-	title = "Chief of Security"
+/datum/job/vault/sec_chief
+	title = "Security Chief"
 	flag = F13HOS
 	department_head = list("Overseer")
 	department_flag = VAULT
@@ -100,19 +100,16 @@ Head of Security
 						ACCESS_HOS, ACCESS_RC_ANNOUNCE, ACCESS_KEYCARD_AUTH, ACCESS_MINERAL_STOREROOM)
 
 /datum/outfit/job/vault/f13hos
-	name = "Chief of Security"
-	jobtype = /datum/job/vault/f13hos
+	name = "Security Chief"
+	jobtype = /datum/job/vault/sec_chief
 
 	id = /obj/item/card/id/chief
 
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	suit = 			/obj/item/clothing/suit/armor/vest/alt
-	head = 			/obj/item/clothing/head/collectable/police/cos
 	belt = 			/obj/item/storage/belt/security
-	glasses = 		/obj/item/clothing/glasses/sunglasses
 	r_hand =		/obj/item/gun/ballistic/revolver/colt6520
-	r_pocket = 		/obj/item/assembly/flash/handheld
 	l_pocket = 		/obj/item/restraints/handcuffs
 	backpack = 		/obj/item/storage/backpack/security
 	satchel = 		/obj/item/storage/backpack/satchel/sec
@@ -126,7 +123,7 @@ Head of Security
 	implants = list(/obj/item/implant/mindshield)
 
 /*
-Medical Doctor
+Vault Doctor
 */
 /datum/job/vault/f13doctor
 	title = "Vault-tec Doctor"
@@ -146,7 +143,7 @@ Medical Doctor
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 
 /datum/outfit/job/vault/f13doctor
-	name = "Medical Doctor"
+	name = "Vault Doctor"
 	jobtype = /datum/job/vault/f13doctor
 	chemwhiz = TRUE
 
@@ -213,12 +210,12 @@ Security Officer
 /datum/job/vault/f13officer
 	title = "Vault-tec Security"
 	flag = F13OFFICER
-	department_head = list("Chief of Security")
+	department_head = list("Security Chief")
 	total_positions = 0 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	spawn_positions = 0 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	forbids = "The Vault forbids: Disobeying the Overseer. Deserting the Vault unless it is rendered unhospitable. Killing fellow Vault Dwellers. Betraying the Vault and its people."
 	enforces = "The Vault expects: Contributing to Vault society. Adherence to Vault-tec Corporate Regulations. Participation in special projects, as ordered by the Overseer."
-	description = "You answer directly to the Chief of Security, and in their absence, the Overseer. You are the first line of defense against civil unrest and outside intrusion. It is your duty to enforce the laws created by the Overseer and proactively seek out potential threats to the safety of Vault residents."
+	description = "You answer directly to the Security Chief, and in their absence, the Overseer. You are the first line of defense against civil unrest and outside intrusion. It is your duty to enforce the laws created by the Overseer and proactively seek out potential threats to the safety of Vault residents."
 	supervisors = "the head of security"
 	selection_color = "#ddffdd"
 	exp_requirements = 600
@@ -240,12 +237,10 @@ Security Officer
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	head = 			/obj/item/clothing/head/helmet/riot/vaultsec
 	suit =			/obj/item/clothing/suit/armor/vest
-	glasses = 		/obj/item/clothing/glasses/sunglasses
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	belt = 			/obj/item/storage/belt/security
 	r_hand =		/obj/item/gun/ballistic/automatic/pistol/n99
 	l_pocket = 		/obj/item/restraints/handcuffs
-	r_pocket = 		/obj/item/assembly/flash/handheld
 	backpack = 		/obj/item/storage/backpack/security
 	satchel = 		/obj/item/storage/backpack/satchel/sec
 	duffelbag = 	/obj/item/storage/backpack/duffelbag/sec

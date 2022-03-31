@@ -8903,7 +8903,7 @@
 /area/f13/vault)
 "kFE" = (
 /obj/machinery/door/airlock/command{
-	name = "Chief of Security's Quarters";
+	name = "Security Chief's Quarters";
 	req_access_txt = "19"
 	},
 /obj/structure/cable{
@@ -13880,7 +13880,7 @@
 /area/f13/bunker)
 "qCP" = (
 /obj/machinery/door/airlock/command/glass{
-	name = "Chief of Security";
+	name = "Security Chief";
 	req_access_txt = "19"
 	},
 /obj/structure/cable{

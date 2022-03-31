@@ -305,7 +305,7 @@
 
 /obj/item/clothing/under/f13/medic
 	name = "doctor outfit"
-	desc = "A completly white outfit deserving of a doctor."
+	desc = "A completely white outfit deserving of a doctor."
 	icon_state = "chef"
 	item_state = "chef"
 	item_color = "chef"
