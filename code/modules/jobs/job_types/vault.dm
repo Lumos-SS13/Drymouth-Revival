@@ -106,7 +106,7 @@ Security Chief
 
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
-	suit = 			/obj/item/clothing/suit/armor/vest/alt
+	suit = 			/obj/item/clothing/suit/armor/vest/vault
 	belt = 			/obj/item/storage/belt/security
 	r_hand =		/obj/item/gun/ballistic/revolver/colt6520
 	l_pocket = 		/obj/item/restraints/handcuffs
