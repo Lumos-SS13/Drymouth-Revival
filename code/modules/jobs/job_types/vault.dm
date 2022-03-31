@@ -14,7 +14,7 @@ here's a tip, go search DEFINES/access.dm
 	faction = FACTION_VAULT
 
 /datum/outfit/job/vault
-	gloves = /obj/item/pda
+	ears = null
 
 /datum/outfit/job/vault/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -62,12 +62,10 @@ Overseer
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	glasses = 		/obj/item/clothing/glasses/sunglasses
-	ears = 			/obj/item/radio/headset/headset_overseer
 	neck = 			/obj/item/clothing/neck/mantle/overseer
 	backpack = 		/obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
 		/obj/item/storage/box/ids = 1,
-
 		/obj/item/gun/ballistic/automatic/pistol/n99/executive = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 3,
 		/obj/item/crowbar = 1)
@@ -106,8 +104,7 @@ Head of Security
 	jobtype = /datum/job/vault/f13hos
 
 	id = /obj/item/card/id/chief
-	//pda
-	ears = 			/obj/item/radio/headset/headset_vault_hos/alt
+
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	suit = 			/obj/item/clothing/suit/armor/vest/alt
@@ -152,9 +149,8 @@ Medical Doctor
 	name = "Medical Doctor"
 	jobtype = /datum/job/vault/f13doctor
 	chemwhiz = TRUE
-	//pda
+
 	uniform = 		/obj/item/clothing/under/f13/vault13
-	ears = 			/obj/item/radio/headset/headset_vault
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	suit =			/obj/item/clothing/suit/toggle/labcoat
 	l_hand = 		/obj/item/storage/firstaid/regular
@@ -198,9 +194,7 @@ Scientist
 	jobtype = /datum/job/vault/f13vaultscientist
 	chemwhiz = TRUE
 
-	//pda
 	uniform = 		/obj/item/clothing/under/f13/vault13
-	ears = 			/obj/item/radio/headset/headset_vault
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	suit =			/obj/item/clothing/suit/toggle/labcoat
 	backpack = 		/obj/item/storage/backpack/science
@@ -237,13 +231,12 @@ Security Officer
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_WEAPONS, ACCESS_FORENSICS_LOCKERS,
 						ACCESS_MORGUE, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL, ACCESS_CARGO,
 						ACCESS_MINERAL_STOREROOM)
+
 /datum/outfit/job/vault/f13security
 	name = "Vault-tec Security"
 	jobtype = /datum/job/vault/f13officer
 
 	id = /obj/item/card/id/sec
-	//pda
-	ears = 			/obj/item/radio/headset/headset_vaultsec
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	head = 			/obj/item/clothing/head/helmet/riot/vaultsec
 	suit =			/obj/item/clothing/suit/armor/vest
@@ -312,8 +305,6 @@ Vault Engineer
 	name = "Vault-tec Engineer"
 	jobtype = /datum/job/vault/f13vaultengineer
 
-	//pda
-	ears = 			/obj/item/radio/headset/headset_vault
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	belt = 			/obj/item/storage/belt/utility/full/engi
 	shoes = 		/obj/item/clothing/shoes/sneakers/red
@@ -354,11 +345,9 @@ Vault Engineer
 	..()
 	if (CONFIG_GET(flag/grey_assistants))
 		uniform = /obj/item/clothing/under/f13/vault13
-		ears = /obj/item/radio/headset/headset_vault
 		shoes = /obj/item/clothing/shoes/jackboots
 	else
 		uniform = /obj/item/clothing/under/f13/vault13
-		ears = /obj/item/radio/headset/headset_vault
 		shoes = /obj/item/clothing/shoes/jackboots
 
 
