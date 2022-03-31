@@ -186,7 +186,7 @@ Scientist
 	minimal_access = list(ACCESS_ROBOTICS, ACCESS_RESEARCH, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 
 /datum/outfit/job/vault/scientist
-	name = "Scientist"
+	name = "Vault-tec Scientist"
 	jobtype = /datum/job/vault/scientist
 	chemwhiz = TRUE
 
@@ -278,7 +278,7 @@ Security Officer
 Vault Engineer
 */
 
-/datum/job/vault/f13vaultengineer
+/datum/job/vault/vaultengineer
 	title = "Vault-tec Engineer"
 	flag = F13VAULTENGINEER
 	department_head = list("Overseer")
@@ -290,14 +290,14 @@ Vault Engineer
 	supervisors = "the Overseer"
 	selection_color = "#ddffdd"
 
-	outfit = /datum/outfit/job/vault/f13vaultengineer
+	outfit = /datum/outfit/job/vault/vaultengineer
 
 	access = list(ACCESS_CARGO, ACCESS_ENGINE, ACCESS_ENGINE_EQUIP, ACCESS_TECH_STORAGE, ACCESS_ATMOSPHERICS, ACCESS_TCOMSAT, ACCESS_MINERAL_STOREROOM)
 	minimal_access = list(ACCESS_CARGO, ACCESS_ENGINE, ACCESS_ENGINE_EQUIP, ACCESS_TECH_STORAGE, ACCESS_MINERAL_STOREROOM)
 
-/datum/outfit/job/vault/f13vaultengineer
+/datum/outfit/job/vault/vaultengineer
 	name = "Vault-tec Engineer"
-	jobtype = /datum/job/vault/f13vaultengineer
+	jobtype = /datum/job/vault/vaultengineer
 
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	belt = 			/obj/item/storage/belt/utility/full/engi
@@ -310,7 +310,7 @@ Vault Engineer
 	box = 			/obj/item/storage/box/engineer
 	backpack_contents = list(/obj/item/crowbar = 1)
 
-/datum/job/vault/f13vaultDweller
+/datum/job/vault/dweller
 	title = "Vault Dweller"
 	flag = ASSISTANT
 	total_positions = 0
@@ -323,19 +323,19 @@ Vault Engineer
 	access = list()			//See /datum/job/vault/assistant/get_access()
 	minimal_access = list()	//See /datum/job/vault/assistant/get_access()
 
-	outfit = /datum/outfit/job/vault/f13vaultDweller
+	outfit = /datum/outfit/job/vault/dweller
 
-/datum/job/vault/f13vaultDweller/get_access()
+/datum/job/vault/dweller/get_access()
 	access = list(ACCESS_CARGO)
 	minimal_access = list(ACCESS_CARGO)
 
-/datum/outfit/job/vault/f13vaultDweller
+/datum/outfit/job/vault/dweller
 	name = "Vault Dweller"
-	jobtype = /datum/job/vault/f13vaultDweller
+	jobtype = /datum/job/vault/dweller
 	backpack = 		/obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(/obj/item/crowbar = 1)
 
-/datum/outfit/job/vault/f13vaultDweller/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/vault/dweller/pre_equip(mob/living/carbon/human/H)
 	..()
 	if (CONFIG_GET(flag/grey_assistants))
 		uniform = /obj/item/clothing/under/f13/vault13
