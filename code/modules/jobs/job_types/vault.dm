@@ -89,7 +89,7 @@ Security Chief
 	req_admin_notify = 1
 	exp_requirements = 1500
 
-	outfit = /datum/outfit/job/vault/f13hos
+	outfit = /datum/outfit/job/vault/sec_chief
 
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_WEAPONS,ACCESS_FORENSICS_LOCKERS,
 						ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL,
@@ -98,7 +98,7 @@ Security Chief
 						ACCESS_MORGUE, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL, ACCESS_CARGO, ACCESS_HEADS,
 						ACCESS_HOS, ACCESS_RC_ANNOUNCE, ACCESS_KEYCARD_AUTH, ACCESS_MINERAL_STOREROOM)
 
-/datum/outfit/job/vault/f13hos
+/datum/outfit/job/vault/sec_chief
 	name = "Security Chief"
 	jobtype = /datum/job/vault/sec_chief
 
@@ -124,7 +124,7 @@ Security Chief
 /*
 Vault Doctor
 */
-/datum/job/vault/f13doctor
+/datum/job/vault/doctor
 	title = "Vault-tec Doctor"
 	flag = F13DOCTOR
 	department_head = list("Overseer")
@@ -136,14 +136,14 @@ Vault Doctor
 	supervisors = "the Overseer"
 	selection_color = "#ddffdd"
 
-	outfit = /datum/outfit/job/vault/f13doctor
+	outfit = /datum/outfit/job/vault/doctor
 
 	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 
-/datum/outfit/job/vault/f13doctor
+/datum/outfit/job/vault/doctor
 	name = "Vault Doctor"
-	jobtype = /datum/job/vault/f13doctor
+	jobtype = /datum/job/vault/doctor
 	chemwhiz = TRUE
 
 	uniform = 		/obj/item/clothing/under/f13/vault13
@@ -157,7 +157,7 @@ Vault Doctor
 	backpack_contents = list(
 		/obj/item/crowbar = 1)
 
-/datum/outfit/job/vault/f13doctor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/vault/doctor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -168,7 +168,7 @@ Vault Doctor
 /*
 Scientist
 */
-/datum/job/vault/f13vaultscientist
+/datum/job/vault/scientist
 	title = "Vault-tec Scientist"
 	flag = F13VAULTSCIENTIST
 	department_head = list("Overseer")
@@ -180,14 +180,14 @@ Scientist
 	supervisors = "the Overseer"
 	selection_color = "#ddffdd"
 
-	outfit = /datum/outfit/job/vault/f13vaultscientist
+	outfit = /datum/outfit/job/vault/scientist
 
 	access = list(ACCESS_ROBOTICS, ACCESS_RESEARCH, ACCESS_MINERAL_STOREROOM, ACCESS_TECH_STORAGE, ACCESS_CARGO)
 	minimal_access = list(ACCESS_ROBOTICS, ACCESS_RESEARCH, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 
-/datum/outfit/job/vault/f13vaultscientist
+/datum/outfit/job/vault/scientist
 	name = "Scientist"
-	jobtype = /datum/job/vault/f13vaultscientist
+	jobtype = /datum/job/vault/scientist
 	chemwhiz = TRUE
 
 	uniform = 		/obj/item/clothing/under/f13/vault13
@@ -197,7 +197,7 @@ Scientist
 	satchel = 		/obj/item/storage/backpack/satchel/tox
 	backpack_contents = list(/obj/item/crowbar = 1)
 
-/datum/outfit/job/vault/f13vaultscientist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/vault/scientist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -206,7 +206,7 @@ Scientist
 /*
 Security Officer
 */
-/datum/job/vault/f13officer
+/datum/job/vault/security
 	title = "Vault-tec Security"
 	flag = F13OFFICER
 	department_head = list("Security Chief")
@@ -219,7 +219,7 @@ Security Officer
 	selection_color = "#ddffdd"
 	exp_requirements = 600
 
-	outfit = /datum/outfit/job/vault/f13security
+	outfit = /datum/outfit/job/vault/security
 
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_WEAPONS,ACCESS_FORENSICS_LOCKERS,
 						ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL,
@@ -228,9 +228,9 @@ Security Officer
 						ACCESS_MORGUE, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL, ACCESS_CARGO,
 						ACCESS_MINERAL_STOREROOM)
 
-/datum/outfit/job/vault/f13security
+/datum/outfit/job/vault/security
 	name = "Vault-tec Security"
-	jobtype = /datum/job/vault/f13officer
+	jobtype = /datum/job/vault/security
 
 	id = /obj/item/card/id/sec
 	uniform = 		/obj/item/clothing/under/f13/vault13
