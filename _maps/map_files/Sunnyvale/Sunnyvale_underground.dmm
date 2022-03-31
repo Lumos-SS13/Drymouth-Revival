@@ -132,18 +132,18 @@
 	},
 /area/f13/underground/enclave_base)
 "as" = (
-/obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
+/obj/structure/rack/shelf_metal,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "au" = (
-/obj/structure/rack,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/rack/shelf_metal,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
@@ -162,16 +162,16 @@
 	},
 /area/f13/underground/enclave_base)
 "ax" = (
-/obj/structure/rack,
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/rack/shelf_metal,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "ay" = (
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
