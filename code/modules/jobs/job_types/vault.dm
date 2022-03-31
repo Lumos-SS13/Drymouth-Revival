@@ -30,7 +30,7 @@ Overseer
 /datum/job/vault
 	objectivesList = list("Leadership recommends the following goal for this week: Establish trade with the wasteland","Leadership recommends the following goal for this week: Acquire blueprints and interesting artifacts for research", "Leadership recommends the following goal for this week: Expand operations outside the vault")
 
-/datum/job/vault/f13overseer
+/datum/job/vault/overseer
 	title = "Overseer"
 	flag = F13OVERSEER
 	head_announce = list("Security")
@@ -44,17 +44,17 @@ Overseer
 	req_admin_notify = 1
 	exp_requirements = 1500
 
-	outfit = /datum/outfit/job/vault/f13overseer
+	outfit = /datum/outfit/job/vault/overseer
 
 	access = list()			//See get_access()
 	minimal_access = list()	//See get_access()
 
-/datum/job/vault/f13overseer/get_access()
+/datum/job/vault/overseer/get_access()
 	return get_all_accesses()
 
-/datum/outfit/job/vault/f13overseer
+/datum/outfit/job/vault/overseer
 	name = "Overseer"
-	jobtype = /datum/job/vault/f13overseer
+	jobtype = /datum/job/vault/overseer
 	chemwhiz = TRUE
 
 	implants = list(/obj/item/implant/mindshield)
@@ -62,7 +62,6 @@ Overseer
 	id = 			/obj/item/card/id/gold
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
-	glasses = 		/obj/item/clothing/glasses/sunglasses
 	backpack = 		/obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
 		/obj/item/storage/box/ids = 1,
