@@ -827,7 +827,7 @@
 	name = "security armor"
 	desc = "A thick armored vest that provides modest protection against most types of damage."
 	icon_state = "bulletproof"
-	item_state = "bulletproof"
+	item_state = "vault"
 	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 30)
 	slowdown = 0.1
 
