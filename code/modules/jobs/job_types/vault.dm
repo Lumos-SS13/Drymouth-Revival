@@ -1,6 +1,6 @@
 /*
 Vault access doors
-Overseer/Chief of security: 19 ACCESS_HEADS
+Overseer/Security Chief: 19 ACCESS_HEADS
 Security: 1 ACCESS_SECURITY
 General access: 31 ACCESS_CARGO
 Engineering: 10, 11 ACCESS_ENGINE_EQUIP, ACCESS_ENGINE
@@ -15,6 +15,7 @@ here's a tip, go search DEFINES/access.dm
 
 /datum/outfit/job/vault
 	gloves = /obj/item/pda
+	ears = null
 
 /datum/outfit/job/vault/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -29,7 +30,7 @@ Overseer
 /datum/job/vault
 	objectivesList = list("Leadership recommends the following goal for this week: Establish trade with the wasteland","Leadership recommends the following goal for this week: Acquire blueprints and interesting artifacts for research", "Leadership recommends the following goal for this week: Expand operations outside the vault")
 
-/datum/job/vault/f13overseer
+/datum/job/vault/overseer
 	title = "Overseer"
 	flag = F13OVERSEER
 	head_announce = list("Security")
@@ -43,17 +44,17 @@ Overseer
 	req_admin_notify = 1
 	exp_requirements = 1500
 
-	outfit = /datum/outfit/job/vault/f13overseer
+	outfit = /datum/outfit/job/vault/overseer
 
 	access = list()			//See get_access()
 	minimal_access = list()	//See get_access()
 
-/datum/job/vault/f13overseer/get_access()
+/datum/job/vault/overseer/get_access()
 	return get_all_accesses()
 
-/datum/outfit/job/vault/f13overseer
+/datum/outfit/job/vault/overseer
 	name = "Overseer"
-	jobtype = /datum/job/vault/f13overseer
+	jobtype = /datum/job/vault/overseer
 	chemwhiz = TRUE
 
 	implants = list(/obj/item/implant/mindshield)
@@ -61,23 +62,19 @@ Overseer
 	id = 			/obj/item/card/id/gold
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
-	glasses = 		/obj/item/clothing/glasses/sunglasses
-	ears = 			/obj/item/radio/headset/headset_overseer
-	neck = 			/obj/item/clothing/neck/mantle/overseer
 	backpack = 		/obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
 		/obj/item/storage/box/ids = 1,
-
 		/obj/item/gun/ballistic/automatic/pistol/n99/executive = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 3,
 		/obj/item/crowbar = 1)
 
 /*
-Head of Security
+Security Chief
 */
 
-/datum/job/vault/f13hos
-	title = "Chief of Security"
+/datum/job/vault/sec_chief
+	title = "Security Chief"
 	flag = F13HOS
 	department_head = list("Overseer")
 	department_flag = VAULT
@@ -92,7 +89,7 @@ Head of Security
 	req_admin_notify = 1
 	exp_requirements = 1500
 
-	outfit = /datum/outfit/job/vault/f13hos
+	outfit = /datum/outfit/job/vault/sec_chief
 
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_WEAPONS,ACCESS_FORENSICS_LOCKERS,
 						ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL,
@@ -101,21 +98,17 @@ Head of Security
 						ACCESS_MORGUE, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL, ACCESS_CARGO, ACCESS_HEADS,
 						ACCESS_HOS, ACCESS_RC_ANNOUNCE, ACCESS_KEYCARD_AUTH, ACCESS_MINERAL_STOREROOM)
 
-/datum/outfit/job/vault/f13hos
-	name = "Chief of Security"
-	jobtype = /datum/job/vault/f13hos
+/datum/outfit/job/vault/sec_chief
+	name = "Security Chief"
+	jobtype = /datum/job/vault/sec_chief
 
 	id = /obj/item/card/id/chief
-	//pda
-	ears = 			/obj/item/radio/headset/headset_vault_hos/alt
+
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	shoes = 		/obj/item/clothing/shoes/jackboots
-	suit = 			/obj/item/clothing/suit/armor/vest/alt
-	head = 			/obj/item/clothing/head/collectable/police/cos
+	suit = 			/obj/item/clothing/suit/armor/vest/vault
 	belt = 			/obj/item/storage/belt/security
-	glasses = 		/obj/item/clothing/glasses/sunglasses
 	r_hand =		/obj/item/gun/ballistic/revolver/colt6520
-	r_pocket = 		/obj/item/assembly/flash/handheld
 	l_pocket = 		/obj/item/restraints/handcuffs
 	backpack = 		/obj/item/storage/backpack/security
 	satchel = 		/obj/item/storage/backpack/satchel/sec
@@ -129,9 +122,9 @@ Head of Security
 	implants = list(/obj/item/implant/mindshield)
 
 /*
-Medical Doctor
+Vault Doctor
 */
-/datum/job/vault/f13doctor
+/datum/job/vault/doctor
 	title = "Vault-tec Doctor"
 	flag = F13DOCTOR
 	department_head = list("Overseer")
@@ -143,18 +136,17 @@ Medical Doctor
 	supervisors = "the Overseer"
 	selection_color = "#ddffdd"
 
-	outfit = /datum/outfit/job/vault/f13doctor
+	outfit = /datum/outfit/job/vault/doctor
 
 	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 
-/datum/outfit/job/vault/f13doctor
-	name = "Medical Doctor"
-	jobtype = /datum/job/vault/f13doctor
+/datum/outfit/job/vault/doctor
+	name = "Vault Doctor"
+	jobtype = /datum/job/vault/doctor
 	chemwhiz = TRUE
-	//pda
+
 	uniform = 		/obj/item/clothing/under/f13/vault13
-	ears = 			/obj/item/radio/headset/headset_vault
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	suit =			/obj/item/clothing/suit/toggle/labcoat
 	l_hand = 		/obj/item/storage/firstaid/regular
@@ -165,7 +157,7 @@ Medical Doctor
 	backpack_contents = list(
 		/obj/item/crowbar = 1)
 
-/datum/outfit/job/vault/f13doctor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/vault/doctor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -176,7 +168,7 @@ Medical Doctor
 /*
 Scientist
 */
-/datum/job/vault/f13vaultscientist
+/datum/job/vault/scientist
 	title = "Vault-tec Scientist"
 	flag = F13VAULTSCIENTIST
 	department_head = list("Overseer")
@@ -188,26 +180,24 @@ Scientist
 	supervisors = "the Overseer"
 	selection_color = "#ddffdd"
 
-	outfit = /datum/outfit/job/vault/f13vaultscientist
+	outfit = /datum/outfit/job/vault/scientist
 
 	access = list(ACCESS_ROBOTICS, ACCESS_RESEARCH, ACCESS_MINERAL_STOREROOM, ACCESS_TECH_STORAGE, ACCESS_CARGO)
 	minimal_access = list(ACCESS_ROBOTICS, ACCESS_RESEARCH, ACCESS_MINERAL_STOREROOM, ACCESS_CARGO)
 
-/datum/outfit/job/vault/f13vaultscientist
-	name = "Scientist"
-	jobtype = /datum/job/vault/f13vaultscientist
+/datum/outfit/job/vault/scientist
+	name = "Vault-tec Scientist"
+	jobtype = /datum/job/vault/scientist
 	chemwhiz = TRUE
 
-	//pda
 	uniform = 		/obj/item/clothing/under/f13/vault13
-	ears = 			/obj/item/radio/headset/headset_vault
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	suit =			/obj/item/clothing/suit/toggle/labcoat
 	backpack = 		/obj/item/storage/backpack/science
 	satchel = 		/obj/item/storage/backpack/satchel/tox
 	backpack_contents = list(/obj/item/crowbar = 1)
 
-/datum/outfit/job/vault/f13vaultscientist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/vault/scientist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -216,20 +206,20 @@ Scientist
 /*
 Security Officer
 */
-/datum/job/vault/f13officer
+/datum/job/vault/security
 	title = "Vault-tec Security"
 	flag = F13OFFICER
-	department_head = list("Chief of Security")
+	department_head = list("Security Chief")
 	total_positions = 0 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	spawn_positions = 0 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	forbids = "The Vault forbids: Disobeying the Overseer. Deserting the Vault unless it is rendered unhospitable. Killing fellow Vault Dwellers. Betraying the Vault and its people."
 	enforces = "The Vault expects: Contributing to Vault society. Adherence to Vault-tec Corporate Regulations. Participation in special projects, as ordered by the Overseer."
-	description = "You answer directly to the Chief of Security, and in their absence, the Overseer. You are the first line of defense against civil unrest and outside intrusion. It is your duty to enforce the laws created by the Overseer and proactively seek out potential threats to the safety of Vault residents."
+	description = "You answer directly to the Security Chief, and in their absence, the Overseer. You are the first line of defense against civil unrest and outside intrusion. It is your duty to enforce the laws created by the Overseer and proactively seek out potential threats to the safety of Vault residents."
 	supervisors = "the head of security"
 	selection_color = "#ddffdd"
 	exp_requirements = 600
 
-	outfit = /datum/outfit/job/vault/f13security
+	outfit = /datum/outfit/job/vault/security
 
 	access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_WEAPONS,ACCESS_FORENSICS_LOCKERS,
 						ACCESS_MORGUE, ACCESS_MAINT_TUNNELS, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL,
@@ -237,22 +227,19 @@ Security Officer
 	minimal_access = list(ACCESS_SECURITY, ACCESS_SEC_DOORS, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_WEAPONS, ACCESS_FORENSICS_LOCKERS,
 						ACCESS_MORGUE, ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MINING, ACCESS_MEDICAL, ACCESS_CARGO,
 						ACCESS_MINERAL_STOREROOM)
-/datum/outfit/job/vault/f13security
+
+/datum/outfit/job/vault/security
 	name = "Vault-tec Security"
-	jobtype = /datum/job/vault/f13officer
+	jobtype = /datum/job/vault/security
 
 	id = /obj/item/card/id/sec
-	//pda
-	ears = 			/obj/item/radio/headset/headset_vaultsec
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	head = 			/obj/item/clothing/head/helmet/riot/vaultsec
 	suit =			/obj/item/clothing/suit/armor/vest
-	glasses = 		/obj/item/clothing/glasses/sunglasses
 	shoes = 		/obj/item/clothing/shoes/jackboots
 	belt = 			/obj/item/storage/belt/security
 	r_hand =		/obj/item/gun/ballistic/automatic/pistol/n99
 	l_pocket = 		/obj/item/restraints/handcuffs
-	r_pocket = 		/obj/item/assembly/flash/handheld
 	backpack = 		/obj/item/storage/backpack/security
 	satchel = 		/obj/item/storage/backpack/satchel/sec
 	duffelbag = 	/obj/item/storage/backpack/duffelbag/sec
@@ -291,7 +278,7 @@ Security Officer
 Vault Engineer
 */
 
-/datum/job/vault/f13vaultengineer
+/datum/job/vault/vaultengineer
 	title = "Vault-tec Engineer"
 	flag = F13VAULTENGINEER
 	department_head = list("Overseer")
@@ -303,17 +290,15 @@ Vault Engineer
 	supervisors = "the Overseer"
 	selection_color = "#ddffdd"
 
-	outfit = /datum/outfit/job/vault/f13vaultengineer
+	outfit = /datum/outfit/job/vault/vaultengineer
 
 	access = list(ACCESS_CARGO, ACCESS_ENGINE, ACCESS_ENGINE_EQUIP, ACCESS_TECH_STORAGE, ACCESS_ATMOSPHERICS, ACCESS_TCOMSAT, ACCESS_MINERAL_STOREROOM)
 	minimal_access = list(ACCESS_CARGO, ACCESS_ENGINE, ACCESS_ENGINE_EQUIP, ACCESS_TECH_STORAGE, ACCESS_MINERAL_STOREROOM)
 
-/datum/outfit/job/vault/f13vaultengineer
+/datum/outfit/job/vault/vaultengineer
 	name = "Vault-tec Engineer"
-	jobtype = /datum/job/vault/f13vaultengineer
+	jobtype = /datum/job/vault/vaultengineer
 
-	//pda
-	ears = 			/obj/item/radio/headset/headset_vault
 	uniform = 		/obj/item/clothing/under/f13/vault13
 	belt = 			/obj/item/storage/belt/utility/full/engi
 	shoes = 		/obj/item/clothing/shoes/sneakers/red
@@ -325,7 +310,7 @@ Vault Engineer
 	box = 			/obj/item/storage/box/engineer
 	backpack_contents = list(/obj/item/crowbar = 1)
 
-/datum/job/vault/f13vaultDweller
+/datum/job/vault/dweller
 	title = "Vault Dweller"
 	flag = ASSISTANT
 	total_positions = 0
@@ -338,27 +323,25 @@ Vault Engineer
 	access = list()			//See /datum/job/vault/assistant/get_access()
 	minimal_access = list()	//See /datum/job/vault/assistant/get_access()
 
-	outfit = /datum/outfit/job/vault/f13vaultDweller
+	outfit = /datum/outfit/job/vault/dweller
 
-/datum/job/vault/f13vaultDweller/get_access()
+/datum/job/vault/dweller/get_access()
 	access = list(ACCESS_CARGO)
 	minimal_access = list(ACCESS_CARGO)
 
-/datum/outfit/job/vault/f13vaultDweller
+/datum/outfit/job/vault/dweller
 	name = "Vault Dweller"
-	jobtype = /datum/job/vault/f13vaultDweller
+	jobtype = /datum/job/vault/dweller
 	backpack = 		/obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(/obj/item/crowbar = 1)
 
-/datum/outfit/job/vault/f13vaultDweller/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/vault/dweller/pre_equip(mob/living/carbon/human/H)
 	..()
 	if (CONFIG_GET(flag/grey_assistants))
 		uniform = /obj/item/clothing/under/f13/vault13
-		ears = /obj/item/radio/headset/headset_vault
 		shoes = /obj/item/clothing/shoes/jackboots
 	else
 		uniform = /obj/item/clothing/under/f13/vault13
-		ears = /obj/item/radio/headset/headset_vault
 		shoes = /obj/item/clothing/shoes/jackboots
 
 

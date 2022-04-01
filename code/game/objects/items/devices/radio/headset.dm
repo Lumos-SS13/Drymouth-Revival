@@ -256,43 +256,6 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	bowman = TRUE
 
 //FALLOUT
-/obj/item/radio/headset/headset_overseer
-	name = "\proper the overseer's radio headset"
-	desc = "This is used by the vault overseer.\nChannels are as follows: :v - vault, :c - command, :s - security, :e - engineering, :m - medical, :n - science."
-	icon_state = "com_headset"
-	keyslot = new /obj/item/encryptionkey/headset_overseer
-
-/obj/item/radio/headset/headset_vault_hos
-	name = "\proper the chief of security's radio headset"
-	desc = "The headset of the man in charge of keeping order and protecting the vault.\nChannels are as follows: :v - vault, :c - command, :s - security."
-	icon_state = "com_headset"
-	keyslot = new /obj/item/encryptionkey/headset_vault_hos
-
-/obj/item/radio/headset/headset_vault_hos/ComponentInitialize()
-	. = ..()
-	AddComponent(/datum/component/wearertargeting/earprotection, list(SLOT_EARS))
-
-/obj/item/radio/headset/headset_vault
-	name = "\proper vault radio headset"
-	desc = "A vault-tec radio.\nChannels are as follows: :v - vault."
-	keyslot = new /obj/item/encryptionkey/headset_vault
-
-/obj/item/radio/headset/headset_vaultsec
-	name = "security radio headset"
-	desc = "This is used by your elite security force.\nTo access the security channel, use :s. To access the vault channel, use :v."
-	icon_state = "sec_headset"
-	keyslot = new /obj/item/encryptionkey/headset_vault_security
-
-/obj/item/radio/headset/headset_vaultsec/ComponentInitialize()
-	. = ..()
-	AddComponent(/datum/component/wearertargeting/earprotection, list(SLOT_EARS))
-
-/obj/item/radio/headset/headset_vault_hos/alt
-	name = "\proper the head of security's bowman headset"
-	desc = "The headset of the man in charge of keeping order and protecting the station. Protects ears from flashbangs.\nTo access the security channel, use :s. For command, use :c. For vault, use :v"
-	icon_state = "com_headset_alt"
-	item_state = "com_headset_alt"
-
 /obj/item/radio/headset/headset_ncr
 	name = "NCR radio headset"
 	desc = "This is used by the New California Republic.\nTo access the NCR channel, use :w."

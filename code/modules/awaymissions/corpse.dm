@@ -363,10 +363,10 @@
 
 /obj/effect/mob_spawn/human/engineer
 	name = "Engineer"
-	outfit = /datum/outfit/job/vault/f13vaultengineer
+	outfit = /datum/outfit/job/vault/vaultengineer
 
 /obj/effect/mob_spawn/human/engineer/rig
-	outfit = /datum/outfit/job/vault/f13vaultengineer
+	outfit = /datum/outfit/job/vault/vaultengineer
 
 /obj/effect/mob_spawn/human/scientist
 	name = "Scientist"
