@@ -196,7 +196,6 @@
 		/obj/item/reagent_containers/hypospray/medipen/medx = 1,
 		/obj/item/book/granter/trait/bigleagues = 1)
 
-
 /datum/outfit/loadout/raider_painspike
 	name = "Painspike"
 	suit = /obj/item/clothing/suit/armor/f13/raider/painspike
@@ -293,7 +292,6 @@
 	name = "Vault Renegade"
 	suit = /obj/item/clothing/suit/armor/vest/big
 	uniform = /obj/item/clothing/under/f13/exile/vault
-	id = /obj/item/card/id/rusted/fadedvaultid
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/smg/smg10mm = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 1,

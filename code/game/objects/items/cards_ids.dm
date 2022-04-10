@@ -1131,13 +1131,6 @@
 	item_state = "rustedmedallion"
 	uses_overlays = FALSE
 
-/obj/item/card/id/rusted/fadedvaultid
-	name = "faded id card"
-	desc = "A and worn Vault-Tech issued ID card, broken beyond use, kept as a reminder to something."
-	icon_state = "fadedvaultid"
-	item_state = "fadedvaultid"
-	uses_overlays = FALSE
-
 /obj/item/card/id/rusted/brokenholodog
 	name = "broken holotag"
 	desc = "A BoS issue holotag, it isnt working now though, kept as a reminder to something."
