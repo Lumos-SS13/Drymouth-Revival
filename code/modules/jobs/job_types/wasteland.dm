@@ -469,7 +469,6 @@
 		/obj/item/reagent_containers/hypospray/medipen/stimpak=2, \
 		/obj/item/storage/fancy/candle_box, \
 		/obj/item/storage/bag/money/small/settler)
-//end preacher
 
 /*/datum/outfit/job/wasteland/f13enforcer
 	name = "Den Mob Enforcer"
