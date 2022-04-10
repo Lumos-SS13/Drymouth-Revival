@@ -41,11 +41,10 @@
 	/datum/outfit/loadout/salvager,
 	/datum/outfit/loadout/medic,
 	/datum/outfit/loadout/merchant,
-	/datum/outfit/loadout/scavenger,
+	/datum/outfit/loadout/prospector,
 	/datum/outfit/loadout/settler,
 	/datum/outfit/loadout/warrior,
 	/datum/outfit/loadout/ncrcitizen,
-	/datum/outfit/loadout/legioncivilian,
 	/datum/outfit/loadout/wastelander_desert_ranger)
 
 /datum/outfit/job/wasteland/f13wastelander
@@ -88,8 +87,8 @@
 	r_hand = /obj/item/weldingtool/largetank
 	backpack_contents = list(/obj/item/gun/ballistic/automatic/pistol/m1911/compact=1)
 
-/datum/outfit/loadout/scavenger
-	name = "Scavenger"
+/datum/outfit/loadout/prospector
+	name = "Prospector"
 	shoes = /obj/item/clothing/shoes/f13/explorer
 	r_hand = /obj/item/storage/backpack/duffelbag/scavengers
 	l_hand = /obj/item/pickaxe/drill
@@ -168,20 +167,6 @@
 	l_hand = /obj/item/shield/riot/buckler/stop
 	backpack_contents = list(
 		/obj/item/melee/onehanded/machete/scrapsabre = 1,
-		)
-
-/datum/outfit/loadout/legioncivilian
-	name = "Legion Civilian"
-	uniform = /obj/item/clothing/under/f13/doctor
-	shoes = /obj/item/clothing/shoes/f13/fancy
-	suit = /obj/item/clothing/suit/curator
-	head = /obj/item/clothing/head/scarecrow_hat
-	gloves = /obj/item/clothing/gloves/color/black
-	glasses = /obj/item/clothing/glasses/welding
-	id = /obj/item/card/id/dogtag/town/legion
-	l_hand = /obj/item/shield/riot/buckler
-	backpack_contents = list(
-		/obj/item/melee/onehanded/machete = 1,
 		)
 
 /datum/outfit/loadout/ncrcitizen
