@@ -5,7 +5,7 @@
 	faction = FACTION_WASTELAND
 	total_positions = -1
 	spawn_positions = -1
-	description = "You are a member of a tribe, far away from your homeland. Well, relatively far away. Whatever your reasons for coming here, you've found yourself pinned between the ongoing war of the NCR and Caesar's Legion. Try not to get shot."
+	description = "You are a member of a scattered tribe, destroyed by war, famine, or other horrors. You abhor technology, surviving with the ways of your forefathers is all you need. Live off the land and forge your own path."
 	supervisors = "the stars above"
 	selection_color = "#dddddd"
 

@@ -5,7 +5,7 @@
 	faction = FACTION_WASTELAND
 	total_positions = -1
 	spawn_positions = -1
-	description = "You arrive in Yuma Valley, hoping to escape your past, the war, or perhaps something worse. But you've seen the torchlight and heard the bark of the military officers. You haven't escaped anything. Try to survive, establish your own settlement, make your own legend. Suffer well and die gladly."
+	description = "You are a wastelander, running from your past, the war, or worse. But you've seen the flags, heard the gunfire, you haven't escaped anything. Survive, settle, or suffer. It's your story."
 	supervisors = "Nobody"
 	selection_color = "#dddddd"
 

@@ -312,7 +312,6 @@
 	r_hand = /obj/item/gun/ballistic/automatic/smg/mini_uzi
 	backpack_contents = list(/obj/item/ammo_box/magazine/uzim9mm=3)
 
-*/
 //Wasteland Preacher
 /datum/job/wasteland/f13preacher
 	title = "Preacher"
