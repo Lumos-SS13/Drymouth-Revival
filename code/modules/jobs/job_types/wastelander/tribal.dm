@@ -337,7 +337,6 @@
 		/datum/crafting_recipe/tribalwar/lightcloak,
 		/datum/crafting_recipe/tribalwar/legendaryclawcloak,
 		/datum/crafting_recipe/warpaint,
-		/datum/crafting_recipe/tribalradio,
 		/datum/crafting_recipe/tribalwar/goliathcloak,
 		/datum/crafting_recipe/tribalwar/bonebow,
 		/datum/crafting_recipe/tribalwar/tribe_bow,

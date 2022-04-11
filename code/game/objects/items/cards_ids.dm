@@ -1080,7 +1080,6 @@
 	assignment = "venator medallion"
 	assignment = "Venator"
 
-
 /obj/item/card/id/dogtag/legpriest
 	name = "priestess medallion"
 	desc = "A golden disc awarded to the trusted spiritual guide to the nearby Legion."
@@ -1130,17 +1129,6 @@
 	icon_state = "rustedmedallion"
 	item_state = "rustedmedallion"
 	uses_overlays = FALSE
-
-/obj/item/card/id/rusted/brokenholodog
-	name = "broken holotag"
-	desc = "A BoS issue holotag, it isnt working now though, kept as a reminder to something."
-	icon_state = "brokenholodog"
-	item_state = "brokenholodog"
-	uses_overlays = FALSE
-
-/obj/item/card/id/rusted/brokenholodog/enclave
-	name = "malfunctioning holotag"
-	desc = "A would-be advanced holographic dogtag, if it was working. Kept as a reminder to something."
 
 /obj/item/card/id/denid
 	name = "Den Gang Membership Certificate"

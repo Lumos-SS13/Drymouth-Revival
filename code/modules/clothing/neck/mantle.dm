@@ -28,11 +28,6 @@
 	desc = "A simple mantle to cover your shoulders with."
 	icon_state = "brown"
 
-/obj/item/clothing/neck/mantle/overseer
-	name = "vault-tec overseers mantle"
-	desc = "This is the overseers mantle.  Issued by the Vault-tec corporation to easily identify the overseer. This mantle has been passed down from overseer to overseer"
-	icon_state = "overseer"
-
 /obj/item/clothing/neck/mantle/bos
 	name = "Brotherhood of Steel shoulder cape"
 	desc = "Issued to the Elders of the Brotherhood. Style over substance is important. This one is designed to be worn over the shoulder."

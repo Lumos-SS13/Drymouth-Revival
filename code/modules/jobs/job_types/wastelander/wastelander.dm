@@ -91,7 +91,7 @@
 	name = "Prospector"
 	shoes = /obj/item/clothing/shoes/f13/explorer
 	r_hand = /obj/item/storage/backpack/duffelbag/scavengers
-	l_hand = /obj/item/pickaxe/drill
+	l_hand = /obj/item/pickaxe
 	belt = /obj/item/storage/belt
 	backpack_contents = list(/obj/item/mining_scanner=1,
 							/obj/item/metaldetector=1,
@@ -163,7 +163,7 @@
 	shoes = /obj/item/clothing/shoes/f13/raidertreads
 	suit = /obj/item/clothing/suit/armor/light/wastewar
 	head = /obj/item/clothing/head/helmet/f13/wastewarhat
-	glasses = /obj/item/clothing/glasses/welding
+	glasses = /obj/item/clothing/glasses/f13/biker
 	l_hand = /obj/item/shield/riot/buckler/stop
 	backpack_contents = list(
 		/obj/item/melee/onehanded/machete/scrapsabre = 1,
