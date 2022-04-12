@@ -44,8 +44,7 @@
 	/datum/outfit/loadout/prospector,
 	/datum/outfit/loadout/settler,
 	/datum/outfit/loadout/warrior,
-	/datum/outfit/loadout/ncrcitizen,
-	/datum/outfit/loadout/wastelander_desert_ranger)
+	/datum/outfit/loadout/ncrcitizen)
 
 /datum/outfit/job/wasteland/f13wastelander
 	name = "Wastelander"
@@ -166,7 +165,7 @@
 	glasses = /obj/item/clothing/glasses/f13/biker
 	l_hand = /obj/item/shield/riot/buckler/stop
 	backpack_contents = list(
-		/obj/item/melee/onehanded/machete/scrapsabre = 1,
+		/obj/item/melee/onehanded/machete = 1,
 		)
 
 /datum/outfit/loadout/ncrcitizen
@@ -179,15 +178,3 @@
 	l_hand = /obj/item/gun/ballistic/automatic/varmint
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle=2)
-
-/datum/outfit/loadout/wastelander_desert_ranger
-	name = "Desert Ranger Scout"
-	uniform = /obj/item/clothing/under/f13/desert_ranger_scout
-	shoes = /obj/item/clothing/shoes/f13/cowboy
-	head = /obj/item/clothing/head/f13/cowboy
-	gloves = /obj/item/clothing/gloves/color/brown
-	l_hand = /obj/item/gun/ballistic/revolver/colt357
-	backpack_contents = list(
-		/obj/item/ammo_box/a357=2,
-		/obj/item/binoculars=1,
-		/obj/item/radio=1)

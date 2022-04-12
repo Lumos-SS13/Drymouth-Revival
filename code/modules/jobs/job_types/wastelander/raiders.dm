@@ -148,7 +148,8 @@
 	backpack_contents = list(
 		/obj/item/shishkebabpack = 1,
 		/obj/item/storage/fancy/cigarettes/cigpack_cannabis=1,
-		/obj/item/storage/pill_bottle/chem_tin/buffout = 1)
+		/obj/item/storage/pill_bottle/chem_tin/buffout = 1
+		)
 
 /datum/outfit/loadout/raider_blast
 	name = "Blastmaster"
@@ -169,7 +170,8 @@
 		/obj/item/melee/onehanded/knife = 1,
 		/obj/item/restraints/legcuffs/beartrap = 2,
 		/obj/item/melee/unarmed/lacerator = 1,
-		/obj/item/book/granter/trait/trekking = 1)
+		/obj/item/book/granter/trait/trekking = 1
+		)
 
 /datum/outfit/loadout/raider_badlands
 	name = "Badlander"
@@ -180,7 +182,8 @@
 		/obj/item/reagent_containers/hypospray/medipen/psycho = 2,
 		/obj/item/reagent_containers/pill/patch/turbo = 2,
 		/obj/item/reagent_containers/hypospray/medipen/medx = 1,
-		/obj/item/book/granter/trait/trekking = 1)
+		/obj/item/book/granter/trait/trekking = 1
+		)
 
 /datum/outfit/loadout/raider_painspike
 	name = "Painspike"
@@ -188,7 +191,8 @@
 	head = /obj/item/clothing/head/helmet/f13/raider/psychotic
 	backpack_contents = list(
 		/obj/item/melee/onehanded/club/tireiron = 1,
-		/obj/item/reagent_containers/hypospray/medipen/psycho = 2)
+		/obj/item/reagent_containers/hypospray/medipen/psycho = 2
+		)
 
 /datum/outfit/loadout/raider_doctor
 	name = "Meatsetter"
@@ -216,7 +220,8 @@
 		/obj/item/gun/ballistic/revolver/m29/snub=2,
 		/obj/item/storage/belt/holster=1,
 		/obj/item/ammo_box/m44=3,
-		/obj/item/book/granter/trait/gunslinger = 1)
+		/obj/item/book/granter/trait/gunslinger = 1
+		)
 
 /datum/outfit/loadout/raider_tribal
 	name = "Tribal Outcast"
@@ -230,6 +235,5 @@
 	backpack_contents = list(
 		/obj/item/clothing/mask/cigarette/pipe = 1,
 		/obj/item/melee/onehanded/knife/bone = 1,
-		/obj/item/radio/tribal = 1,
-		/obj/item/book/granter/trait/bigleagues = 1,
+		/obj/item/book/granter/trait/bigleagues = 1
 		)
