@@ -17,13 +17,7 @@
 	loadout_options = list(
 	/datum/outfit/loadout/brawler,
 	/datum/outfit/loadout/spearman,
-	/datum/outfit/loadout/shaman,
-	/datum/outfit/loadout/wayfarermelee,
-	/datum/outfit/loadout/wayfarerranged,
-	/datum/outfit/loadout/wayfarershaman,
-	/datum/outfit/loadout/rustwalkersscipher,
-	/datum/outfit/loadout/rustwalkersscrapper,
-	/datum/outfit/loadout/rustwalkersshaman
+	/datum/outfit/loadout/shaman
 	)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -94,83 +88,6 @@
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/book/granter/crafting_recipe/tribal = 1,
 	)
-
-//Wayfarers
-/datum/outfit/loadout/wayfarermelee
-	name = "Wayfarer Warrior"
-	suit = /obj/item/clothing/suit/armor/f13/lightcloak
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/wayfarer = 1,
-		/obj/item/clothing/head/helmet/f13/wayfarer/hunter = 1,
-		/obj/item/twohanded/spear/bonespear = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
-	)
-
-/datum/outfit/loadout/wayfarerranged
-	name = "Wayfarer Archer"
-	suit = /obj/item/clothing/suit/armor/f13/kit
-	head = /obj/item/clothing/head/helmet/f13/wayfarer/antler
-	neck = /obj/item/clothing/neck/mantle/brown
-	backpack_contents = list(
-		/obj/item/gun/ballistic/bow/sturdy = 1,
-		/obj/item/storage/belt/tribe_quiver/bone = 1,
-		/obj/item/storage/belt/tribe_quiver = 1,
-		/obj/item/binoculars = 1,
-		/obj/item/melee/onehanded/club/warclub = 1,
-		)
-
-/datum/outfit/loadout/wayfarershaman
-	name = "Wayfarer Shaman"
-	suit = /obj/item/clothing/suit/armor/f13/lightcloak
-	backpack_contents = list(
-		/obj/item/storage/bag/plants=1,
-		/obj/item/cultivator=1,
-		/obj/item/reagent_containers/glass/bucket/wood=1,
-		/obj/item/warpaint_bowl=1,
-		/obj/item/melee/onehanded/knife/ritualdagger = 1,
-		/obj/item/stack/medical/gauze/improvised = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/wayfarer = 1,
-	)
-
-//Rustwalkers
-/datum/outfit/loadout/rustwalkersscipher
-	name = "Rustwalkers Scipher"
-	suit = /obj/item/clothing/suit/f13/tribal/rustwalkers
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/rustwalkers = 1,
-		/obj/item/clothing/under/f13/female/rustwalkers = 1,
-		/obj/item/gun/ballistic/automatic/autopipe = 1,
-		/obj/item/ammo_box/magazine/autopipe = 2,
-		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/circular_saw = 1
-	)
-
-/datum/outfit/loadout/rustwalkersscrapper
-	name = "Rustwalkers Scrapper"
-	suit = /obj/item/clothing/suit/f13/tribal/light/rustwalkers
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/rustwalkers = 1,
-		/obj/item/clothing/under/f13/female/rustwalkers = 1,
-		/obj/item/gun/ballistic/revolver/hobo/pepperbox = 1,
-		/obj/item/ammo_box/c10mm = 1,
-		/obj/item/circular_saw = 1,
-		/obj/item/storage/belt/utility/full = 1,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
-	)
-
-/datum/outfit/loadout/rustwalkersshaman
-	name = "Rustwalkers Brain-Jack"
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/rustwalkers = 1,
-		/obj/item/clothing/under/f13/female/rustwalkers = 1,
-		/obj/item/gun/ballistic/revolver/hobo/knucklegun = 1,
-		/obj/item/ammo_box/c45rev = 2,
-		/obj/item/circular_saw = 1,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
-		/obj/item/storage/belt/utility/full = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/rustwalkers = 1
-)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
