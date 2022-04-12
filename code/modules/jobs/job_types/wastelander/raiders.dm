@@ -147,8 +147,8 @@
 	head = /obj/item/clothing/head/helmet/f13/raider/yankee
 	backpack_contents = list(
 		/obj/item/shishkebabpack = 1,
-		/obj/item/storage/fancy/cigarettes/cigpack_cannabis=1,
-		/obj/item/storage/pill_bottle/chem_tin/buffout = 1
+		/obj/item/reagent_containers/hypospray/medipen/psycho = 2,
+		/obj/item/storage/pill_bottle/chem_tin/buffout = 2
 		)
 
 /datum/outfit/loadout/raider_blast
@@ -199,9 +199,9 @@
 	suit = /obj/item/clothing/suit/toggle/labcoat/f13/followers
 	l_hand = /obj/item/storage/backpack/duffelbag/med/surgery
 	r_hand = /obj/item/book/granter/trait/midsurgery
-	suit_store = /obj/item/gun/energy/laser/wattz
+	suit_store = /obj/item/gun/ballistic/automatic/pistol/ninemil
 	backpack_contents = list(
-		/obj/item/stock_parts/cell/ammo/ec=1,
+		/obj/item/ammo_box/magazine/m9mm = 1,
 		/obj/item/reagent_containers/pill/patch/jet = 3,
 		/obj/item/storage/firstaid/ancient = 1,
 		/obj/item/storage/pill_bottle/aranesp = 1,

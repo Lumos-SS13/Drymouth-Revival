@@ -62,7 +62,7 @@
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak,
-		/obj/item/reagent_containers/pill/radx,
+		/obj/item/reagent_containers/pill/radx
 		)
 
 /datum/outfit/job/wasteland/f13wastelander/pre_equip(mob/living/carbon/human/H)
@@ -125,7 +125,6 @@
 							/obj/item/stack/medical/suture/emergency/fifteen=1,
 							/obj/item/stack/medical/ointment/twelve=1,
 							/obj/item/smelling_salts=1,
-							/obj/item/healthanalyzer=1,
 							/obj/item/stack/sheet/mineral/silver=1,
 							/obj/item/gun/ballistic/automatic/pistol/m1911/compact=1,
 							/obj/item/lighter=1,
