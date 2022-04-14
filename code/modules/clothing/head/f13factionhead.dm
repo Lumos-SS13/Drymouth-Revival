@@ -308,13 +308,6 @@
 	icon_state = "legion-vex-night"
 	item_state = "legion-vex-night"
 
-/obj/item/clothing/head/helmet/f13/legion/venator
-	name = "legion venator hood"
-	desc = "A leather hood with a sturdy metal skullcap and a gold bull insignia in the front."
-	icon_state = "legion-venator"
-	item_state = "legion-venator"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
-
 /obj/item/clothing/head/helmet/f13/legion/recruit/decan
 	name = "legion recruit decanus helmet"
 	desc = "This reinforced leather helmet has a plume of black and dark red feathers."

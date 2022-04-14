@@ -252,13 +252,6 @@
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 25, "energy" = 20, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 	slowdown = 0.12
 
-/obj/item/clothing/suit/armor/f13/legion/venator
-	name = "legion venator armor"
-	desc = "Explorer armor reinforced with metal plates and chainmail."
-	icon_state = "legion-venator"
-	item_state = "legion-venator"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 15, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
-
 /obj/item/clothing/suit/armor/f13/legion/centurion
 	name = "legion centurion armor"
 	desc = "Every Centurion is issued some of the best armor available in the Legion, and adds better pieces from slain opponents over time."

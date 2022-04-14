@@ -636,10 +636,6 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Legion Explorer"
 	icon_state = "Legionary"
 
-/obj/effect/landmark/start/f13/venator
-	name = "Legion Venator"
-	icon_state = "Legionary"
-
 /obj/effect/landmark/start/f13/auxilia
 	name = "Legion Auxilia"
 	icon_state = "Auxilla"
@@ -774,9 +770,6 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Barkeep"
 
 // Wasteland
-
-/obj/effect/landmark/start/f13/cultleader
-	name = "Cult Leader"
 
 /obj/effect/landmark/start/f13/vigilante
 	name = "Vigilante"

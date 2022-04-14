@@ -88,14 +88,13 @@
 #define F13DECANVET		(1<<6)
 #define F13VEXILLARIUS	(1<<7)
 #define F13EXPLORER		(1<<8)
-#define F13VENATOR		(1<<9)
-#define F13VETLEGIONARY	(1<<10)
-#define F13LEGIONARY	(1<<11)
-#define F13RECRUITLEG	(1<<12)
-#define F13AUXILIA	(1<<13)
-#define F13LEGIONSLAVE	(1<<14)
-#define F13IMMUNE	(1<<15)
-#define F13CAMPFOLLOWER (1<<16)
+#define F13VETLEGIONARY	(1<<9)
+#define F13LEGIONARY	(1<<10)
+#define F13RECRUITLEG	(1<<11)
+#define F13AUXILIA		(1<<12)
+#define F13LEGIONSLAVE	(1<<13)
+#define F13IMMUNE		(1<<14)
+#define F13CAMPFOLLOWER (1<<15)
 
 #define BOS				(1<<5)
 
@@ -115,13 +114,13 @@
 #define DEP_OASIS (1<<6)
 
 #define F13SHERIFF		(1<<0)
-#define F13DENDOC       (1<<1)
+#define F13DENDOC		(1<<1)
 #define F13SETTLER		(1<<2)
 #define F13FARMER		(1<<3)
 #define F13PROSPECTOR	(1<<4)
 #define F13DEPUTY		(1<<5)
 #define F13MAYOR		(1<<6)
-#define F13SECRETARY    (1<<7)
+#define F13SECRETARY	(1<<7)
 #define F13PREACHER		(1<<8)
 #define F13SHOPKEEPER	(1<<9)
 #define F13FAITHFUL		(1<<10) // WHAT IS BITFLAG. WHAT DOES IT DO. WHERE IS THIS INFO USED.
@@ -148,13 +147,10 @@
 #define F13WASTELANDER	(1<<2)
 #define F13RAIDER		(1<<3)
 #define F13PUSHER		(1<<4)
-#define F13PUNRAIDER	(1<<5)
-#define F13DETECTIVE	(1<<6)
-#define EVENTCOVEN		(1<<7)
-#define F13VIGILANTE	(1<<8)
-#define F13ADMINBOOS	(1<<9)
-#define F13CULTLEADER	(1<<9)
-#define F13TRIBAL	(1<<10)
+#define F13DETECTIVE	(1<<5)
+#define F13VIGILANTE	(1<<6)
+#define F13ADMINBOOS	(1<<7)
+#define F13TRIBAL		(1<<8)
 
 #define ENCLAVE			(1<<9)
 
@@ -265,7 +261,6 @@
 #define JOB_DISPLAY_ORDER_IMMUNE 62
 #define JOB_DISPLAY_ORDER_AUXILIA 63
 #define JOB_DISPLAY_ORDER_LEGIONSLAVE 64
-
 
 
 #define JOB_DISPLAY_ORDER_SENTINEL 65
