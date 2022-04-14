@@ -91,7 +91,7 @@
 
 /obj/item/clothing/suit/armor/f13/raider/iconoclast
 	name = "iconoclast raider armor"
-	desc = "A rigid armor set that appears to be fashioned from a radiation suit, or a mining suit."
+	desc = "A rigid armor set that appears to be fashioned from a heavy work suit."
 	icon_state = "iconoclast"
 	item_state = "iconoclast"
 
@@ -797,18 +797,6 @@
 	allowed = list(/obj/item/gun, /obj/item/kitchen, /obj/item/twohanded, /obj/item/claymore, /obj/item/melee/onehanded, /obj/item/twohanded/spear, /obj/item/melee/smith, /obj/item/melee/smith/twohand)
 	armor = list("melee" = 35, "bullet" = 35, "laser" = 30, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
 	slowdown = 0.09
-
-
-/obj/item/clothing/suit/armor/f13/wayfarer/tribal_pa
-	name = "tribal full plate armor"
-	desc = "A set of power armor, now reborn in the paints of the Wayfarers, it serves its new owners as an idol to Kwer, as well as being a piece of heavy covering, with removed parts to allow for quick nimble speed, its hardly what it used to be long ago."
-	icon_state = "tribal_power_armor"
-	item_state = "tribal_power_armor"
-	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 30, "bomb" = 40, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
-	allowed = list(/obj/item/gun, /obj/item/kitchen, /obj/item/twohanded, /obj/item/melee/onehanded, /obj/item/twohanded/spear, /obj/item/melee/smith, /obj/item/melee/smith/twohand
-	)
-	slowdown = 0.3
-//Followers
 
 //Vault
 /obj/item/clothing/suit/armor/vest/vault

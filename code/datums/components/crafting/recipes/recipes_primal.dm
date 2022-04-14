@@ -112,21 +112,6 @@
 	category = CAT_PRIMAL
 	always_available = FALSE
 
-/datum/crafting_recipe/tribal_pa
-	name = "Tribal Salvaged Power Armor"
-	time = 120
-	reqs = list(
-			/obj/item/clothing/suit/armor/f13/power_armor/t45b = 1,
-			/obj/item/stack/sheet/cloth = 15,
-			/obj/item/stack/sheet/metal = 35,
-			/obj/item/stack/sheet/leather = 10,
-			/obj/item/stack/sheet/mineral/diamond = 5,
-			/obj/item/stack/sheet/bone = 20
-			)
-	result = /obj/item/clothing/suit/armor/f13/wayfarer/tribal_pa
-	category = CAT_TRIBAL
-	always_available = FALSE
-
 /datum/crafting_recipe/tribal_pa_helmet
 	name = "Tribal Salvaged Power Armor Helmet"
 	time = 120
