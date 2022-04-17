@@ -8,7 +8,6 @@
 #define FACTION_ENCLAVE "Enclave"
 #define FACTION_WASTELAND "Wastelander"
 #define FACTION_RAIDERS "Raiders"
-#define FACTION_TRIBE "Tribe"
 #define FACTION_VAULT "Vault"
 #define FACTION_FOLLOWERS "Followers"
 
@@ -163,18 +162,7 @@
 #define F13USLT			(1<<6)
 #define F13USSGT		(1<<7)
 
-#define TRIBAL			(1<<10)
-
-#define F13CHIEF		(1<<0)
-#define F13SHAMAN		(1<<1)
-#define F13HHUNTER		(1<<2)
-#define F13DRUID		(1<<3)
-#define F13VILLAGER		(1<<4)
-#define F13HUNTER		(1<<5)
-#define F13GUARDIAN		(1<<6)
-#define F13SPIRITPLEDGED (1<<7)
-
-#define FOLLOWERS		(1<<11)
+#define FOLLOWERS		(1<<10)
 
 #define	F13LEADPRACTITIONER	(1<<0)
 #define	F13PRACTITIONER	(1<<1)
