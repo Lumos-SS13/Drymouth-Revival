@@ -8,7 +8,7 @@
 	spawn_positions = -1
 	description = "You are a member of a scattered tribe, destroyed by war, famine, or other horrors. You abhor technology, surviving with the ways of your forefathers is all you need. Live off the land and forge your own path."
 	supervisors = "the stars above"
-	forbids = "The use of advanced technology. Otherwise what your tribe previously or currently forbids is up to you."
+	forbids = "Your people admonished and shunned the use of advanced technology. Otherwise what your tribe previously or currently forbids is up to you."
 	selection_color = "#dddddd"
 
 	outfit = /datum/outfit/job/wasteland/f13tribal

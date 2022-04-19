@@ -1003,8 +1003,6 @@
 	icon_state = "chiefgreen"
 	item_state = "chiefgreen"
 
-//Followers
-
 //Vault
 
 /obj/item/clothing/head/helmet/riot/vaultsec

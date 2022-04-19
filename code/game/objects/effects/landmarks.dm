@@ -838,41 +838,6 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/uscolonist
 	name = "US Colonist"
 
-//Tribal
-
-/obj/effect/landmark/start/f13/tribal
-	name = "Tribal"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/chief
-	name = "Chief"
-	icon_state = "Tribal"
-	
-/obj/effect/landmark/start/f13/shaman
-	name = "Shaman"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/villager
-	name = "Villager"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/hunter
-	name = "Hunter"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/Hhunter
-	name = "Head Hunter"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/druid
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/spiritpledged
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/guardian
-	icon_state = "Tribal"
-
 //Followers of the Apocalypse
 /obj/effect/landmark/start/f13/followersadministrator
 	name = "Followers Administrator"

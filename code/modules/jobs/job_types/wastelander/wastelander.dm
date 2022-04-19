@@ -46,6 +46,7 @@
 	/datum/outfit/loadout/warrior,
 	/datum/outfit/loadout/ncrcitizen)
 
+// Loadouts //
 /datum/outfit/job/wasteland/f13wastelander
 	name = "Wastelander"
 	jobtype = /datum/job/wasteland/f13wastelander
@@ -145,16 +146,6 @@
 	backpack_contents =  list(/obj/item/storage/box/vendingmachine=1,
 							/obj/item/gun/ballistic/automatic/pistol/m1911/compact=1)
 
-/datum/outfit/loadout/vault_refugee
-	name = "Vaultie"
-	uniform = /obj/item/clothing/under/f13/vault
-	shoes = /obj/item/clothing/shoes/jackboots
-	gloves = /obj/item/clothing/gloves/fingerless
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/pistol/n99=1,
-		/obj/item/ammo_box/magazine/m10mm_adv/simple=2,
-		/obj/item/pda=1)
-
 /datum/outfit/loadout/warrior
 	name = "Wasteland Warrior"
 	uniform = /obj/item/clothing/under/f13/settler
@@ -177,3 +168,14 @@
 	l_hand = /obj/item/gun/ballistic/automatic/varmint
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle=2)
+
+// Donor Loadouts //
+/datum/outfit/loadout/vault_refugee
+	name = "Vaultie"
+	uniform = /obj/item/clothing/under/f13/vault
+	shoes = /obj/item/clothing/shoes/jackboots
+	gloves = /obj/item/clothing/gloves/fingerless
+	backpack_contents = list(
+		/obj/item/gun/ballistic/automatic/pistol/n99=1,
+		/obj/item/ammo_box/magazine/m10mm_adv/simple=2,
+		/obj/item/pda=1)

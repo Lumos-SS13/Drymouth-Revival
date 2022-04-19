@@ -7,7 +7,6 @@ Engineering: 10, 11 ACCESS_ENGINE_EQUIP, ACCESS_ENGINE
 Science: 47 ACCESS_RESEARCH
 here's a tip, go search DEFINES/access.dm
 */
-// I swear to god stop copy-pasting you damn snowflakes
 /datum/job/vault
 	department_flag = VAULT
 	exp_type = EXP_TYPE_VAULT
