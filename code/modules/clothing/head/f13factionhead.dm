@@ -1060,7 +1060,7 @@ obj/item/clothing/head/f13/army/beret
 
 /obj/item/clothing/head/f13/army/beret/airborne
 	name = "US Army airborne beret"
-	desc = "(A red beret, issued to US Army airborne forces, this one holds the beret flash of the 82nd Airborne Div, 1st BCT."
+	desc = "A red beret, issued to US Army airborne forces, this one holds the beret flash of the 82nd Airborne Div, 1st BCT."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_airborne"
