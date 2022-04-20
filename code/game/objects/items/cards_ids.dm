@@ -1072,15 +1072,6 @@
 	item_state = "card-id_leg2"
 	assignment = "centurion medallion"
 
-/obj/item/card/id/dogtag/legvenator
-	name = "venator medallion"
-	desc = "A golden disc awarded to the elite hunters of the legion. If you are close enough to read the insignia you won't be alive much longer."
-	icon_state = "legionmedallioncent"
-	item_state = "card-id_leg2"
-	assignment = "venator medallion"
-	assignment = "Venator"
-
-
 /obj/item/card/id/dogtag/legpriest
 	name = "priestess medallion"
 	desc = "A golden disc awarded to the trusted spiritual guide to the nearby Legion."
@@ -1094,14 +1085,6 @@
 	icon_state = "legionmedallioncent"
 	item_state = "card-id_leg2"
 	assignment = "orator medallion"
-
-//For PilotBland's frumentarii custom loadout
-/obj/item/card/id/dogtag/legfrumentariiremus
-	name = "Remus Amius' frumentarius medallion"
-	desc = "A golden disc with a string threaded through the top, displaying official markings confirming a frumentarius' status."
-	icon_state = "legionmedallioncent"
-	item_state = "card-id_leg2"
-	assignment = "frumentarius medallion"
 
 /obj/item/card/id/legionbrand
 	name = "Legion's brand"
@@ -1130,24 +1113,6 @@
 	icon_state = "rustedmedallion"
 	item_state = "rustedmedallion"
 	uses_overlays = FALSE
-
-/obj/item/card/id/rusted/fadedvaultid
-	name = "faded id card"
-	desc = "A and worn Vault-Tech issued ID card, broken beyond use, kept as a reminder to something."
-	icon_state = "fadedvaultid"
-	item_state = "fadedvaultid"
-	uses_overlays = FALSE
-
-/obj/item/card/id/rusted/brokenholodog
-	name = "broken holotag"
-	desc = "A BoS issue holotag, it isnt working now though, kept as a reminder to something."
-	icon_state = "brokenholodog"
-	item_state = "brokenholodog"
-	uses_overlays = FALSE
-
-/obj/item/card/id/rusted/brokenholodog/enclave
-	name = "malfunctioning holotag"
-	desc = "A would-be advanced holographic dogtag, if it was working. Kept as a reminder to something."
 
 /obj/item/card/id/denid
 	name = "Den Gang Membership Certificate"

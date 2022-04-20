@@ -88,7 +88,6 @@ GLOBAL_LIST_EMPTY(family_heirlooms)
 		/obj/item/toy/cards/deck,
 		/obj/item/lighter,
 		/obj/item/card/id/rusted,
-		/obj/item/card/id/rusted/fadedvaultid,
 		/obj/item/clothing/gloves/ring/silver,
 		/obj/item/toy/figure/detective,
 		/obj/item/toy/tragicthegarnering,

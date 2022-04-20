@@ -960,12 +960,6 @@
 	icon_state = "gamblerrang"
 	item_state = "gamblerrang"
 
-/obj/item/clothing/head/helmet/f13/legion/venator/diohelmet
-	name = "galerum lacertarex"
-	desc = "The hide of a deadly green gecko affixed over a reinforced legion helmet. Its ghastly appearance serves as an intimidating gesture to those who do not yet fear the Lizard King."
-	icon_state = "diohelmet"
-	item_state = "diohelmet"
-
 /obj/item/clothing/head/helmet/f13/herbertranger
 	name = "weathered desert ranger helmet"
 	icon_state = "modified_usmc_riot"

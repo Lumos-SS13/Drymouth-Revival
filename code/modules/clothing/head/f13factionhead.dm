@@ -308,13 +308,6 @@
 	icon_state = "legion-vex-night"
 	item_state = "legion-vex-night"
 
-/obj/item/clothing/head/helmet/f13/legion/venator
-	name = "legion venator hood"
-	desc = "A leather hood with a sturdy metal skullcap and a gold bull insignia in the front."
-	icon_state = "legion-venator"
-	item_state = "legion-venator"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
-
 /obj/item/clothing/head/helmet/f13/legion/recruit/decan
 	name = "legion recruit decanus helmet"
 	desc = "This reinforced leather helmet has a plume of black and dark red feathers."
@@ -1010,8 +1003,6 @@
 	icon_state = "chiefgreen"
 	item_state = "chiefgreen"
 
-//Followers
-
 //Vault
 
 /obj/item/clothing/head/helmet/riot/vaultsec
@@ -1069,7 +1060,7 @@ obj/item/clothing/head/f13/army/beret
 
 /obj/item/clothing/head/f13/army/beret/airborne
 	name = "US Army airborne beret"
-	desc = "(A red beret, issued to US Army airborne forces, this one holds the beret flash of the 82nd Airborne Div, 1st BCT."
+	desc = "A red beret, issued to US Army airborne forces, this one holds the beret flash of the 82nd Airborne Div, 1st BCT."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_airborne"
