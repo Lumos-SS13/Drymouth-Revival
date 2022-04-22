@@ -8851,11 +8851,6 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/desert)
-"aBS" = (
-/obj/machinery/holopad,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/vault_atrium_upper)
 "aBT" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -14470,9 +14465,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
-"aZm" = (
-/turf/closed/wall/f13/tunnel,
-/area/f13/underground/mountain)
 "aZn" = (
 /obj/effect/decal/cleanable/robot_debris,
 /turf/open/indestructible/ground/outside/road,
@@ -69267,8 +69259,8 @@ aaa
 aaa
 aaa
 aaa
-aoh
-aoj
+aaa
+aaa
 awT
 aBs
 awT
@@ -69669,8 +69661,8 @@ aaa
 aaa
 aaa
 aaa
-aBS
-aoh
+aaa
+aaa
 aBG
 axw
 aFd
@@ -95397,7 +95389,7 @@ bJD
 axQ
 aYd
 aZg
-aZm
+axQ
 aaa
 aaa
 aaa
@@ -95799,7 +95791,7 @@ bJD
 axQ
 bJQ
 bKd
-aZm
+axQ
 aaa
 aaa
 aaa
