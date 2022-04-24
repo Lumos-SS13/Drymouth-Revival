@@ -102,28 +102,6 @@ GLOBAL_VAR_INIT(miscreants_allowed, FALSE)
 		if(!src.holder)	return
 		message_admins("[key_name_admin(usr)] manually reloaded mentors")
 
-/mob/living/carbon/proc/has_penis()
-	var/obj/item/organ/genital/G = getorganslot(ORGAN_SLOT_PENIS)
-	if(G && istype(G, /obj/item/organ/genital/penis))
-		return TRUE
-	return FALSE
-
-/mob/living/carbon/proc/has_balls()
-	var/obj/item/organ/genital/G = getorganslot(ORGAN_SLOT_TESTICLES)
-	if(G && istype(G, /obj/item/organ/genital/testicles))
-		return TRUE
-	return FALSE
-
-/mob/living/carbon/proc/has_vagina()
-	if(getorganslot(ORGAN_SLOT_VAGINA))
-		return TRUE
-	return FALSE
-
-/mob/living/carbon/proc/has_breasts()
-	if(getorganslot(ORGAN_SLOT_BREASTS))
-		return TRUE
-	return FALSE
-
 /mob/living/carbon/proc/is_groin_exposed(list/L)
 	if(!L)
 		L = get_equipped_items()
@@ -141,23 +119,3 @@ GLOBAL_VAR_INIT(miscreants_allowed, FALSE)
 		if(I.body_parts_covered & CHEST)
 			return FALSE
 	return TRUE
-
-////////////////////////
-//DANGER | DEBUG PROCS//
-////////////////////////
-
-/client/proc/give_humans_genitals()
-	set name = "Mass Give Genitals"
-	set category = "Dangerous"
-	set desc = "Gives every human mob genitals for testing purposes. WARNING: NOT FOR LIVE SERVER USAGE!!"
-
-	log_admin("[src] gave everyone genitals.")
-	message_admins("[src] gave everyone genitals.")
-	for(var/mob/living/carbon/human/H in GLOB.mob_list)
-		if(H.gender == MALE)
-			H.give_genital(/obj/item/organ/genital/penis)
-			H.give_genital(/obj/item/organ/genital/testicles)
-		else
-			H.give_genital(/obj/item/organ/genital/vagina)
-			H.give_genital(/obj/item/organ/genital/womb)
-			H.give_genital(/obj/item/organ/genital/breasts)

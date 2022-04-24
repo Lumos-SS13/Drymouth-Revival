@@ -3,7 +3,7 @@
 	id = "smutant"
 	say_mod = "yells"
 	limbs_id = "smutant"
-	species_traits = list(NOTRANSSTING,NOGENITALS,NOAROUSAL)
+	species_traits = list(NOTRANSSTING)
 	inherent_traits = list(TRAIT_RADIMMUNE,TRAIT_VIRUSIMMUNE)
 	inherent_biotypes = list(MOB_INORGANIC, MOB_HUMANOID)
 	punchstunthreshold = 20
