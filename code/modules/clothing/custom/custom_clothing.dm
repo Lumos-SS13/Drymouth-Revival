@@ -6,7 +6,7 @@
 
 /obj/item/clothing/suit/armor/f13/rangercombat/desert/whiskey
 	name = "weathered ranger combat armor"
-	desc = "(II) An original suit of pre-war combat armor used by elite military units, passed down through generations to where it is today. Though it's not lined with kevlar, this suit's still lightweight and easy to move around in."
+	desc = " An original suit of pre-war combat armor used by elite military units, passed down through generations to where it is today. Though it's not lined with kevlar, this suit's still lightweight and easy to move around in."
 	icon = 'icons/fallout/clothing/custom/custom.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/custom/custom.dmi'
 	icon_state = "desert_ranger"

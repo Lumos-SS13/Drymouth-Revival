@@ -945,63 +945,24 @@
 	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
 
 /obj/item/clothing/head/helmet/f13/wayfarer/antler
-	name = "antler skullcap"
+	name = "antler headdress"
 	desc = "An antler skull headdress traditionally worn by the spiritually inclined."
 	icon_state = "antlerhelm"
 	item_state = "antlerhelm"
-	
-
-/obj/item/clothing/head/helmet/f13/wayfarer/shamanblue
-	name = "ritual headdress"
-	desc = "An ancient mask fashioned at the coasts of the Great Salt Water, imbued with the ancestral blessing through a long forgotten ritual."
-	icon_state = "shamanblue"
-	item_state = "shamanblue"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-
-/obj/item/clothing/head/helmet/f13/wayfarer/shamanred
-	name = "crimson mask"
-	desc = "An uncanny helm passed down through generations, originating from a tribal culture once situated at the top of a Sonoran mesa."
-	icon_state = "shamanred"
-	item_state = "shamanred"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief
-	name = "helm of the steady walk"
-	desc = "A chief who chooses this protectron mantle embodies the defensive, a stalwart heart that protects their village above all other goals, even if it means hampering the growth of the village to do it."
-	icon_state = "chiefblue"
-	item_state = "chiefblue"
-	actions_types = list(/datum/action/item_action/toggle)
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 
 /obj/item/clothing/head/helmet/f13/combat/wayfarer/tribe_helmet
-	name = "tribalized helmet"
-	desc = "An old military grade pre-war combat helmet, repainted and re purposed with bones and sinew to worship some tribal diety."
+	name = "tribal combat helmet"
+	desc = "An aged pre-war combat helmet, decorated with paint in a tribal design."
 	icon_state = "tribe_helmet"
 	item_state = "tribe_helmet"
 
 /obj/item/clothing/head/helmet/f13/wayfarer/pa_helmet
-	name = "tribal full plate headdress"
-	desc = "The once-marvelous helmet of the T-45d power armor set, repurposed and painted with markings of a tribe to signify its holyness to Kwer. It has dye'd feathers addoring it to make it look fierce in battle."
+	name = "tribal power armor headdress"
+	desc = "A helmet of T-45d power armor, repurposed and painted with tribal markings. It has dyed feathers adorning it to make it look fierce in battle."
 	icon_state = "tribal_PA_helmet"
 	item_state = "tribal_PA_helmet"
 	armor = list("melee" = 60, "bullet" = 65, "laser" = 65, "energy" = 24, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 40)
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief/attack_self(mob/user)
-	weldingvisortoggle(user)
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief/red
-	name = "helm of the piercing gaze"
-	desc = "A chief who wears this assaultron helm is known for their prowess in battle, aggressiveness, intimidation and raw power in command. They are bold and strong."
-	icon_state = "chiefred"
-	item_state = "chiefred"
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief/green
-	name = "helm of the helping hand"
-	desc = "The many eyed helper to the village and all, the Chief that chooses this Mr. Handy based mantle is clever and kind in equal measure, they embody industry and diplomacy. Though they aren't defensive, they are surgically precise in eliminating those who oppose them."
-	icon_state = "chiefgreen"
-	item_state = "chiefgreen"
 
 //Vault
 
@@ -1076,7 +1037,6 @@ obj/item/clothing/head/f13/army/beret
 	item_state = "army_beret_specialforces"
 	
 //People's Liberation Army
-
 /obj/item/clothing/head/f13/chinese
 	name = "PLA field cap"
 	desc = "A People's Liberation Army cap, worn by enlisted and non-commissioned officers."
@@ -1088,7 +1048,7 @@ obj/item/clothing/head/f13/army/beret
 
 /obj/item/clothing/head/f13/chinese/officer
 	name = "PLA officer's cap"
-	desc = "(II) A People's Liberation Army peaked cap, worn by officers."
+	desc = "A People's Liberation Army peaked cap, worn by officers."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "chinese_officer"
@@ -1234,7 +1194,7 @@ obj/item/clothing/head/f13/army/beret
 	name = "enclave envirosuit hood"
 	icon_state = "envirohead"
 	item_state = "envirohead"
-	desc = "(II) A white hazmat helmet with a coupling system, the visor looks to be made out of orange plexiglas."
+	desc = " A white hazmat helmet with a coupling system, the visor looks to be made out of orange plexiglas."
 	clothing_flags = THICKMATERIAL
 	flags_inv = HIDEMASK|HIDEEARS|HIDEFACE|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	armor = list("tier" = 2,"energy" = 10, "bomb" = 10, "bio" = 100, "rad" = 100, "fire" = 50, "acid" = 100)
