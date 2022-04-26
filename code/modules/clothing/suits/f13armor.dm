@@ -1005,34 +1005,12 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	icon_state = "warriors"
 	item_state = "warriors"
 
-/obj/item/clothing/suit/armor/f13/atomzealot
-	name = "zealot armor"
-	desc = "The armor of those true to the Division."
-	icon_state = "atomzealot"
-	item_state = "atomzealot"
-	armor = list("tier" = 4, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/atomwitch
-	name = "atomic seer robes"
-	desc = "The robes worn by female seers of the Division."
-	icon_state = "atomwitch"
-	item_state = "atomwitch"
-	armor = list("tier" = 2, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-
 /obj/item/clothing/suit/armor/f13/harbingermantle
 	name = "Harbinger's Mantle"
 	desc = "An eerie, silken cloth that seems to be dripping with a thick mist. It is in truth a high-tech stealth device that allows for psionic amplification. The capacitors and manipulators in it utilise quantum technology and are highly volatile."
 	icon_state = "scloak"
 	item_state = "scloak"
 	armor = list("tier" = 7, "energy" = 55, "bomb" = 45, "bio" = 45, "rad" = 45, "fire" = 45, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/ghostechoe
-	name = "tattered peace coat"
-	desc = "An old coat belonging to a Desert Ranger once. It has been stripped of most useful protection, and has seen better days. A crude peace symbol has been painted on the back in white."
-	icon_state = "ghostechoe"
-	item_state = "ghostechoe"
-	armor = list("tier" = 2, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-
 
 //Mutants
 

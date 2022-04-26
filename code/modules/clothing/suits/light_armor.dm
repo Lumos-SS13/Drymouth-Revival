@@ -472,19 +472,3 @@
 	siemens_coefficient = 1.1
 	armor = list("melee" = 15, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
-/*
-// Heavy
-/obj/item/clothing/suit/armor/f13/atomzealot 
-	name = "zealot armor"
-	desc = "Praise be to Atom."
-	icon_state = "atomzealot"
-	item_state = "atomzealot"
-	armor = list("melee" = 15, "bullet" = 10, "laser" = 30, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/atomwitch
-	name = "atomic seer robes"
-	desc = "Atom be praised."
-	icon_state = "atomwitch"
-	item_state = "atomwitch"
-	armor = list("melee" = 5, "bullet" = 10, "laser" = 30, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-*/

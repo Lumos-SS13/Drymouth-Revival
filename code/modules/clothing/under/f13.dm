@@ -807,7 +807,6 @@
 	item_color = "nato_uniform"
 
 //Prom Dress
-
 /obj/item/clothing/under/f13/prom_dress
 	name = "purple prom dress"
 	desc = "This purple dress has miraculously survived the war, and seems mostly undamaged, except for a few loose ends from wear and tear. The dress is made from a soft fabric, likely a marbled velvet."
@@ -817,30 +816,7 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
-//Dust Devils
-
-//Boomers
-
-//Bright Brotherhood
-
-//Nightkin Gang
-
-//The Chairmen
-
-//Greasers
-
-//Maud's Muggers
-
-//Jackals
-
-//Powder Gangers
-
-//The Kings
-
-//Mutant Band
-
 //Remnants
-
 /obj/item/clothing/under/f13/enclave_officer
 	name = "enclave officer uniform"
 	desc = "A standard Enclave officer uniform.<br>The outer layer is made of a sturdy material designed to withstand the harsh conditions of the wasteland."
@@ -877,7 +853,6 @@
 	item_state = "army_general"
 
 //US Navy
-
 /obj/item/clothing/under/f13/navy
 	name = "US Navy jumpsuit"
 	desc = "Pre-War standard naval uniform."
@@ -893,7 +868,6 @@
 	item_color = "navyofficer"
 
 //People's Liberation Army
-
 /obj/item/clothing/under/f13/chinese
 	name = "PLA uniform"
 	desc = "An pre-war People's Liberation Army uniform, worn by enlisted and NCOs."
@@ -1048,7 +1022,7 @@
 	item_state = "w_suit"
 	item_color = "batter"
 
-/obj/item/clothing/under/f13/bennys //Benny's suit from Fallout: New Vegas. But Benny was just a kid back in 2255, so it's just a fancy suit for you.
+/obj/item/clothing/under/f13/bennys //Benny's suit from Fallout: New Vegas
 	name = "fancy suit"
 	desc = "A black and white buffalo plaid suit. Fancy!"
 	icon_state = "benny"
@@ -1202,7 +1176,7 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 10, "acid" = 40)
 
 /obj/item/clothing/under/f13/merchant
-	name = "merchant outfit "
+	name = "merchant outfit"
 	desc = "An outfit commonly worn by various wastelanders - mostly wandering traders and merchants on the market.<br>So what do you say if I buy it from you with 10% discount?"
 	icon_state = "merchant"
 	item_state = "brownjsuit"
@@ -1210,7 +1184,7 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
 
 /obj/item/clothing/under/f13/worn
-	name = "worn outfit "
+	name = "worn outfit"
 	desc = "A worn khaki shirt without any buttons left, and a ragged pair of jeans.<br>It may seem a bad outfit choice at first, yet there are wastelanders out there who can't afford even that."
 	icon_state = "worn"
 	item_state = "brownjsuit"
@@ -1337,6 +1311,7 @@
 	icon_state = "psychturtle"
 	item_state = "b_suit"
 	item_color = "psychturtle"
+
 /obj/item/clothing/under/f13/villain //Doubles as Gang Leader primary uniform for extra villainy
 	name = "green and black suit"
 	desc = "There is something evil in this suit, only a villain would wear something like that."
