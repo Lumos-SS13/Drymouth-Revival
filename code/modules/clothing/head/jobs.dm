@@ -29,7 +29,7 @@
 //Captain
 /obj/item/clothing/head/caphat
 	name = "captain's hat"
-	desc = "(V) It's good being the king."
+	desc = "It's good being the king."
 	icon_state = "captain"
 	item_state = "that"
 	flags_inv = 0
@@ -92,7 +92,7 @@
 //Detective
 /obj/item/clothing/head/fedora/det_hat
 	name = "detective's fedora"
-	desc = "(III) There's only one man who can sniff out the dirty stench of crime, and he's likely wearing this hat."
+	desc = "There's only one man who can sniff out the dirty stench of crime, and he's likely wearing this hat."
 	armor = list("tier" = 3, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 50)
 	icon_state = "detective"
 	var/candy_cooldown = 0
@@ -190,7 +190,7 @@
 
 /obj/item/clothing/head/warden
 	name = "warden's police hat"
-	desc = "(V) It's a special armored hat issued to the Warden of a security force. Protects the head from impacts."
+	desc = "It's a special armored hat issued to the Warden of a security force. Protects the head from impacts."
 	icon_state = "policehelm"
 	armor = list("tier" = 5, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
 	strip_delay = 60
@@ -265,7 +265,7 @@
 
 /obj/item/clothing/head/beret/sec
 	name = "security beret"
-	desc = "(V) A robust beret with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
+	desc = "A robust beret with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
 	icon_state = "beret_badge"
 	armor = list("tier" = 5,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 60

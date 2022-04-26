@@ -653,13 +653,13 @@
 
 /obj/item/clothing/head/f13/beaver
 	name = "beaverkin"
-	desc = "(I) A hat made from felted beaver fur which makes the wearer feel both comfortable and elegant."
+	desc = "A hat made from felted beaver fur which makes the wearer feel both comfortable and elegant."
 	icon_state = "beaver"
 	item_state = "that"
 
 /obj/item/clothing/head/f13/purple
 	name = "purple top hat"
-	desc = "(I) You may not own the best jail in the observed Universe, or the best chocolate factory in the entire world, but at least you can try to have that purple top hat."
+	desc = "You may not own the best jail in the observed Universe, or the best chocolate factory in the entire world, but at least you can try to have that purple top hat."
 	icon_state = "ptophat"
 	item_state = "that"
 
@@ -973,7 +973,7 @@
 
 /obj/item/clothing/head/helmet/f13/marlowhat
 	name = "boss of the plains hat"
-	desc = "(IV) A thick undyed felt cowboy hat, bleached from excessive sun exposure and creased from heavy usage."
+	desc = "A thick undyed felt cowboy hat, bleached from excessive sun exposure and creased from heavy usage."
 	icon_state = "marlowhat"
 	item_state = "marlowhat"
 	armor = list("tier" = 4, "energy" = 25, "bomb" = 30, "bio" = 20, "rad" = 0, "fire" = 50, "acid" = 0)

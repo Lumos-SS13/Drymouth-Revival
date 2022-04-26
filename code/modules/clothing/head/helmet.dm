@@ -327,7 +327,7 @@
 
 /obj/item/clothing/head/helmet/infiltrator
 	name = "insidious helmet"
-	desc = "(V) An insidious armored combat helmet signed with Syndicate insignia. The visor is coated with a resistant paste guaranteed to withstand bright flashes perfectly."
+	desc = "An insidious armored combat helmet signed with Syndicate insignia. The visor is coated with a resistant paste guaranteed to withstand bright flashes perfectly."
 	icon_state = "infiltrator"
 	item_state = "infiltrator"
 	armor = list("tier" = 5, "energy" = 40, "bomb" = 70, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
@@ -435,7 +435,7 @@
 
 /obj/item/clothing/head/helmet/rus_helmet
 	name = "russian helmet"
-	desc = "(III) It can hold a bottle of vodka."
+	desc = "It can hold a bottle of vodka."
 	icon_state = "rus_helmet"
 	item_state = "rus_helmet"
 	armor = list("tier" = 3,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 20, "fire" = 30, "acid" = 50)
@@ -443,7 +443,7 @@
 
 /obj/item/clothing/head/helmet/rus_ushanka
 	name = "battle ushanka"
-	desc = "(II) 100% bear."
+	desc = "100% bear."
 	icon_state = "rus_ushanka"
 	item_state = "rus_ushanka"
 	clothing_flags = THICKMATERIAL

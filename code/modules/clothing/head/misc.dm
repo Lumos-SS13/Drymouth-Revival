@@ -3,7 +3,7 @@
 /obj/item/clothing/head/centhat
 	name = "\improper CentCom hat"
 	icon_state = "centcom"
-	desc = "(VI) It's good to be emperor."
+	desc = "It's good to be emperor."
 	item_state = "that"
 	flags_inv = 0
 	armor = list("tier" = 6, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
@@ -26,7 +26,7 @@
 
 /obj/item/clothing/head/canada
 	name = "striped red tophat"
-	desc = "(I) It smells like fresh donut holes. / <i>Il sent comme des trous de beignets frais.</i>"
+	desc = "It smells like fresh donut holes. / <i>Il sent comme des trous de beignets frais.</i>"
 	icon_state = "canada"
 	item_state = "canada"
 	armor = list("tier" = 1)

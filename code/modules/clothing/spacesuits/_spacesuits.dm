@@ -3,7 +3,7 @@
 /obj/item/clothing/head/helmet/space
 	name = "space helmet"
 	icon_state = "spaceold"
-	desc = "(II) A special helmet with solar UV shielding to protect your eyes from harmful rays."
+	desc = "A special helmet with solar UV shielding to protect your eyes from harmful rays."
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL | BLOCK_GAS_SMOKE_EFFECT | ALLOWINTERNALS
 	item_state = "spaceold"
 	permeability_coefficient = 0.01
@@ -26,7 +26,7 @@
 
 /obj/item/clothing/suit/space
 	name = "space suit"
-	desc = "(II) A suit that protects against low pressure environments. Has a big 13 on the back."
+	desc = "A suit that protects against low pressure environments. Has a big 13 on the back."
 	icon_state = "spaceold"
 	item_state = "s_suit"
 	w_class = WEIGHT_CLASS_BULKY
