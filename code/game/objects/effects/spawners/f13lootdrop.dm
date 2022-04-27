@@ -418,13 +418,6 @@
 				/obj/item/clothing/head/helmet/f13/combat/mk2/dark
 				)
 
-/obj/effect/spawner/bundle/f13/armor/raiderpa
-	name = "raider power armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armor/f13/power_armor/raiderpa,
-				/obj/item/clothing/head/helmet/f13/power_armor/raiderpa_helm
-				)
-
 /obj/effect/spawner/bundle/f13/armor/hotrodpa
 	name = "hotrod power armor spawner"
 	items = list(

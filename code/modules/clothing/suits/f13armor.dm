@@ -426,16 +426,6 @@
 	icon_state = "ncrpowerarmor"
 	item_state = "ncrpowerarmor"
 
-/obj/item/clothing/suit/armor/f13/power_armor/raiderpa
-	powered = FALSE
-	name = "raider T-45b power armor"
-	desc = "An attempt by raider engineers to duplicate power armor. They failed miserably, but it is still pretty tough"
-	icon_state = "raiderpa"
-	item_state = "raiderpa"
-	armor = list("melee" = 65, "bullet" = 55, "laser" = 55, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 65)
-	slowdown = 0.25
-	requires_training = FALSE
-
 /obj/item/clothing/suit/armor/f13/power_armor/hotrod
 	powered = FALSE
 	name = "hotrod T-45b power armor"
@@ -481,7 +471,7 @@
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/gunslinger
 	name = "Gunslinger T-51b"
-	desc = "(IX) What was once a suit of T-51 Power Armor is now an almost unrecognizable piece of art or garbage, depending on who you ask. Almost all of the external plating has either been removed or stripped to allow for maximum mobility, and overlapping underplates protect the user from small arms fire. Whoever designed this had a very specific purpose in mind: mobility and aesthetics over defense."
+	desc = "What was once a suit of T-51 Power Armor is now an almost unrecognizable piece of art or garbage, depending on who you ask. Almost all of the external plating has either been removed or stripped to allow for maximum mobility, and overlapping underplates protect the user from small arms fire. Whoever designed this had a very specific purpose in mind: mobility and aesthetics over defense."
 	icon_state = "t51bgs"
 	item_state = "t51bgs"
 	slowdown = -0.2
@@ -557,7 +547,7 @@
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51b/ultra
 	name = "Ultracite power armor"
-	desc = "(X) The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. Now ultracite enhanced."
+	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. Now ultracite enhanced."
 	icon_state = "ultracitepa"
 	item_state = "ultracitepa"
 	slowdown = 0
@@ -1004,13 +994,6 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	desc = "The symbol of the greatest gangers."
 	icon_state = "warriors"
 	item_state = "warriors"
-
-/obj/item/clothing/suit/armor/f13/harbingermantle
-	name = "Harbinger's Mantle"
-	desc = "An eerie, silken cloth that seems to be dripping with a thick mist. It is in truth a high-tech stealth device that allows for psionic amplification. The capacitors and manipulators in it utilise quantum technology and are highly volatile."
-	icon_state = "scloak"
-	item_state = "scloak"
-	armor = list("tier" = 7, "energy" = 55, "bomb" = 45, "bio" = 45, "rad" = 45, "fire" = 45, "acid" = 0)
 
 //Mutants
 

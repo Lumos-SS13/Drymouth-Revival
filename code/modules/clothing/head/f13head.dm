@@ -397,19 +397,6 @@
 	requires_training = TRUE
 	powered = TRUE
 
-/obj/item/clothing/head/helmet/f13/power_armor/raiderpa_helm
-	name = "raider T-45b power helmet"
-	desc = "a raider's attempt to duplicate a power armor helmet. The result is a fuzed mass of metal and ceramic that nonetheless provides protection"
-	icon_state = "raiderpa_helm"
-	item_state = "raiderpa_helm"
-	armor = list("melee" = 65, "bullet" = 55, "laser" = 55, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 40)
-	requires_training = FALSE
-//	armor_block_chance = 20
-//	deflection_chance = 10
-	powered = FALSE
-	slowdown = 0.05
-
-
 /obj/item/clothing/head/helmet/f13/power_armor/hotrod
 	name = "hotrod T-45b power helmet"
 	desc = "This power armor helmet is so decrepit and battle-worn that it have lost most of its capability to protect the wearer from harm."
@@ -462,7 +449,7 @@
 
 /obj/item/clothing/head/helmet/f13/power_armor/t45d/gunslinger
 	name = "Gunslinger T-51b Helm"
-	desc = "(IX) With most of the external plating stripped to allow for internal thermal and night vision scanners, as well as aided targeting assist via onboard systems, this helm provides much more utility then protection. To support these systems, secondary power cells were installed into the helm, and covered with a stylish hat."
+	desc = "With most of the external plating stripped to allow for internal thermal and night vision scanners, as well as aided targeting assist via onboard systems, this helm provides much more utility then protection. To support these systems, secondary power cells were installed into the helm, and covered with a stylish hat."
 	icon_state = "t51bgs"
 	item_state = "t51bgs"
 	slowdown = -0.2
@@ -471,7 +458,7 @@
 
 /obj/item/clothing/head/helmet/f13/power_armor/t45d/sierra
 	name = "sierra power helmet"
-	desc = "(IX) A pre-war power armor helmet, issued to special NCR officers.."
+	desc = "A pre-war power armor helmet, issued to special NCR officers.."
 	icon_state = "sierra"
 	item_state = "sierra"
 	actions_types = list()
