@@ -444,7 +444,6 @@
 	icon_state = "jamrock_blazer"
 	item_state = "jamrock_blazer"
 
-
 /obj/item/clothing/suit/hooded/cloak/shunter
 	name = "Quickclaw armour"
 	icon_state = "birdarmor"

@@ -426,40 +426,6 @@
 	icon_state = "ncrpowerarmor"
 	item_state = "ncrpowerarmor"
 
-/obj/item/clothing/suit/armor/f13/power_armor/hotrod
-	powered = FALSE
-	name = "hotrod T-45b power armor"
-	desc = " It's a set of T-45b power armor with a with some of its plating removed. This set has exhaust pipes piped to the pauldrons, flames erupting from them."
-	icon_state = "t45hotrod"
-	item_state = "t45hotrod"
-	armor = list("melee" = 55, "bullet" = 55, "laser" = 55, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 70)
-	slowdown = 0.25
-	requires_training = FALSE
-
-/obj/item/clothing/suit/armor/f13/power_armor/vaulttec
-	name = "Vault-Tec power armour"
-	desc = "A refined suit of power armour, purpose-built by the residents of Vault-115 in order to better keep the peace in their new settlement."
-	icon_state = "vaultpa"
-	item_state = "vaultpa"
-	armor = list("melee" = 65, "bullet" = 65, "laser" = 65, "energy" = 22, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 70)
-	slowdown = 0
-
-/obj/item/clothing/suit/armor/f13/power_armor/vaulttecta
-	name = "Vault-Tec technical armour"
-	desc = "A primative  suit of power armour, the first kind built by the residents of Vault-115 in order to fight off immediate threats."
-	icon_state = "vaulttecta"
-	item_state = "vaulttecta"
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 25, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 70)
-	slowdown = 0.4
-
-/obj/item/clothing/suit/armor/f13/power_armor/excavator
-	name = "excavator power armor"
-	desc = "Developed by Garrahan Mining Co. in collaboration with West Tek, the Excavator-class power armor was designed to protect miners from rockfalls and airborne contaminants while increasing the speed at which they could work. "
-	icon_state = "excavator"
-	item_state = "excavator"
-	slowdown = 0.5
-	armor = list("melee" = 70, "bullet" = 50, "laser" = 50, "energy" = 25, "bomb" = 80, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 40)
-
 /obj/item/clothing/suit/armor/f13/power_armor/t45d
 	name = "T-45d power armor"
 	desc = "originally developed and manufactured for the United States Army by American defense contractor West Tek, the T-45d power armor was the first version of power armor to be successfully deployed in battle."
@@ -467,7 +433,6 @@
 	item_state = "t45dpowerarmor"
 	slowdown = 0.225
 	armor = list("melee" = 73, "bullet" = 73, "laser" = 73, "energy" = 25, "bomb" = 65, "bio" = 75, "rad" = 80, "fire" = 85, "acid" = 30, "wound" = 70)
-
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/gunslinger
 	name = "Gunslinger T-51b"
@@ -544,13 +509,6 @@
 	desc = "A dark mirror to the pinnacle of pre-war technology, reforged. This suit of power armor provides substantial protection to the wearer."
 	icon_state = "t51matt"
 	item_state = "t51matt"
-
-/obj/item/clothing/suit/armor/f13/power_armor/t51b/ultra
-	name = "Ultracite power armor"
-	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. Now ultracite enhanced."
-	icon_state = "ultracitepa"
-	item_state = "ultracitepa"
-	slowdown = 0
 
 /obj/item/clothing/suit/armor/f13/power_armor/t60
 	name = "T-60a power armor"

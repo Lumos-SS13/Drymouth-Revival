@@ -510,14 +510,6 @@
 	item_state = "t51matthelmet"
 	actions_types = list()
 
-/obj/item/clothing/head/helmet/f13/power_armor/t51b/ultra
-	name = "Ultracite power helmet"
-	desc = "It's a T-51b power helmet, typically used by the Brotherhood. It looks somewhat charming. Now enhanced with ultracite."
-	icon_state = "ultracitepa_helm"
-	item_state = "ultracitepa_helm"
-	slowdown = 0
-	actions_types = list()
-
 /obj/item/clothing/head/helmet/f13/power_armor/t60
 	name = "T-60a power helmet"
 	desc = "The T-60 powered helmet, equipped with targetting software suite, Friend-or-Foe identifiers, dynamic HuD, and an internal music player."
@@ -533,15 +525,6 @@
 /obj/item/clothing/head/helmet/f13/power_armor/t60/update_icon_state()
 	icon_state = "t60helmet[light_on]"
 	item_state = "t60helmet[light_on]"
-
-/obj/item/clothing/head/helmet/f13/power_armor/excavator
-	name = "excavator power helmet"
-	desc = "(VIII) The helmet of the excavator power armor suit."
-	icon_state = "excavator"
-	item_state = "excavator"
-	armor = list("tier" = 8, "energy" = 60, "bomb" = 62, "bio" = 100, "rad" = 90, "fire" = 90, "acid" = 0)
-//	armor_block_chance = 40
-//	deflection_chance = 10 //10% chance to block damage from blockable bullets and redirect the bullet at a random angle. Not a heavy combat model
 
 /obj/item/clothing/head/helmet/f13/power_armor/advanced
 	name = "advanced power helmet"

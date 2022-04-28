@@ -40,13 +40,6 @@
 	icon_state = "wardenplate"
 	armor = list("melee" = 55, "bullet" = 50, "laser" = 35, "energy" = 25, "bomb" = 30, "bio" = 0, "rad" = 15, "fire" = 10, "acid" = 10)
 
-/obj/item/clothing/suit/armored/heavy/bosexile
-	name = "modified Brotherhood armor"
-	desc = "A modified detoriated armor kit consisting of brotherhood combat armor and lots of scrap metal."
-	icon_state = "exile_bos"
-	item_state = "exile_bos"
-	armor = list("melee" = 30, "bullet" = 40, "laser" = 40, "energy" = 20, "bomb" = 25, "bio" = 10, "rad" = 10, "fire" = 20, "acid" = 10)
-
 /obj/item/clothing/suit/armored/heavy/riotpolice
 	name = "riot police armor"
 	icon_state = "bulletproof_heavy"
