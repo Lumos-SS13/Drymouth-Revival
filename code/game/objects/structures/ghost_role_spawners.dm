@@ -838,7 +838,7 @@
 	flavour_text = "Hurry, hurry, hurry!!"
 	assignedrole = "Raider"
 	suit_store = /obj/item/gun/ballistic/automatic/smg/greasegun
-	uniform = /obj/item/clothing/under/f13/ravenharness
+	uniform = /obj/item/clothing/under/f13/raiderharness
 	suit = /obj/item/clothing/suit/armor/f13/combat/mk2/raider
 	head = /obj/item/clothing/head/helmet/f13/combat/mk2/raider
 	ears = /obj/item/radio/headset

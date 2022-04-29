@@ -434,14 +434,6 @@
 	slowdown = 0.225
 	armor = list("melee" = 73, "bullet" = 73, "laser" = 73, "energy" = 25, "bomb" = 65, "bio" = 75, "rad" = 80, "fire" = 85, "acid" = 30, "wound" = 70)
 
-/obj/item/clothing/suit/armor/f13/power_armor/t45d/gunslinger
-	name = "Gunslinger T-51b"
-	desc = "What was once a suit of T-51 Power Armor is now an almost unrecognizable piece of art or garbage, depending on who you ask. Almost all of the external plating has either been removed or stripped to allow for maximum mobility, and overlapping underplates protect the user from small arms fire. Whoever designed this had a very specific purpose in mind: mobility and aesthetics over defense."
-	icon_state = "t51bgs"
-	item_state = "t51bgs"
-	slowdown = -0.2
-	flags_inv = HIDEJUMPSUIT|HIDENECK
-
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/sierra
 	name = "sierra power armor"
 	desc = "A captured set of T-45d power armor put into use by the NCR, it's been heavily modified and decorated with the head of a bear and intricate gold trimming. A two headed bear is scorched into the breastplate."
@@ -498,18 +490,6 @@
 	slowdown = 0.15 //+0.1 from helmet = total 0.25
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 85, "energy" = 70, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 72)
 
-/obj/item/clothing/suit/armor/f13/power_armor/t51b/wbos
-	name = "Washington power armor"
-	desc = "A dark mirror to the pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer."
-	icon_state = "t51wbos"
-	item_state = "t51wbos"
-
-/obj/item/clothing/suit/armor/f13/power_armor/t51b/reforgedwbos
-	name = "reforged Washington power armor"
-	desc = "A dark mirror to the pinnacle of pre-war technology, reforged. This suit of power armor provides substantial protection to the wearer."
-	icon_state = "t51matt"
-	item_state = "t51matt"
-
 /obj/item/clothing/suit/armor/f13/power_armor/t60
 	name = "T-60a power armor"
 	desc = "Developed in early 2077 after the Anchorage Reclamation, the T-60 series of power armor was designed to eventually replace the T-51b as the pinnacle of powered armor technology in the U.S. military arsenal."
@@ -548,12 +528,6 @@
 	item_state = "hellfire"
 	armor = list("melee" = 85, "bullet" = 85, "laser" = 90, "energy" = 37, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0, "wound" = 100)
 
-/obj/item/clothing/suit/armor/f13/power_armor/advanced/hellfire/wbos
-	name = "advanced Washington power armor"
-	desc = "It's an improved model of the power armor used exclusively by the Washington Brotherhood."
-	icon_state = "apawbos"
-	item_state = "apawbos"
-
 /obj/item/clothing/suit/armor/f13/power_armor/tesla
 	name = "tesla power armor"
 	desc = "A variant of the Enclave's advanced power armor Mk I, jury-rigged with a Tesla device that is capable of dispersing a large percentage of the damage done by directed-energy attacks.<br>As it's made of complex composite materials designed to block most of energy damage - it's notably weaker against kinetic impacts."
@@ -572,7 +546,7 @@
 //Peacekeeper armor adjust as needed
 /obj/item/clothing/suit/armor/f13/power_armor/x02
 	name = "Enclave power armor"
-	desc = "(XI) Upgraded pre-war power armor design used by the Enclave. It is mildly worn due to it's age and lack of maintenance after the fall of the Enclave."
+	desc = "Upgraded pre-war power armor design used by the Enclave. It is mildly worn due to it's age and lack of maintenance after the fall of the Enclave."
 	icon_state = "advanced"
 	item_state = "advanced"
 	slowdown = 0.15 //+0.1 from helmet = total 0.25
@@ -971,7 +945,7 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/armor/f13/mutant/metal/reinforced
 	name = "mutant armour"
-	desc = "(6) An oversized boiler plate, hammered to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
+	desc = "An oversized boiler plate, hammered to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
 	icon_state = "mutie_metal_armour_mk2"
 	item_state = "mutie_metal_armour_mk2"
 	armor = list("tier" = 6, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 40, "fire" = 30, "acid" = 20)

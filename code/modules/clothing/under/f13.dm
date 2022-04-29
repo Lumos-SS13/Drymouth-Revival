@@ -1507,37 +1507,6 @@
 	item_state = "bosformgold_m"
 	item_color = "bosformgold_m"
 
-/obj/item/clothing/under/f13/atomfaithful
-	name = "faithful attire"
-	desc = "The attire worn by those Faithful to the Division."
-	icon_state = "atomfaithful"
-	item_state = "atomfaithful"
-	item_color = "atomfaithful"
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 100, "fire" = 20, "acid" = 40)
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = FALSE
-
-
-/obj/item/clothing/under/f13/atomwitchunder
-	name = "seers underclothes"
-	desc = "The underclothes of the female seers of the Division."
-	icon_state = "atomwitchunder"
-	item_state = "atomwitchunder"
-	item_color = "atomwitchunder"
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 100, "fire" = 20, "acid" = 40)
-
-
-/obj/item/clothing/under/f13/atombeliever
-	name = "believer clothes"
-	desc = "The clothes of a true Believer in the Division."
-	icon_state = "atombeliever"
-	item_state = "atombeliever"
-	item_color = "atombeliever"
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 100, "fire" = 20, "acid" = 40)
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = FALSE
-
-
 /obj/item/clothing/under/f13/raiderharness
 	name = "raider harness"
 	desc = "A leather harness that barely covered the essentials."
@@ -1558,18 +1527,6 @@
 	icon_state = "mprostitute"
 	item_state = "mprostitute"
 	item_color = "mprostitute"
-
-/obj/item/clothing/under/f13/ravenharness
-	name = "raven harness"
-	desc = "A harness made out of a number of black belts sewn together end on end to form a coiling piece of clothing. A symbol in red has been painted on the front, and a pair of hide pants go with it."
-	icon_state = "raven_harness"
-	item_state = "raven_harness"
-
-/obj/item/clothing/under/f13/ravenharness
-	name = "raven harness"
-	desc = "A harness made out of a number of black belts sewn together end on end to form a coiling piece of clothing. A symbol in red has been painted on the front, and a pair of hide pants go with it."
-	icon_state = "raven_harness"
-	item_state = "raven_harness"
 
 /obj/item/clothing/under/f13/jamrock
 	name = "Disco-Ass Shirt and Pants"

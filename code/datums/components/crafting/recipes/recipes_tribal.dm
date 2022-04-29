@@ -3,14 +3,6 @@
 
 //ARMOR//
 
-/datum/crafting_recipe/tribalwar/tatteredredcloak
-	name = "Tattered red cloak"
-	result = /obj/item/clothing/suit/hooded/cloak/goliath/tatteredred
-	time = 50
-	reqs = list(/obj/item/stack/sheet/leather = 1,
-				/obj/item/stack/sheet/sinew = 1,
-				/obj/item/stack/sheet/cloth = 2)
-
 /datum/crafting_recipe/tribalwar/bonecodpiece
 	name = "Skull Codpiece"
 	result = /obj/item/clothing/accessory/skullcodpiece

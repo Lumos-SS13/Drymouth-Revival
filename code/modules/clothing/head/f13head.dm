@@ -447,15 +447,6 @@
 	icon_state = "t45dhelmet[light_on]"
 	item_state = "t45dhelmet[light_on]"
 
-/obj/item/clothing/head/helmet/f13/power_armor/t45d/gunslinger
-	name = "Gunslinger T-51b Helm"
-	desc = "With most of the external plating stripped to allow for internal thermal and night vision scanners, as well as aided targeting assist via onboard systems, this helm provides much more utility then protection. To support these systems, secondary power cells were installed into the helm, and covered with a stylish hat."
-	icon_state = "t51bgs"
-	item_state = "t51bgs"
-	slowdown = -0.2
-	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEFACIALHAIR
-	actions_types = list()
-
 /obj/item/clothing/head/helmet/f13/power_armor/t45d/sierra
 	name = "sierra power helmet"
 	desc = "A pre-war power armor helmet, issued to special NCR officers.."
@@ -496,20 +487,6 @@
 	icon_state = "t51bhelmet[light_on]"
 	item_state = "t51bhelmet[light_on]"
 
-/obj/item/clothing/head/helmet/f13/power_armor/t51b/wbos
-	name = "Washington power helmet"
-	desc = "It's a Washington Brotherhood power helmet. It looks somewhat terrifying."
-	icon_state = "t51wboshelmet"
-	item_state = "t51wboshelmet"
-	actions_types = list()
-
-/obj/item/clothing/head/helmet/f13/power_armor/t51b/reforgedwbos
-	name = "reforged Washington power helmet"
-	desc = "It's a reforged Washington Brotherhood power helmet, designed to induce fear in a target."
-	icon_state = "t51matthelmet"
-	item_state = "t51matthelmet"
-	actions_types = list()
-
 /obj/item/clothing/head/helmet/f13/power_armor/t60
 	name = "T-60a power helmet"
 	desc = "The T-60 powered helmet, equipped with targetting software suite, Friend-or-Foe identifiers, dynamic HuD, and an internal music player."
@@ -548,12 +525,6 @@
 //	deflection_chance = 70
 	armor = list("melee" = 85, "bullet" = 85, "laser" = 87, "energy" = 37, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0, "wound" = 100)
 
-/obj/item/clothing/head/helmet/f13/power_armor/advanced/hellfire/wbos
-	name = "advanced Washington power helmet"
-	desc = "It's an improved model of the power armor helmet used exclusively by the Washington Brotherhood, designed to induce fear in a target."
-	icon_state = "t51wboshelmet"
-	item_state = "t51wboshelmet"
-
 /obj/item/clothing/head/helmet/f13/power_armor/tesla
 	name = "tesla power helmet"
 	desc = "A helmet typically used by Enclave special forces.<br>There are three orange energy capacitors on the side."
@@ -572,7 +543,7 @@
 //Part of the peacekeeper enclave stuff, adjust values as needed.
 /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
 	name = "Enclave power armor helmet"
-	desc = "(XI) The Enclave Mark II Powered Combat Armor helmet."
+	desc = "The Enclave Mark II Powered Combat Armor helmet."
 	icon_state = "advanced"
 	item_state = "advanced"
 	slowdown = 0.1

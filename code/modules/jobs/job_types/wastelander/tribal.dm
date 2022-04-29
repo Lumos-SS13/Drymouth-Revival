@@ -103,7 +103,6 @@
 		/datum/crafting_recipe/tribalwar/chitinarmor,
 		/datum/crafting_recipe/tribalwar/deathclawspear,
 		/datum/crafting_recipe/tribalwar/lightcloak,
-		/datum/crafting_recipe/tribalwar/legendaryclawcloak,
 		/datum/crafting_recipe/warpaint,
 		/datum/crafting_recipe/tribalwar/goliathcloak,
 		/datum/crafting_recipe/tribalwar/bonebow,

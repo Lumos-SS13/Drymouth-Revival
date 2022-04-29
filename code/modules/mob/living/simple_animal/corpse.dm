@@ -246,7 +246,7 @@ obj/effect/mob_spawn/human/corpse/raidermelee
 
 /obj/effect/mob_spawn/human/corpse/raiderboss
 	name = "Raider Boss"
-	uniform = /obj/item/clothing/under/f13/ravenharness
+	uniform = /obj/item/clothing/under/f13/raiderharness
 	suit = /obj/item/clothing/suit/armor/f13/combat/mk2/raider
 	shoes = /obj/item/clothing/shoes/combat
 	head = /obj/item/clothing/head/helmet/f13/combat/mk2/raider

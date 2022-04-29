@@ -418,14 +418,6 @@
 				/obj/item/clothing/head/helmet/f13/combat/mk2/dark
 				)
 
-/obj/effect/spawner/bundle/f13/armor/hotrodpa
-	name = "hotrod power armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armor/f13/power_armor/hotrod,
-				/obj/item/clothing/head/helmet/f13/power_armor/hotrod
-				)
-
-
 /obj/effect/spawner/lootdrop/f13/armor/tier5 //TIER 5 ARMOR
 	name = "tier 5 armor"
 	loot = list(

@@ -384,81 +384,8 @@
 	armor = list("tier" = 3, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 60)
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 
-/obj/item/clothing/suit/hooded/cloak/goliath/tatteredred
-	name = "tattered red cloak"
-	icon_state = "goliath_cloak"
-	desc = "An old ragged, tattered red cloak that is covered in burns and bullet holes."
-	armor = list("tier" = 2, "energy" = 20, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/goliath/tattered
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-
-
-/obj/item/clothing/head/hooded/cloakhood/goliath/tattered
-	name = "tattered red cloak hood"
-	icon_state = "golhood"
-	desc = "A tattered hood, better than nothing in the waste."
-	armor = list("tier" = 2, "energy" = 20, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
-
-/obj/item/clothing/suit/hooded/cloak/drake //SS13 item, obviously
-	name = "drake armour"
-	icon_state = "dragon"
-	desc = "A suit of armour fashioned from the remains of an ash drake."
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 70, "bio" = 60, "rad" = 50, "fire" = 100, "acid" = 100)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/drake
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/head/hooded/cloakhood/drake
-	name = "drake helm"
-	icon_state = "dragon"
-	desc = "The skull of a dragon."
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 70, "bio" = 60, "rad" = 50, "fire" = 100, "acid" = 100)
-	heat_protection = HEAD
-	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/suit/hooded/cloak/hhunter
-	name = "Razorclaw armour"
-	icon_state = "rcarmour"
-	desc = "A suit of armour fashioned out of the remains of a legendary deathclaw."
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/hhunter
-	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-	slowdown = 0.05
-
-/obj/item/clothing/head/hooded/cloakhood/hhunter
-	name = "Razorclaw helm"
-	icon_state = "rchelmet"
-	desc = "The skull of a legendary deathclaw."
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	heat_protection = HEAD
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
 /obj/item/clothing/suit/f13/jamrock
 	name = "disco-ass blazer"
 	desc = "Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve."
 	icon_state = "jamrock_blazer"
 	item_state = "jamrock_blazer"
-
-/obj/item/clothing/suit/hooded/cloak/shunter
-	name = "Quickclaw armour"
-	icon_state = "birdarmor"
-	desc = "A suit of armour fashioned out of the remains of a legendary deathclaw, this one has been crafted to remove a good portion of its protection to improve on speed and trekking."
-	slowdown = 0.025
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 35, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/shunter
-	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/head/hooded/cloakhood/shunter
-	name = "Quickclaw hood"
-	icon_state = "birdhood"
-	desc = "A hood madde of deathclaw hides, light while also being comfortable to wear, designed for speed."
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 35, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	heat_protection = HEAD
-	resistance_flags = FIRE_PROOF | ACID_PROOF

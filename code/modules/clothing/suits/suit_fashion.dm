@@ -331,24 +331,6 @@
 	icon_state = "raven_hood"
 	item_state = "raven_hood"
 
-
-/obj/item/clothing/suit/hooded/cloak/goliath/tatteredred
-	name = "tattered red cloak"
-	icon_state = "goliath_cloak"
-	desc = "An old ragged, tattered red cloak that is covered in burns and bullet holes."
-	armor = list("melee" = 25, "bullet" = 20, "laser" = 10, "energy" = 20, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/goliath/tattered
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-
-
-/obj/item/clothing/head/hooded/cloakhood/goliath/tattered
-	name = "tattered red cloak hood"
-	icon_state = "golhood"
-	desc = "A tattered hood, better than nothing in the waste."
-	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 20, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
-
-
-
 /obj/item/clothing/suit/f13/jamrock
 	name = "disco-ass blazer"
 	desc = "Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve."
