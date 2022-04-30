@@ -230,14 +230,6 @@
 	item_state = "bomberalt"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 0)
 
-
-/obj/item/clothing/suit/f13/hubologist
-	name = "hubologist robe"
-	desc = "A black robe worn by Adepts of Hubology Studies.<br>Beware - the spirits of the dead are all around us!"
-	icon_state = "hubologist"
-	item_state = "wcoat"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-	
 /obj/item/clothing/suit/f13/sexymaid
 	name = "sexy maid outfit"
 	desc = "A maid outfit that shows just a little more skin than needed for cleaning duties."

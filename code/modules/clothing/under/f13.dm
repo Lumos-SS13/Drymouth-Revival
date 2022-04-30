@@ -369,27 +369,6 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
-/obj/item/clothing/under/f13/priestess
-	name = "priestess robes"
-	desc = "The robes worn by a Priestess of Mars."
-	icon_state = "priestess"
-	item_state = "priestess"
-	item_color = "priestess"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = FALSE
-
-/obj/item/clothing/under/f13/pmarsrobe
-	name = "priestess of mars robe"
-	desc = "A red robe decorated with bird feathers for the Priestess of Mars."
-	icon_state = "pmars_robe"
-	item_state = "pmars_robe"
-	armor = list(melee = 0, bullet = 0, laser = 20, energy = 20, bomb = 5, bio = 0, rad = 0, fire = 100, acid = 0)
-	resistance_flags = LAVA_PROOF | FIRE_PROOF
-	body_parts_covered = CHEST|GROIN|ARMS|LEGS
-	flags_inv = HIDEGLOVES|HIDESHOES
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = FALSE
-
 /obj/item/clothing/under/f13/legauxilia
 	name = "male auxilia robes"
 	desc = "Thin cotton robe for males, short sleeved with a leather belt, ends just above the knees."

@@ -760,63 +760,6 @@
 	item_state = "midwestpa" // PATREON SUPPORTER CUSTOM GEAR, DO NOT USE.
 	desc = "This set of power armor once belonged to the Midwestern branch of the Brotherhood of Steel, and now resides here. This particular one has gone through a chemical hardening process, increasing its armor capabilities." // PATREON SUPPORTER CUSTOM GEAR, DO NOT USE.
 
-obj/item/clothing/suit/armor/f13/exile/cust0m
-	name = "Lorica Iudicis"
-	desc = "A set of well maintained though still quite clearly worn armor consisting of a metal vest, a Centurion's shoulder pad, a pair of Centurion's arm guards and an incredibly large, perhaps even over-sized fur cloak. Upon basic examination, one can see that every piece of metal bar the buckles on the leather straps and whatever scratches and blemishes are yet to be retouched is masterfully decorated with silver, in complete contrast to the blackness of the cloak. Though only upon closer examination can the intricacies of the armor set be observed. The most obvious piece is the metal vest which has clearly been engraved, mostly decorationally besides the name 'Iudex Flammae' near the top. Though the engravings provide no tactical advantage whatsoever, the sharp geometric shapes accompanied by smooth, tastefully placed curves would catch the eye of even the most skeptical engraving enjoyer. As for the shoulder pad and arm guards, they hold the same engravings, and though they are recognizable as salvage, they still look incredibly beautiful yet simultaneously sturdy. Not much of the metal seems to exist on the back though that is only due to the fact that the incredibly thick, durable and flexible bear pelt that covers it would definitely provide ample protection. The pelt itself is absolutely covered in thick, almost jet black fur. One can tell from touch that the skin underneath is about as sturdy as skin gets. The pelt hangs across the wearer's back, held up by the neck and shoulders. This armor was competently made, and it shows."
-	icon_state = "exilecust0m"
-	item_state = "exilecust0m"
-	var/adjusted = FALSE
-
-/obj/item/clothing/suit/armor/f13/exile/cust0m/verb/armor_adjust()
-	set name = "Adjust Armor"
-	set category = null
-	set src in usr
-
-	if(!adjusted)
-		adjusted = TRUE
-		icon_state = "exilecust0m_d"
-	else
-		adjusted = FALSE
-		icon_state = "exilecust0m"
-
-	if(ishuman(usr))
-		var/mob/living/carbon/human/H = usr
-		H.update_inv_w_uniform()
-		H.update_body()
-
-/obj/item/clothing/suit/armor/f13/exile/cust0m/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/harpercoat
-	name = "outlaw coat"
-	desc = "A combat duster"
-	icon_state = "harperduster"
-	armor = list("tier" = 4, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/raider/reptiliatenebris
-	name = "Reptilia Tenebris"
-	desc = "An old military-grade pre-war combat armor under a weathered duster. It appears to be fitted with metal plates to replace the crumbling ceramic. The color of this duster has been washed out time and time again, giving it a more faded look as if time gripped it heavily. Along with that, the duster has been dyed a deep shade of grey, and the body armor a darker shade of green."
-	icon_state = "reptiliatenebris"
-	item_state = "reptiliatenebris"
-
-/obj/item/clothing/suit/armor/f13/raider/reptiliatenebris/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/shankduster
-	name = "follower's duster"
-	desc = "An old military-grade pre-war combat armor under a white weathered duster. An emblem of the Followers is painted on the back of it. It appears to be fitted with metal plates to replace the crumbling ceramic."
-	icon_state = "shank_follower"
-	item_state = "shank_follower"
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "energy" = 35, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
-	strip_delay = 40
-
-/obj/item/clothing/suit/armor/f13/shankduster/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
 /obj/item/clothing/suit/toggle/armor/f13/rangercustomdark
 	name = "tattered recon duster"
 	desc = "A thicker than average duster worn by rangers out in the field. This one has been dyed black and appears to be a little more heavily armoured."
@@ -842,12 +785,6 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	desc = "A suit of special military grade riot control gear and a duster, worn by 11th Armored Calvary Regiment members in The Divide before the war. Yellow markings are painted on the shoulderpads and forearm guards."
 	icon_state = "rigscustom_suit"
 	item_state = "rigscustom_suit"
-
-/obj/item/clothing/suit/armor/f13/rangercombat/pricecustom
-	name = "spider riot gear"
-	desc = "A customised and faded suit of riot gear, reminiscient of that found near Hopeville in the Divide, with a pair of wrist mounted ammo pouches for easy access to spare munitions with a pair of stripes down the back made from a fire-proof material."
-	icon_state = "price_ranger"
-	item_state = "price_ranger"
 
 /obj/item/clothing/suit/toggle/armor/f13/cloakranger //Reskinned trail ranger gear
 	name = "ranger poncho"
@@ -902,16 +839,6 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 /obj/item/clothing/suit/armor/f13/masonsuit/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
-
-//THE GRAVEYARD
-//UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING
-//IF PUT BACK INTO USE, PLEASE FILE IT BACK SOMEWHERE ABOVE
-
-/obj/item/clothing/suit/armor/warriors
-	name = "warriors armored vest"
-	desc = "The symbol of the greatest gangers."
-	icon_state = "warriors"
-	item_state = "warriors"
 
 //Mutants
 

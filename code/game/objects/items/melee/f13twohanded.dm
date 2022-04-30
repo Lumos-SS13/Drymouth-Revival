@@ -621,39 +621,6 @@ obj/item/twohanded/sledgehammer/supersledge/afterattack(atom/A, mob/living/user,
 		return
 	M.apply_damage(25, STAMINA, null, 0)
 
-// Staff of Mars			Keywords: Damage 10/10, Damage bonus Burn + Stamina
-/obj/item/twohanded/sledgehammer/marsstaff
-	name = "Staff of Mars"
-	desc = "A staff crafted by the guidance of Mars."
-	icon_state = "staff-mars"
-	icon_prefix = "staff-mars"
-	hitsound = "swing_hit"
-	attack_verb = list("bashed", "pounded", "bludgeoned", "pummeled", "enlightened")
-
-/obj/item/twohanded/sledgehammer/marsstaff/ComponentInitialize()
-	. = ..()
-	AddComponent(/datum/component/two_handed, force_unwielded = 5, force_wielded = 10, icon_wielded="[icon_prefix]2")
-
-/obj/item/twohanded/sledgehammer/marsstaff/attack(mob/living/M, mob/living/user)
-	. = ..()
-	if(!istype(M))
-		return
-	M.apply_damage(2, BURN, 0)
-	M.apply_damage(25, STAMINA, null, 0)
-
-/obj/item/twohanded/sledgehammer/marsstaff/pickup(mob/living/user, slot)
-	..()
-	if(ishuman(user))
-		var/mob/living/carbon/human/U = user
-		if(U.job in list("Priestess of Mars"))
-		else
-			to_chat(user, "<span class='userdanger'>You invoke the wrath of Mars!</span>")
-			user.emote("scream")
-			user.apply_damage(30, BURN, pick(BODY_ZONE_L_ARM, BODY_ZONE_R_ARM))
-			user.dropItemToGround(src, TRUE)
-			user.Knockdown(50)
-		return
-
 // Chainsaw			Keywords: Damage 25/55, big bonus vs wooden barricades
 /obj/item/twohanded/chainsaw
 	name = "chainsaw"

@@ -245,19 +245,11 @@
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
-/obj/item/clothing/head/helmet/f13/legion/marsheaddress
-	name = "priestess' headdress"
-	desc = "A headdress made of feathers and decorated with two golden tassles."
-	icon_state = "legion-priestess"
-	item_state = "legion-priestess"
-	dynamic_hair_suffix = "+generic"
-
 /obj/item/clothing/head/helmet/f13/legion/recruit
 	name = "legion recruit helmet"
 	desc = "It's a leather skullcap issued to recruits."
 	icon_state = "legion-recruit"
 	item_state = "legion-recruit"
-	
 
 /obj/item/clothing/head/helmet/f13/legion/prime
 	name = "legion prime helmet"
@@ -753,20 +745,6 @@
 	item_state = "bos_beret"
 
 //Oasis/Town
-
-/obj/item/clothing/head/f13/town
-	name = "town tricorn"
-	desc = "Why are there tricorns in the desert again?"
-	icon_state = "tricorn"
-	item_state = "dethat"
-	flags_inv = HIDEHAIR
-	armor = list("melee" = 25, "bullet" = 25, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 5, "rad" = 0, "fire" = 15, "acid" = 5)
-
-/obj/item/clothing/head/f13/town/mayor
-	name = "mayoral tricorn"
-	desc = "A tricorn in the desert.  Stranger things have happened."
-	armor = list("melee" = 30, "bullet" = 35, "laser" = 25, "energy" = 25, "bomb" = 25, "bio" = 15, "rad" = 10, "fire" = 15, "acid" = 5)
-
 /obj/item/clothing/head/f13/town/big
 	name = "big hat"
 	desc = "It's a big hat."

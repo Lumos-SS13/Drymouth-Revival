@@ -90,12 +90,6 @@
 	icon_state = "laced"
 	item_state = "laced"
 
-/obj/item/clothing/shoes/f13/military/desert
-	name = "desert combat boots"
-	desc = "An old pair of desert combat boots. This one seems to have a tighter fit, and a padded interior."
-	icon_state = "erin_boot"
-	item_state = "erin_boot"
-
 /obj/item/clothing/shoes/f13/military/ncr
 	name = "patrol boots"
 	desc = "A pair of standard issue brown boots, with a puttee."
@@ -213,52 +207,11 @@
 
 
 //Fluff
-
-/obj/item/clothing/shoes/f13/swimfins
-	name = "swimming fins"
-	desc = "You see, Ivan, when you wear fin in desert, they help you swim good if you find much water."
-	icon_state = "flippers"
-	item_state = "flippers"
-	clothing_flags = NOSLIP
-
-/obj/item/clothing/shoes/f13/moon
-	name = "moon boots"
-	desc = "These boots are constructed with a thin rubber exterior and cellular rubber midsole covered by colorful nylon fabrics and using polyurethane foams.<br>To the Moon!"
-	icon_state = "moon"
-	item_state = "moon"
-	armor = list(melee = 40, bullet = 20, laser = 20, energy = 20, bomb = 20, bio = 10, rad = 50, fire = 0, acid = 0)
-	cold_protection = FEET
-	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
-	heat_protection = FEET
-	max_heat_protection_temperature = SHOES_MAX_TEMP_PROTECT
-	clothing_flags = NOSLIP
-
-/obj/item/clothing/shoes/f13/doom
-	name = "mars boots"
-	desc = "These boots are constructed with a titanium alloy. There are some runes engraved on the side.<br>To Mars!"
-	icon_state = "mars"
-	item_state = "mars"
-	armor = list(melee = 40, bullet = 20, laser = 20, energy = 20, bomb = 20, bio = 80, rad = 80, fire = 80, acid = 50)
-	cold_protection = FEET
-	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
-	heat_protection = FEET
-	max_heat_protection_temperature = SHOES_MAX_TEMP_PROTECT
-	clothing_flags = NOSLIP
-
 /obj/item/clothing/shoes/f13/miner
 	name = "mining boots"
 	desc = "Heavy-duty work boots with steel-reinforced toes and some fluffy wool for extra warmth."
 	icon_state = "miner"
 	item_state = "miner"
-	armor = list(melee = 20, bullet = 0, laser = 0, energy = 0, bomb = 20, bio = 0, rad = 0, fire = 0, acid = 0)
-	cold_protection = FEET
-	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
-
-/obj/item/clothing/shoes/f13/jamrock
-	name = "Green Snakeskin Shoes"
-	desc = "They may have lost some of their lustre over the years, but these green crocodile leather shoes fit you perfectly."
-	icon_state = "jamrock_skins"
-	item_state = "jamrock_skins"
 	armor = list(melee = 20, bullet = 0, laser = 0, energy = 0, bomb = 20, bio = 0, rad = 0, fire = 0, acid = 0)
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT

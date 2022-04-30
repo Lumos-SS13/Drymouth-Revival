@@ -29,31 +29,10 @@
 	target_items = list(/obj/item/clothing/head/helmet/f13/ncr/rangercombat)
 	result_item = /obj/item/clothing/head/helmet/f13/ncr/rangercombat/desert
 
-/obj/item/modkit/riotgear/fox
-	name = "sniper riot gear modkit"
-	result_item = /obj/item/clothing/suit/armor/f13/rangercombat/foxcustom
-
-/obj/item/modkit/riotgear_helmet/fox
-	name = "reclaimed ranger-hunter combat helmet modkit"
-	result_item = /obj/item/clothing/head/helmet/f13/ncr/rangercombat/foxcustom
-
-/obj/item/modkit/riotgear/rigs
-	name = "11th armored calvary armor modkit"
-	result_item = /obj/item/clothing/suit/armor/f13/rangercombat/rigscustom
-
-/obj/item/modkit/riotgear_helmet/rigs
-	name = "11th armored calvary helmet modkit"
-	result_item = /obj/item/clothing/head/helmet/f13/ncr/rangercombat/rigscustom
-
 /obj/item/modkit/thax_patrol
 	name = "modified patrol armor modkit"
 	target_items = list(/obj/item/clothing/suit/armor/f13/combat/ncr_patrol)
 	result_item = /obj/item/clothing/suit/armor/f13/combat/ncr_patrol/thax
-
-/obj/item/modkit/shank
-	name = "follower's duster modkit"
-	target_items = list(/obj/item/clothing/suit/armor/f13/raider)
-	result_item = /obj/item/clothing/suit/armor/f13/shankduster
 
 /obj/item/modkit/piper_hat
 	name = "gambler's hat modkit"
