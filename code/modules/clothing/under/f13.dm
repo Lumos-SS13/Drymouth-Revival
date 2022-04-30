@@ -597,12 +597,6 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
-/obj/item/clothing/under/f13/xenon	//Currently broken when worn
-	name = "flashy jumpsuit"
-	desc = "A jumpsuit that seems to come from another time."
-	icon_state = "xenon"
-	item_state = "xenon"
-
 /obj/item/clothing/under/f13/roving
 	name = "roving trader outfit "
 	desc = "It's an outfit commonly worn by the roving traders."

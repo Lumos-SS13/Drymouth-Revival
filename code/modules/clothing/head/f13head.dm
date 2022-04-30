@@ -874,27 +874,6 @@
 	icon_state = "midwestpa_helm"
 	item_state = "midwestpa_helm"
 
-/obj/item/clothing/head/helmet/f13/jasonmask
-	name = "jasons mask"
-	desc = "A metal mask made specifically for jason."
-	icon_state = "jasonmask"
-	item_state = "jasonmask"
-
-/obj/item/clothing/head/welding/f13/fire
-	name = "cremator welding helmet"
-	desc = "A welding helmet with flames painted on it.<br>It sure is creepy but also badass."
-	icon_state = "welding_fire"
-	item_state = "welding"
-	tint = 1
-
-/obj/item/clothing/head/helmet/f13/atombeliever
-	name = "believer headdress"
-	desc = "The headwear of the true faith."
-	icon_state = "atombeliever"
-	item_state = "atombeliever"
-	dynamic_hair_suffix = ""
-	dynamic_fhair_suffix = ""
-
 /obj/item/clothing/head/f13/flatranger
 	name = "NCR gambler ranger hat"
 	desc = "A rustic, homely style gambler hat adorning an NCR Ranger patch. Yeehaw!"

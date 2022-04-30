@@ -824,20 +824,6 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	item_state = "duster_recon_custom"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
-/obj/item/clothing/suit/armor/f13/legion/palacent/custom_excess
-	name = "Champion of Kanab's Armor"
-	desc = "The armor of the Champion and Conqueror of the city in Utah named Kanab. The armor is made up of pieces of Power Armor and pre-war Riot Gear, the shin guards are spraypainted a dark crimson and the Power Armour pauldron has a red trim. The symbol of a Pheonix is carefully engraved and painted upon the chest piece... I wonder what it means.."
-	icon_state = "palacent_excess"
-	item_state = "palacent_excess"
-
-/obj/item/clothing/suit/donor/soldier
-	name = "Soldier's Greatcoat"
-	desc = "A resistant, tan greatcoat, typically worn by pre-War Generals."
-	icon_state = "soldier"
-	item_state = "soldier"
-	armor = list("melee" = 30, "bullet" = 33, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-
 /obj/item/clothing/suit/armor/f13/rangercombat/foxcustom
 	name = "sniper riot gear"
 	desc = "A customized and well-worn suit of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck."

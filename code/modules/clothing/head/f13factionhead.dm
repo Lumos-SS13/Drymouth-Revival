@@ -358,14 +358,6 @@
 	armor = list("melee" = 50, "bullet" = 65, "laser" = 25, "energy" = 35, "bomb" = 39, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 
-/obj/item/clothing/head/helmet/f13/legion/palacent
-	name = "paladin-slayer centurion helmet"
-	desc = "The once-marvelous helmet of the T-45d power armor set, repurposed by the Legion into a symbol of its might. It has a large plume of red horse hair across the top of it going horizontally, donoting the rank of Centurion."
-	icon_state = "legion-palacent"
-	item_state = "legion-palacent"
-	armor = list("melee" = 65, "bullet" = 45, "laser" = 30, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
-	resistance_flags = LAVA_PROOF | FIRE_PROOF
-
 /obj/item/clothing/head/helmet/f13/legion/legate
 	name = "legion legate helmet"
 	desc = "A custom forged steel full helmet complete with abstract points and arches. The face is extremely intimidating, as it was meant to be. This particular one was ordered to be forged by Caesar, given to his second legate in exchange for his undying loyalty to Caesar."
@@ -971,13 +963,6 @@
 	desc = "A standard issue vault security helmet, pretty robust."
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 25, energy = "25", "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 50)
 	slowdown = 0.01
-
-
-/obj/item/clothing/head/helmet/riot/vaultsec/vc
-	name = "vtcc riot helmet"
-	desc = "A riot helmet adapted from the design of most pre-war riot helmets, painted blue."
-	icon_state = "vtcc_riot_helmet"
-	item_state = "vtcc_riot_helmet"
 
 //Old World Militaries
 //US Army and PLA
