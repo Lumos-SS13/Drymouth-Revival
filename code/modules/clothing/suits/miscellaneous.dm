@@ -978,20 +978,6 @@
 /obj/item/clothing/head/hooded/winterhood/christmashoodrg
 	icon_state = "christmashoodrg"
 
-/obj/item/clothing/suit/hooded/wintercoat/polychromic
-	name = "polychromic winter coat"
-	icon_state = "coatpoly"
-	item_state = "coatpoly"
-	hoodtype = /obj/item/clothing/head/hooded/winterhood/polychromic
-
-/obj/item/clothing/suit/hooded/wintercoat/polychromic/ComponentInitialize()
-	. = ..()
-	AddElement(/datum/element/polychromic, list("#6A6964", "#C4B8A6", "#0000FF"), 3)
-
-/obj/item/clothing/head/hooded/winterhood/polychromic
-	icon_state = "winterhood_poly"
-	item_state = "winterhood_poly"
-
 /obj/item/clothing/suit/striped_sweater
 	name = "striped sweater"
 	desc = "Reminds you of someone, but you just can't put your finger on it..."

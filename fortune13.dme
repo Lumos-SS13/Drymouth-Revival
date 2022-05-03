@@ -613,7 +613,6 @@
 #include "code\datums\elements\light_blocking.dm"
 #include "code\datums\elements\mob_holder.dm"
 #include "code\datums\elements\photosynthesis.dm"
-#include "code\datums\elements\polychromic.dm"
 #include "code\datums\elements\scavenging.dm"
 #include "code\datums\elements\snail_crawl.dm"
 #include "code\datums\elements\spellcasting.dm"

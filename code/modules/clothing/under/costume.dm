@@ -89,17 +89,6 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, HIGHLANDER)
 
-/obj/item/clothing/under/costume/kilt/polychromic
-	name = "polychromic kilt"
-	desc = "It's not a skirt!"
-	icon_state = "polykilt"
-	body_parts_covered = CHEST|GROIN|ARMS|LEGS
-	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
-
-/obj/item/clothing/under/costume/kilt/polychromic/ComponentInitialize()
-	. = ..()
-	AddElement(/datum/element/polychromic, list("#FFFFFF", "#F08080"), 2)
-
 /obj/item/clothing/under/costume/gladiator
 	name = "gladiator uniform"
 	desc = "Are you not entertained? Is that not why you are here?"

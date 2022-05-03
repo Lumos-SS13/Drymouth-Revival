@@ -173,8 +173,7 @@
 					/obj/item/clothing/suit/jacket/leather/overcoat = 4,
 					/obj/item/clothing/under/pants/mustangjeans = 3,
 					/obj/item/clothing/neck/necklace/dope = 5,
-					/obj/item/clothing/suit/jacket/letterman_nanotrasen = 5,
-					/obj/item/clothing/suit/hooded/wintercoat/polychromic = 5)
+					/obj/item/clothing/suit/jacket/letterman_nanotrasen = 5)
 	refill_canister = /obj/item/vending_refill/clothing
 	default_price = PRICE_CHEAP
 	extra_price = PRICE_BELOW_NORMAL
