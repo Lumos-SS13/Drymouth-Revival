@@ -5,15 +5,6 @@
 // WASTELAND //
 ///////////////
 
-// Recipe Firesuit + metal chestplate + 50 welding fuel + 1 HQ + 1 plasteel
-/obj/item/clothing/suit/armored/heavy/sulphite
-	name = "sulphite raider suit"
-	desc = "There are still some old asbestos fireman suits laying around from before the war. How about adding a ton of metal, plasteel and a combustion engine to one? The resulting armor is surprisingly effective at dissipating energy."
-	icon_state = "sulphite"
-	item_state = "sulphite"
-	armor = list("melee" = 55, "bullet" = 40, "laser" = 50, "energy" = 50, "bomb" = 30, "bio" = 25, "rad" = 30, "fire" = 95, "acid" = 15)
-	resistance_flags = FIRE_PROOF
-
 /obj/item/clothing/suit/armored/heavy/metal
 	name = "metal armor suit"
 	desc = "A suit of welded, fused metal plates. Bulky, but with great protection."
@@ -26,13 +17,6 @@
 	desc = "Taking pieces off from a wrecked power armor will at least give you thick plating, but don't expect too much of this shot up, piecemeal armor.."
 	icon_state = "recycled_power"
 	armor = list("melee" = 50, "bullet" = 45, "laser" = 30, "energy" = 25, "bomb" = 35, "bio" = 5, "rad" = 15, "fire" = 15, "acid" = 5)
-
-/obj/item/clothing/suit/armored/heavy/raidermetal
-	name = "iron raider suit"
-	desc = "More rust than metal, with gaping holes in it, this armor looks like a pile of junk. Under the rust some quality steel still remains however."
-	icon_state = "raider_metal"
-	item_state = "raider_metal"
-	armor = list("melee" = 55, "bullet" = 40, "laser" = 15, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 15, "fire" = 20, "acid" = 0)
 
 /obj/item/clothing/suit/armored/heavy/wardenplate
 	name = "warden plates"

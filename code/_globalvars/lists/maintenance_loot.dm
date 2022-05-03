@@ -375,9 +375,7 @@ GLOBAL_LIST_INIT(loot_t3_armor, list(
 	/obj/item/clothing/suit/armor/f13/combat/dark,
 	/obj/item/clothing/head/helmet/f13/combat/dark,
 	/obj/item/clothing/suit/armor/f13/combat/mk2/dark,
-	/obj/item/clothing/head/helmet/f13/combat/mk2/dark,
-	/obj/item/clothing/suit/armor/f13/sulphitearmor,
-	/obj/item/clothing/head/helmet/f13/sulphitehelm
+	/obj/item/clothing/head/helmet/f13/combat/mk2/dark
 ))
 
 GLOBAL_LIST_INIT(loot_t4_armor, list(

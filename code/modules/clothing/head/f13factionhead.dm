@@ -163,18 +163,6 @@
 	flags_inv = HIDEEARS|HIDEHAIR
 	slowdown = 0.025
 
-/obj/item/clothing/head/helmet/f13/raidermetal
-	name = "metal raider helmet"
-	desc = "A metal helmet, rusty and awful."
-	icon_state = "raidermetal"
-	item_state = "raidermetal"
-	can_toggle = TRUE
-	armor = list("melee" = 35, "bullet" = 25, "laser" = 40, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0)
-	flags_inv = HIDEMASK|HIDEEYES|HIDEFACE
-	strip_delay = 80
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-
 /obj/item/clothing/head/helmet/f13/raidercombathelmet
 	name = "combat raider helmet"
 	desc = "A combat helmet modified with metal plating"
@@ -897,21 +885,15 @@
 	AddComponent(/datum/component/armor_plate)
 
 //Wayfarer
+
+/obj/item/clothing/head/f13/helmet/wayfarer
+	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
+
 /obj/item/clothing/head/helmet/f13/deathskull
 	name = "eerie helm"
 	desc = "A helmet fastened from the skull of a deer. Something about it doesn't look right."
 	icon_state = "shamskull"
 	item_state = "shamskull"
-	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
-
-/obj/item/clothing/head/f13/helmet/wayfarer
-	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
-
-/obj/item/clothing/head/helmet/f13/wayfarer/hunter
-	name = "hunter headdress"
-	desc = "Azure decorations dangle from the sturdy cap, it is sung that the wearers of these are watched over by the spirits."
-	icon_state = "hunterhelm"
-	item_state = "hunterhelm"
 	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
 
 /obj/item/clothing/head/helmet/f13/wayfarer/antler

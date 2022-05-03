@@ -85,30 +85,6 @@
 				/obj/item/stack/sheet/sinew = 2)
 	always_available = FALSE
 
-/*
-/datum/crafting_recipe/headpike
-	name = "Spike Head (Glass Spear)"
-	time = 65
-	reqs = list(/obj/item/twohanded/spear = 1,
-				/obj/item/bodypart/head = 1)
-	parts = list(/obj/item/bodypart/head = 1,
-			/obj/item/twohanded/spear = 1)
-	result = /obj/structure/headpike
-	category = CAT_PRIMAL
-	subcategory = CAT_TRIBAL
-
-/datum/crafting_recipe/headpikebone
-	name = "Spike Head (Bone Spear)"
-	time = 65
-	reqs = list(/obj/item/twohanded/bonespear = 1,
-				/obj/item/bodypart/head = 1)
-	parts = list(/obj/item/bodypart/head = 1,
-			/obj/item/twohanded/bonespear = 1)
-	result = /obj/structure/headpike/bone
-	category = CAT_PRIMAL
-	subcategory = CAT_TRIBAL
-*/
-
 /datum/crafting_recipe/tribal/mantlebrown
 	name = "Brown Mantle"
 	result = /obj/item/clothing/neck/mantle/brown
@@ -130,15 +106,6 @@
 	reqs = list(/obj/item/stack/sheet/bone = 1)
 	tools = list(TOOL_WORKBENCH)
 
-//Gecko outfits already exist, see below.
-/*datum/crafting_recipe/tribal/maletribal
-	//name = "Coarse Tribal outfit"
-	//result = /obj/item/clothing/under/f13/tribal
-	//reqs = list(/obj/item/stack/sheet/cloth = 3)
-	//tools = list(TOOL_WORKBENCH)
-	//time = 30
-*/
-
 /datum/crafting_recipe/tribal/tribaloutfit
 	name = "Male Tribal Outfit"
 	result = /obj/item/clothing/under/f13/tribal
@@ -151,21 +118,6 @@
 	result = /obj/item/clothing/under/f13/female/tribal
 	time = 20
 	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 2)
-	tools = list(TOOL_WORKBENCH)
-
-/datum/crafting_recipe/tribal/tribalarmoredcloth
-	name = "Patched Tribal Loincloth"
-	result = /obj/item/clothing/under/f13/wayfarer/hunter
-	time = 20
-	reqs = list(/obj/item/stack/sheet/cloth = 3,
-				/obj/item/stack/sheet/leather = 1)
-	tools = list (TOOL_WORKBENCH)
-
-/datum/crafting_recipe/tribal/tribalcloth
-	name = "Tribal Loincloth"
-	result = /obj/item/clothing/under/f13/wayfarer
-	time = 15
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
 	tools = list(TOOL_WORKBENCH)
 
 /datum/crafting_recipe/warpaint
@@ -190,18 +142,7 @@
 	subcategory = CAT_TRIBAL
 	always_available = FALSE
 
-/*datum/crafting_recipe/voodoo
-	name = "Voodoo"
-	result = /obj/item/reagent_containers/pill/patch/voodoo
-	time = 20
-	reqs = list(/obj/item/reagent_containers/food/snacks/meat/slab/human/ghoul = 2,
-				/obj/item/reagent_containers/food/snacks/grown/feracactus = 2,
-				/obj/item/reagent_containers/food/snacks/grown/yucca = 1)
-	tools = list(TOOL_WORKBENCH)
-	category = CAT_PRIMAL
-	subcategory = CAT_TRIBAL
-	always_available = FALSE
-
+/*
 /datum/crafting_recipe/coyotechew
 	name = "Coyote Tobacco Chew"
 	result = /obj/item/reagent_containers/pill/patch/coyotechew
@@ -212,152 +153,6 @@
 	subcategory = CAT_TRIBAL
 	always_available = FALSE
 */
-
-//White Legs
-/datum/crafting_recipe/tribalwar/whitelegs
-	always_available = FALSE
-
-/datum/crafting_recipe/tribalwar/whitelegs/lightarmour
-	name = "White Legs Light Armour"
-	result = /obj/item/clothing/suit/f13/tribal/light/whitelegs
-	time = 30
-	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 2,
-				/obj/item/stack/sheet/leather = 2,
-				/obj/item/stack/crafting/metalparts = 4)
-
-/datum/crafting_recipe/tribalwar/whitelegs/armour
-	name = "White Legs Armour"
-	result = /obj/item/clothing/suit/f13/tribal/whitelegs
-	time = 60
-	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 3,
-				/obj/item/stack/sheet/leather = 2,
-				/obj/item/stack/crafting/goodparts = 5)
-
-/datum/crafting_recipe/tribalwar/whitelegs/heavyarmour
-	name = "White Legs Heavy Armour"
-	result = /obj/item/clothing/suit/f13/tribal/heavy/whitelegs
-	time = 60
-	reqs = list(/obj/item/clothing/suit/f13/tribal/whitelegs = 1,
-				/obj/item/stack/sheet/animalhide/gecko = 3,
-				/obj/item/stack/sheet/leather = 2,
-				/obj/item/stack/crafting/goodparts = 5)
-
-/datum/crafting_recipe/tribalwar/whitelegs/garb
-	name = "White Legs Garb"
-	result = /obj/item/clothing/under/f13/whitelegs
-	time = 30
-	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 1,
-				/obj/item/stack/sheet/cloth = 2)
-
-/datum/crafting_recipe/tribalwar/whitelegs/femalegarb
-	name = "Female White Legs Garb"
-	result = /obj/item/clothing/under/f13/female/whitelegs
-	time = 30
-	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 1,
-				/obj/item/stack/sheet/cloth = 2)
-
-//Rustwalkers
-/datum/crafting_recipe/tribalwar/rustwalkers
-	always_available = FALSE
-
-/datum/crafting_recipe/tribalwar/rustwalkers/lightarmour
-	name = "Rustwalkers Light Armour"
-	result = /obj/item/clothing/suit/f13/tribal/light/rustwalkers
-	time = 30
-	reqs = list(/obj/item/stack/sheet/leather = 4,
-				/obj/item/stack/crafting/metalparts = 4)
-
-/datum/crafting_recipe/tribalwar/rustwalkers/armour
-	name = "Rustwalkers Armour"
-	result = /obj/item/clothing/suit/f13/tribal/rustwalkers
-	time = 60
-	reqs = list(/obj/item/stack/crafting/metalparts = 3,
-				/obj/item/stack/sheet/leather = 2,
-				/obj/item/stack/crafting/goodparts = 5)
-
-/datum/crafting_recipe/tribalwar/rustwalkers/heavyarmour
-	name = "Rustwalkers Heavy Armour"
-	result = /obj/item/clothing/suit/f13/tribal/heavy/rustwalkers
-	time = 60
-	reqs = list(/obj/item/clothing/suit/f13/tribal/light/rustwalkers =1,
-				/obj/item/clothing/suit/f13/tribal/rustwalkers = 1,
-				/obj/item/stack/sheet/leather = 2,
-				/obj/item/salvage/crafting = 1)
-
-/datum/crafting_recipe/tribalwar/rustwalkers/garb
-	name = "Rustwalkers Garb"
-	result = /obj/item/clothing/under/f13/rustwalkers
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
-
-/datum/crafting_recipe/tribalwar/rustwalkers/femalegarb
-	name = "Female Rustwalkers Garb"
-	result = /obj/item/clothing/under/f13/female/rustwalkers
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
-
-//Dead Horses
-/datum/crafting_recipe/tribalwar/deadhorses
-	always_available = FALSE
-
-/datum/crafting_recipe/tribalwar/deadhorses/lightarmour
-	name = "Dead Horses Light Armour"
-	result = /obj/item/clothing/suit/f13/tribal/light/deadhorses
-	time = 30
-	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 2,
-				/obj/item/stack/sheet/cloth = 1)
-
-/datum/crafting_recipe/tribalwar/deadhorses/armour
-	name = "Dead Horses Armour"
-	result = /obj/item/clothing/suit/f13/tribal/deadhorses
-	time = 60
-	reqs = list(/obj/item/stack/crafting/metalparts = 2,
-				/obj/item/stack/sheet/animalhide/gecko = 3,
-				/obj/item/stack/sheet/cloth = 2)
-
-/datum/crafting_recipe/tribalwar/deadhorses/heavyarmour
-	name = "Dead Horses Heavy Armour"
-	result = /obj/item/clothing/suit/f13/tribal/heavy/deadhorses
-	time = 60
-	reqs = list(/obj/item/clothing/suit/f13/tribal/light/deadhorses =1,
-				/obj/item/clothing/suit/f13/tribal/deadhorses = 1,
-				/obj/item/stack/sheet/leather = 2)
-
-/datum/crafting_recipe/tribalwar/deadhorses/garb
-	name = "Dead Horses Garb"
-	result = /obj/item/clothing/under/f13/deadhorses
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
-
-/datum/crafting_recipe/tribalwar/deadhorses/femalegarb
-	name = "Female Dead Horses Garb"
-	result = /obj/item/clothing/under/f13/female/deadhorses
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
-
-//Sorrows
-/datum/crafting_recipe/tribalwar/sorrows
-	always_available = FALSE
-
-/datum/crafting_recipe/tribalwar/sorrows/armour
-	name = "Sorrows Armour"
-	result = /obj/item/clothing/suit/f13/tribal/light/sorrows
-	time = 30
-	reqs = list(/obj/item/stack/sheet/leather = 2,
-				/obj/item/stack/sheet/cloth = 1,
-				/obj/item/stack/sheet/metal = 1)
-
-/datum/crafting_recipe/tribalwar/sorrows/garb
-	name = "Sorrows Garb"
-	result = /obj/item/clothing/under/f13/sorrows
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
-
-/datum/crafting_recipe/tribalwar/sorrows/femalegarb
-	name = "Female Sorrows Garb"
-	result = /obj/item/clothing/under/f13/female/sorrows
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
 
 /datum/crafting_recipe/tribalwar/sorrows/yaoguaigauntlet
 	name = "Yao Guai Gauntlet"

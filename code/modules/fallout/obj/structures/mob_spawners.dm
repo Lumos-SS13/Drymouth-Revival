@@ -251,7 +251,6 @@
 					/mob/living/simple_animal/hostile/raider/firefighter = 2,
 					/mob/living/simple_animal/hostile/raider/baseball = 5,
 					/mob/living/simple_animal/hostile/raider/ranged = 2,
-					/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged = 1,
 					/mob/living/simple_animal/hostile/raider/ranged/biker = 1,
 					/mob/living/simple_animal/hostile/raider/tribal = 1)
 
@@ -264,7 +263,6 @@
 /obj/structure/nest/raider/ranged
 	max_mobs = 3
 	mob_types = list(/mob/living/simple_animal/hostile/raider/ranged = 2,
-					/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged = 1,
 					/mob/living/simple_animal/hostile/raider/ranged/biker = 1)
 
 /obj/structure/nest/raider/boss

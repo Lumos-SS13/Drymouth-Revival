@@ -125,17 +125,6 @@
 	. = ..()
 	AddComponent(/datum/component/rad_insulation, RAD_NO_INSULATION, TRUE, FALSE)
 
-//Sulphite Helm
-
-/obj/item/clothing/head/helmet/f13/sulphitehelm
-	name = "sulphite helmet"
-	desc = "A sulphite raider helmet, affixed with thick anti-ballistic glass over the eyes."
-	icon_state = "sulphite_helm"
-	item_state = "sulphite_helm"
-	armor = list("melee" = 25, "bullet" = 55,"laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-
 //Metal
 
 /obj/item/clothing/head/helmet/knight/f13/metal
@@ -823,30 +812,11 @@
 	icon_state = "macarthur"
 	item_state = "macarthur"
 
-
-/obj/item/clothing/head/helmet/f13/ncr/rangercombat/rigscustom
-	name = "11th armored calvary helmet"
-	desc = "An advanced combat helmet used by the 11th Armored Calvary Regiment before the war. There is a worn and faded 11th Armored Calvary Regiment's insignia just above the visor. The helmet itself has some scratches and dents sustained from battle."
-	icon_state = "rigscustom_helmet"
-	item_state = "rigscustom_helmet"
-	icon = 'icons/fallout/clothing/hats.dmi'
-
 /obj/item/clothing/head/helmet/f13/ncr/rangercombat/pricecustom
 	name = "spider riot helmet"
 	desc = "A customised riot helmet reminiscient of the more advanced riot helmets found in the Divide, sporting purple lenses over the traditional red or green and a pair of red fangs painted over the respirator. The back of the helmet has a the face of an albino spider painted over it."
 	icon_state = "price_ranger"
 	item_state = "price_ranger"
-
-/obj/item/clothing/head/helmet/f13/ncr/rangercombat/foxcustom
-	name = "reclaimed ranger-hunter combat helmet"
-	desc = "A reclaimed Ranger-Hunter centurion helmet, carefully and lovingly restored to working condition with a sniper's veil wrapped around the neck. 'DE OPPRESSO LIBER' is stenciled on the front."
-	icon_state = "foxranger"
-	item_state = "foxranger"
-	actions_types = list(/datum/action/item_action/toggle)
-	toggle_message = "You put the sniper's veil on"
-	alt_toggle_message = "You take the sniper's veil off"
-	can_toggle = 1
-	toggle_cooldown = 0
 
 /obj/item/clothing/head/helmet/f13/ncr/rangercombat/degancustom
 	name = "reclaimed ranger-hunter combat helmet"

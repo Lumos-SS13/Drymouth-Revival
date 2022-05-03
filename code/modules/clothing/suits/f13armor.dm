@@ -632,17 +632,6 @@
 			return BLOCK_SHOULD_REDIRECT | BLOCK_REDIRECTED | BLOCK_SUCCESS | BLOCK_PHYSICAL_INTERNAL
 	return ..()
 
-/obj/item/clothing/suit/armor/f13/sulphitearmor
-	name = "sulphite armor"
-	desc = "A combination of what seems to be raider metal armor with a jerry-rigged flame-exhaust system and ceramic plating."
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
-	resistance_flags = FIRE_PROOF
-	icon_state = "sulphite"
-	item_state = "sulphite"
-	armor = list("melee" = 25, "bullet" = 55,"laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 45)
-	slowdown = 0.20
-
 /obj/item/clothing/suit/toggle/armor
 	body_parts_covered = CHEST|GROIN
 	cold_protection = CHEST|GROIN
@@ -767,24 +756,12 @@
 	item_state = "duster_recon_custom"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
-/obj/item/clothing/suit/armor/f13/rangercombat/foxcustom
-	name = "sniper riot gear"
-	desc = "A customized and well-worn suit of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck."
-	icon_state = "foxranger"
-	item_state = "foxranger"
-
 /obj/item/clothing/suit/armor/f13/rangercombat/degancustom
 	name = "sniper riot gear"
 	desc = "A customized and well-worn suit of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck."
 	icon_state = "elite_riot"
 	item_state = "elite_riot"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/rangercombat/rigscustom
-	name = "11th armored calvary armor"
-	desc = "A suit of special military grade riot control gear and a duster, worn by 11th Armored Calvary Regiment members in The Divide before the war. Yellow markings are painted on the shoulderpads and forearm guards."
-	icon_state = "rigscustom_suit"
-	item_state = "rigscustom_suit"
 
 /obj/item/clothing/suit/toggle/armor/f13/cloakranger //Reskinned trail ranger gear
 	name = "ranger poncho"
@@ -804,39 +781,6 @@
 	strip_delay = 40
 
 /obj/item/clothing/suit/armor/f13/herbertranger/Initialize() //HQ parts reinforcement, just like raider gear
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/marlowsuit //Raider armour reskin.
-	name = "Marlow gang overcoat"
-	desc = "A heavy raw buckskin overcoat littered with aged bullet holes and frays from regular wear-and-tear."
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	icon_state = "marlowsuit"
-	item_state = "marlowsuit"
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-	strip_delay = 40
-
-/obj/item/clothing/suit/armor/f13/marlowsuit/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/marlowsuit/ikesuit
-	name = "gunfighter's overcoat"
-	desc = "A thick double-breasted red leather overcoat worn through with scattered tears and bullet holes."
-	icon_state = "ikesuit"
-	item_state = "ikesuit"
-
-/obj/item/clothing/suit/armor/f13/ikesuit/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/marlowsuit/masonsuit
-	name = "vagabond's vest"
-	desc = "A padded thick red leather vest, coated in stitched pockets and other mends."
-	icon_state = "masonsuit"
-	item_state = "masonsuit"
-
-/obj/item/clothing/suit/armor/f13/masonsuit/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
@@ -887,56 +831,10 @@
 
 /obj/item/clothing/suit/f13/tribal/ncr
 	name = "tribalized NCR armor vest"
-	desc = "A suit of worn dated NCR armor, it seems to have seen better days."
+	desc = "A refurbished suit of NCR armor, likely appropriated. Probably won't make you popular amoungst them."
 	icon_state = "ncr_tribal_armor"
 	item_state = "ncr_tribal_armor"
 	armor = list("melee" = 25, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-
-/obj/item/clothing/suit/f13/tribal/light/rustwalkers
-	name = "Rustwalkers light armor"
-	desc = "A duster made from some combination of leather and cloth, probably torn out of an old car. The shoulders appear to have had parts of an engine either strapped or stitched onto them. Commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_armour_light"
-	item_state = "rustwalkers_armour_light"
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-
-/obj/item/clothing/suit/f13/tribal/rustwalkers
-	name = "Rustwalkers armor"
-	desc = "A chestplate, pauldron and vambrace that bear a distinct resemblance to a coolant tank, engine valves and an exhaust. Commonly worn by members of the Rustwalkers tribe"
-	icon_state = "rustwalkers_armour"
-	item_state = "rustwalkers_armour"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
-	slowdown = 0.1
-
-/obj/item/clothing/suit/f13/tribal/heavy/rustwalkers
-	name = "Rustwalkers heavy armor"
-	desc = "A car seat leather duster, a timing belt bandolier, and armour plating made from various parts of a car, it surely would weigh the wearer down. Commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_armour_heavy"
-	item_state = "rustwalkers_armour_heavy"
-	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 20, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
-	slowdown = 0.15
-
-/obj/item/clothing/suit/f13/tribal/light/whitelegs
-	name = "White Legs light armour"
-	desc = "A small series of tan and khaki armour plates, held in place with a thin bandolier. Commonly worn by members of the White Legs tribe."
-	icon_state = "white_legs_armour_light"
-	item_state = "white_legs_armour_light"
-
-/obj/item/clothing/suit/f13/tribal/whitelegs
-	name = "White Legs armour"
-	desc = "A series of tan and khaki armour plates, held in place with a considerable amount of strapping. Commonly worn by members of the White Legs tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny
-	icon_state = "white_legs_armour"
-	item_state = "white_legs_armour"
-
-/obj/item/clothing/suit/f13/tribal/heavy/whitelegs
-	name = "White Legs heavy armour"
-	desc = "A series of tan and khaki armour plates, held in place with a considerable amount of strapping and possibly duct tape. Commonly worn by members of the White Legs tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny
-	icon_state = "white_legs_armour_heavy"
-	item_state = "white_legs_armour_heavy"
 
 /obj/item/clothing/suit/f13/tribal/light/deadhorses
 	name = "Dead Horses light armour"

@@ -249,13 +249,6 @@
 	item_state = "blueranger"
 	item_color = "blueranger"
 
-/obj/item/clothing/under/f13/ranger/modif_ranger
-	name = "green ranger outfit"
-	desc = "A ranger outfit with a green cotton longshirt and dark grey jeans along with a black bandana around the neck."
-	icon_state = "modif_ranger"
-	item_state = "modif_ranger"
-	item_color = "modif_ranger"
-
 /obj/item/clothing/under/f13/rustic
 	name = "rustic outfit"
 	desc = "Simple rustic clothes for your day to day life in the wastes."
@@ -628,52 +621,6 @@
 	item_state = "shamanrags"
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
-
-/obj/item/clothing/under/f13/wayfarer
-	name = "loincloth"
-	desc = "Hand-woven cotton ornated with pieces of turquoise form covering the groin, which can also be adjusted to cover the breasts as well. Well suited for a simpler life lived by the Wayfarer tribe."
-	icon_state = "gatherer"
-	item_state = "gatherer"
-	item_color = "gatherer"
-	body_parts_covered = GROIN
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/wayfarer/shamanblue
-	name = "blue shaman garbs"
-	desc = "Finely crafted cotton clothing, dyed blue with anil. The care and craftsmanship put into such an outfit indicates high status in the Wayfarer tribe. Can be adjusted to suit the wearer's preferences."
-	icon_state = "shamanblue"
-	item_state = "shamanblue"
-	item_color = "shamanblue"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/wayfarer/shamanred
-	name = "red shaman garbs"
-	desc = "Finely crafted cotton clothing, dyed red with madder root. The care and craftsmanship put into such an outfit indicates high status in the Wayfarer tribe. Can be adjusted to suit the wearer's preferences."
-	icon_state = "shamanred"
-	item_state = "shamanred"
-	item_color = "shamanred"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/wayfarer/acolyte
-	name = "acolyte's garbs"
-	desc = "Hand-woven cotton ornated with pieces of turquoise form little more than loincloth, which can be adjusted depending on the wearer's preferences. Well suited for a simpler life lived by the Wayfarer tribe."
-	icon_state = "acolyte"
-	item_state = "acolyte"
-	item_color = "acolyte"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/wayfarer/hunter
-	name = "rugged loincloth"
-	desc = "Minimal yet hardy clothing padded in places by leather which can be taken off if need be, covering no more than it needs to. Ideal for those of the Wayfarer tribe who spend their time away from the tribe in pursuit of the hunt."
-	icon_state = "hunter"
-	item_state = "hunter"
-	item_color = "hunter"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
 
 //OUTLAW DESERTERS
 /obj/item/clothing/under/f13/exile
@@ -1508,37 +1455,6 @@
 
 //TRIBALS
 
-/obj/item/clothing/under/f13/whitelegs
-	name = "White Legs garb"
-	desc = "A segmented pair of dark leather shorts with an orange belt, paired with a distinct facewrap, worn by members of the White Legs tribe."
-	icon_state = "white_legs_under"
-	item_state = "white_legs_under"
-	item_color = "white_legs_under"
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/female/whitelegs
-	name = "White Legs garb"
-	desc = "A segmented pair of dark leather shorts with an orange belt and matching sports bra, paired with a distinct facewrap, worn by members of the White Legs tribe."
-	icon_state = "white_legs_under_f"
-	item_state = "white_legs_under_f"
-	item_color = "white_legs_under_f"
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/rustwalkers
-	name = "Rustwalkers outfit"
-	desc = "A plaid shirt with torn short sleeves with a set of grey cargo pants, commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_under"
-	item_state = "rustwalkers_under"
-	item_color = "rustwalkers_under"
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/female/rustwalkers
-	name = "Rustwalkers outfit"
-	desc = "A cropped red leather jacket with a torn sleeve, alongside a pair of torn brown trousers patched with fishnets, commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_under_f"
-	item_state = "rustwalkers_under_f"
-	item_color = "rustwalkers_under_f"
-
 /obj/item/clothing/under/f13/deadhorses
 	name = "Dead Horses garb"
 	desc = "A simple leather bandolier with a pouch, paired with a gecko-hide loincloth. Commonly worn by members of the Dead Horses tribe."
@@ -1552,18 +1468,4 @@
 	icon_state = "dead_horses_under_f"
 	item_state = "dead_horses_under_f"
 	item_color = "dead_horses_under_f"
-
-/obj/item/clothing/under/f13/sorrows
-	name = "Sorrows garb"
-	desc = "A simple pair of blue shorts with a length of the fabric extending down each leg. Commonly worn by members of the Sorrows tribe."
-	icon_state = "sorrows_under"
-	item_state = "sorrows_under"
-	item_color = "sorrows_under"
-
-/obj/item/clothing/under/f13/female/sorrows
-	name = "Sorrows garb"
-	desc = "A simple set of blue shorts with a length of the fabric extending down each leg and similarly coloured sports bra. Commonly worn by members of the Sorrows tribe."
-	icon_state = "sorrows_under_f"
-	item_state = "sorrows_under_f"
-	item_color = "sorrows_under_f"
 

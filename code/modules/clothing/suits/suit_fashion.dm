@@ -310,19 +310,6 @@
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	armor = list("melee" = 10, "bullet" = 5, "laser" = 0, "energy" = 0, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 
-/obj/item/clothing/suit/hooded/cloak/desert/raven_cloak
-	name = "Raven cloak"
-	desc = "A huge cloak made out of hundreds of knife-like black bird feathers. It glitters in the light, ranging from blue to dark green and purple."
-	icon_state = "raven_cloak"
-	item_state = "raven_cloak"
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/desert/raven_hood
-
-/obj/item/clothing/head/hooded/cloakhood/desert/raven_hood
-	name = "Raven cloak hood"
-	desc = "A hood fashioned out of patchwork and feathers"
-	icon_state = "raven_hood"
-	item_state = "raven_hood"
-
 /obj/item/clothing/suit/f13/jamrock
 	name = "disco-ass blazer"
 	desc = "Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve."

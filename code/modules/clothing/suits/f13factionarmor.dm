@@ -155,15 +155,6 @@
 	armor = list("melee" = 40, "bullet" = 40 , "laser" = 40,"energy" = 25, "bomb" = 50, "bio" = 50, "rad" = 10, "fire" = 60, "acid" = 10)
 	slowdown = 0.1
 
-/obj/item/clothing/suit/armor/f13/raider/raidermetal
-	name = "metal raider armor"
-	desc = "A suit of welded, fused metal plates. Looks bulky, with great protection."
-	icon_state = "raider_metal"
-	item_state = "raider_metal"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 45, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0)
-	resistance_flags = FIRE_PROOF
-	slowdown = 0.25
-
 //////////
 //LEGION//
 //////////
@@ -489,18 +480,6 @@
 	slowdown = 0.01
 
 /obj/item/clothing/suit/armor/f13/trailranger/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/modif_r_vest
-	name = "subdued ranger vest"
-	desc = "A quaint little jacket and scarf worn by NCR trail rangers. This one has the leather bleached and the scarf dyed black."
-	icon_state = "modif_r_vest"
-	item_state = "modif_r_vest"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-	slowdown = 0.05
-
-/obj/item/clothing/suit/armor/f13/modif_r_vest/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 

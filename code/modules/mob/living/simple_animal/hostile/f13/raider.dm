@@ -130,18 +130,6 @@
 	summon_backup(15)
 	say("KILL 'EM DEAD, BOYS!")
 
-// RANGED RAIDER WITH ARMOR
-/mob/living/simple_animal/hostile/raider/ranged/sulphiteranged
-	icon_state = "metal_raider"
-	icon_living = "metal_raider"
-	icon_dead = "metal_raider_dead"
-	maxHealth = 180
-	health = 180
-	projectiletype = /obj/item/projectile/bullet/c45/op
-	projectilesound = 'sound/weapons/gunshot.ogg'
-	loot = list(/obj/item/gun/ballistic/automatic/pistol/m1911/custom, /obj/item/clothing/suit/armor/f13/metalarmor/reinforced, /obj/item/clothing/head/helmet/f13/metalmask/mk2)
-
-
 // FIREFIGHTER RAIDER
 /mob/living/simple_animal/hostile/raider/firefighter
 	icon_state = "firefighter_raider"
@@ -206,22 +194,6 @@
 	shoes = /obj/item/clothing/shoes/f13/rag
 	mask = /obj/item/clothing/mask/facewrap
 	head = /obj/item/clothing/head/helmet/f13/fiend
-
-//////////////
-// SULPHITE //
-//////////////
-
-/mob/living/simple_animal/hostile/raider/sulphite
-	name = "Sulphite Brawler"
-	desc = "A raider with low military grade armor and a shishkebab"
-	icon_state = "sulphite"
-	icon_living = "sulphite"
-	icon_dead= "sulphite_dead"
-	maxHealth = 220
-	health = 220
-	melee_damage_lower = 40
-	melee_damage_upper = 55
-	loot = list(/obj/item/locked_box/misc/money/all/low)
 
 /////////////
 // JUNKERS //
