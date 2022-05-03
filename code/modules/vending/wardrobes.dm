@@ -113,9 +113,7 @@
 					/obj/item/clothing/suit/hooded/surgical = 5,
 					/obj/item/clothing/mask/surgical = 5,
 					/obj/item/clothing/under/rank/medical/doctor/util = 5,
-					/obj/item/clothing/under/rank/medical/paramedic/red = 5,
-					/obj/item/clothing/suit/toggle/labcoat/emt/red = 5,
-					/obj/item/clothing/suit/toggle/labcoat/emt/highvis = 5)
+					/obj/item/clothing/under/rank/medical/paramedic/red = 5)
 	refill_canister = /obj/item/vending_refill/wardrobe/medi_wardrobe
 	payment_department = ACCOUNT_MED
 	cost_multiplier_per_dept = list(ACCOUNT_MED = 0)
@@ -216,10 +214,7 @@
 					/obj/item/clothing/shoes/sneakers/black = 3,
 					/obj/item/clothing/gloves/fingerless = 3,
 					/obj/item/clothing/head/soft/black = 3,
-					/obj/item/clothing/mask/bandana/skull = 2,
-					/obj/item/clothing/under/misc/mechsuitred = 1,
-					/obj/item/clothing/under/misc/mechsuitwhite = 1,
-					/obj/item/clothing/under/misc/mechsuitblue = 1)
+					/obj/item/clothing/mask/bandana/skull = 2)
 	contraband = list(/obj/item/clothing/suit/hooded/techpriest = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/robo_wardrobe
 	payment_department = ACCOUNT_SCI
@@ -537,7 +532,6 @@
 					/obj/item/clothing/head/caphat/beret/white = 1,
 					/obj/item/clothing/under/rank/captain/parade = 1,
 					/obj/item/clothing/suit/captunic = 1,
-					/obj/item/clothing/under/rank/captain/femformal = 1,
 					/obj/item/clothing/glasses/sunglasses/gar/supergar = 1,
 					/obj/item/clothing/gloves/color/captain = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/cap_wardrobe

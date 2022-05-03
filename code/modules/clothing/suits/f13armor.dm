@@ -938,30 +938,6 @@
 	icon_state = "white_legs_armour_heavy"
 	item_state = "white_legs_armour_heavy"
 
-/obj/item/clothing/suit/f13/tribal/light/eighties
-	name = "80s light armour"
-	desc = "A black leather jacket with the number 80 stitched onto the back. Worn by the members of the 80s tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	icon_state = "80s_armour_light"
-	item_state = "80s_armour_light"
-
-/obj/item/clothing/suit/f13/tribal/eighties
-	name = "80s armour"
-	desc = "A plain, slightly cropped leather jacket with a black lining and neck brace, paired with a set of metal vambraces and a black belt of pouches. Commonly worn by the members of the 80s tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	icon_state = "80s_armour"
-	item_state = "80s_armour"
-
-/obj/item/clothing/suit/f13/tribal/heavy/eighties
-	name = "80s heavy armour"
-	desc = "A ballistic duster with the number 80 stitched onto the back worn over a breastplate made from a motorcycle's engine housing, with kneepads made from stirrups. Worn by the members of the 80s tribe."
-	icon_state = "80s_armour_heavy"
-	item_state = "80s_armour_heavy"
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-
-	armor = list("melee" = 35, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-	slowdown = 0.1
-
 /obj/item/clothing/suit/f13/tribal/light/deadhorses
 	name = "Dead Horses light armour"
 	desc = "A simple leather bandolier and gecko hide chest covering. Worn by the members of the Dead Horses tribe."

@@ -357,33 +357,6 @@
 	armor = list("melee" = 40, "bullet" = 20, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 
-/obj/item/clothing/suit/hooded/parka/medical
-	name = "armored medical parka"
-	icon_state = "armormedical"
-	desc = "A staunch, practical parka made out of a wind-breaking jacket, reinforced with metal plates."
-	
-	hoodtype = /obj/item/clothing/head/hooded/parkahood/medical
-
-/obj/item/clothing/head/hooded/parkahood/medical
-	name = "armored medical parka hood"
-	icon_state = "armorhoodmedical"
-	desc = " A protective & concealing parka hood."
-	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-
-/obj/item/clothing/suit/hooded/parka/grey
-	name = "grey armored parka"
-	icon_state = "armorgrey"
-	desc = "A staunch, practical parka made out of a wind-breaking jacket, reinforced with metal plates."
-	armor = list("tier" = 3, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 60)
-	hoodtype = /obj/item/clothing/head/hooded/parkahood/grey
-
-/obj/item/clothing/head/hooded/parkahood/grey
-	name = "armored grey parka hood"
-	icon_state = "armorhoodgrey"
-	desc = "A protective & concealing parka hood."
-	armor = list("tier" = 3, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 60)
-	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-
 /obj/item/clothing/suit/f13/jamrock
 	name = "disco-ass blazer"
 	desc = "Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve."

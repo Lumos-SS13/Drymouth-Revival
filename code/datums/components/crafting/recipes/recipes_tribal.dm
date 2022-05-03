@@ -296,47 +296,6 @@
 	time = 30
 	reqs = list(/obj/item/stack/sheet/cloth = 3)
 
-//Eighties
-/datum/crafting_recipe/tribalwar/eighties
-	always_available = FALSE
-
-/datum/crafting_recipe/tribalwar/eighties/lightarmour
-	name = "Eighties Light Armour"
-	result = /obj/item/clothing/suit/f13/tribal/light/eighties
-	time = 30
-	reqs = list(/obj/item/stack/sheet/leather = 4,
-				/obj/item/stack/sheet/cloth = 2,
-				/obj/item/stack/crafting/metalparts = 1)
-
-/datum/crafting_recipe/tribalwar/eighties/armour
-	name = "Eighties Armour"
-	result = /obj/item/clothing/suit/f13/tribal/eighties
-	time = 60
-	reqs = list(/obj/item/stack/crafting/goodparts = 1,
-				/obj/item/stack/sheet/leather = 3,
-				/obj/item/stack/sheet/cloth = 4)
-
-/datum/crafting_recipe/tribalwar/eighties/heavyarmour
-	name = "Eighties Heavy Armour"
-	result = /obj/item/clothing/suit/f13/tribal/heavy/eighties
-	time = 60
-	reqs = list(/obj/item/clothing/suit/f13/tribal/light/eighties =1,
-				/obj/item/clothing/suit/f13/tribal/eighties = 1,
-				/obj/item/stack/sheet/leather = 2,
-				/obj/item/salvage/crafting = 1)
-
-/datum/crafting_recipe/tribalwar/eighties/garb
-	name = "Eighties Garb"
-	result = /obj/item/clothing/under/f13/eighties
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
-
-/datum/crafting_recipe/tribalwar/eighties/femalegarb
-	name = "Female Eighties Garb"
-	result = /obj/item/clothing/under/f13/female/eighties
-	time = 30
-	reqs = list(/obj/item/stack/sheet/cloth = 3)
-
 //Dead Horses
 /datum/crafting_recipe/tribalwar/deadhorses
 	always_available = FALSE

@@ -55,7 +55,6 @@ GLOBAL_DATUM_INIT(denmob, /datum/gang/denmob, new)
 		/datum/gang_item/clothing/raider_uniform,
 		/datum/gang_item/clothing/jester_uniform,
 		/datum/gang_item/clothing/soviet_uniform,
-		/datum/gang_item/clothing/biker_uniform,
 		/datum/gang_item/clothing/chairmen_uniform,
 		
 		/datum/gang_item/equipment/bundleelguapo,

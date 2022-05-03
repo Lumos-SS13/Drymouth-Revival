@@ -105,14 +105,6 @@
 	item_state = "scoutclothes"
 	item_color = "scoutclothes"
 
-/obj/item/clothing/under/f13/ncr/sniper
-	name = "NCR sniper fatigues"
-	desc = "A standard duty uniform for snipers of the New California Republic."
-	can_adjust = FALSE
-	icon_state = "ncr_snipermgs"
-	item_state = "ncr_snipermgs"
-	item_color = "ncr_snipermgs"
-
 /obj/item/clothing/under/f13/ncr/pants
 	name = "NCR fatigue pants"
 	desc = "A set of standard issue fatigue pants without the upper overcoat. For when you really need to show off your guns."
@@ -256,13 +248,6 @@
 	icon_state = "blueranger"
 	item_state = "blueranger"
 	item_color = "blueranger"
-
-/obj/item/clothing/under/f13/ncr_formal_uniform/majzirilli
-	name = "Major Zirilli's service uniform"
-	desc = "An immaculately maintained NCRA service uniform, weighted down with golden embellishments signifying their authority."
-	icon_state = "majzirilli"
-	item_state = "majzirilli"
-	item_color = "majzirilli"
 
 /obj/item/clothing/under/f13/ranger/modif_ranger
 	name = "green ranger outfit"
@@ -421,21 +406,7 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
-/obj/item/clothing/under/f13/romaskirt/auxilia
-	name = "roma auxilia fatigues"
-	desc = "A black skirt and a thick long sleeve cotton shirt."
-	icon_state = "roma_auxilia"
-	item_state = "roma_auxilia"
-	item_color = "roma_auxilia"
-	var/sleeves_adjusted = 0
-	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
-	alt_covers_chest = TRUE
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = TRUE
-
 // Generic
-
 /obj/item/clothing/under/f13/chaplain
 	name = "Chaplain outfit"
 	desc = "Apparel of a religious priest, or minister of sorts."
@@ -502,31 +473,11 @@
 	item_state = "combat_shirt"
 	item_color = "combat_shirt"
 
-/obj/item/clothing/under/f13/Retro_Biker_Vest
-	name = "future vest"
-	desc = "A Pink Vest with Black Pants. Quite futuristic looking."
-	icon_state = "Biker"
-	item_state = "Biker"
-
 /obj/item/clothing/under/f13/chinasuitcosmetic
 	name = "dysfunctional chinese stealth suit"
 	desc = "A matte grey set of ultralight composite above a carefully padded noise-absorbant suit. This unit, used by Chinese special forces during the great war, looks to have had it's fusion matrix removed, and is all but a fashion statement now."
 	icon_state = "stealthsuit"
 	item_state = "stealthsuit"
-
-/obj/item/clothing/under/f13/bearvest //This is being used as Donator gear, check as to whether MidgetDragon still donating before using for anything else.
-	name = "Great Bear Vest"
-	desc = "A casual set of ripped jeans and a duster. The duster seems to have a familiar symbol spray painted on the back. The inside of the duster seems to have the letters MEB sewn on."
-	icon_state = "bearvest"
-	item_state = "bearvest"
-
-/* //slave rags, crafted from 2 cloth- uncomment when sprites available
-/obj/item/clothing/under/f13/slaverags
-	name = "slave rags"
-	desc = "Rags made for only the most basic and unworthy of slaves."
-	icon_state = "slaverags"
-	item_state = "slaverags"
-*/
 
 /obj/item/clothing/under/f13/erpdress
 	name = "bandage dress"
@@ -757,12 +708,6 @@
 	body_parts_covered = GROIN
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/exile/enclave
-	name = "disheveled peacekeeper uniform"
-	desc = "Khaki standard issue uniform over a black turtleneck. This one seems to be damaged."
-	icon_state = "enclave_uniformexile"
-	item_state = "enclave_uniformexile"
 
 //stuff ported from WW2
 /obj/item/clothing/under/f13/ncr_formal_uniform
@@ -1520,40 +1465,6 @@
 	item_state = "locust"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
 
-/obj/item/clothing/under/f13/gunner
-	name = "gunner combat uniform"
-	desc = "An ancient combat uniform, that went out of use around the time of the Great War. it has scratch marks and a skull painted on it to symbolize that its part of the gunners"
-	icon_state = "GunnerPlates"
-	item_state = "GunnerPlates"
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
-
-/obj/item/clothing/under/f13/marlowduds
-	name = "Marlow gang attire"
-	desc = "A washed out crimson overshirt with blue neckerchief and suspended black slacks. The attire is synonymous with the colors of the criminal Marlow gang."
-	icon_state = "marlowduds"
-	item_state = "marlowduds"
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/ikeduds
-	name = "gunfighter's gang attire"
-	desc = "A washed out crimson overshirt with blue neckerchief and raw buckskin trousers. The attire is synonymous with the colors of the criminal Marlow gang."
-	icon_state = "ikeduds"
-	item_state = "ikeduds"
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/helenduds
-	name = "gambler's gang attire"
-	desc = "A worn black dress shirt under a deep crimson vest with blue neckerchief and suspended black slacks. The attire is synonymous with the colors of the criminal Marlow gang."
-	icon_state = "helenduds"
-	item_state = "helenduds"
-	can_adjust = TRUE
-
-/obj/item/clothing/under/f13/masonduds
-	name = "vagabond's gang attire"
-	desc = "A pair of worn buckskin trousers held up by a heavy pistol belt. The attire is synonymous with the colors of the criminal Marlow gang."
-	icon_state = "masonduds"
-	item_state = "masonduds"
-
 //Super Mutants
 
 /obj/item/clothing/under/f13/mutieshorts
@@ -1627,20 +1538,6 @@
 	icon_state = "rustwalkers_under_f"
 	item_state = "rustwalkers_under_f"
 	item_color = "rustwalkers_under_f"
-
-/obj/item/clothing/under/f13/eighties
-	name = "Eighties outfit"
-	desc = "A thin, short sleeved grey shirt that's longer down the back, with black jeans and a series of chains used as a belt. Commonly worn by members of the Eighties tribe."
-	icon_state = "80s_under"
-	item_state = "80s_under"
-	item_color = "80s_under"
-
-/obj/item/clothing/under/f13/female/eighties
-	name = "Eighties outfit"
-	desc = "A simple grey corset with brown jeans and a series of chains used as a belt and harness. Commonly worn by members of the Eighties tribe."
-	icon_state = "80s_under_f"
-	item_state = "80s_under_f"
-	item_color = "80s_under_f"
 
 /obj/item/clothing/under/f13/deadhorses
 	name = "Dead Horses garb"

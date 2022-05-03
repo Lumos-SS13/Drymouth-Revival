@@ -142,12 +142,6 @@
 	cost = 20
 	item_path = /obj/item/clothing/under/jester
 
-/datum/gang_item/clothing/biker_uniform
-	name = "Biker uniform"
-	id = "biker_uniform"
-	cost = 20
-	item_path = /obj/item/clothing/under/f13/Retro_Biker_Vest
-
 /datum/gang_item/clothing/scarecrow_uniform
 	name = "Scarecrow uniform"
 	id = "scarecrow_uniform"
