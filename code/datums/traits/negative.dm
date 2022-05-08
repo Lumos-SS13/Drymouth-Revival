@@ -66,7 +66,7 @@ GLOBAL_LIST_EMPTY(family_heirlooms)
 		if("Recruit Legionnaire")
 			heirloom_type = pick(/obj/item/melee/onehanded/machete, /obj/item/melee/onehanded/club/warclub, /obj/item/clothing/accessory/talisman,/obj/item/clothing/accessory/skullcodpiece/fake)
 		if("Den Mob Boss")
-			heirloom_type = /obj/item/lighter/gold
+			heirloom_type = /obj/item/lighter
 		if("Den Doctor")
 			heirloom_type = /obj/item/card/id/dogtag/MDfakepermit
 		if("Farmer")

@@ -138,7 +138,7 @@
 	melee_damage_upper = 35
 	harm_intent_damage = 8
 
-	projectiletype = /obj/item/projectile/bullet/c46x30mm
+	projectiletype = /obj/item/projectile/bullet/a357 // hodge-podge, since G-11 doesn't exist incode
 	projectilesound = 'sound/weapons/gunshot_smg.ogg'
 	attack_verb_simple = "pistol-whips"
 

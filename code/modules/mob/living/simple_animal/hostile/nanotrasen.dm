@@ -54,7 +54,7 @@
 	icon_state = "nanotrasenrangedsmg"
 	icon_living = "nanotrasenrangedsmg"
 	rapid = 3
-	casingtype = /obj/item/ammo_casing/c46x30mm
+	casingtype = /obj/item/ammo_casing/a357
 	projectilesound = 'sound/weapons/gunshot_smg.ogg'
 	loot = list(/obj/item/gun/ballistic/automatic/autopipe,
 				/obj/effect/mob_spawn/human/corpse/nanotrasensoldier)
