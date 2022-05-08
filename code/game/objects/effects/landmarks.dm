@@ -601,9 +601,6 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/immune
 	name = "Legion Immune"
 
-/obj/effect/landmark/start/f13/priestess
-	name = "Priestess of Mars"
-
 /obj/effect/landmark/start/f13/decanvet
 	name = "Legion Veteran Decanus"
 	icon_state = "Decanus"

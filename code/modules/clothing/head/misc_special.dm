@@ -15,7 +15,7 @@
  */
 /obj/item/clothing/head/welding
 	name = "welding helmet"
-	desc = "(III) A head-mounted face cover designed to protect the wearer completely from space-arc eye."
+	desc = "A head-mounted face cover designed to protect the wearer completely from space-arc eye."
 	icon_state = "welding"
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	item_state = "welding"
@@ -39,7 +39,7 @@
  */
 /obj/item/clothing/head/hardhat/cakehat
 	name = "cakehat"
-	desc = "(I) You put the cake on your head. Brilliant."
+	desc = "You put the cake on your head. Brilliant."
 	icon_state = "hardhat0_cakehat"
 	item_state = "hardhat0_cakehat"
 	hat_type = "cakehat"
@@ -86,7 +86,7 @@
  */
 /obj/item/clothing/head/ushanka
 	name = "ushanka"
-	desc = "(I) Perfect for winter in Siberia, da?"
+	desc = "Perfect for winter in Siberia, da?"
 	icon_state = "ushankadown"
 	item_state = "ushankadown"
 	alternate_screams = list('sound/voice/human/cyka1.ogg', 'sound/voice/human/cheekibreeki.ogg')
@@ -115,7 +115,7 @@
  */
 /obj/item/clothing/head/hardhat/pumpkinhead
 	name = "carved pumpkin"
-	desc = "(I) A jack o' lantern! Believed to ward off evil spirits."
+	desc = "A jack o' lantern! Believed to ward off evil spirits."
 	icon_state = "hardhat0_pumpkin"
 	item_state = "hardhat0_pumpkin"
 	hat_type = "pumpkin"
@@ -197,15 +197,6 @@
 	..()
 	user.remove_alt_appearance("standard_borg_disguise")
 
-
-/obj/item/clothing/head/welding/weldingfire
-	icon_state = "weldingfire"
-	item_state = "weldingfire"
-
-/obj/item/clothing/head/welding/weldingjapan
-	icon_state = "weldingjapan"
-	item_state = "weldingjapan"
-
 /obj/item/clothing/head/wig
 	name = "wig"
 	desc = "A bunch of hair without a head attached."
@@ -247,7 +238,7 @@
 
 /obj/item/clothing/head/bronze
 	name = "bronze hat"
-	desc = "(I) A crude helmet made out of bronze plates. It offers very little in the way of protection."
+	desc = "A crude helmet made out of bronze plates. It offers very little in the way of protection."
 	icon = 'icons/obj/clothing/clockwork_garb.dmi'
 	icon_state = "clockwork_helmet_old"
 	flags_inv = HIDEEARS|HIDEHAIR
@@ -327,7 +318,7 @@
 	icon_state = "m1helm"
 	item_state = "helmet"
 	armor = list("tier" = 1, "bomb" = 5, "bio" = 0, "rad" = 0, "acid" = -15)
-	desc = "(I) A dilapidated helmet, obsolete even by pre-war standards. An ace of spades is tucked into the band around the outer shell."
+	desc = "A dilapidated helmet, obsolete even by pre-war standards. An ace of spades is tucked into the band around the outer shell."
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny/spacenam	//So you can stuff other things in the elastic band instead of it simply being a fluff thing.
 
 //The "pocket" for the M1 helmet so you can tuck things into the elastic band

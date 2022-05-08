@@ -39,26 +39,6 @@
 	name = "raider treads"
 	path = /obj/item/clothing/shoes/f13/rag
 
-/datum/gear/shoes/wraps
-	name = "golden leg wraps"
-	path = /obj/item/clothing/shoes/wraps 
-	cost = 2
-
-/datum/gear/shoes/wrapssilver
-	name = "silver leg wraps"
-	path = /obj/item/clothing/shoes/wraps/silver
-	cost = 2
-
-/datum/gear/shoes/wrapsblue
-	name = "blue leg wraps"
-	path = /obj/item/clothing/shoes/wraps/blue 
-	cost = 2
-
-/datum/gear/shoes/wrapsred
-	name = "red leg wraps"
-	path = /obj/item/clothing/shoes/wraps/red 
-	cost = 2
-
 /datum/gear/shoes/wornboots
 	name = "worn boots"
 	path = /obj/item/clothing/shoes/f13/explorer
@@ -96,11 +76,6 @@
 /datum/gear/shoes/leather
 	name = "leather combat boots"
 	path = /obj/item/clothing/shoes/f13/military/leather 
-	cost = 2
-
-/datum/gear/shoes/desert
-	name = "desert combat boots"
-	path = /obj/item/clothing/shoes/f13/military/desert 
 	cost = 2
 
 /datum/gear/shoes/plated

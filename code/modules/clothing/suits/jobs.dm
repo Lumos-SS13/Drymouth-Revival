@@ -206,15 +206,3 @@
 	icon_state = "labcoat_emt"
 	item_state = "labcoat_emt"
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
-
-/obj/item/clothing/suit/toggle/labcoat/emt/red
-	name = "red emt vest"
-	desc = "A red vest with reflective strips for emergency medical technicians."
-	icon_state = "labcoat_emtred"
-	item_state = "labcoat_emtred"
-
-/obj/item/clothing/suit/toggle/labcoat/emt/highvis
-	name = "high visibility emt vest"
-	desc = "a high visibility vest for emergency medical technicians."
-	icon_state = "labcoat_highvis"
-	item_state = "labcoat_highvis"

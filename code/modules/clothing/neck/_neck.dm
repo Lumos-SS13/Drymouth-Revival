@@ -170,8 +170,6 @@
 	desc = "It's for pets. Though you probably could wear it yourself, you'd doubtless be the subject of ridicule. It seems to be made out of a polychromic material."
 	icon_state = "petcollar"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/collar
-	var/poly_states = 1
-	var/poly_colors = list("#00BBBB")
 	var/tagname = null
 	var/treat_path = /obj/item/reagent_containers/food/snacks/cookie
 
@@ -180,12 +178,6 @@
 	if(treat_path)
 		new treat_path(src)
 
-/obj/item/clothing/neck/petcollar/ComponentInitialize()
-	. = ..()
-	if(!poly_states)
-		return
-	AddElement(/datum/element/polychromic, poly_colors, poly_states)
-
 /obj/item/clothing/neck/petcollar/attack_self(mob/user)
 	tagname = stripped_input(user, "Would you like to change the name on the tag?", "Name your new pet", "Spot", MAX_NAME_LEN)
 	name = "[initial(name)] - [tagname]"
@@ -193,14 +185,11 @@
 /obj/item/clothing/neck/petcollar/leather
 	name = "leather pet collar"
 	icon_state = "leathercollar"
-	poly_states = 2
-	poly_colors = list("#222222", "#888888")
 
 /obj/item/clothing/neck/petcollar/choker
 	desc = "Quite fashionable... if you're somebody who's just read their first BDSM-themed erotica novel."
 	name = "choker"
 	icon_state = "choker"
-	poly_colors = list("#222222")
 
 /obj/item/clothing/neck/petcollar/locked
 	name = "locked collar"
@@ -228,14 +217,11 @@
 /obj/item/clothing/neck/petcollar/locked/leather
 	name = "leather pet collar"
 	icon_state = "leathercollar"
-	poly_states = 2
-	poly_colors = list("#222222", "#888888")
 
 /obj/item/clothing/neck/petcollar/locked/choker
 	name = "choker"
 	desc = "Quite fashionable... if you're somebody who's just read their first BDSM-themed erotica novel."
 	icon_state = "choker"
-	poly_colors = list("#222222")
 
 /obj/item/key/collar
 	name = "Collar Key"

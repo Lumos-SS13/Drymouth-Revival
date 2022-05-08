@@ -102,10 +102,6 @@
 					/obj/item/clothing/suit/ianshirt = 3,
 					/obj/item/clothing/shoes/laceup = 5,
 					/obj/item/clothing/shoes/sneakers/black = 6,
-					/obj/item/clothing/shoes/wraps = 3,
-					/obj/item/clothing/shoes/wraps/silver = 3,
-					/obj/item/clothing/shoes/wraps/red = 3,
-					/obj/item/clothing/shoes/wraps/blue = 3,
 					/obj/item/clothing/shoes/sandal = 3,
 					/obj/item/clothing/gloves/fingerless = 3,
 					/obj/item/clothing/glasses/orange = 5,
@@ -177,8 +173,7 @@
 					/obj/item/clothing/suit/jacket/leather/overcoat = 4,
 					/obj/item/clothing/under/pants/mustangjeans = 3,
 					/obj/item/clothing/neck/necklace/dope = 5,
-					/obj/item/clothing/suit/jacket/letterman_nanotrasen = 5,
-					/obj/item/clothing/suit/hooded/wintercoat/polychromic = 5)
+					/obj/item/clothing/suit/jacket/letterman_nanotrasen = 5)
 	refill_canister = /obj/item/vending_refill/clothing
 	default_price = PRICE_CHEAP
 	extra_price = PRICE_BELOW_NORMAL

@@ -337,29 +337,6 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 	lace_time = 8 SECONDS
 
-// kevin is into feet
-/obj/item/clothing/shoes/wraps
-	name = "gilded leg wraps"
-	desc = "Ankle coverings. These ones have a golden design."
-	icon_state = "gildedcuffs"
-	body_parts_covered = FALSE
-	can_be_tied = FALSE
-
-/obj/item/clothing/shoes/wraps/silver
-	name = "silver leg wraps"
-	desc = "Ankle coverings. Not made of real silver."
-	icon_state = "silvergildedcuffs"
-
-/obj/item/clothing/shoes/wraps/red
-	name = "red leg wraps"
-	desc = "Ankle coverings. Show off your style with these shiny red ones!"
-	icon_state = "redcuffs"
-
-/obj/item/clothing/shoes/wraps/blue
-	name = "blue leg wraps"
-	desc = "Ankle coverings. Hang ten, brother."
-	icon_state = "bluecuffs"
-
 /obj/item/clothing/shoes/cowboyboots
 	name = "cowboy boots"
 	desc = "A standard pair of brown cowboy boots."

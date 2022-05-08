@@ -603,7 +603,7 @@
 
 /datum/gear/uniform/sniper
 	name = "NCR sniper outfit"
-	path = /obj/item/clothing/under/f13/ncr/sniper
+	path = /obj/item/clothing/under/f13/ncr
 	restricted_desc = "Sergeants, Corporals"
 	restricted_roles = list("NCR Corporal",
 							"NCR Sergeant"

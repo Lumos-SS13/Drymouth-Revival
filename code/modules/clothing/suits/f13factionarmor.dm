@@ -155,15 +155,6 @@
 	armor = list("melee" = 40, "bullet" = 40 , "laser" = 40,"energy" = 25, "bomb" = 50, "bio" = 50, "rad" = 10, "fire" = 60, "acid" = 10)
 	slowdown = 0.1
 
-/obj/item/clothing/suit/armor/f13/raider/raidermetal
-	name = "metal raider armor"
-	desc = "A suit of welded, fused metal plates. Looks bulky, with great protection."
-	icon_state = "raider_metal"
-	item_state = "raider_metal"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 45, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0)
-	resistance_flags = FIRE_PROOF
-	slowdown = 0.25
-
 //////////
 //LEGION//
 //////////
@@ -318,19 +309,6 @@
 	item_state = "legion_slaveleather"
 	allowed = list(/obj/item/hatchet, /obj/item/scythe, /obj/item/cultivator, /obj/item/shovel)
 	armor = list("melee" = 20, "bullet" = 5, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 0)
-
-/*
-/obj/item/clothing/suit/armor/f13/legion/vet/orator
-	name = "legion orator armor"
-	desc = "he armor appears to be based off of a suit of Legion veteran armor, with the addition of bracers, a chainmail skirt, and large pauldrons.  A tabard emblazoned with the bull is loosely draped over the torso."
-	icon_state = "legheavy"
-	
-/obj/item/clothing/suit/armor/f13/legion/palacent/custom_excess
-	name = "Champion of Kanab's Armor"
-	desc = "(VI) The armor of the Champion and Conqueror of the city in Utah named Kanab. The armor is made up of pieces of Power Armor and pre-war Riot Gear, the shin guards are spraypainted a dark crimson and the Power Armour pauldron has a red trim. The symbol of a Pheonix is carefully engraved and painted upon the chest piece... I wonder what it means.."
-	icon_state = "palacent_excess"
-	item_state = "palacent_excess"
-*/
 
 //NCR
 /obj/item/clothing/suit/armor/f13/utilityvest
@@ -502,18 +480,6 @@
 	slowdown = 0.01
 
 /obj/item/clothing/suit/armor/f13/trailranger/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/modif_r_vest
-	name = "subdued ranger vest"
-	desc = "A quaint little jacket and scarf worn by NCR trail rangers. This one has the leather bleached and the scarf dyed black."
-	icon_state = "modif_r_vest"
-	item_state = "modif_r_vest"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-	slowdown = 0.05
-
-/obj/item/clothing/suit/armor/f13/modif_r_vest/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
@@ -837,7 +803,7 @@
 
 /obj/item/clothing/suit/armor/f13/town/embroidered
 	name = "embroidered trenchcoat"
-	desc = "(V) A custom armored trench coat with extra-length and a raised collar. There's a flower embroidered onto the back, although the color is a little faded."
+	desc = "A custom armored trench coat with extra-length and a raised collar. There's a flower embroidered onto the back, although the color is a little faded."
 	icon_state = "towntrench_special"
 	item_state = "towntrench_special"
 	armor = list("tier" = 5, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
@@ -860,14 +826,14 @@
 
 /obj/item/clothing/suit/armor/f13/combat/enclave
 	name = "enclave combat armor"
-	desc = "(VI) An old set of pre-war combat armor, painted black."
+	desc = "An old set of pre-war combat armor, painted black."
 	icon_state = "enclave_new"
 	item_state = "enclave_new"
 	armor = list("tier" = 6, "energy" = 75, "bomb" = 70, "bio" = 80, "rad" = 80, "fire" = 80, "acid" = 50)
 
 /obj/item/clothing/suit/armor/f13/environmentalsuit
 	name = "enclave envirosuit"
-	desc = "(II) An advanced white and airtight environmental suit. It seems to be equipped with a fire-resistant seal and a refitted internals system. This one looks to have been developed by the Enclave sometime after the Great War. You'd usually exclusively see this on scientists of the Enclave."
+	desc = "An advanced white and airtight environmental suit. It seems to be equipped with a fire-resistant seal and a refitted internals system. This one looks to have been developed by the Enclave sometime after the Great War. You'd usually exclusively see this on scientists of the Enclave."
 	icon_state = "envirosuit"
 	item_state = "envirosuit"
 	w_class = WEIGHT_CLASS_BULKY
@@ -883,7 +849,7 @@
 
 /obj/item/clothing/suit/armor/f13/combat/remnant
 	name = "remnant combat armor"
-	desc = "(VI) A dark armor, used commonly in espionage or shadow ops."
+	desc = "A dark armor, used commonly in espionage or shadow ops."
 	icon_state = "remnant"
 	item_state = "remnant"
 	armor = list("tier" = 6, "energy" = 75, "bomb" = 70, "bio" = 80, "rad" = 80, "fire" = 80, "acid" = 50)

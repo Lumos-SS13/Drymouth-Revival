@@ -329,7 +329,6 @@
 				/obj/effect/spawner/bundle/f13/armor/combat,
 				/obj/effect/spawner/bundle/f13/armor/bulletproof,
 				/obj/effect/spawner/bundle/f13/armor/combat/dark,
-				/obj/effect/spawner/bundle/f13/armor/sulphite,
 				/obj/effect/spawner/bundle/f13/armor/vault,
 				)
 
@@ -364,14 +363,6 @@
 	items = list(
 				/obj/item/clothing/suit/armor/f13/combat/dark,
 				/obj/item/clothing/head/helmet/f13/combat/dark
-				)
-
-
-/obj/effect/spawner/bundle/f13/armor/sulphite
-	name = "sulphite raider armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armor/f13/sulphitearmor,
-				/obj/item/clothing/head/helmet/f13/sulphitehelm
 				)
 
 /obj/effect/spawner/lootdrop/f13/armor/tier4 //TIER 4 ARMOR
@@ -417,21 +408,6 @@
 				/obj/item/clothing/suit/armor/f13/combat/mk2/dark,
 				/obj/item/clothing/head/helmet/f13/combat/mk2/dark
 				)
-
-/obj/effect/spawner/bundle/f13/armor/raiderpa
-	name = "raider power armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armor/f13/power_armor/raiderpa,
-				/obj/item/clothing/head/helmet/f13/power_armor/raiderpa_helm
-				)
-
-/obj/effect/spawner/bundle/f13/armor/hotrodpa
-	name = "hotrod power armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armor/f13/power_armor/hotrod,
-				/obj/item/clothing/head/helmet/f13/power_armor/hotrod
-				)
-
 
 /obj/effect/spawner/lootdrop/f13/armor/tier5 //TIER 5 ARMOR
 	name = "tier 5 armor"
@@ -2148,21 +2124,3 @@
 			/obj/item/storage/box/ration/ranger_dinner,
 			)
 
-// Beta // Obsolete
-/obj/effect/spawner/lootdrop/f13/betatesting
-	name = "betatesting"
-	icon = 'icons/obj/janitor.dmi'
-	icon_state = "cheesie_honkers"
-	lootcount = 1
-	loot = list(
-			/obj/effect/spawner/bundle/testa = 10,
-			/obj/effect/spawner/bundle/testb = 10,
-			/obj/effect/spawner/bundle/testc = 10,
-			/obj/effect/spawner/bundle/testd = 10,
-			/obj/effect/spawner/bundle/teste = 10,
-			/obj/effect/spawner/bundle/testf = 10,
-			/obj/effect/spawner/bundle/testg = 10,
-			/obj/effect/spawner/bundle/testh = 10,
-			/obj/effect/spawner/bundle/testi = 10,
-			/obj/effect/spawner/bundle/testj = 10,
-			)

@@ -1072,13 +1072,6 @@
 	item_state = "card-id_leg2"
 	assignment = "centurion medallion"
 
-/obj/item/card/id/dogtag/legpriest
-	name = "priestess medallion"
-	desc = "A golden disc awarded to the trusted spiritual guide to the nearby Legion."
-	icon_state = "legionmedallioncent"
-	item_state = "card-id_leg2"
-	assignment = "priestess medallion"
-
 /obj/item/card/id/dogtag/legorator
 	name = "orator medallion"
 	desc = "A golden disc awarded to the one who is a dedicated ambassador for Caesar's Legion."

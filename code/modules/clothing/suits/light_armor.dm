@@ -430,25 +430,6 @@
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 40, "bio" = 20, "rad" = 20, "fire" = 40, "acid" = 10)
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 
-/obj/item/clothing/suit/hooded/cloak/razorclaw
-	name = "razorclaw cloak"
-	icon_state = "razorclaw"
-	desc = "A suit of armour fashioned out of the remains of a legendary deathclaw."
-	armor = list("melee" = 45, "bullet" = 35, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 50, "acid" = 10)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/razorclaw
-	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/head/hooded/cloakhood/razorclaw
-	name = "razorclaw helm"
-	icon_state = "helmet_razorclaw"
-	desc = "The skull of a legendary deathclaw."
-	armor = list("melee" = 45, "bullet" = 35, "laser" = 25, "energy" = 25, "bomb" = 50, "bio" = 30, "rad" = 25, "fire" = 50, "acid" = 10)
-	heat_protection = HEAD
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-
 ///////////
 // MISC. //
 ///////////
@@ -472,19 +453,3 @@
 	siemens_coefficient = 1.1
 	armor = list("melee" = 15, "bullet" = 25, "laser" = 10, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
-/*
-// Heavy
-/obj/item/clothing/suit/armor/f13/atomzealot 
-	name = "zealot armor"
-	desc = "Praise be to Atom."
-	icon_state = "atomzealot"
-	item_state = "atomzealot"
-	armor = list("melee" = 15, "bullet" = 10, "laser" = 30, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/atomwitch
-	name = "atomic seer robes"
-	desc = "Atom be praised."
-	icon_state = "atomwitch"
-	item_state = "atomwitch"
-	armor = list("melee" = 5, "bullet" = 10, "laser" = 30, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-*/

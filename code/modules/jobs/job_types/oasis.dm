@@ -91,7 +91,6 @@ Mayor
 	name = "Frontier Leader"
 	backpack_contents = list(
 		/obj/item/clothing/suit/armor/f13/town/mayor = 1,
-		/obj/item/clothing/head/f13/town/mayor = 1,
 		/obj/item/gun/ballistic/revolver/m29/snub = 1,
 		/obj/item/ammo_box/m44 = 2,
 		/obj/item/clothing/shoes/f13/cowboy = 1,

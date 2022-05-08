@@ -504,16 +504,6 @@ datum/crafting_recipe/steelbib/heavy
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 
-/datum/crafting_recipe/salvageweld
-	name = "Salvaged Welding Mask"
-	result = /obj/item/clothing/head/welding/f13/fire
-	time = 600
-	reqs = list(/obj/item/stack/sheet/metal = 4,
-				/obj/item/stack/sheet/cloth = 1)
-	tools = list(TOOL_FORGE)
-	category = CAT_CLOTHING
-	subcategory = CAT_ARMOR
-
 /datum/crafting_recipe/glad
 	name = "Gladiator Helmet"
 	result = /obj/item/clothing/head/helmet/gladiator

@@ -163,18 +163,6 @@
 	flags_inv = HIDEEARS|HIDEHAIR
 	slowdown = 0.025
 
-/obj/item/clothing/head/helmet/f13/raidermetal
-	name = "metal raider helmet"
-	desc = "A metal helmet, rusty and awful."
-	icon_state = "raidermetal"
-	item_state = "raidermetal"
-	can_toggle = TRUE
-	armor = list("melee" = 35, "bullet" = 25, "laser" = 40, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0)
-	flags_inv = HIDEMASK|HIDEEYES|HIDEFACE
-	strip_delay = 80
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-
 /obj/item/clothing/head/helmet/f13/raidercombathelmet
 	name = "combat raider helmet"
 	desc = "A combat helmet modified with metal plating"
@@ -218,7 +206,7 @@
 
 /obj/item/clothing/head/helmet/f13/helmet/enclave/officer
 	name = "enclave officer hat"
-	desc = "(VII) Wheeled hat with a cap made of light-weight alloys beneath."
+	desc = "Wheeled hat with a cap made of light-weight alloys beneath."
 	icon_state = "hat_enclave_officer"
 	item_state = "hat_enclave_officer"
 	armor = list("tier" = 7, "energy" = 45, "bomb" = 60, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30) // On par with BoS Knight
@@ -245,19 +233,11 @@
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
-/obj/item/clothing/head/helmet/f13/legion/marsheaddress
-	name = "priestess' headdress"
-	desc = "A headdress made of feathers and decorated with two golden tassles."
-	icon_state = "legion-priestess"
-	item_state = "legion-priestess"
-	dynamic_hair_suffix = "+generic"
-
 /obj/item/clothing/head/helmet/f13/legion/recruit
 	name = "legion recruit helmet"
 	desc = "It's a leather skullcap issued to recruits."
 	icon_state = "legion-recruit"
 	item_state = "legion-recruit"
-	
 
 /obj/item/clothing/head/helmet/f13/legion/prime
 	name = "legion prime helmet"
@@ -356,14 +336,6 @@
 	icon_state = "legion-rangercent"
 	item_state = "legion-rangercent"
 	armor = list("melee" = 50, "bullet" = 65, "laser" = 25, "energy" = 35, "bomb" = 39, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
-	resistance_flags = LAVA_PROOF | FIRE_PROOF
-
-/obj/item/clothing/head/helmet/f13/legion/palacent
-	name = "paladin-slayer centurion helmet"
-	desc = "The once-marvelous helmet of the T-45d power armor set, repurposed by the Legion into a symbol of its might. It has a large plume of red horse hair across the top of it going horizontally, donoting the rank of Centurion."
-	icon_state = "legion-palacent"
-	item_state = "legion-palacent"
-	armor = list("melee" = 65, "bullet" = 45, "laser" = 30, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 
 /obj/item/clothing/head/helmet/f13/legion/legate
@@ -465,7 +437,7 @@
 
 /obj/item/clothing/head/f13/ncr/steelpot_med
 	name = "NCR medic helmet"
-	desc = "(III) A standard issue NCR steel helmet with the addition of decalling signifying a medic."
+	desc = "A standard issue NCR steel helmet with the addition of decalling signifying a medic."
 	icon_state = "steelpot_med"
 	item_state = "steelpot_med"
 
@@ -598,7 +570,7 @@
 
 /obj/item/clothing/head/beret/ncr_recon_ranger
 	name = "NCR Ranger scout beret"
-	desc = "(IV) A brown beret, issued to members of the NCR Recon Rangers."
+	desc = "A brown beret, issued to members of the NCR Recon Rangers."
 	icon_state = "scoutberet"
 	item_state = "scoutberet"
 	armor = list("melee" = 35, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
@@ -631,7 +603,7 @@
 
 /obj/item/clothing/head/helmet/f13/combat/ncr_patrol
 	name = "NCR patrol helmet"
-	desc = "(IV) A combat helmet hand-manufactured in the NCR and issued to patrol rangers."
+	desc = "A combat helmet hand-manufactured in the NCR and issued to patrol rangers."
 	icon_state = "ncr_patrol_helmet"
 	item_state = "ncr_patrol_helmet"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR|HIDEFACE
@@ -756,25 +728,11 @@
 
 /obj/item/clothing/head/f13/boscap/beret
 	name = "brotherhood beret"
-	desc = "(I) A beret typically worn with the standard fatigues of the local Brotherhood of Steel Chapter."
+	desc = "A beret typically worn with the standard fatigues of the local Brotherhood of Steel Chapter."
 	icon_state = "bos_beret"
 	item_state = "bos_beret"
 
 //Oasis/Town
-
-/obj/item/clothing/head/f13/town
-	name = "town tricorn"
-	desc = "Why are there tricorns in the desert again?"
-	icon_state = "tricorn"
-	item_state = "dethat"
-	flags_inv = HIDEHAIR
-	armor = list("melee" = 25, "bullet" = 25, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 5, "rad" = 0, "fire" = 15, "acid" = 5)
-
-/obj/item/clothing/head/f13/town/mayor
-	name = "mayoral tricorn"
-	desc = "A tricorn in the desert.  Stranger things have happened."
-	armor = list("melee" = 30, "bullet" = 35, "laser" = 25, "energy" = 25, "bomb" = 25, "bio" = 15, "rad" = 10, "fire" = 15, "acid" = 5)
-
 /obj/item/clothing/head/f13/town/big
 	name = "big hat"
 	desc = "It's a big hat."
@@ -927,6 +885,10 @@
 	AddComponent(/datum/component/armor_plate)
 
 //Wayfarer
+
+/obj/item/clothing/head/f13/helmet/wayfarer
+	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
+
 /obj/item/clothing/head/helmet/f13/deathskull
 	name = "eerie helm"
 	desc = "A helmet fastened from the skull of a deer. Something about it doesn't look right."
@@ -934,74 +896,25 @@
 	item_state = "shamskull"
 	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
 
-/obj/item/clothing/head/f13/helmet/wayfarer
-	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
-
-/obj/item/clothing/head/helmet/f13/wayfarer/hunter
-	name = "hunter headdress"
-	desc = "Azure decorations dangle from the sturdy cap, it is sung that the wearers of these are watched over by the spirits."
-	icon_state = "hunterhelm"
-	item_state = "hunterhelm"
-	armor = list("melee" = 40, "bullet" = 25, "laser" = 20, "energy" = 25, "bomb" = 25, "bio" = 70, "rad" = 65, "fire" = 80, "acid" = 100)
-
 /obj/item/clothing/head/helmet/f13/wayfarer/antler
-	name = "antler skullcap"
+	name = "antler headdress"
 	desc = "An antler skull headdress traditionally worn by the spiritually inclined."
 	icon_state = "antlerhelm"
 	item_state = "antlerhelm"
-	
-
-/obj/item/clothing/head/helmet/f13/wayfarer/shamanblue
-	name = "ritual headdress"
-	desc = "An ancient mask fashioned at the coasts of the Great Salt Water, imbued with the ancestral blessing through a long forgotten ritual."
-	icon_state = "shamanblue"
-	item_state = "shamanblue"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-
-/obj/item/clothing/head/helmet/f13/wayfarer/shamanred
-	name = "crimson mask"
-	desc = "An uncanny helm passed down through generations, originating from a tribal culture once situated at the top of a Sonoran mesa."
-	icon_state = "shamanred"
-	item_state = "shamanred"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief
-	name = "helm of the steady walk"
-	desc = "A chief who chooses this protectron mantle embodies the defensive, a stalwart heart that protects their village above all other goals, even if it means hampering the growth of the village to do it."
-	icon_state = "chiefblue"
-	item_state = "chiefblue"
-	actions_types = list(/datum/action/item_action/toggle)
-	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 
 /obj/item/clothing/head/helmet/f13/combat/wayfarer/tribe_helmet
-	name = "tribalized helmet"
-	desc = "An old military grade pre-war combat helmet, repainted and re purposed with bones and sinew to worship some tribal diety."
+	name = "tribal combat helmet"
+	desc = "An aged pre-war combat helmet, decorated with paint in a tribal design."
 	icon_state = "tribe_helmet"
 	item_state = "tribe_helmet"
 
 /obj/item/clothing/head/helmet/f13/wayfarer/pa_helmet
-	name = "tribal full plate headdress"
-	desc = "The once-marvelous helmet of the T-45d power armor set, repurposed and painted with markings of a tribe to signify its holyness to Kwer. It has dye'd feathers addoring it to make it look fierce in battle."
+	name = "tribal power armor headdress"
+	desc = "A helmet of T-45d power armor, repurposed and painted with tribal markings. It has dyed feathers adorning it to make it look fierce in battle."
 	icon_state = "tribal_PA_helmet"
 	item_state = "tribal_PA_helmet"
 	armor = list("melee" = 60, "bullet" = 65, "laser" = 65, "energy" = 24, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 40)
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief/attack_self(mob/user)
-	weldingvisortoggle(user)
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief/red
-	name = "helm of the piercing gaze"
-	desc = "A chief who wears this assaultron helm is known for their prowess in battle, aggressiveness, intimidation and raw power in command. They are bold and strong."
-	icon_state = "chiefred"
-	item_state = "chiefred"
-
-/obj/item/clothing/head/helmet/f13/wayfarer/chief/green
-	name = "helm of the helping hand"
-	desc = "The many eyed helper to the village and all, the Chief that chooses this Mr. Handy based mantle is clever and kind in equal measure, they embody industry and diplomacy. Though they aren't defensive, they are surgically precise in eliminating those who oppose them."
-	icon_state = "chiefgreen"
-	item_state = "chiefgreen"
 
 //Vault
 
@@ -1010,13 +923,6 @@
 	desc = "A standard issue vault security helmet, pretty robust."
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 25, energy = "25", "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 50)
 	slowdown = 0.01
-
-
-/obj/item/clothing/head/helmet/riot/vaultsec/vc
-	name = "vtcc riot helmet"
-	desc = "A riot helmet adapted from the design of most pre-war riot helmets, painted blue."
-	icon_state = "vtcc_riot_helmet"
-	item_state = "vtcc_riot_helmet"
 
 //Old World Militaries
 //US Army and PLA
@@ -1076,7 +982,6 @@ obj/item/clothing/head/f13/army/beret
 	item_state = "army_beret_specialforces"
 	
 //People's Liberation Army
-
 /obj/item/clothing/head/f13/chinese
 	name = "PLA field cap"
 	desc = "A People's Liberation Army cap, worn by enlisted and non-commissioned officers."
@@ -1088,7 +993,7 @@ obj/item/clothing/head/f13/army/beret
 
 /obj/item/clothing/head/f13/chinese/officer
 	name = "PLA officer's cap"
-	desc = "(II) A People's Liberation Army peaked cap, worn by officers."
+	desc = "A People's Liberation Army peaked cap, worn by officers."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "chinese_officer"
@@ -1150,13 +1055,13 @@ obj/item/clothing/head/f13/army/beret
 
 /obj/item/clothing/head/f13/ncr/medic
 	name = "NCR medical helmet"
-	desc = "(V) A standard issue NCR Infantry helmet, colored to suit a medical officer."
+	desc = "A standard issue NCR Infantry helmet, colored to suit a medical officer."
 	icon_state = "ncr_medical_helmet"
 	item_state = "ncr_medical_helmet"
 
 /obj/item/clothing/head/f13/ncr/mp
 	name = "NCR military police helmet"
-	desc = "(V) A standard issue NCR helmet, with the letters \"MP\" scrawled on the front."
+	desc = "A standard issue NCR helmet, with the letters \"MP\" scrawled on the front."
 	icon_state = "ncr_MP"
 	item_state = "ncr_MP"
 
@@ -1211,21 +1116,21 @@ obj/item/clothing/head/f13/army/beret
 //Enclave / Remnant
 /obj/item/clothing/head/donor/enclave
 	name = "enclave forge cap"
-	desc = "(III) A resistant, black forage cap issued to Enclave soldiers."
+	desc = "A resistant, black forage cap issued to Enclave soldiers."
 	icon_state = "enclave_cap"
 	item_state = "enclave_cap"
 	armor = list("tier" = 3, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
 /obj/item/clothing/head/helmet/f13/combat/enclave
 	name = "enclave combat helmet"
-	desc = "(VI) An intimidating helmet that is issued with it's corresponding suit."
+	desc = "An intimidating helmet that is issued with it's corresponding suit."
 	icon_state = "enclave_new"
 	item_state = "enclave_new"
 	armor = list("tier" = 6, "energy" = 75, "bomb" = 70, "bio" = 80, "rad" = 80, "fire" = 80, "acid" = 50)
 
 /obj/item/clothing/head/helmet/f13/combat/remnant
 	name = "remnant combat helmet"
-	desc = "(VI) A dark helmet with yellow lenses, used commonly in espionage or shadow ops."
+	desc = "A dark helmet with yellow lenses, used commonly in espionage or shadow ops."
 	icon_state = "remnant_helmet"
 	item_state = "remnant_helmet"
 	armor = list("tier" = 6, "energy" = 75, "bomb" = 70, "bio" = 80, "rad" = 80, "fire" = 80, "acid" = 50)
@@ -1234,7 +1139,7 @@ obj/item/clothing/head/f13/army/beret
 	name = "enclave envirosuit hood"
 	icon_state = "envirohead"
 	item_state = "envirohead"
-	desc = "(II) A white hazmat helmet with a coupling system, the visor looks to be made out of orange plexiglas."
+	desc = " A white hazmat helmet with a coupling system, the visor looks to be made out of orange plexiglas."
 	clothing_flags = THICKMATERIAL
 	flags_inv = HIDEMASK|HIDEEARS|HIDEFACE|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	armor = list("tier" = 2,"energy" = 10, "bomb" = 10, "bio" = 100, "rad" = 100, "fire" = 50, "acid" = 100)
@@ -1245,6 +1150,6 @@ obj/item/clothing/head/f13/army/beret
 
 /obj/item/clothing/head/soft/f13/enclave
 	name = "officer hat"
-	desc = "(I) A standard-issue Enclave officer's cap."
+	desc = "A standard-issue Enclave officer's cap."
 	icon_state = "enclave"
 	item_color = "enclave"

@@ -113,7 +113,7 @@
 
 /obj/item/clothing/suit/f13/mantle_liz
 	name = "hide mantle"
-	desc = " A rather grisly selection of cured hides and skin, sewn together to form a ragged mantle."
+	desc = "A rather grisly selection of cured hides and skin, sewn together to form a ragged mantle."
 	icon_state = "mantle_liz"
 	item_state = "det_suit"
 	
@@ -169,24 +169,6 @@
 	item_state = "banker"
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 15, "energy" = 5, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
-
-/obj/item/clothing/suit/f13/autumn //Based of Colonel Autumn's uniform.
-	name = "tan trenchcoat"
-	desc = "A heavy-duty tan trenchcoat typically worn by pre-War generals."
-	icon_state = "autumn"
-	item_state = "autumn"
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 5, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	
-
-/obj/item/clothing/suit/f13/hubologist
-	name = "hubologist robe"
-	desc = "A black robe worn by Adepts of Hubology Studies.<br>Beware - the spirits of the dead are all around us!"
-	icon_state = "hubologist"
-	item_state = "wcoat"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 15, "energy" = 5, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
 /obj/item/clothing/suit/f13/sexymaid
 	name = "sexy maid outfit"
@@ -325,7 +307,7 @@
 
 /obj/item/clothing/suit/armor/f13/generaluniform
 	name = "Yuma 1st Irregular General Uniform"
-	desc = "(III) A uniform created by Kaleb alongside the laser muskets. On the breast is a patch of the Yuma 1st Irregulars, a sun over a wasteland desert, a cactus standing lonely in the middle. It denotes him as the Leader of the militia company."
+	desc = "A uniform created by Kaleb alongside the laser muskets. On the breast is a patch of the Yuma 1st Irregulars, a sun over a wasteland desert, a cactus standing lonely in the middle. It denotes him as the Leader of the militia company."
 	icon_state = "gen_uniform"
 	item_state = "gen_uniform"
 	armor = list("tier" = 3, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0) //change those values
@@ -333,7 +315,7 @@
 /obj/item/clothing/suit/hooded/cloak/desert
 	name = "desert cloak"
 	icon_state = "desertcloak"
-	desc = "(II) A practical cloak made out of animal hide."
+	desc = "A practical cloak made out of animal hide."
 	hoodtype = /obj/item/clothing/head/hooded/cloakhood/desert
 	armor = list("tier" = 2, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -342,22 +324,9 @@
 /obj/item/clothing/head/hooded/cloakhood/desert
 	name = "desert cloak hood"
 	icon_state = "desertcloak"
-	desc = "(II) A protective and concealing hood."
+	desc = "A protective and concealing hood."
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	armor = list("tier" = 2, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
-
-/obj/item/clothing/suit/hooded/cloak/desert/raven_cloak
-	name = "Raven cloak"
-	desc = "(II) A huge cloak made out of hundreds of knife-like black bird feathers. It glitters in the light, ranging from blue to dark green and purple."
-	icon_state = "raven_cloak"
-	item_state = "raven_cloak"
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/desert/raven_hood
-
-/obj/item/clothing/head/hooded/cloakhood/desert/raven_hood
-	name = "Raven cloak hood"
-	desc = "(II) A hood fashioned out of patchwork and feathers"
-	icon_state = "raven_hood"
-	item_state = "raven_hood"
 
 /obj/item/clothing/suit/hooded/cloak/goliath
 	name = "deathclaw cloak"
@@ -375,109 +344,8 @@
 	armor = list("melee" = 40, "bullet" = 20, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 
-/obj/item/clothing/suit/hooded/parka/medical
-	name = "armored medical parka"
-	icon_state = "armormedical"
-	desc = "A staunch, practical parka made out of a wind-breaking jacket, reinforced with metal plates."
-	
-	hoodtype = /obj/item/clothing/head/hooded/parkahood/medical
-
-/obj/item/clothing/head/hooded/parkahood/medical
-	name = "armored medical parka hood"
-	icon_state = "armorhoodmedical"
-	desc = " A protective & concealing parka hood."
-	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-
-/obj/item/clothing/suit/hooded/parka/grey
-	name = "grey armored parka"
-	icon_state = "armorgrey"
-	desc = "(III) A staunch, practical parka made out of a wind-breaking jacket, reinforced with metal plates."
-	armor = list("tier" = 3, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 60)
-	hoodtype = /obj/item/clothing/head/hooded/parkahood/grey
-
-/obj/item/clothing/head/hooded/parkahood/grey
-	name = "armored grey parka hood"
-	icon_state = "armorhoodgrey"
-	desc = "(III) A protective & concealing parka hood."
-	armor = list("tier" = 3, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 60, "acid" = 60)
-	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-
-/obj/item/clothing/suit/hooded/cloak/goliath/tatteredred
-	name = "tattered red cloak"
-	icon_state = "goliath_cloak"
-	desc = "(II) An old ragged, tattered red cloak that is covered in burns and bullet holes."
-	armor = list("tier" = 2, "energy" = 20, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/goliath/tattered
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-
-
-/obj/item/clothing/head/hooded/cloakhood/goliath/tattered
-	name = "tattered red cloak hood"
-	icon_state = "golhood"
-	desc = "(II) A tattered hood, better than nothing in the waste."
-	armor = list("tier" = 2, "energy" = 20, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
-
-/obj/item/clothing/suit/hooded/cloak/drake //SS13 item, obviously
-	name = "drake armour"
-	icon_state = "dragon"
-	desc = "(V) A suit of armour fashioned from the remains of an ash drake."
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 70, "bio" = 60, "rad" = 50, "fire" = 100, "acid" = 100)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/drake
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/head/hooded/cloakhood/drake
-	name = "drake helm"
-	icon_state = "dragon"
-	desc = "(V) The skull of a dragon."
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 70, "bio" = 60, "rad" = 50, "fire" = 100, "acid" = 100)
-	heat_protection = HEAD
-	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/suit/hooded/cloak/hhunter
-	name = "Razorclaw armour"
-	icon_state = "rcarmour"
-	desc = "A suit of armour fashioned out of the remains of a legendary deathclaw."
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/hhunter
-	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-	slowdown = 0.05
-
-/obj/item/clothing/head/hooded/cloakhood/hhunter
-	name = "Razorclaw helm"
-	icon_state = "rchelmet"
-	desc = "The skull of a legendary deathclaw."
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	heat_protection = HEAD
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
 /obj/item/clothing/suit/f13/jamrock
 	name = "disco-ass blazer"
 	desc = "Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve."
 	icon_state = "jamrock_blazer"
 	item_state = "jamrock_blazer"
-
-
-/obj/item/clothing/suit/hooded/cloak/shunter
-	name = "Quickclaw armour"
-	icon_state = "birdarmor"
-	desc = "A suit of armour fashioned out of the remains of a legendary deathclaw, this one has been crafted to remove a good portion of its protection to improve on speed and trekking."
-	slowdown = 0.025
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 35, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	hoodtype = /obj/item/clothing/head/hooded/cloakhood/shunter
-	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-
-/obj/item/clothing/head/hooded/cloakhood/shunter
-	name = "Quickclaw hood"
-	icon_state = "birdhood"
-	desc = "A hood madde of deathclaw hides, light while also being comfortable to wear, designed for speed."
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 35, "energy" = 25, "bomb" = 16, "bio" = 10, "rad" = 10, "fire" = 0, "acid" = 0)
-	heat_protection = HEAD
-	resistance_flags = FIRE_PROOF | ACID_PROOF

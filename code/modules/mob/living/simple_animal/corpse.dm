@@ -235,18 +235,9 @@ obj/effect/mob_spawn/human/corpse/raidermelee
 	hair_style = "Bald"
 	facial_hair_style = "Shaved"
 
-/obj/effect/mob_spawn/human/corpse/raiderrangedsulphite
-	name = "Sulphite Raider Ranged Corpse"
-	uniform = /obj/item/clothing/under/f13/raiderharness
-	suit = /obj/item/clothing/suit/armor/f13/metalarmor/reinforced
-	shoes = /obj/item/clothing/shoes/f13/explorer
-	head = /obj/item/clothing/head/helmet/f13/metalmask/mk2
-	hair_style = "Bald"
-	facial_hair_style = "Shaved"
-
 /obj/effect/mob_spawn/human/corpse/raiderboss
 	name = "Raider Boss"
-	uniform = /obj/item/clothing/under/f13/ravenharness
+	uniform = /obj/item/clothing/under/f13/raiderharness
 	suit = /obj/item/clothing/suit/armor/f13/combat/mk2/raider
 	shoes = /obj/item/clothing/shoes/combat
 	head = /obj/item/clothing/head/helmet/f13/combat/mk2/raider

@@ -755,7 +755,7 @@
 
 /obj/item/clothing/suit/space/hardsuit/flightsuit
 	name = "flight suit"
-	desc = "(II) An advanced suit that allows the wearer flight via two high powered miniature jet engines on a deployable back-mounted unit."
+	desc = "An advanced suit that allows the wearer flight via two high powered miniature jet engines on a deployable back-mounted unit."
 	icon_state = "flightsuit"
 	item_state = "flightsuit"
 	strip_delay = 30
@@ -1077,7 +1077,7 @@
 //FLIGHT HELMET----------------------------------------------------------------------------------------------------------------------------------------------------
 /obj/item/clothing/head/helmet/space/hardsuit/flightsuit
 	name = "flight helmet"
-	desc = "(II) A sealed helmet attached to a flight suit for EVA usage scenarios. Its visor contains an information uplink HUD."
+	desc = "A sealed helmet attached to a flight suit for EVA usage scenarios. Its visor contains an information uplink HUD."
 	icon_state = "flighthelmet"
 	item_state = "flighthelmet"
 	item_color = "flight"

@@ -426,50 +426,6 @@
 	icon_state = "ncrpowerarmor"
 	item_state = "ncrpowerarmor"
 
-/obj/item/clothing/suit/armor/f13/power_armor/raiderpa
-	powered = FALSE
-	name = "raider T-45b power armor"
-	desc = "An attempt by raider engineers to duplicate power armor. They failed miserably, but it is still pretty tough"
-	icon_state = "raiderpa"
-	item_state = "raiderpa"
-	armor = list("melee" = 65, "bullet" = 55, "laser" = 55, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 65)
-	slowdown = 0.25
-	requires_training = FALSE
-
-/obj/item/clothing/suit/armor/f13/power_armor/hotrod
-	powered = FALSE
-	name = "hotrod T-45b power armor"
-	desc = " It's a set of T-45b power armor with a with some of its plating removed. This set has exhaust pipes piped to the pauldrons, flames erupting from them."
-	icon_state = "t45hotrod"
-	item_state = "t45hotrod"
-	armor = list("melee" = 55, "bullet" = 55, "laser" = 55, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 70)
-	slowdown = 0.25
-	requires_training = FALSE
-
-/obj/item/clothing/suit/armor/f13/power_armor/vaulttec
-	name = "Vault-Tec power armour"
-	desc = "A refined suit of power armour, purpose-built by the residents of Vault-115 in order to better keep the peace in their new settlement."
-	icon_state = "vaultpa"
-	item_state = "vaultpa"
-	armor = list("melee" = 65, "bullet" = 65, "laser" = 65, "energy" = 22, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 70)
-	slowdown = 0
-
-/obj/item/clothing/suit/armor/f13/power_armor/vaulttecta
-	name = "Vault-Tec technical armour"
-	desc = "A primative  suit of power armour, the first kind built by the residents of Vault-115 in order to fight off immediate threats."
-	icon_state = "vaulttecta"
-	item_state = "vaulttecta"
-	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 25, "bomb" = 55, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 70)
-	slowdown = 0.4
-
-/obj/item/clothing/suit/armor/f13/power_armor/excavator
-	name = "excavator power armor"
-	desc = "Developed by Garrahan Mining Co. in collaboration with West Tek, the Excavator-class power armor was designed to protect miners from rockfalls and airborne contaminants while increasing the speed at which they could work. "
-	icon_state = "excavator"
-	item_state = "excavator"
-	slowdown = 0.5
-	armor = list("melee" = 70, "bullet" = 50, "laser" = 50, "energy" = 25, "bomb" = 80, "bio" = 65, "rad" = 55, "fire" = 85, "acid" = 0, "wound" = 40)
-
 /obj/item/clothing/suit/armor/f13/power_armor/t45d
 	name = "T-45d power armor"
 	desc = "originally developed and manufactured for the United States Army by American defense contractor West Tek, the T-45d power armor was the first version of power armor to be successfully deployed in battle."
@@ -477,15 +433,6 @@
 	item_state = "t45dpowerarmor"
 	slowdown = 0.225
 	armor = list("melee" = 73, "bullet" = 73, "laser" = 73, "energy" = 25, "bomb" = 65, "bio" = 75, "rad" = 80, "fire" = 85, "acid" = 30, "wound" = 70)
-
-
-/obj/item/clothing/suit/armor/f13/power_armor/t45d/gunslinger
-	name = "Gunslinger T-51b"
-	desc = "(IX) What was once a suit of T-51 Power Armor is now an almost unrecognizable piece of art or garbage, depending on who you ask. Almost all of the external plating has either been removed or stripped to allow for maximum mobility, and overlapping underplates protect the user from small arms fire. Whoever designed this had a very specific purpose in mind: mobility and aesthetics over defense."
-	icon_state = "t51bgs"
-	item_state = "t51bgs"
-	slowdown = -0.2
-	flags_inv = HIDEJUMPSUIT|HIDENECK
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/sierra
 	name = "sierra power armor"
@@ -543,25 +490,6 @@
 	slowdown = 0.15 //+0.1 from helmet = total 0.25
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 85, "energy" = 70, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 72)
 
-/obj/item/clothing/suit/armor/f13/power_armor/t51b/wbos
-	name = "Washington power armor"
-	desc = "A dark mirror to the pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer."
-	icon_state = "t51wbos"
-	item_state = "t51wbos"
-
-/obj/item/clothing/suit/armor/f13/power_armor/t51b/reforgedwbos
-	name = "reforged Washington power armor"
-	desc = "A dark mirror to the pinnacle of pre-war technology, reforged. This suit of power armor provides substantial protection to the wearer."
-	icon_state = "t51matt"
-	item_state = "t51matt"
-
-/obj/item/clothing/suit/armor/f13/power_armor/t51b/ultra
-	name = "Ultracite power armor"
-	desc = "(X) The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. Now ultracite enhanced."
-	icon_state = "ultracitepa"
-	item_state = "ultracitepa"
-	slowdown = 0
-
 /obj/item/clothing/suit/armor/f13/power_armor/t60
 	name = "T-60a power armor"
 	desc = "Developed in early 2077 after the Anchorage Reclamation, the T-60 series of power armor was designed to eventually replace the T-51b as the pinnacle of powered armor technology in the U.S. military arsenal."
@@ -600,12 +528,6 @@
 	item_state = "hellfire"
 	armor = list("melee" = 85, "bullet" = 85, "laser" = 90, "energy" = 37, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0, "wound" = 100)
 
-/obj/item/clothing/suit/armor/f13/power_armor/advanced/hellfire/wbos
-	name = "advanced Washington power armor"
-	desc = "It's an improved model of the power armor used exclusively by the Washington Brotherhood."
-	icon_state = "apawbos"
-	item_state = "apawbos"
-
 /obj/item/clothing/suit/armor/f13/power_armor/tesla
 	name = "tesla power armor"
 	desc = "A variant of the Enclave's advanced power armor Mk I, jury-rigged with a Tesla device that is capable of dispersing a large percentage of the damage done by directed-energy attacks.<br>As it's made of complex composite materials designed to block most of energy damage - it's notably weaker against kinetic impacts."
@@ -624,7 +546,7 @@
 //Peacekeeper armor adjust as needed
 /obj/item/clothing/suit/armor/f13/power_armor/x02
 	name = "Enclave power armor"
-	desc = "(XI) Upgraded pre-war power armor design used by the Enclave. It is mildly worn due to it's age and lack of maintenance after the fall of the Enclave."
+	desc = "Upgraded pre-war power armor design used by the Enclave. It is mildly worn due to it's age and lack of maintenance after the fall of the Enclave."
 	icon_state = "advanced"
 	item_state = "advanced"
 	slowdown = 0.15 //+0.1 from helmet = total 0.25
@@ -632,14 +554,14 @@
 
 /obj/item/clothing/suit/armor/f13/enclave/armorvest
 	name = "armored vest"
-	desc = "(VI) Efficient prewar design issued to Enclave personell."
+	desc = "Efficient prewar design issued to Enclave personell."
 	icon_state = "armor_enclave_peacekeeper"
 	item_state = "armor_enclave_peacekeeper"
 	armor = list("tier" = 6)
 
 /obj/item/clothing/suit/armor/f13/enclave/officercoat
 	name = "armored coat"
-	desc = "(VII) Premium prewar armor fitted into a coat for Enclave officers."
+	desc = "Premium prewar armor fitted into a coat for Enclave officers."
 	icon_state = "armor_enclave_officer"
 	item_state = "armor_enclave_officer"
 	armor = list("tier" = 7)
@@ -709,17 +631,6 @@
 			block_return[BLOCK_RETURN_REDIRECT_METHOD] = REDIRECT_METHOD_DEFLECT
 			return BLOCK_SHOULD_REDIRECT | BLOCK_REDIRECTED | BLOCK_SUCCESS | BLOCK_PHYSICAL_INTERNAL
 	return ..()
-
-/obj/item/clothing/suit/armor/f13/sulphitearmor
-	name = "sulphite armor"
-	desc = "A combination of what seems to be raider metal armor with a jerry-rigged flame-exhaust system and ceramic plating."
-	icon = 'icons/fallout/clothing/armored_heavy.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
-	resistance_flags = FIRE_PROOF
-	icon_state = "sulphite"
-	item_state = "sulphite"
-	armor = list("melee" = 25, "bullet" = 55,"laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 45)
-	slowdown = 0.20
 
 /obj/item/clothing/suit/toggle/armor
 	body_parts_covered = CHEST|GROIN
@@ -838,63 +749,6 @@
 	item_state = "midwestpa" // PATREON SUPPORTER CUSTOM GEAR, DO NOT USE.
 	desc = "This set of power armor once belonged to the Midwestern branch of the Brotherhood of Steel, and now resides here. This particular one has gone through a chemical hardening process, increasing its armor capabilities." // PATREON SUPPORTER CUSTOM GEAR, DO NOT USE.
 
-obj/item/clothing/suit/armor/f13/exile/cust0m
-	name = "Lorica Iudicis"
-	desc = "A set of well maintained though still quite clearly worn armor consisting of a metal vest, a Centurion's shoulder pad, a pair of Centurion's arm guards and an incredibly large, perhaps even over-sized fur cloak. Upon basic examination, one can see that every piece of metal bar the buckles on the leather straps and whatever scratches and blemishes are yet to be retouched is masterfully decorated with silver, in complete contrast to the blackness of the cloak. Though only upon closer examination can the intricacies of the armor set be observed. The most obvious piece is the metal vest which has clearly been engraved, mostly decorationally besides the name 'Iudex Flammae' near the top. Though the engravings provide no tactical advantage whatsoever, the sharp geometric shapes accompanied by smooth, tastefully placed curves would catch the eye of even the most skeptical engraving enjoyer. As for the shoulder pad and arm guards, they hold the same engravings, and though they are recognizable as salvage, they still look incredibly beautiful yet simultaneously sturdy. Not much of the metal seems to exist on the back though that is only due to the fact that the incredibly thick, durable and flexible bear pelt that covers it would definitely provide ample protection. The pelt itself is absolutely covered in thick, almost jet black fur. One can tell from touch that the skin underneath is about as sturdy as skin gets. The pelt hangs across the wearer's back, held up by the neck and shoulders. This armor was competently made, and it shows."
-	icon_state = "exilecust0m"
-	item_state = "exilecust0m"
-	var/adjusted = FALSE
-
-/obj/item/clothing/suit/armor/f13/exile/cust0m/verb/armor_adjust()
-	set name = "Adjust Armor"
-	set category = null
-	set src in usr
-
-	if(!adjusted)
-		adjusted = TRUE
-		icon_state = "exilecust0m_d"
-	else
-		adjusted = FALSE
-		icon_state = "exilecust0m"
-
-	if(ishuman(usr))
-		var/mob/living/carbon/human/H = usr
-		H.update_inv_w_uniform()
-		H.update_body()
-
-/obj/item/clothing/suit/armor/f13/exile/cust0m/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/harpercoat
-	name = "outlaw coat"
-	desc = "(IV) A combat duster"
-	icon_state = "harperduster"
-	armor = list("tier" = 4, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/raider/reptiliatenebris
-	name = "Reptilia Tenebris"
-	desc = "An old military-grade pre-war combat armor under a weathered duster. It appears to be fitted with metal plates to replace the crumbling ceramic. The color of this duster has been washed out time and time again, giving it a more faded look as if time gripped it heavily. Along with that, the duster has been dyed a deep shade of grey, and the body armor a darker shade of green."
-	icon_state = "reptiliatenebris"
-	item_state = "reptiliatenebris"
-
-/obj/item/clothing/suit/armor/f13/raider/reptiliatenebris/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/shankduster
-	name = "follower's duster"
-	desc = "An old military-grade pre-war combat armor under a white weathered duster. An emblem of the Followers is painted on the back of it. It appears to be fitted with metal plates to replace the crumbling ceramic."
-	icon_state = "shank_follower"
-	item_state = "shank_follower"
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "energy" = 35, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
-	strip_delay = 40
-
-/obj/item/clothing/suit/armor/f13/shankduster/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
 /obj/item/clothing/suit/toggle/armor/f13/rangercustomdark
 	name = "tattered recon duster"
 	desc = "A thicker than average duster worn by rangers out in the field. This one has been dyed black and appears to be a little more heavily armoured."
@@ -902,44 +756,12 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	item_state = "duster_recon_custom"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
-/obj/item/clothing/suit/armor/f13/legion/palacent/custom_excess
-	name = "Champion of Kanab's Armor"
-	desc = "The armor of the Champion and Conqueror of the city in Utah named Kanab. The armor is made up of pieces of Power Armor and pre-war Riot Gear, the shin guards are spraypainted a dark crimson and the Power Armour pauldron has a red trim. The symbol of a Pheonix is carefully engraved and painted upon the chest piece... I wonder what it means.."
-	icon_state = "palacent_excess"
-	item_state = "palacent_excess"
-
-/obj/item/clothing/suit/donor/soldier
-	name = "Soldier's Greatcoat"
-	desc = "A resistant, tan greatcoat, typically worn by pre-War Generals."
-	icon_state = "soldier"
-	item_state = "soldier"
-	armor = list("melee" = 30, "bullet" = 33, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-
-/obj/item/clothing/suit/armor/f13/rangercombat/foxcustom
-	name = "sniper riot gear"
-	desc = "A customized and well-worn suit of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck."
-	icon_state = "foxranger"
-	item_state = "foxranger"
-
 /obj/item/clothing/suit/armor/f13/rangercombat/degancustom
 	name = "sniper riot gear"
 	desc = "A customized and well-worn suit of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck."
 	icon_state = "elite_riot"
 	item_state = "elite_riot"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/rangercombat/rigscustom
-	name = "11th armored calvary armor"
-	desc = "A suit of special military grade riot control gear and a duster, worn by 11th Armored Calvary Regiment members in The Divide before the war. Yellow markings are painted on the shoulderpads and forearm guards."
-	icon_state = "rigscustom_suit"
-	item_state = "rigscustom_suit"
-
-/obj/item/clothing/suit/armor/f13/rangercombat/pricecustom
-	name = "spider riot gear"
-	desc = "A customised and faded suit of riot gear, reminiscient of that found near Hopeville in the Divide, with a pair of wrist mounted ammo pouches for easy access to spare munitions with a pair of stripes down the back made from a fire-proof material."
-	icon_state = "price_ranger"
-	item_state = "price_ranger"
 
 /obj/item/clothing/suit/toggle/armor/f13/cloakranger //Reskinned trail ranger gear
 	name = "ranger poncho"
@@ -951,7 +773,7 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/armor/f13/herbertranger //Armor wise, it's reskinned raider armor.
 	name = "weathered desert ranger armor"
-	desc = "(IV) A set of pre-unification desert ranger armor, made using parts of what was once USMC riot armor. It looks as if it has been worn for decades; the coat has become discoloured from years under the Mojave sun and has multiple tears and bullet holes in its leather. The armor plating itself seems to be in relatively good shape, though it could do with some maintenance."
+	desc = "A set of pre-unification desert ranger armor, made using parts of what was once USMC riot armor. It looks as if it has been worn for decades; the coat has become discoloured from years under the Mojave sun and has multiple tears and bullet holes in its leather. The armor plating itself seems to be in relatively good shape, though it could do with some maintenance."
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 	icon_state = "usmc_riot_gear"
 	item_state = "usmc_riot_gear"
@@ -962,97 +784,25 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
-/obj/item/clothing/suit/armor/f13/marlowsuit //Raider armour reskin.
-	name = "Marlow gang overcoat"
-	desc = "A heavy raw buckskin overcoat littered with aged bullet holes and frays from regular wear-and-tear."
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS
-	icon_state = "marlowsuit"
-	item_state = "marlowsuit"
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
-	strip_delay = 40
-
-/obj/item/clothing/suit/armor/f13/marlowsuit/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/marlowsuit/ikesuit
-	name = "gunfighter's overcoat"
-	desc = "(IV) A thick double-breasted red leather overcoat worn through with scattered tears and bullet holes."
-	icon_state = "ikesuit"
-	item_state = "ikesuit"
-
-/obj/item/clothing/suit/armor/f13/ikesuit/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-/obj/item/clothing/suit/armor/f13/marlowsuit/masonsuit
-	name = "vagabond's vest"
-	desc = "(IV) A padded thick red leather vest, coated in stitched pockets and other mends."
-	icon_state = "masonsuit"
-	item_state = "masonsuit"
-
-/obj/item/clothing/suit/armor/f13/masonsuit/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
-//THE GRAVEYARD
-//UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING
-//IF PUT BACK INTO USE, PLEASE FILE IT BACK SOMEWHERE ABOVE
-
-/obj/item/clothing/suit/armor/warriors
-	name = "warriors armored vest"
-	desc = "The symbol of the greatest gangers."
-	icon_state = "warriors"
-	item_state = "warriors"
-
-/obj/item/clothing/suit/armor/f13/atomzealot
-	name = "zealot armor"
-	desc = "(IV) The armor of those true to the Division."
-	icon_state = "atomzealot"
-	item_state = "atomzealot"
-	armor = list("tier" = 4, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/atomwitch
-	name = "atomic seer robes"
-	desc = "(II) The robes worn by female seers of the Division."
-	icon_state = "atomwitch"
-	item_state = "atomwitch"
-	armor = list("tier" = 2, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/harbingermantle
-	name = "Harbinger's Mantle"
-	desc = "(VII) An eerie, silken cloth that seems to be dripping with a thick mist. It is in truth a high-tech stealth device that allows for psionic amplification. The capacitors and manipulators in it utilise quantum technology and are highly volatile."
-	icon_state = "scloak"
-	item_state = "scloak"
-	armor = list("tier" = 7, "energy" = 55, "bomb" = 45, "bio" = 45, "rad" = 45, "fire" = 45, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/ghostechoe
-	name = "tattered peace coat"
-	desc = "(II) An old coat belonging to a Desert Ranger once. It has been stripped of most useful protection, and has seen better days. A crude peace symbol has been painted on the back in white."
-	icon_state = "ghostechoe"
-	item_state = "ghostechoe"
-	armor = list("tier" = 2, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-
-
 //Mutants
 
 /obj/item/clothing/suit/armor/f13/mutant/poncho
 	name = "mutant poncho"
-	desc = "(IV) An oversized poncho, made to fit the frame of a super mutant. Maybe he's the big ranger with an iron on his hip?"
+	desc = "An oversized poncho, made to fit the frame of a super mutant. Maybe he's the big ranger with an iron on his hip?"
 	icon_state = "mutie_poncho"
 	item_state = "mutie_poncho"
 	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/armor/f13/mutant/metal
 	name = "mutant armour"
-	desc = "(V) An oversized set of metal armour, made to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
+	desc = "An oversized set of metal armour, made to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
 	icon_state = "mutie_metal_armour"
 	item_state = "mutie_metal_armour"
 	armor = list("tier" = 5, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/armor/f13/mutant/metal/reinforced
 	name = "mutant armour"
-	desc = "(6) An oversized boiler plate, hammered to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
+	desc = "An oversized boiler plate, hammered to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
 	icon_state = "mutie_metal_armour_mk2"
 	item_state = "mutie_metal_armour_mk2"
 	armor = list("tier" = 6, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 40, "fire" = 30, "acid" = 20)
@@ -1081,80 +831,10 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/f13/tribal/ncr
 	name = "tribalized NCR armor vest"
-	desc = "A suit of worn dated NCR armor, it seems to have seen better days."
+	desc = "A refurbished suit of NCR armor, likely appropriated. Probably won't make you popular amoungst them."
 	icon_state = "ncr_tribal_armor"
 	item_state = "ncr_tribal_armor"
 	armor = list("melee" = 25, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-
-/obj/item/clothing/suit/f13/tribal/light/rustwalkers
-	name = "Rustwalkers light armor"
-	desc = "A duster made from some combination of leather and cloth, probably torn out of an old car. The shoulders appear to have had parts of an engine either strapped or stitched onto them. Commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_armour_light"
-	item_state = "rustwalkers_armour_light"
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-
-/obj/item/clothing/suit/f13/tribal/rustwalkers
-	name = "Rustwalkers armor"
-	desc = "A chestplate, pauldron and vambrace that bear a distinct resemblance to a coolant tank, engine valves and an exhaust. Commonly worn by members of the Rustwalkers tribe"
-	icon_state = "rustwalkers_armour"
-	item_state = "rustwalkers_armour"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
-	slowdown = 0.1
-
-/obj/item/clothing/suit/f13/tribal/heavy/rustwalkers
-	name = "Rustwalkers heavy armor"
-	desc = "A car seat leather duster, a timing belt bandolier, and armour plating made from various parts of a car, it surely would weigh the wearer down. Commonly worn by members of the Rustwalkers tribe."
-	icon_state = "rustwalkers_armour_heavy"
-	item_state = "rustwalkers_armour_heavy"
-	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 20, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
-	slowdown = 0.15
-
-/obj/item/clothing/suit/f13/tribal/light/whitelegs
-	name = "White Legs light armour"
-	desc = "A small series of tan and khaki armour plates, held in place with a thin bandolier. Commonly worn by members of the White Legs tribe."
-	icon_state = "white_legs_armour_light"
-	item_state = "white_legs_armour_light"
-
-/obj/item/clothing/suit/f13/tribal/whitelegs
-	name = "White Legs armour"
-	desc = "A series of tan and khaki armour plates, held in place with a considerable amount of strapping. Commonly worn by members of the White Legs tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny
-	icon_state = "white_legs_armour"
-	item_state = "white_legs_armour"
-
-/obj/item/clothing/suit/f13/tribal/heavy/whitelegs
-	name = "White Legs heavy armour"
-	desc = "A series of tan and khaki armour plates, held in place with a considerable amount of strapping and possibly duct tape. Commonly worn by members of the White Legs tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets/tiny
-	icon_state = "white_legs_armour_heavy"
-	item_state = "white_legs_armour_heavy"
-
-/obj/item/clothing/suit/f13/tribal/light/eighties
-	name = "80s light armour"
-	desc = "A black leather jacket with the number 80 stitched onto the back. Worn by the members of the 80s tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	icon_state = "80s_armour_light"
-	item_state = "80s_armour_light"
-
-/obj/item/clothing/suit/f13/tribal/eighties
-	name = "80s armour"
-	desc = "A plain, slightly cropped leather jacket with a black lining and neck brace, paired with a set of metal vambraces and a black belt of pouches. Commonly worn by the members of the 80s tribe."
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-	icon_state = "80s_armour"
-	item_state = "80s_armour"
-
-/obj/item/clothing/suit/f13/tribal/heavy/eighties
-	name = "80s heavy armour"
-	desc = "A ballistic duster with the number 80 stitched onto the back worn over a breastplate made from a motorcycle's engine housing, with kneepads made from stirrups. Worn by the members of the 80s tribe."
-	icon_state = "80s_armour_heavy"
-	item_state = "80s_armour_heavy"
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
-
-	armor = list("melee" = 35, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
-	slowdown = 0.1
 
 /obj/item/clothing/suit/f13/tribal/light/deadhorses
 	name = "Dead Horses light armour"

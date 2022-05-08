@@ -103,12 +103,6 @@
 	path = /obj/item/clothing/suit/armor/f13/punk
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
 	cost = 5
-
-/datum/gear/suit/autumn
-	name = "tan trenchcoat"
-	path = /obj/item/clothing/suit/f13/autumn
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
-	cost = 3
 	
 /datum/gear/suit/ncrcfjacket
 	name = "NCRCF jacket"

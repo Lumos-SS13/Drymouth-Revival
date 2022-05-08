@@ -67,7 +67,7 @@
  */
 /obj/item/clothing/head/bomb_hood
 	name = "bomb hood"
-	desc = "(II) Use in case of bomb."
+	desc = "Use in case of bomb."
 	icon_state = "bombsuit"
 	clothing_flags = THICKMATERIAL
 	armor = list("tier" = 2, "energy" = 10, "bomb" = 100, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 50)
@@ -87,7 +87,7 @@
 
 /obj/item/clothing/suit/bomb_suit
 	name = "bomb suit"
-	desc = "(II) A suit designed for safety when handling explosives."
+	desc = "A suit designed for safety when handling explosives."
 	icon_state = "bombsuit"
 	item_state = "bombsuit"
 	w_class = WEIGHT_CLASS_BULKY
@@ -132,7 +132,7 @@
 /obj/item/clothing/head/radiation
 	name = "radiation hood"
 	icon_state = "rad"
-	desc = "(II) A hood with radiation protective properties. The label reads, 'Made with lead. Please do not consume insulation.'"
+	desc = "A hood with radiation protective properties. The label reads, 'Made with lead. Please do not consume insulation.'"
 	clothing_flags = THICKMATERIAL
 	flags_inv = HIDEMASK|HIDEEARS|HIDEFACE|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 	armor = list("tier" = 2,"energy" = 0, "bomb" = 0, "bio" = 60, "rad" = 100, "fire" = 30, "acid" = 30)
@@ -145,7 +145,7 @@
 
 /obj/item/clothing/suit/radiation
 	name = "radiation suit"
-	desc = "(II) suit that protects against radiation. The label reads, 'Made with lead. Please do not consume insulation.'"
+	desc = "Suit that protects against radiation. The label reads, 'Made with lead. Please do not consume insulation.'"
 	icon_state = "rad"
 	item_state = "rad_suit"
 	w_class = WEIGHT_CLASS_BULKY
