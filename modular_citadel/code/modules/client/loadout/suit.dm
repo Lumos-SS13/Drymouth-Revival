@@ -3,11 +3,6 @@
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_GENERAL
 	slot = SLOT_WEAR_SUIT
 
-/datum/gear/suit/redhood
-	name = "Red cloak"
-	path = /obj/item/clothing/suit/hooded/cloak/david
-	cost = 3
-
 /datum/gear/suit/jacketbomber
 	name = "Bomber jacket"
 	path = /obj/item/clothing/suit/jacket
