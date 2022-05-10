@@ -15,30 +15,6 @@
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
 	cost = 3
 
-/datum/gear/suit/jacketflannelblack
-	name = "Black flannel jacket"
-	path = /obj/item/clothing/suit/jacket/flannel
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
-	cost = 2
-
-/datum/gear/suit/jacketflannelred
-	name = "Red flannel jacket"
-	path = /obj/item/clothing/suit/jacket/flannel/red
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
-	cost = 2
-
-/datum/gear/suit/jacketflannelaqua
-	name = "Aqua flannel jacket"
-	path = /obj/item/clothing/suit/jacket/flannel/aqua
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
-	cost = 2
-
-/datum/gear/suit/jacketflannelbrown
-	name = "Brown flannel jacket"
-	path = /obj/item/clothing/suit/jacket/flannel/brown
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
-	cost = 2
-
 /datum/gear/suit/jacketleather
 	name = "Leather jacket"
 	path = /obj/item/clothing/suit/armor/f13/leather_jacket
@@ -78,12 +54,6 @@
 /datum/gear/suit/militaryjacket
 	name = "Military Jacket"
 	path = /obj/item/clothing/suit/jacket/miljacket
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
-	cost = 3
-
-/datum/gear/suit/flakjack
-	name = "Flak Jacket"
-	path = /obj/item/clothing/suit/flakjack
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
 	cost = 3
 

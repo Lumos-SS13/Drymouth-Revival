@@ -275,20 +275,4 @@ datum/gear/head/steelpot_bandolier
 	path = /obj/item/clothing/head/f13/ncr_campaign
 	cost = 4
 	restricted_desc = "NCR"
-	restricted_roles = list("NCR Sergeant",
-							"NCR Heavy Trooper"
-						)
-
-/datum/gear/head/khan_bandana
-	name = "Great Khan bandana"
-	path = /obj/item/clothing/head/helmet/f13/khan/bandana
-	cost = 2
-	restricted_desc = "KHAN"
-	restricted_roles = list("Great Khan")
-
-/datum/gear/head/khan_furtrimmed
-	name = "Great Khan fur-trimmed helmet"
-	path = /obj/item/clothing/head/helmet/f13/khan/pelt
-	cost = 2
-	restricted_desc = "KHAN"
-	restricted_roles = list("Great Khan")
+	restricted_roles = list("NCR Sergeant", "NCR Heavy Trooper")
