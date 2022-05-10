@@ -3708,10 +3708,7 @@
 #include "modular_citadel\code\modules\mob\living\carbon\reindex_screams.dm"
 #include "modular_citadel\code\modules\mob\living\carbon\human\human.dm"
 #include "modular_citadel\code\modules\mob\living\carbon\human\human_defense.dm"
-#include "modular_citadel\code\modules\projectiles\ammunition\caseless.dm"
-#include "modular_citadel\code\modules\projectiles\boxes_magazines\ammo_boxes.dm"
 #include "modular_citadel\code\modules\projectiles\boxes_magazines\external\pistol.dm"
-#include "modular_citadel\code\modules\projectiles\projectiles\reusable.dm"
 #include "modular_citadel\code\modules\reagents\chemistry\reagents\astrogen.dm"
 #include "modular_citadel\code\modules\reagents\chemistry\reagents\eigentstasium.dm"
 #include "modular_citadel\code\modules\reagents\chemistry\reagents\fermi_reagents.dm"
@@ -3719,6 +3716,5 @@
 #include "modular_citadel\code\modules\reagents\chemistry\reagents\MKUltra.dm"
 #include "modular_citadel\code\modules\reagents\chemistry\reagents\SDGF.dm"
 #include "modular_citadel\code\modules\reagents\chemistry\recipes\fermi.dm"
-#include "modular_citadel\code\modules\reagents\objects\clothes.dm"
 #include "modular_citadel\code\modules\reagents\objects\items.dm"
 // END_INCLUDE

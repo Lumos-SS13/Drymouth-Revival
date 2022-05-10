@@ -589,22 +589,6 @@
 	build_path = /obj/item/gun/ballistic/shotgun/toy/unrestricted
 	category = list("initial", "Rifles")
 
-/datum/design/foam_dartred
-	name = "Box of Lastag Red Foam Darts"
-	id = "redfoam_dart"
-	build_type = TOYLATHE
-	materials = list(/datum/material/plastic = 500, /datum/material/iron = 100)
-	build_path = /obj/item/ammo_box/foambox/tag/red
-	category = list("initial", "Misc")
-
-/datum/design/foam_dartblue
-	name = "Box of Lastag Blue Foam Darts"
-	id = "bluefoam_dart"
-	build_type = TOYLATHE
-	materials = list(/datum/material/plastic = 500, /datum/material/iron = 100)
-	build_path = /obj/item/ammo_box/foambox/tag/blue
-	category = list("initial", "Misc")
-
 /datum/design/foam_bow
 	name = "Foam Force Crossbow"
 	id = "foam_bow"
