@@ -23,21 +23,6 @@
 	name = "flat cap"
 	path = /obj/item/clothing/head/flatcap
 
-/datum/gear/head/utilityolive
-	name = "olive utility covering"
-	path = /obj/item/clothing/head/soft/f13/utility/olive
-	cost = 2
-
-/datum/gear/head/utilitynavy
-	name = "navy utility covering"
-	path = /obj/item/clothing/head/soft/f13/utility/navy
-	cost = 2
-
-/datum/gear/head/utilitytan
-	name = "tan utility covering"
-	path = /obj/item/clothing/head/soft/f13/utility/tan
-	cost = 2
-
 /datum/gear/head/vaquerohat
 	name = "vaquero hat"
 	path = /obj/item/clothing/head/helmet/f13/vaquerohat
@@ -64,11 +49,6 @@
 /datum/gear/head/sombrero
 	name = "sombrero"
 	path = /obj/item/clothing/head/sombrero
-
-/datum/gear/head/sombrerogreen
-	name = "green sombrero"
-	path = /obj/item/clothing/head/sombrero/green
-	cost = 3
 
 /datum/gear/head/wig
 	name = "black wig"

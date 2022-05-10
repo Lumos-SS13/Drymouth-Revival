@@ -1,5 +1,6 @@
 /datum/gear/glasses
 	category = LOADOUT_CATEGORY_GLASSES
+	subcategory = LOADOUT_SUBCATEGORY_GLASSES_GENERAL
 	slot = SLOT_GLASSES
 
 /datum/gear/glasses/prescription

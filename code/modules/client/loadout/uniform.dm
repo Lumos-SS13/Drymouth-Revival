@@ -10,10 +10,6 @@
 /datum/gear/uniform/caravaneer
 	name = "caravaneer outfit"
 	path = /obj/item/clothing/under/f13/caravaneer
-	
-/datum/gear/uniform/ncrcf
-	name = "NCRCF outfit" 
-	path = /obj/item/clothing/under/f13/ncrcf
 
 /datum/gear/uniform/brahminskin
 	name = "brahmin skin outfit"
@@ -22,14 +18,6 @@
 /datum/gear/uniform/brahminskin/female
 	name = "female brahmin skin outfit"
 	path = /obj/item/clothing/under/f13/female/brahmin
-
-/datum/gear/uniform/tribal
-	name = "male tribal outfit"
-	path = /obj/item/clothing/under/f13/tribal
-
-/datum/gear/uniform/tribal/female
-	name = "female tribal outfit"
-	path = /obj/item/clothing/under/f13/female/tribal
 
 /datum/gear/uniform/doctorfatigues
 	name = "doctor fatigues"
@@ -108,23 +96,6 @@
 	name = "combat uniform"
 	path = /obj/item/clothing/under/f13/combat_shirt
 	cost = 2
-
-/datum/gear/uniform/bdu
-	name = "battle dress uniform"
-	path = /obj/item/clothing/under/f13/bdu
-	cost = 3
-
-/datum/gear/uniform/bdu/desert
-	name = "desert battle dress uniform"
-	path = /obj/item/clothing/under/f13/dbdu
-
-/datum/gear/uniform/syndicate
-	name = "tactical turtleneck"
-	path = /obj/item/clothing/under/syndicate
-
-/datum/gear/uniform/syndicate/skirt
-	name = "tactical skirt"
-	path = /obj/item/clothing/under/f13/legskirt/tac
 
 /datum/gear/uniform/roving
 	name = "roving trader outfit"
@@ -270,11 +241,6 @@
 	path = /obj/item/clothing/under/pants/yoga
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_PANTS
 
-/datum/gear/uniform/kilt
-	name = "kilt"
-	path = /obj/item/clothing/under/costume/kilt
-	cost = 2
-
 /datum/gear/uniform/pants/camo
 	name = "camo pants"
 	path = /obj/item/clothing/under/pants/camo
@@ -364,10 +330,6 @@
 	name = "corset"
 	path = /obj/item/clothing/under/dress/corset
 
-/datum/gear/uniform/bathrobe
-	name = "bathrobe"
-	path = /obj/item/clothing/under/misc/bathrobe
-
 //POLICE
 
 /datum/gear/uniform/police
@@ -378,28 +340,6 @@
 /datum/gear/uniform/police/lieutenant
 	name = "Police Lieutenant's uniform"
 	path = /obj/item/clothing/under/f13/police/lieutenant
-	cost = 3
-
-//US
-
-/datum/gear/uniform/usarmy
-	name = "US Army combat uniform"
-	path = /obj/item/clothing/under/f13/army
-	cost = 2
-
-/datum/gear/uniform/usarmy/officer
-	name = "US Army officer's combat uniform"
-	path = /obj/item/clothing/under/f13/army/officer
-	cost = 3
-
-/datum/gear/uniform/usnavy
-	name = "US Navy jumpsuit"
-	path = /obj/item/clothing/under/f13/navy
-	cost = 2
-
-/datum/gear/uniform/usnavy/officer
-	name = "US Navy officer's jumpsuit"
-	path = /obj/item/clothing/under/f13/navy/officer
 	cost = 3
 
 //NCR
@@ -450,9 +390,7 @@
 	name = "NCR sniper outfit"
 	path = /obj/item/clothing/under/f13/ncr
 	restricted_desc = "Sergeants, Corporals"
-	restricted_roles = list("NCR Corporal",
-							"NCR Sergeant"
-						)
+	restricted_roles = list("NCR Corporal", "NCR Sergeant")
 
 /datum/gear/uniform/ranger
 	name = "ranger outfit"

@@ -17,6 +17,7 @@
 #define LOADOUT_CATEGORY_BACKPACK 				"In backpack"
 #define LOADOUT_SUBCATEGORY_BACKPACK_GENERAL 	"General" //basically anything that there's not enough of to have its own subcategory
 #define LOADOUT_SUBCATEGORY_BACKPACK_TOYS 		"Toys"
+
 //neck
 #define LOADOUT_CATEGORY_NECK "Neck"
 #define LOADOUT_SUBCATEGORY_NECK_GENERAL 	"General"
@@ -25,9 +26,11 @@
 
 //mask
 #define LOADOUT_CATEGORY_MASK "Mask"
+#define LOADOUT_SUBCATEGORY_MASK_GENERAL 	"General"
 
 //hands
 #define LOADOUT_CATEGORY_HANDS 				"Hands"
+#define LOADOUT_SUBCATEGORY_HANDS_GENERAL 	"General"
 
 //uniform
 #define LOADOUT_CATEGORY_UNIFORM 			"Uniform" //there's so many types of uniform it's best to have lots of categories
@@ -54,15 +57,19 @@
 
 //shoes
 #define LOADOUT_CATEGORY_SHOES 		"Shoes"
+#define LOADOUT_SUBCATEGORY_SHOES_GENERAL 	"General"
 
 //gloves
 #define LOADOUT_CATEGORY_GLOVES		"Gloves"
+#define LOADOUT_SUBCATEGORY_GLOVES_GENERAL 	"General"
 
 //glasses
 #define LOADOUT_CATEGORY_GLASSES	"Glasses"
+#define LOADOUT_SUBCATEGORY_GLASSES_GENERAL 	"General"
 
 //donator items
 #define LOADOUT_CATEGORY_DONATOR	"Special"
+#define LOADOUT_SUBCATEGORY_DONATOR_GENERAL 	"General"
 
 //how many prosthetics can we have
 #define MAXIMUM_LOADOUT_PROSTHETICS	2

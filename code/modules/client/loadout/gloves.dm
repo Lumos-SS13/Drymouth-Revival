@@ -1,5 +1,6 @@
 /datum/gear/gloves
 	category = LOADOUT_CATEGORY_GLOVES
+	subcategory = LOADOUT_SUBCATEGORY_GLOVES_GENERAL
 	slot = SLOT_GLOVES
 
 /datum/gear/gloves/handwraps

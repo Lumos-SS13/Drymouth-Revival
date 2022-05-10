@@ -1,5 +1,6 @@
 /datum/gear/hands
 	category = LOADOUT_CATEGORY_HANDS
+	subcategory = LOADOUT_SUBCATEGORY_HANDS_GENERAL
 	slot = SLOT_HANDS
 
 /datum/gear/hands/briefcase/crafted

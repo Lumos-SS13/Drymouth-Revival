@@ -1,5 +1,6 @@
 /datum/gear/shoes
 	category = LOADOUT_CATEGORY_SHOES
+	subcategory = LOADOUT_SUBCATEGORY_SHOES_GENERAL
 	slot = SLOT_SHOES
 
 /datum/gear/shoes/footcloths

@@ -8,14 +8,10 @@
 	path = /obj/item/pen/fountain
 	cost = 3
 
-/datum/gear/backpack/necklace//this is here because loadout doesn't support proper accessories
+/datum/gear/backpack/necklace //this is here because loadout doesn't support proper accessories
 	name = "Renameable Necklace"
 	path = /obj/item/clothing/accessory/necklace
-
-/datum/gear/backpack/redbelt
-	name = "primitive belt"
-	path = /obj/item/storage/belt/mining/primitive
-	cost = 4
+	loadout_flags = LOADOUT_CAN_NAME | LOADOUT_CAN_DESCRIPTION
 
 /datum/gear/backpack/cigarettes/cigpack_bigboss
 	name = "Big Boss Smokes"

@@ -15,7 +15,7 @@
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
 	cost = 3
 
-/datum/gear/suit/jacketflannelblack // all of these are reskins of bomber jackets but with the vibe to make you look like a true lumberjack
+/datum/gear/suit/jacketflannelblack
 	name = "Black flannel jacket"
 	path = /obj/item/clothing/suit/jacket/flannel
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
@@ -98,11 +98,6 @@
 	path = /obj/item/clothing/suit/armor/f13/punk
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
 	cost = 5
-	
-/datum/gear/suit/ncrcfjacket
-	name = "NCRCF jacket"
-	path = /obj/item/clothing/suit/armor/f13/ncrcfjacket
-	cost = 1
 
 /datum/gear/suit/NCRutilityvest
 	name = "Utility Vest"
