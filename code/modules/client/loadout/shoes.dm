@@ -2,6 +2,10 @@
 	category = LOADOUT_CATEGORY_SHOES
 	slot = SLOT_SHOES
 
+/datum/gear/shoes/footcloths
+	name = "footcloths"
+	path = /obj/item/clothing/shoes/f13/rag
+
 /datum/gear/shoes/laceup
 	name = "laceup shoes"
 	path = /obj/item/clothing/shoes/laceup
@@ -19,21 +23,9 @@
 	name = "black shoes"
 	path = /obj/item/clothing/shoes/sneakers/black
 
-/datum/gear/shoes/brownshoes
-	name = "brown shoes"
-	path = /obj/item/clothing/shoes/sneakers/brown
-
-/datum/gear/shoes/whiteshoes
-	name = "white shoes"
-	path = /obj/item/clothing/shoes/sneakers/white
-
 /datum/gear/shoes/pelt
 	name = "pelt boots"
 	path = /obj/item/clothing/shoes/f13/peltboots 
-
-/datum/gear/shoes/footcloths
-	name = "footcloths"
-	path = /obj/item/clothing/shoes/f13/rag
 
 /datum/gear/shoes/raidertreads
 	name = "raider treads"

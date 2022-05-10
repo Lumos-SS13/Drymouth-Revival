@@ -13,18 +13,17 @@
 	slot = SLOT_IN_BACKPACK
 	path = /obj/item/storage/belt/holster/ranger45
 	geargroupID = list("DONORTEST") //This is a list mainly for the sake of testing, but geargroupID works just fine with ordinary strings
-/////////////////////
-///Loadout Boxes///// See kits.dm, use this model for loadouts that have more than one item per character.
-/////////////////////
+
+
+///Loadout Boxes///
+//See kits.dm, use this model for loadouts that have more than one item per character.
+
 /datum/gear/donator/kits
 	slot = SLOT_IN_BACKPACK
-
 
 /*example
 /datum/gear/donator/kits/averyamadeus
 	name = "Avery Amadeus' belongings"
 	path = /obj/item/storage/box/large/custom_kit/averyamadeus
 	ckeywhitelist = list("topbirb")
-
-
 */

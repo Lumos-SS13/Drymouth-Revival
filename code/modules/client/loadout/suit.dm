@@ -123,89 +123,10 @@
 							"NCR Combat Medic",
 							"NCR Trooper",
 							"NCR Rear Echelon",
-							"NCR Off-Duty",
+							"NCR Off-Duty"
 						)
-	
 
-/datum/gear/suit/fieldscribe
-	name = "Fieldscribe suit"
-	path = /obj/item/clothing/suit/toggle/labcoat/fieldscribe
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
-	cost = 5
-	restricted_desc = "Scribes"
-	restricted_roles = list("Head Scribe",
-							"Senior Scribe",
-							"Scribe",
-							)
-
-/datum/gear/suit/scribecoat
-	name = "Fieldscribe coat"
-	path = /obj/item/clothing/suit/toggle/labcoat/scribecoat
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
-	cost = 5
-	restricted_desc = "Scribes"
-	restricted_roles = list("Head Scribe",
-							"Senior Scribe",
-							"Scribe",
-							)
-	
-/datum/gear/suit/town
-	name = "Town Trenchcoat"
-	path = /obj/item/clothing/suit/armor/f13/town
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
-	cost = 5
-	restricted_desc = "Oasis"
-	restricted_roles = list("Mayor",
-							"Secretary",
-							"Sheriff",
-							"Doctor",
-							"Citizen",
-							"Deputy",
-							"Shopkeeper",
-							"Farmer",
-							"Prospector",
-							"Detective",
-							"Barkeep",
-							)
-							
-/datum/gear/suit/deputyvest
-	name = "OPD armor vest"
-	path = /obj/item/clothing/suit/armor/vest/oasis
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
-	cost = 5
-	restricted_desc = "Oasis Police"
-	restricted_roles = list("Sheriff",
-								"Deputy",
-								"Detective",
-								)
-							
-/datum/gear/suit/hazardvest
-	name = "Hazard Vest"
-	path = /obj/item/clothing/suit/hazardvest
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
-	cost = 2
-	restricted_roles = list("Citizen",
-							"Prospector",
-							)
-
-
-//These should be left commented out until the holidays or special events.
-/*
-/datum/gear/suit/christmascoatr
-	name = "Red Christmas Coat"
-	path = /obj/item/clothing/suit/hooded/wintercoat/christmascoatr
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_COATS
-
-/datum/gear/suit/christmascoatg
-	name = "Green Christmas Coat"
-	path = /obj/item/clothing/suit/hooded/wintercoat/christmascoatg
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_COATS
-
-/datum/gear/suit/christmascoatrg
-	name = "Red and Green Christmas Coat"
-	path = /obj/item/clothing/suit/hooded/wintercoat/christmascoatrg
-	subcategory = LOADOUT_SUBCATEGORY_SUIT_COATS
-*/
+// Let this stand as a testament to Lonestar's quality control
 
 // BEGIN_INTERNALS
 // END_INTERNALS

@@ -11,22 +11,6 @@
 	name = "beanie"
 	path = /obj/item/clothing/head/beanie
 
-/datum/gear/head/stripedbeanie
-	name = "striped beanie"
-	path = /obj/item/clothing/head/beanie/striped
-
-/datum/gear/head/stripedredbeanie
-	name = "striped red beanie"
-	path = /obj/item/clothing/head/beanie/stripedred
-
-/datum/gear/head/stripedbluebeanie
-	name = "striped blue beanie"
-	path = /obj/item/clothing/head/beanie/stripedblue
-
-/datum/gear/head/stripedgreenbeanie
-	name = "striped green beanie"
-	path = /obj/item/clothing/head/beanie/stripedgreen
-
 /datum/gear/head/beretred
 	name = "red beret"
 	path = /obj/item/clothing/head/beret
@@ -59,15 +43,6 @@
 	path = /obj/item/clothing/head/helmet/f13/vaquerohat
 	cost = 2
 
-/datum/gear/head/pirate
-	name = "pirate hat"
-	path = /obj/item/clothing/head/pirate
-
-/datum/gear/head/rice_hat
-	name = "rice hat"
-	path = /obj/item/clothing/head/rice_hat
-	cost = 2
-
 /datum/gear/head/fedora
 	name = "fedora"
 	path = /obj/item/clothing/head/fedora
@@ -77,19 +52,9 @@
 	name = "gambler hat"
 	path = /obj/item/clothing/head/fluff/gambler
 
-/datum/gear/head/that
-	name = "top hat"
-	path = /obj/item/clothing/head/that
-	cost = 3
-
 /datum/gear/head/beaver
 	name = "beaverskin top hat"
 	path = /obj/item/clothing/head/f13/beaver
-	cost = 4
-
-/datum/gear/head/purpletophat
-	name = "purple tophat"
-	path = /obj/item/clothing/head/f13/purple
 	cost = 4
 
 /datum/gear/head/mailmanhat
@@ -128,18 +93,6 @@
 	name = "chef hat"
 	path = /obj/item/clothing/head/chefhat
 
-/datum/gear/head/rasta
-	name = "rasta cap"
-	path = /obj/item/clothing/head/f13/rastacap
-
-/datum/gear/head/hotel
-	name = "telegram cap"
-	path = /obj/item/clothing/head/hotel
-
-/datum/gear/head/papersack
-	name = "paper sack"
-	path = /obj/item/clothing/head/papersack
-
 //Cowboy Stuff
 /datum/gear/head/cowboy
 	name = "brahmin leather cowboy hat"
@@ -161,26 +114,13 @@
 	path = /obj/item/clothing/head/fluff/bandit
 	cost = 2
 
-/datum/gear/head/wkepi
-	name = "white kepi"
-	path = /obj/item/clothing/head/kepi
-
 /datum/gear/head/widered
 	name = "wide red hat"
 	path = /obj/item/clothing/head/widered
 
-/datum/gear/head/kabuto
-	name = "kabuto helmet"
-	path = /obj/item/clothing/head/kabuto
-
 /datum/gear/head/ushanka
 	name = "ushanka"
 	path = /obj/item/clothing/head/ushanka
-
-/datum/gear/head/russobluecamohat
-	name = "Russian blue camo beret"
-	path = /obj/item/clothing/head/fluff/gambler
-	cost = 3
 
 /datum/gear/head/ranger_tan
 	name = "tan cowboy hat"
@@ -198,12 +138,12 @@
 	cost = 2
 
 /datum/gear/head/flakhelm
-	name = "(I) flak helmet"
+	name = "flak helmet"
 	path = /obj/item/clothing/head/flakhelm
 	cost = 2
 
 /datum/gear/head/pot
-	name = "(III) pot helmet"
+	name = "pot helmet"
 	path = /obj/item/clothing/head/f13/pot
 	cost = 4
 
@@ -222,30 +162,6 @@
 /datum/gear/head/police/lieutenant
 	name = "Police Lieutenant's cap"
 	path = /obj/item/clothing/head/f13/police/lieutenant
-	cost = 3
-
-//US
-
-/datum/gear/head/usarmy
-	name = "US Army field cap"
-	path = /obj/item/clothing/head/f13/army
-	cost = 2
-
-/datum/gear/head/usarmy/officer
-	name = "US Army officer's cap"
-	path = /obj/item/clothing/head/f13/army/officer
-	cost = 3
-
-//CHINA
-
-/datum/gear/head/chinese
-	name = "PLA field cap"
-	path = /obj/item/clothing/head/f13/chinese
-	cost = 2
-
-/datum/gear/head/chinese/officer
-	name = "PLA officer's cap"
-	path = /obj/item/clothing/head/f13/chinese/officer
 	cost = 3
 
 //NCR

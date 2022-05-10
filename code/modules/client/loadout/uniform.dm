@@ -329,91 +329,6 @@
 	name = "grey turtleneck"
 	path = /obj/item/clothing/under/suit/turtle/grey
 	cost = 2
-/*
-/datum/gear/uniform/detbrown
-	name = "Brown Worn Suit"
-	path = /obj/item/clothing/under/rank/security/detective/brown
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
-	restricted_desc = "Detective"
-	restricted_roles = list("Detective")
-
-/datum/gear/uniform/detbrown/detbrown2
-	name = "Padded Worn Suit"
-	path = /obj/item/clothing/under/rank/security/detective/brown/brown2
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
-	restricted_desc = "Detective"
-	restricted_roles = list("Detective")
-*/
-
-// Grey utility
-
-/datum/gear/uniform/grey/util
-	name = "grey utility uniform"
-	path = /obj/item/clothing/under/rank/civilian/util
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_GENERAL
-
-/*
-/datum/gear/uniform/grey/sec
-	name = "Security Utility Uniform"
-	path = /obj/item/clothing/under/rank/security/officer/util
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
-	restricted_desc = "Security"
-	restricted_roles = list("Detective", "Security Officer", "Warden", "Head of Security")
-
-/datum/gear/uniform/grey/sci
-	name = "Science Utility Uniform"
-	path = /obj/item/clothing/under/rank/rnd/scientist/util
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
-	restricted_desc = "Science"
-	restricted_roles = list("Scientist", "Roboticist", "Research Director", "Geneticist")
-*/
-
-/*
-/datum/gear/uniform/grey/supply
-	name = "Supply Utility Uniform"
-	path = /obj/item/clothing/under/rank/cargo/util
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
-	restricted_desc = "Supply"
-	restricted_roles = list("Shaft Miner", "Cargo Technician", "Quartermaster")
-
-/datum/gear/uniform/grey/com
-	name = "Command Utility Uniform"
-	path = /obj/item/clothing/under/rank/captain/util
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
-	restricted_desc = "Command"
-	restricted_roles = list("Quartermaster", "Research Director", "Chief Medical Officer", "Head Of Security", "Head Of Personnel", "Captain")
-*/
-
-//Memes
-
-//Christmas
-/*Commenting out Until next Christmas or made automatic
-/datum/gear/uniform/christmasmaler
-	name = "Red Masculine Christmas Suit"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/costume/christmas
-
-/datum/gear/uniform/christmasmaleg
-	name = "Green Masculine Christmas Suit"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/costume/christmas/green
-
-/datum/gear/uniform/christmasfemaler
-	name = "Red Feminine Christmas Suit"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/costume/christmas/croptop
-
-/datum/gear/uniform/christmasfemaleg
-	name = "Green Feminine Christmas Suit"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/costume/christmas/croptop/green
-
-/datum/gear/uniform/pinkstripper
-	name = "Pink stripper outfit"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/misc/stripper
-	cost = 3
-*/
 
 /datum/gear/uniform/flapper
 	name = "flapper dress"
@@ -432,43 +347,6 @@
 	name = "green stripper outfit"
 	path = /obj/item/clothing/under/misc/stripper/green
 	cost = 5
-/*
-/datum/gear/uniform/qipao
-	name = "Qipao, Black"
-	path = /obj/item/clothing/under/costume/qipao
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_DRESSES
-	cost = 3
-
-/datum/gear/uniform/qipao/white
-	name = "Qipao, White"
-	path = /obj/item/clothing/under/costume/qipao/white
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_DRESSES
-	cost = 3
-
-/datum/gear/uniform/qipao/red
-	name = "Qipao, Red"
-	path = /obj/item/clothing/under/costume/qipao/red
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_DRESSES
-	cost = 3
-
-/datum/gear/uniform/cheongsam
-	name = "Cheongsam, Black"
-	path = /obj/item/clothing/under/costume/cheongsam
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_DRESSES
-	cost = 3
-
-/datum/gear/uniform/cheongsam/white
-	name = "Cheongsam, White"
-	path = /obj/item/clothing/under/costume/cheongsam/white
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_DRESSES
-	cost = 3
-
-/datum/gear/uniform/cheongsam/red
-	name = "Cheongsam, Red"
-	path = /obj/item/clothing/under/costume/cheongsam/red
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_DRESSES
-	cost = 3
-*/
 
 /datum/gear/uniform/dress/black
 	name = "black dress"
@@ -489,27 +367,6 @@
 /datum/gear/uniform/bathrobe
 	name = "bathrobe"
 	path = /obj/item/clothing/under/misc/bathrobe
-/*
-/datum/gear/uniform/kimono
-	name = "Kimono"
-	path = /obj/item/clothing/under/costume/kimono
-
-/datum/gear/uniform/kimono/black
-	name = "Black kimono"
-	path = /obj/item/clothing/under/costume/kimono/black
-
-/datum/gear/uniform/kimono/kamishimo
-	name = "Kamishimo"
-	path = /obj/item/clothing/under/costume/kimono/kamishimo
-
-/datum/gear/uniform/kimono/fancy
-	name = "Fancy kimono"
-	path = /obj/item/clothing/under/costume/kimono/fancy
-
-/datum/gear/uniform/kimono/sakura
-	name = "Sakura kimono"
-	path = /obj/item/clothing/under/costume/kimono/sakura
-*/
 
 //POLICE
 
@@ -543,18 +400,6 @@
 /datum/gear/uniform/usnavy/officer
 	name = "US Navy officer's jumpsuit"
 	path = /obj/item/clothing/under/f13/navy/officer
-	cost = 3
-
-//CHINA
-
-/datum/gear/uniform/chinese
-	name = "PLA uniform"
-	path = /obj/item/clothing/under/f13/chinese
-	cost = 2
-
-/datum/gear/uniform/chinese/officer
-	name = "PLA officer's uniform"
-	path = /obj/item/clothing/under/f13/chinese/officer
 	cost = 3
 
 //NCR
