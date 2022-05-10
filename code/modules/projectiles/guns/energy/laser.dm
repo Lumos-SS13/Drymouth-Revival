@@ -126,11 +126,18 @@
 /obj/item/gun/energy/laser/redtag/hitscan
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/redtag/hitscan)
 
+// Laser AK from Cit - kept for sovietvend + Can be used in future (sprite could be improved tho)
+/obj/item/gun/energy/laser/LaserAK
+	name = "Laser AK470"
+	desc = "A laser AK. Death solves all problems -- No man, no problem."
+	icon_state = "LaserAK"
+	item_state = null
+	cell_type = "/obj/item/stock_parts/cell/pulse/carbine"
+	ammo_type = list(/obj/item/ammo_casing/energy/laser)
+	ammo_x_offset = 4
 
 
 //Fallout
-
-
 /obj/item/gun/energy/laser
 	name = "energy weapon template"
 	desc = "Should not exists. Bugreport."

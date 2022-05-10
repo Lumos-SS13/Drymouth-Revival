@@ -672,7 +672,6 @@
 	lootcount = 1
 	spawn_on_turf = FALSE
 	loot = list("" = 25,
-		/obj/item/ammo_box/magazine/wt550m9 = 1,
 		/obj/item/ammo_casing/shotgun/buckshot = 7,
 		/obj/item/ammo_casing/shotgun/rubbershot = 7,
 		/obj/item/ammo_casing/a762 = 15,
@@ -684,7 +683,6 @@
 	lootcount = 1
 	spawn_on_turf = FALSE
 	loot = list("" = 50,
-		/obj/item/ammo_box/magazine/wt550m9 = 2,
 		/obj/item/ammo_casing/shotgun/buckshot = 10,
 		/obj/item/ammo_casing/shotgun/rubbershot = 10,
 		/obj/item/ammo_casing/a762 = 7,
