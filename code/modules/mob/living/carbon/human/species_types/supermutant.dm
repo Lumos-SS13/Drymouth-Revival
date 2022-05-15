@@ -3,9 +3,9 @@
 	id = "smutant"
 	say_mod = "grunts"
 	limbs_id = "smutant"
-	species_traits = list(NOTRANSSTING,NOGENITALS,NOAROUSAL)
+	species_traits = list(NOTRANSSTING,NOGENITALS,NOAROUSAL,NO_UNDERWEAR)
 	inherent_traits = list(TRAIT_RADIMMUNE,TRAIT_VIRUSIMMUNE)
-	inherent_biotypes = list(MOB_INORGANIC, MOB_HUMANOID)
+	inherent_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
 	punchstunthreshold = 20
 	use_skintones = 0
 	sexes = 0 // no sexo
