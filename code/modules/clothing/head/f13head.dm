@@ -910,6 +910,13 @@
 	item_state = "eyepatch_white_r"
 
 // Super Mutant Headwear
+/obj/item/clothing/head/f13/smutant
+	name = "large flight cap"
+	desc = "A leather flight cap, much too big for a normal head."
+	icon_state = "mutie_hood"
+	item_state = "mutie_hood"
+	species_restricted = list("Super Mutant")
+
 /obj/item/clothing/head/f13/smutant/poncho
 	name = "oversized poncho"
 	desc = "A large darkened leather poncho with presumably a floormat underneath for warmth."
@@ -919,11 +926,5 @@
 /obj/item/clothing/head/f13/smutant/metalhelmet
 	name = "large metal helmet"
 	desc = "A crudely constructed helmet of Super Mutant design. It's too large for a human head."
-	icon_state = "mutie_hood" // PENDING
-	item_state = "mutie_hood"
-
-/obj/item/clothing/head/f13/smutant/flightcap
-	name = "large flight cap"
-	desc = "A leather flight cap, much too big for a normal head."
 	icon_state = "mutie_hood" // PENDING
 	item_state = "mutie_hood"

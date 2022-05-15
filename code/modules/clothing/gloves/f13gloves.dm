@@ -178,6 +178,7 @@
 	icon_state = "mutie_bracer"
 	item_state = "mutie_bracer"
 	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
+	species_restricted = list("Super Mutant")
 
 /obj/item/clothing/gloves/f13/smutant/light
 	name = "plate bracer"
@@ -200,6 +201,6 @@
 
 /obj/item/clothing/gloves/f13/smutant/spike
 	name = "haphazard sharp bracers"
-	desc = "Leather wrap gloves with assorted blades strapped into them with barbed wire. Too large and uncomfortable for a normal-sized, sane-equivalent person."
+	desc = "Leather wrap gloves with assorted blades strapped in with barbed wire. Too large and uncomfortable for a normal-sized, sane-equivalent person."
 	icon_state = "mutie_bracer_sign"
 	item_state = "mutie_bracer_sign"

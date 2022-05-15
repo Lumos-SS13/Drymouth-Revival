@@ -223,6 +223,7 @@
 	desc = "A pair of leather sandals, designed for super mutants."
 	icon_state = "mutie_sandals"
 	icon_state = "mutie_sandals"
+	species_restricted = list("Super Mutant")
 
 /obj/item/clothing/shoes/f13/smutant/boots
 	name = "massive boots"

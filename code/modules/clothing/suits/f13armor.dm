@@ -849,11 +849,12 @@
 	slowdown = 0.08
 
 //Mutants
-/obj/item/clothing/suit/armor/f13/smutant/basic
+/obj/item/clothing/suit/armor/f13/smutant
 	name = "mutant armor kit"
 	desc = "Scrap metal and half a tire held haphazardly together by belts and nails."
 	icon_state = "mutie_metal_armour"
 	item_state = "mutie_metal_armour"
+	species_restricted = list("Super Mutant")
 
 /obj/item/clothing/suit/armor/f13/smutant/metal
 	name = "mutant plate armor"

@@ -1446,7 +1446,14 @@
 //Super Mutants
 /obj/item/clothing/under/f13/smutant
 	name = "large torn shorts"
-	desc = "An incredibly damaged pair of shorts, large enough to fit a super mutant."
+	desc = "An incredibly dirty pair of shorts, large enough to fit a super mutant."
+	icon_state = "mutie_shorts"
+	item_state = "mutie_shorts"
+	species_restricted = list("Super Mutant")
+
+/obj/item/clothing/under/f13/smutant/shortsalt
+	name = "fur-lined shorts"
+	desc = "Shorts covered in a leather girdle, packed with fur pelt and held up by a wrapped garden hose. Too large for a normal human."
 	icon_state = "mutie_shorts"
 	item_state = "mutie_shorts"
 
@@ -1465,6 +1472,6 @@
 
 /obj/item/clothing/under/f13/smutant/mutiesanta
 	name = "super santa suit"
-	desc = "A jolly suit for a jolly man."
+	desc = "A jolly suit for the big, green man."
 	icon_state = "mutie_santa"
 	item_state = "mutie_santa"
