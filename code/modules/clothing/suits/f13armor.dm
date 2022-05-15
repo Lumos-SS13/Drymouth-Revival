@@ -848,7 +848,7 @@
 	armor = list("melee" = 20, "bullet" = 45, "laser" = 20, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
 	slowdown = 0.08
 
-//Mutants
+// Super Mutant Armor
 /obj/item/clothing/suit/armor/f13/smutant
 	name = "mutant armor kit"
 	desc = "Scrap metal and half a tire held haphazardly together by belts and nails."

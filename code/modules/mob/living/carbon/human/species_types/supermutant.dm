@@ -28,8 +28,8 @@
 		return 0
 	if(rank in GLOB.ncr_positions) // Good luck with that
 		return 0
-	if(rank in GLOB.brotherhood_positions) // Kill it with fire.
+	if(rank in GLOB.brotherhood_positions) // Kill it with fire
 		return 0
-	if(rank in GLOB.vault_positions) // How did they even get in??.
+	if(rank in GLOB.vault_positions) // How did they even get in??
 		return 0
 	return ..()
