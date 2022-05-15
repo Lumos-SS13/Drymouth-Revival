@@ -14,6 +14,9 @@
 	var/strip_mod = 1 //how much they alter stripping items time by, higher is quicker
 	var/strip_silence = FALSE //if it shows a warning when stripping
 
+// FO13 add - Necessary for Super Mutant clothing exclusivity
+	species_restricted = list("exclude","Super Mutant")
+
 /obj/item/clothing/gloves/ComponentInitialize()
 	. = ..()
 	RegisterSignal(src, COMSIG_COMPONENT_CLEAN_ACT, /atom.proc/clean_blood)

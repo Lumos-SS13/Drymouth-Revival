@@ -19,6 +19,9 @@
 	var/obj/item/clothing/accessory/attached_accessory
 	var/mutable_appearance/accessory_overlay
 
+// FO13 add - Necessary for Super Mutant clothing exclusivity
+	species_restricted = list("exclude","Super Mutant")
+
 /obj/item/clothing/under/worn_overlays(isinhands = FALSE, icon_file, used_state, style_flags = NONE)
 	. = ..()
 	if(isinhands)
