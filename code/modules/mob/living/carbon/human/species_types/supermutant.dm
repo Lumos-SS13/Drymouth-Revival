@@ -25,6 +25,8 @@
 /datum/species/smutant/qualifies_for_rank(rank, list/features)
 	if(rank in GLOB.legion_positions) /* Legion isn't a fan of muties */
 		return 0
+	if(rank in GLOB.ncr_positions) // Good luck with that
+		return 0
 	if(rank in GLOB.brotherhood_positions) //Kill it with fire.
 		return 0
 	if(rank in GLOB.vault_positions) //How did they even get in??.

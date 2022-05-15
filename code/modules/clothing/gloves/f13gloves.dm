@@ -109,25 +109,6 @@
 	siemens_coefficient = 0.5
 	permeability_coefficient = 0.1
 
-/obj/item/clothing/gloves/f13/mutant
-	name = "mutant bracers"
-	desc = "A pair of metal tubes with rope on the inside."
-	icon_state = "mutie_bracer"
-	item_state = "mutie_bracer"
-	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/gloves/f13/mutant/mk2
-	name = "mutant bracers"
-	desc = "A pair of giant metal tubes with rope on the inside."
-	icon_state = "mutie_bracer_mk2"
-	item_state = "mutie_bracer_mk2"
-
-/obj/item/clothing/gloves/f13/mutant/sign
-	name = "mutant sign bracers"
-	desc = "See this sign? It's a sign to move on."
-	icon_state = "mutie_bracer_sign"
-	item_state = "mutie_bracer_sign"
-
 /obj/item/clothing/gloves/botanic_leather
 	name = "farmers gloves"
 	desc = "These thick leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin.  They're also quite warm."
@@ -189,3 +170,36 @@
 	item_state = "legion_legate"
 	transfer_prints = FALSE
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 35, "energy" = 20, "bomb" = 35, "bio" = 35, "rad" = 35, "fire" = 0, "acid" = 0)
+
+// Super Mutant Mitts
+/obj/item/clothing/gloves/f13/smutant
+	name = "wire cuffs"
+	desc = "Bent sections of a chainlink fence. Too large for a normal person's arms."
+	icon_state = "mutie_bracer"
+	item_state = "mutie_bracer"
+	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
+
+/obj/item/clothing/gloves/f13/smutant/light
+	name = "plate bracer"
+	desc = "Two metal plates, some leather strap, and a dream. Wouldn't fit a human arm, maybe a leg."
+	icon_state = "mutie_bracer"
+	item_state = "mutie_bracer"
+	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
+
+/obj/item/clothing/gloves/f13/smutant/mk2
+	name = "metal plate bracers"
+	desc = "Hunks of assorted scrap with leather and wire holding it all together. Too heavy and large for a human."
+	icon_state = "mutie_bracer_mk2"
+	item_state = "mutie_bracer_mk2"
+
+/obj/item/clothing/gloves/f13/smutant/sign
+	name = "stop sign bracers"
+	desc = "A hammered stop sign on one arm, iceskating boot on another. Looks like a sign."
+	icon_state = "mutie_bracer_sign"
+	item_state = "mutie_bracer_sign"
+
+/obj/item/clothing/gloves/f13/smutant/spike
+	name = "haphazard sharp bracers"
+	desc = "Leather wrap gloves with assorted blades strapped into them with barbed wire. Too large and uncomfortable for a normal-sized, sane-equivalent person."
+	icon_state = "mutie_bracer_sign"
+	item_state = "mutie_bracer_sign"
