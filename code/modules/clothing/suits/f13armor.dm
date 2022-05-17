@@ -859,12 +859,12 @@
 /obj/item/clothing/suit/armor/f13/smutant/metal
 	name = "mutant plate armor"
 	desc = "Cobbled car parts and scrap metal, fitted for the hulking frame of a super mutant."
-	icon_state = "mutie_metal_armour"
+	icon_state = "mutie_metal_armour" // PENDING
 	item_state = "mutie_metal_armour"
 	armor = list("tier" = 5, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/armor/f13/smutant/master
 	name = "mutant light armour"
 	desc = "A metal and black leather singlet held together with rubber tubing. Sized for a super mutant."
-	icon_state = "mutie_metal_armour_mk2"
+	icon_state = "mutie_metal_armour_mk2" // PENDING
 	item_state = "mutie_metal_armour_mk2"

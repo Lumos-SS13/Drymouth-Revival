@@ -1454,13 +1454,13 @@
 /obj/item/clothing/under/f13/smutant/shortsalt
 	name = "fur-lined shorts"
 	desc = "Shorts covered in a leather girdle, packed with fur pelt and held up by a wrapped garden hose. Too large for a normal human."
-	icon_state = "mutie_shorts"
+	icon_state = "mutie_shorts" // PENDING
 	item_state = "mutie_shorts"
 
 /obj/item/clothing/under/f13/smutant/pants
 	name = "oversized pants"
 	desc = "A large pair of proper slacks. Almost unheard of amoungst super mutants."
-	icon_state = "mutie_shorts"
+	icon_state = "mutie_shorts" // PENDING
 	item_state = "mutie_shorts"
 
 // Special Super Mutant uniforms - Do not put in loadouts or maps, damnit.

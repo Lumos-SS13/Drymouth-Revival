@@ -175,7 +175,7 @@
 /obj/item/clothing/gloves/f13/smutant
 	name = "wire cuffs"
 	desc = "Bent sections of a chainlink fence. Too large for a normal person's arms."
-	icon_state = "mutie_bracer"
+	icon_state = "mutie_bracer" // PENDING
 	item_state = "mutie_bracer"
 	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 	species_restricted = list("Super Mutant")
@@ -183,14 +183,14 @@
 /obj/item/clothing/gloves/f13/smutant/light
 	name = "plate bracer"
 	desc = "Two metal plates, some leather strap, and a dream. Wouldn't fit a human arm, maybe a leg."
-	icon_state = "mutie_bracer"
+	icon_state = "mutie_bracer" // PENDING
 	item_state = "mutie_bracer"
 	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/gloves/f13/smutant/mk2
 	name = "metal plate bracers"
 	desc = "Hunks of assorted scrap with leather and wire holding it all together. Too heavy and large for a human."
-	icon_state = "mutie_bracer_mk2"
+	icon_state = "mutie_bracer_mk2" // PENDING
 	item_state = "mutie_bracer_mk2"
 
 /obj/item/clothing/gloves/f13/smutant/sign
@@ -202,5 +202,5 @@
 /obj/item/clothing/gloves/f13/smutant/spike
 	name = "haphazard sharp bracers"
 	desc = "Leather wrap gloves with assorted blades strapped in with barbed wire. Too large and uncomfortable for a normal-sized, sane-equivalent person."
-	icon_state = "mutie_bracer_sign"
+	icon_state = "mutie_bracer_sign" // PENDING
 	item_state = "mutie_bracer_sign"

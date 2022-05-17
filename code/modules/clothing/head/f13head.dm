@@ -913,7 +913,7 @@
 /obj/item/clothing/head/f13/smutant
 	name = "large flight cap"
 	desc = "A leather flight cap, much too big for a normal head."
-	icon_state = "mutie_hood"
+	icon_state = "mutie_hood" // PENDING
 	item_state = "mutie_hood"
 	species_restricted = list("Super Mutant")
 

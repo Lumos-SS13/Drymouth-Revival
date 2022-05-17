@@ -240,5 +240,5 @@
 /obj/item/clothing/shoes/f13/smutant/boots/armored
 	name = "massive armored boots"
 	desc = "A pair of oversized boots of wrapped leather and scrap plates. Too large for a normal person."
-	icon_state = "mutie_boots"
+	icon_state = "mutie_boots" // PENDING
 	icon_state = "mutie_boots"
