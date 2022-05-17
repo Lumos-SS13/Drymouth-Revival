@@ -1412,32 +1412,6 @@
 	item_state = "locust"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 40)
 
-//Super Mutants
-
-/obj/item/clothing/under/f13/mutieshorts
-	name = "large torn shorts"
-	desc = "An incredibly damaged pair of shorts, large enough to fit a super mutant."
-	icon_state = "mutie_shorts"
-	item_state = "mutie_shorts"
-
-/obj/item/clothing/under/f13/mutiesanta
-	name = "red and white jumspuit"
-	desc = "A fairly damaged red and white shirt with matching shorts, large enough to fit a super mutant."
-	icon_state = "mutie_santa"
-	item_state = "mutie_santa"
-
-/obj/item/clothing/under/f13/vaultmutie
-	name = "torn vault 113 jumpsuit"
-	desc = "Once, it was a blue jumpsuit with a yellow vault pattern and the number 11 printed on it, now torn and ripped."
-	icon_state = "mutie_vault_jumspuit"
-	item_state = "mutie_vault_jumspuit"
-
-/obj/item/clothing/under/f13/mutieranger
-	name = "mutant ranger clothing"
-	desc = "Specially made for Super Mutants living in the NCR, this large piece of clothing is well pressed and suited for any NCR Super Mutant personnel"
-	icon_state = "mutie_ranger_under"
-	item_state = "mutie_ranger_under"
-
 /obj/item/clothing/under/f13/desert_ranger_scout
 	name = "desert ranger scouting uniform"
 	desc = "A set of clothing worn by desert ranger scouts."
@@ -1469,3 +1443,35 @@
 	item_state = "dead_horses_under_f"
 	item_color = "dead_horses_under_f"
 
+//Super Mutants
+/obj/item/clothing/under/f13/smutant
+	name = "large torn shorts"
+	desc = "An incredibly dirty pair of shorts, large enough to fit a super mutant."
+	icon_state = "mutie_shorts"
+	item_state = "mutie_shorts"
+	species_restricted = list("Super Mutant")
+
+/obj/item/clothing/under/f13/smutant/shortsalt
+	name = "fur-lined shorts"
+	desc = "Shorts covered in a leather girdle, packed with fur pelt and held up by a wrapped garden hose. Too large for a normal human."
+	icon_state = "mutie_shorts" // PENDING
+	item_state = "mutie_shorts"
+
+/obj/item/clothing/under/f13/smutant/pants
+	name = "oversized pants"
+	desc = "A large pair of proper slacks. Almost unheard of amoungst super mutants."
+	icon_state = "mutie_shorts" // PENDING
+	item_state = "mutie_shorts"
+
+// Special Super Mutant uniforms - Do not put in loadouts or maps, damnit.
+/obj/item/clothing/under/f13/smutant/vaultmutie
+	name = "torn vault 113 jumpsuit"
+	desc = "Once, it was a blue jumpsuit with a yellow vault pattern and the number 113 printed on it, now torn and ripped."
+	icon_state = "mutie_vault_jumspuit"
+	item_state = "mutie_vault_jumspuit"
+
+/obj/item/clothing/under/f13/smutant/mutiesanta
+	name = "super santa suit"
+	desc = "A jolly suit for the big, green man."
+	icon_state = "mutie_santa"
+	item_state = "mutie_santa"

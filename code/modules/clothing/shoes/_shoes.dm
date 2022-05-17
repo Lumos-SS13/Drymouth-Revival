@@ -29,6 +29,9 @@
 	///any alerts we have active
 	var/obj/screen/alert/our_alert
 
+// FO13 add - Necessary for Super Mutant clothing exclusivity
+	species_restricted = list("exclude","Super Mutant")
+
 /obj/item/clothing/shoes/ComponentInitialize()
 	. = ..()
 	RegisterSignal(src, COMSIG_COMPONENT_CLEAN_ACT, /atom.proc/clean_blood)

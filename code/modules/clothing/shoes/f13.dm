@@ -204,9 +204,6 @@
 	icon_state = "khan_peltboots"
 	item_state = "khan_peltboots"
 
-
-
-//Fluff
 /obj/item/clothing/shoes/f13/miner
 	name = "mining boots"
 	desc = "Heavy-duty work boots with steel-reinforced toes and some fluffy wool for extra warmth."
@@ -216,32 +213,32 @@
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 
-/obj/item/clothing/shoes/f13/mutie
-	name = "super mutant sandals"
-	desc = "A pair of oversized sandals, likely designed for super mutants."
-	icon_state = "mutie_sandals"
-	icon_state = "mutie_sandals"
+/obj/item/clothing/shoes/f13/tribal_sandals
+	icon_state = "tribaltreads"
+	icon_state = "tribaltreads"
 
-/obj/item/clothing/shoes/f13/mutie/boots
-	name = "super mutant boots"
-	desc = "A pair of oversized boots."
+// Super Mutant Shoes
+/obj/item/clothing/shoes/f13/smutant
+	name = "oversized sandals"
+	desc = "A pair of leather sandals, designed for super mutants."
+	icon_state = "mutie_sandals"
+	icon_state = "mutie_sandals"
+	species_restricted = list("Super Mutant")
+
+/obj/item/clothing/shoes/f13/smutant/boots
+	name = "massive boots"
+	desc = "A pair of oversized boots constructed from wrapped leather. Too large for a normal person."
 	icon_state = "mutie_boots"
 	icon_state = "mutie_boots"
 	armor = list("tier" = 3, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 40, "fire" = 30, "acid" = 20)
 	cold_protection = FEET
 
-/obj/item/clothing/shoes/f13/mutie/boots/dark
+/obj/item/clothing/shoes/f13/smutant/boots/dark
 	icon_state = "mutie_boots_dark"
 	icon_state = "mutie_boots_dark"
 
-/obj/item/clothing/shoes/f13/mutie/boots/ncr
-	icon_state = "mutie_boots_ncr"
-	icon_state = "mutie_boots_ncr"
-
-/obj/item/clothing/shoes/f13/mutie/boots/ncr/ranger
-	icon_state = "mutie_boots_ranger"
-	icon_state = "mutie_boots_ranger"
-
-/obj/item/clothing/shoes/f13/tribal_sandals
-	icon_state = "tribaltreads"
-	icon_state = "tribaltreads"
+/obj/item/clothing/shoes/f13/smutant/boots/armored
+	name = "massive armored boots"
+	desc = "A pair of oversized boots of wrapped leather and scrap plates. Too large for a normal person."
+	icon_state = "mutie_boots" // PENDING
+	icon_state = "mutie_boots"

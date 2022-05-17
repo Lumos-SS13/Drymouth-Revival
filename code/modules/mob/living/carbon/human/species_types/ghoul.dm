@@ -4,8 +4,8 @@
 	say_mod = "rasps"
 	limbs_id = "ghoul"
 	species_traits = list(HAIR,FACEHAIR)
-	inherent_traits = list(TRAIT_RADIMMUNE, TRAIT_NOBREATH)
-	inherent_biotypes = list(MOB_INORGANIC, MOB_HUMANOID)
+	inherent_traits = list(TRAIT_RADIMMUNE,TRAIT_VIRUSIMMUNE)
+	inherent_biotypes = list(MOB_ORGANIC,MOB_HUMANOID)
 	punchstunthreshold = 9
 	use_skintones = 0
 	sexes = 1

@@ -770,7 +770,6 @@
 	item_state = "ranger_cloak"
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
-
 /obj/item/clothing/suit/armor/f13/herbertranger //Armor wise, it's reskinned raider armor.
 	name = "weathered desert ranger armor"
 	desc = "A set of pre-unification desert ranger armor, made using parts of what was once USMC riot armor. It looks as if it has been worn for decades; the coat has become discoloured from years under the Mojave sun and has multiple tears and bullet holes in its leather. The armor plating itself seems to be in relatively good shape, though it could do with some maintenance."
@@ -783,29 +782,6 @@
 /obj/item/clothing/suit/armor/f13/herbertranger/Initialize() //HQ parts reinforcement, just like raider gear
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
-
-//Mutants
-
-/obj/item/clothing/suit/armor/f13/mutant/poncho
-	name = "mutant poncho"
-	desc = "An oversized poncho, made to fit the frame of a super mutant. Maybe he's the big ranger with an iron on his hip?"
-	icon_state = "mutie_poncho"
-	item_state = "mutie_poncho"
-	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/mutant/metal
-	name = "mutant armour"
-	desc = "An oversized set of metal armour, made to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
-	icon_state = "mutie_metal_armour"
-	item_state = "mutie_metal_armour"
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
-
-/obj/item/clothing/suit/armor/f13/mutant/metal/reinforced
-	name = "mutant armour"
-	desc = "An oversized boiler plate, hammered to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
-	icon_state = "mutie_metal_armour_mk2"
-	item_state = "mutie_metal_armour_mk2"
-	armor = list("tier" = 6, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 40, "fire" = 30, "acid" = 20)
 
 //TRIBALS
 
@@ -871,3 +847,24 @@
 	item_state = "sorrows_armour"
 	armor = list("melee" = 20, "bullet" = 45, "laser" = 20, "energy" = 10, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
 	slowdown = 0.08
+
+// Super Mutant Armor
+/obj/item/clothing/suit/armor/f13/smutant
+	name = "mutant armor kit"
+	desc = "Scrap metal and half a tire held haphazardly together by belts and nails."
+	icon_state = "mutie_metal_armour"
+	item_state = "mutie_metal_armour"
+	species_restricted = list("Super Mutant")
+
+/obj/item/clothing/suit/armor/f13/smutant/metal
+	name = "mutant plate armor"
+	desc = "Cobbled car parts and scrap metal, fitted for the hulking frame of a super mutant."
+	icon_state = "mutie_metal_armour" // PENDING
+	item_state = "mutie_metal_armour"
+	armor = list("tier" = 5, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
+
+/obj/item/clothing/suit/armor/f13/smutant/master
+	name = "mutant light armour"
+	desc = "A metal and black leather singlet held together with rubber tubing. Sized for a super mutant."
+	icon_state = "mutie_metal_armour_mk2" // PENDING
+	item_state = "mutie_metal_armour_mk2"

@@ -16,6 +16,9 @@
 	var/mutable_appearance/accessory_overlay
 	var/dummy_thick = FALSE // is able to hold accessories on its item
 
+// FO13 add - Necessary for Super Mutant clothing exclusivity
+	species_restricted = list("exclude","Super Mutant")
+
 /obj/item/clothing/suit/Initialize()
 	. = ..()
 	if(!allowed)
