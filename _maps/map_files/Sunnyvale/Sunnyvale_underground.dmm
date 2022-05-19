@@ -4161,7 +4161,7 @@
 	},
 /area/f13/underground/vault_atrium_Lower)
 "ki" = (
-/obj/structure/simple_door/bunker,
+/obj/structure/simple_door/bunker/glass,
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
 	dir = 1;
 	icon_state = "red"
@@ -4860,6 +4860,13 @@
 "mA" = (
 /turf/open/floor/plasteel/f13/vault_floor/red/corner,
 /area/f13/underground/vault_atrium_upper)
+"mD" = (
+/obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics)
 "mH" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
@@ -4896,7 +4903,7 @@
 /area/engine/engineering)
 "nu" = (
 /obj/machinery/jukebox,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "nz" = (
 /obj/structure/table,
@@ -4908,6 +4915,10 @@
 	icon_state = "red"
 	},
 /area/security/brig)
+"nV" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "nZ" = (
 /obj/structure/closet/radiation{
 	anchored = 1
@@ -4942,6 +4953,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"oJ" = (
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "oR" = (
 /obj/structure/sink/kitchen{
 	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
@@ -4956,6 +4971,16 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"oY" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/machinery/door/window/eastleft{
+	dir = 8;
+	icon_state = "right"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
 "pg" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
@@ -4980,6 +5005,10 @@
 /obj/machinery/microwave/stove,
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
+"pq" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/underground/vault_atrium_upper)
 "pv" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5012,6 +5041,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"qo" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/eastleft{
+	dir = 8;
+	icon_state = "right"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
 "qz" = (
 /obj/structure/simple_door/bunker,
 /obj/structure/cable{
@@ -5040,6 +5080,10 @@
 "rP" = (
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/hydroponics)
+"rX" = (
+/obj/structure/simple_door/bunker/glass,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/vault_atrium_upper)
 "sb" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -5047,7 +5091,6 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
 "sn" = (
@@ -5081,6 +5124,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"sP" = (
+/obj/structure/closet/anchored,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/vault_atrium_upper)
 "ta" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/cave)
@@ -5114,7 +5161,7 @@
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "tI" = (
 /turf/closed/wall/r_wall/f13vault{
@@ -5163,12 +5210,22 @@
 /area/crew_quarters/bar/atrium)
 "uC" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
 "uD" = (
 /obj/structure/closet/crate/hydroponics,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
+"uQ" = (
+/obj/structure/simple_door/bunker,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "uT" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -5188,7 +5245,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "vq" = (
 /obj/structure/table,
@@ -5223,6 +5280,10 @@
 /obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"wx" = (
+/obj/machinery/computer/secure_data,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "wH" = (
 /obj/structure/table,
 /obj/machinery/power/apc/auto_name/west,
@@ -5270,20 +5331,27 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/structure/lattice/catwalk,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"yj" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/cave)
 "ys" = (
 /obj/structure/table,
 /obj/item/stamp/qm,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"yE" = (
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "yL" = (
-/obj/structure/simple_door/bunker,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/simple_door/bunker/glass,
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
 "yM" = (
@@ -5309,6 +5377,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"za" = (
+/obj/structure/rack/shelf_metal,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
 "zm" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
@@ -5350,6 +5425,13 @@
 /obj/item/gun/ballistic/shotgun/police,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/security/brig)
+"AV" = (
+/obj/structure/chair/left,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
 "Bh" = (
 /obj/machinery/computer/secure_data,
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
@@ -5357,6 +5439,14 @@
 	icon_state = "red"
 	},
 /area/security/brig)
+"Bk" = (
+/obj/machinery/conveyor_switch/oneway{
+	dir = 4;
+	id = "VaultRec";
+	pixel_x = 6
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "Bp" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/storage/toolbox/electrical,
@@ -5370,6 +5460,20 @@
 	icon_state = "red"
 	},
 /area/security/brig)
+"Bt" = (
+/obj/structure/closet/anchored,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/cave)
+"BB" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/cave)
+"BG" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
 "BP" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -5416,13 +5520,12 @@
 /area/engine/engineering)
 "DS" = (
 /obj/structure/table/booth,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "DZ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/structure/lattice/catwalk,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
@@ -5440,9 +5543,23 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"ET" = (
+/obj/structure/chair/stool/retro/backed{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/cave)
+"EY" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "Fd" = (
 /obj/structure/chair/left,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "Fp" = (
 /obj/effect/turf_decal/bot,
@@ -5453,7 +5570,7 @@
 /obj/structure/chair/left{
 	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "FU" = (
 /obj/structure/simple_door/bunker,
@@ -5493,6 +5610,14 @@
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_upper)
+"GB" = (
+/obj/structure/chair/left,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"GK" = (
+/obj/machinery/computer/security,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "GR" = (
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -5555,7 +5680,7 @@
 /obj/structure/chair/right{
 	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "II" = (
 /obj/structure/sink/kitchen{
@@ -5581,8 +5706,11 @@
 	},
 /area/f13/underground/vault_atrium_upper)
 "JD" = (
-/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
-/area/hydroponics)
+/obj/structure/mirror{
+	pixel_y = 26
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/cave)
 "Kk" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5640,9 +5768,29 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/quartermaster/storage)
+"Lb" = (
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "VaultRec"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
+"Li" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
 "Ll" = (
-/obj/structure/simple_door/bunker,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
 /area/f13/underground/vault_atrium_upper)
 "LU" = (
 /obj/structure/table,
@@ -5662,12 +5810,42 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"Mh" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "Mu" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"Mx" = (
+/obj/effect/decal/cleanable/oil,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "VaultRec"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
+"Mz" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/eastleft{
+	dir = 8;
+	icon_state = "right"
+	},
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
 "MD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -5695,6 +5873,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"NL" = (
+/obj/structure/chair/right{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
 "NX" = (
 /obj/structure/chair/f13chair2{
 	dir = 8
@@ -5721,6 +5906,9 @@
 	icon_state = "2-i"
 	},
 /area/engine/engineering)
+"Ou" = (
+/turf/closed/indestructible/rock,
+/area/f13/underground/vault_atrium_upper)
 "OE" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5756,6 +5944,10 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/security/brig)
+"Qm" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
 "Qs" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5766,7 +5958,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
 "QB" = (
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "QM" = (
 /turf/closed/wall/r_wall/f13vault{
@@ -5782,15 +5974,18 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
 "Rf" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/machinery/light{
+	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
-/area/hydroponics)
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "Ru" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/reagent_containers/food/condiment/enzyme,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
 	icon_state = "showroomfloor";
 	name = "tile"
@@ -5807,6 +6002,29 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"RI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/mob/living/simple_animal/cow/wisdom{
+	name = "Alphie The Alphabetically Alliterate Astral Access Bovid"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"RQ" = (
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics)
+"Sf" = (
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
+"Sg" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
 "Si" = (
 /obj/structure/table,
 /obj/item/weldingtool,
@@ -5818,6 +6036,12 @@
 /obj/item/folder/red,
 /turf/open/floor/plasteel/f13/vault_floor/red/side,
 /area/security/brig)
+"Sk" = (
+/obj/structure/sign/departments/cargo{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
 "Sq" = (
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -5825,6 +6049,9 @@
 "Ss" = (
 /obj/structure/noticeboard/qm{
 	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
@@ -5843,6 +6070,12 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"Ta" = (
+/obj/structure/sign/departments/custodian{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
 "Tb" = (
 /obj/structure/chair/f13chair2{
 	dir = 8
@@ -5853,13 +6086,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
 "Tk" = (
-/obj/machinery/power/apc/auto_name/west,
-/obj/machinery/power/apc/auto_name/west,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
-/area/hydroponics)
+/obj/structure/table,
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
 "Tn" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
@@ -5878,7 +6108,7 @@
 /area/crew_quarters/bar/atrium)
 "TJ" = (
 /obj/structure/table,
-/obj/machinery/light,
+/obj/machinery/light/small,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/janitor)
 "TL" = (
@@ -5912,6 +6142,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
+"UD" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "UI" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -5931,6 +6165,10 @@
 	name = "tile"
 	},
 /area/crew_quarters/bar/atrium)
+"UX" = (
+/obj/machinery/computer/med_data,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "Vm" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -5941,6 +6179,10 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"Vv" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/cave)
 "Vx" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5968,6 +6210,11 @@
 /obj/structure/filingcabinet,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"Wh" = (
+/obj/machinery/light,
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics)
 "Wy" = (
 /obj/structure/closet,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -5984,6 +6231,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/security/brig)
+"Xi" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "XJ" = (
 /obj/structure/table,
 /obj/machinery/cell_charger{
@@ -5994,6 +6244,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/engine/engineering)
+"Ys" = (
+/obj/structure/rack/shelf_metal,
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics)
 "YA" = (
 /obj/machinery/vending/hydroseeds,
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
@@ -6014,12 +6269,16 @@
 /area/engine/engineering)
 "YX" = (
 /obj/structure/chair/right,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "Zi" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
+"Zu" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/cave)
 "Zy" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/red/side,
@@ -6028,6 +6287,22 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"ZO" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
+"ZW" = (
+/obj/machinery/recycler,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "VaultRec"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "ZZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -19733,11 +20008,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+zo
+zo
+zo
 aa
 aa
 aa
@@ -19990,11 +20265,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+zo
+ta
+ta
+ta
+zo
 aa
 aa
 aa
@@ -20241,23 +20516,23 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+zo
+zo
+zo
+zo
+zo
+ta
+ta
+ta
+zo
+xP
+xP
+xP
+xP
+xP
+Ot
 aa
 aa
 aa
@@ -20498,22 +20773,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+ta
+ta
+zo
+ta
+ta
+zo
+ta
+ta
+ta
+zo
+mH
+rP
+mD
+rP
+RQ
 Ot
 Ot
 Ot
@@ -20755,22 +21030,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+ta
+ta
+zo
+ta
+ta
+zo
+zo
+zo
+zo
 xP
-xP
-xP
-xP
-xP
-xP
+Zi
+rP
+OE
+rP
+Ys
 Ot
 iR
 rC
@@ -21012,22 +21287,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+ta
+zo
+ta
+zo
+zo
+ta
+ta
+ta
 xP
 YA
-JD
-Tk
-JD
-mH
+rP
+OE
+rP
+RQ
 Ot
 qk
 Ei
@@ -21269,22 +21544,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
 xP
 Rx
-JD
-Rf
-JD
-Zi
+rP
+OE
+rP
+RQ
 Ot
 Ei
 oC
@@ -21526,16 +21801,16 @@ aa
 aa
 aa
 aa
-aa
-aa
 zo
-zo
-zo
-zo
-CD
-CD
-CD
-CD
+ta
+ta
+ta
+ta
+ta
+MK
+MK
+MK
+MK
 xP
 xP
 xP
@@ -21783,13 +22058,13 @@ aa
 aa
 aa
 aa
-aa
-aa
 zo
 ta
 ta
 ta
-CD
+ta
+ta
+MK
 MK
 MK
 SI
@@ -22040,12 +22315,12 @@ aa
 aa
 aa
 aa
-aa
-aa
+zo
 zo
 ta
+zo
 ta
-ta
+zo
 CD
 MK
 MK
@@ -22297,10 +22572,10 @@ aa
 aa
 aa
 aa
-aa
-aa
 zo
 ta
+ta
+zo
 ta
 ta
 CD
@@ -22320,7 +22595,7 @@ CF
 SF
 VE
 Ot
-Ez
+Qm
 SF
 Ez
 Ot
@@ -22548,19 +22823,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+zo
+zo
+zo
+zo
 zo
 ta
 ta
+zo
 ta
-MK
+ta
+CD
 MK
 MK
 SI
@@ -22569,7 +22844,7 @@ uD
 rP
 pk
 rP
-Zi
+Wh
 Ot
 yY
 uT
@@ -22805,18 +23080,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+zo
 aa
 aa
 aa
 aa
 aa
 zo
-ta
-ta
-ta
+zo
+zo
+zo
+zo
+zo
 CD
 MK
 MK
@@ -23062,8 +23337,7 @@ aa
 aa
 aa
 aa
-aa
-aa
+zo
 aa
 aa
 aa
@@ -23071,9 +23345,10 @@ aa
 aa
 aa
 zo
-ta
-ta
-ta
+yj
+yj
+yj
+Zu
 CD
 MK
 MK
@@ -23319,8 +23594,7 @@ aa
 aa
 aa
 aa
-aa
-aa
+zo
 aa
 aa
 aa
@@ -23328,10 +23602,11 @@ aa
 aa
 aa
 zo
-zo
-zo
-zo
-CD
+JD
+ET
+yj
+Vv
+pq
 MK
 MK
 pR
@@ -23352,10 +23627,10 @@ Ot
 Ot
 Ot
 Ot
-aa
-aa
-aa
-aa
+QM
+QM
+QM
+QM
 aa
 aa
 aa
@@ -23576,19 +23851,19 @@ aa
 aa
 aa
 aa
+zo
 aa
 aa
 aa
 aa
-ta
-ta
-ta
-ta
-ta
-ta
-ta
-ta
-MK
+aa
+aa
+zo
+BB
+yj
+yj
+yj
+rX
 MK
 MK
 MK
@@ -23603,16 +23878,16 @@ MK
 HG
 PF
 KG
-CD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+QM
+lW
+wH
+nz
+md
+QM
+WF
+WF
+OG
+QM
 aa
 aa
 aa
@@ -23833,19 +24108,19 @@ aa
 aa
 aa
 aa
+zo
 aa
 aa
 aa
 aa
-ta
-ta
-ta
-ta
-ta
-ta
-ta
-ta
-MK
+aa
+aa
+zo
+JD
+ET
+yj
+Bt
+pq
 MK
 lZ
 mP
@@ -23860,15 +24135,15 @@ mP
 mP
 Qs
 mA
-QM
-QM
-QM
-QM
-QM
-QM
-QM
-QM
-QM
+tF
+qX
+Xc
+NX
+Ku
+ki
+WF
+WF
+WF
 QM
 aa
 aa
@@ -24090,19 +24365,19 @@ aa
 aa
 aa
 aa
+zo
 aa
 aa
 aa
-aa
-MK
-MK
-MK
-MK
-MK
-MK
-MK
-MK
-MK
+Ou
+Ou
+Ou
+CD
+Ll
+Ll
+Ll
+sP
+CD
 MK
 sn
 MK
@@ -24116,16 +24391,16 @@ MK
 MK
 MK
 sn
-vv
+Iy
 QM
-lW
-wH
-nz
-md
+Br
+WF
+WF
+Ku
 QM
 WF
 WF
-OG
+mb
 QM
 aa
 aa
@@ -24347,7 +24622,7 @@ aa
 aa
 aa
 aa
-aa
+zo
 aa
 aa
 aa
@@ -24374,12 +24649,12 @@ CD
 mc
 pv
 UO
-tF
-qX
-Xc
-NX
-Ku
-ki
+Dd
+He
+WF
+WF
+Zy
+Dd
 WF
 WF
 WF
@@ -24604,14 +24879,14 @@ aa
 aa
 aa
 aa
+zo
 aa
 aa
 aa
-aa
-CD
-MK
-MK
-MK
+Ou
+Ou
+Ou
+Ou
 CD
 MK
 MK
@@ -24630,16 +24905,16 @@ GY
 CD
 MK
 sn
-Iy
+vv
+Dd
+Bh
+LZ
+yW
+Sj
 QM
-Br
+wr
+Uh
 WF
-WF
-Ku
-QM
-WF
-WF
-mb
 QM
 aa
 aa
@@ -24861,14 +25136,14 @@ aa
 aa
 aa
 aa
+zo
 aa
 aa
 aa
-aa
-CD
-MK
-MK
-MK
+Ou
+Ou
+Ou
+Ou
 CD
 MK
 MK
@@ -24886,17 +25161,17 @@ GY
 TL
 GA
 MK
-sn
+RI
 vv
-Dd
-He
-WF
-WF
-Zy
-Dd
-WF
-WF
-WF
+QM
+PI
+sx
+lQ
+xY
+QM
+QM
+QM
+QM
 QM
 aa
 aa
@@ -25118,22 +25393,22 @@ aa
 aa
 aa
 aa
+zo
 aa
 aa
 aa
-aa
+Ou
+Ou
+Ou
+Ou
 CD
-MK
-MK
-MK
-CD
-MK
-MK
-MK
+qo
+Mz
+oY
 CD
 MK
 sn
-MK
+Ta
 tI
 Fp
 zY
@@ -25145,16 +25420,16 @@ CD
 GR
 sn
 vv
-Dd
-Bh
-LZ
-yW
-Sj
 QM
-wr
-Uh
-WF
 QM
+VJ
+QM
+QM
+QM
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -25375,17 +25650,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-CD
-CD
-Ll
+zo
+zo
+zo
+zo
 CD
 CD
 CD
-Ll
+CD
+CD
+CD
+CD
 CD
 CD
 MK
@@ -25403,15 +25678,15 @@ mc
 sn
 vv
 QM
-PI
-sx
-lQ
-xY
+uc
+ma
+PZ
 QM
-QM
-QM
-QM
-QM
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -25639,7 +25914,7 @@ aa
 aa
 aa
 aa
-aa
+zo
 MK
 MK
 MK
@@ -25660,11 +25935,11 @@ MK
 sn
 Gn
 QM
+uc
+ma
+ME
 QM
-VJ
-QM
-QM
-QM
+aa
 aa
 aa
 aa
@@ -25896,7 +26171,7 @@ aa
 aa
 aa
 aa
-aa
+zo
 MK
 MK
 MK
@@ -25917,9 +26192,9 @@ mP
 Qs
 MK
 QM
-uc
-ma
-PZ
+AT
+Vm
+Cm
 QM
 aa
 aa
@@ -26153,7 +26428,7 @@ aa
 aa
 aa
 aa
-aa
+zo
 MK
 MK
 MK
@@ -26174,9 +26449,9 @@ Kn
 pj
 IK
 QM
-uc
-ma
-ME
+QM
+QM
+QM
 QM
 aa
 aa
@@ -26409,7 +26684,7 @@ aa
 aa
 aa
 aa
-zo
+aa
 zo
 zo
 YC
@@ -26430,11 +26705,11 @@ KM
 vL
 ok
 vL
-QM
-AT
-Vm
-Cm
-QM
+vL
+EY
+EY
+Mh
+vL
 aa
 aa
 aa
@@ -26666,7 +26941,7 @@ aa
 aa
 aa
 aa
-zo
+aa
 aa
 aa
 YC
@@ -26687,12 +26962,12 @@ WM
 WM
 Mu
 WM
-QM
-QM
-QM
-QM
-QM
-aa
+vL
+Xi
+Xi
+Bk
+vL
+vL
 aa
 aa
 aa
@@ -26923,17 +27198,17 @@ aa
 aa
 aa
 aa
-zo
+aa
 aa
 YC
 YC
-Fd
+AV
 DS
 IH
 vc
-Fd
+GB
 DS
-IH
+NL
 vL
 LU
 ys
@@ -26944,12 +27219,12 @@ WM
 WM
 Mu
 WM
+uQ
+Xi
+Xi
+Xi
+Mx
 vL
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -27180,7 +27455,7 @@ aa
 aa
 aa
 aa
-zo
+aa
 aa
 YC
 tG
@@ -27200,13 +27475,13 @@ WM
 WM
 LU
 EI
-SR
+Tk
 vL
-aa
-aa
-aa
-aa
-aa
+Rf
+Xi
+Xi
+Lb
+vL
 aa
 aa
 aa
@@ -27437,7 +27712,7 @@ aa
 aa
 aa
 aa
-zo
+aa
 aa
 YC
 nu
@@ -27449,7 +27724,7 @@ YX
 DS
 Fx
 vL
-WM
+Sg
 WM
 Sq
 WM
@@ -27459,11 +27734,11 @@ SR
 Tb
 Kx
 vL
-aa
-aa
-aa
-aa
-aa
+oJ
+Xi
+Xi
+ZW
+vL
 aa
 aa
 aa
@@ -27709,18 +27984,18 @@ vL
 xv
 WM
 vL
+BG
 WM
 WM
-WM
-WM
+Sk
 Mu
 xv
 vL
-aa
-aa
-aa
-aa
-aa
+Xi
+Xi
+Xi
+yE
+vL
 aa
 aa
 aa
@@ -27973,11 +28248,11 @@ vL
 ok
 vL
 vL
-aa
-aa
-aa
-aa
-aa
+Sf
+Sf
+vL
+vL
+vL
 aa
 aa
 aa
@@ -28230,9 +28505,9 @@ WM
 Mu
 AR
 vL
-aa
-aa
-aa
+vL
+vL
+vL
 aa
 aa
 aa
@@ -28737,12 +29012,12 @@ UV
 YC
 aa
 vL
-SA
+za
 SA
 SA
 WM
 Mu
-yd
+Li
 vL
 aa
 aa
@@ -28974,11 +29249,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+zo
+zo
+zo
 aa
 aa
 aa
@@ -29230,12 +29505,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+ta
+ta
+ZO
+UD
 aa
 aa
 aa
@@ -29486,13 +29761,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+ta
+ta
+ta
+ta
+ta
 aa
 aa
 aa
@@ -29743,13 +30018,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+UX
+ta
+nV
+nV
+ta
+ta
 aa
 aa
 aa
@@ -30000,13 +30275,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+GK
+ta
+ta
+nV
+ta
+ta
 aa
 aa
 aa
@@ -30257,13 +30532,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+wx
+ta
+nV
+nV
+ta
+ta
 aa
 aa
 aa
@@ -30514,13 +30789,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+ta
+ta
+ta
+ta
+ta
 aa
 aa
 aa
@@ -30772,12 +31047,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+ta
+ta
+ta
+ta
 aa
 aa
 aa
@@ -31030,11 +31305,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+zo
+zo
+zo
+zo
+zo
 aa
 aa
 aa
