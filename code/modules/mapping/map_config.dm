@@ -15,10 +15,10 @@
 	var/max_rounds_played = 0
 
 
-	// Config actually from the JSON - should default to Box
+	// Config actually from the JSON - should default to Sunnyvale
 	var/map_name = "Sunnyvale"
 	var/map_path = "map_files/Sunnyvale"
-	var/map_file = list("Sunnyvale-underground.dmm", "Sunnyvale.dmm")
+	var/map_file = list("Sunnyvale_underground.dmm", "Sunnyvale.dmm")
 	var/list/added_jobs = list()     //Overrides the "none" faction using job name
 	var/list/removed_jobs = list()   //Removes the "none" faction using job name - can also use #all# (case sensitive)
 
@@ -36,7 +36,7 @@
 	var/space_empty_levels = 0
 	var/station_ruin_budget = 0 // can be set to manually override the station ruins budget on maps that don't support station ruins, stopping the error from being unable to place the ruins.
 
-	var/minetype// = "lavaland" // we don't want lavaland
+	var/minetype = null // default was "lavaland" but there's no lavaland in Fallout
 
 	var/maptype = MAP_TYPE_STATION //This should be used to adjust ingame behavior depending on the specific type of map being played. For instance, if an overmap were added, it'd be appropriate for it to only generate with a MAP_TYPE_SHIP
 
