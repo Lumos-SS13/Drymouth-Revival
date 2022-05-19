@@ -1,0 +1,10063 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
+	dir = 8;
+	icon_state = "yellowcorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"ab" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"ae" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"ak" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"am" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Garden APC";
+	pixel_x = -30
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"aq" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green/corner,
+/area/f13/underground/vault_atrium_upper)
+"ay" = (
+/obj/structure/table,
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	name = "Armory APC";
+	pixel_y = -25
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/item/paper_bin,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"az" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6;
+	icon_state = "pipe"
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"aA" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"aC" = (
+/obj/machinery/rnd/production/techfab/department/service,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"aD" = (
+/obj/machinery/vending/nukacolavendfull,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"aF" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"aG" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plating,
+/area/f13/underground/vault_atrium_upper)
+"aI" = (
+/obj/machinery/processor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"aK" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"aL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"aM" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/structure/closet/cardboard/metal{
+	opened = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"aQ" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"aW" = (
+/obj/machinery/photocopier,
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"aX" = (
+/obj/machinery/status_display,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"aY" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1;
+	icon_state = "pipe-t"
+	},
+/obj/machinery/disposal/deliveryChute{
+	desc = "A chute leading outside the vault.";
+	name = "last way"
+	},
+/obj/effect/turf_decal/stripes/red/box,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor,
+/area/f13/underground/vault_atrium_upper)
+"aZ" = (
+/obj/structure/closet/crate/bin,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"ba" = (
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor6"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"be" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"bf" = (
+/obj/machinery/autolathe,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"bh" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Reactor APC";
+	pixel_x = -26
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"bj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"bk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 6;
+	icon_state = "warningline_red"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"br" = (
+/obj/machinery/door/airlock/silver{
+	name = "Hydroponics"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"bs" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"bx" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"by" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"bz" = (
+/obj/machinery/door/airlock/silver{
+	name = "Dormitories"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/crew_quarters/dorms)
+"bA" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"bB" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"bI" = (
+/obj/structure/chair/stool/bar,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"bN" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/obj/machinery/camera/autoname{
+	dir = 5;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"bR" = (
+/obj/structure/sign/warning/radiation/rad_area,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/security/checkpoint)
+"bZ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/qm)
+"cg" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"ck" = (
+/obj/machinery/computer/shuttle/vaultelevator{
+	dir = 4;
+	icon_state = "computer"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
+	dir = 1;
+	icon_state = "yellowcorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"cs" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"cz" = (
+/obj/structure/table,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"cA" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/effect/landmark/start/f13/vaultengineer,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"cH" = (
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "1"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"cK" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"cO" = (
+/obj/structure/bed,
+/obj/item/bedsheet/black,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"da" = (
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1"
+	},
+/obj/effect/landmark/secequipment,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"dp" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	icon_state = "rightsecure"
+	},
+/obj/machinery/door/window/westleft{
+	dir = 4;
+	icon_state = "left"
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hos)
+"dw" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"dx" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/sign/poster/official/walk{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"dB" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/remains/human,
+/turf/open/indestructible/ground/inside/mountain,
+/area/maintenance/central/secondary)
+"dD" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"dL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"dM" = (
+/obj/machinery/door/airlock/command{
+	name = "ID Control";
+	req_access_txt = "19"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hop)
+"dR" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hallway/secondary/exit)
+"dV" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"ed" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"eg" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"en" = (
+/obj/structure/sign/directions/engineering{
+	desc = "A handy sign praising the engineering department.";
+	icon_state = "safety";
+	name = "engineering plaque";
+	pixel_x = -32
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"es" = (
+/obj/machinery/computer/secure_data{
+	dir = 4;
+	icon_state = "computer"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"ey" = (
+/obj/effect/landmark/start/assistant/override,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"ez" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"eB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/newscaster{
+	pixel_y = 35
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
+	dir = 1;
+	icon_state = "yellowcorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"eE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"eH" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green/corner{
+	dir = 8;
+	icon_state = "greencorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"eN" = (
+/obj/machinery/computer/monitor{
+	name = "Engineering Power Monitoring Console"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"eP" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/engineering{
+	name = "Generator Room";
+	req_access_txt = "0"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"eU" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"eX" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"eZ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/research)
+"fa" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"fb" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"fj" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"fl" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"fm" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/crew_quarters/bar/atrium)
+"fn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"fq" = (
+/obj/structure/bed,
+/obj/item/bedsheet/grey,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"ft" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess/bluechess2,
+/area/crew_quarters/toilet)
+"fw" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Morgue APC";
+	pixel_x = 25
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"fx" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"fH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13{
+	icon_state = "rampdowntop"
+	},
+/area/f13/underground/vault_atrium_upper)
+"fU" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"fV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"fX" = (
+/obj/machinery/door/window/brigdoor/security/cell/southleft{
+	id = "vaultc3";
+	name = "Cell 3"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"gk" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/machinery/newscaster{
+	pixel_y = -32
+	},
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/corner,
+/area/f13/underground/vault_atrium_upper)
+"gD" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/f13chair2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"gE" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"gF" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultengineer,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"gG" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"gI" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"gJ" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"gV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 4;
+	icon_state = "rare"
+	},
+/area/crew_quarters/heads/cmo)
+"gW" = (
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"gX" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/item/folder/white,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"gY" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/landmark/start/f13/vaultdoctor,
+/obj/structure/chair/f13chair2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/medbay/central)
+"hk" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"hl" = (
+/obj/machinery/light,
+/obj/structure/window/reinforced/spawner/west,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"hq" = (
+/obj/machinery/conveyor_switch/oneway{
+	dir = 4;
+	id = "VaultRec";
+	pixel_x = 6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"hs" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"ht" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/obj/machinery/camera/autoname{
+	dir = 10;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"hy" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/resourcespawner,
+/obj/effect/spawner/lootdrop/f13/resourcespawner,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"hA" = (
+/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"hF" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/obj/structure/chair/f13chair2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"hH" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/port_gen/pacman/super{
+	anchored = 1
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"hK" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/sign/departments/evac{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"hN" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"hO" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"hX" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hydroponics/garden)
+"hZ" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "rampdowntop"
+	},
+/area/medical/medbay/central)
+"if" = (
+/obj/machinery/vending/dinnerware,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"ii" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess/bluechess2,
+/area/crew_quarters/toilet)
+"ij" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/sign/departments/cargo{
+	pixel_y = 32
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
+	dir = 1;
+	icon_state = "yellowcorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"im" = (
+/obj/machinery/status_display,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/medical/morgue)
+"in" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/medical/medbay/central)
+"ip" = (
+/obj/machinery/computer/communications,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"iq" = (
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"ir" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/quartermaster/qm)
+"iv" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"iw" = (
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"ix" = (
+/obj/structure/sign/poster/official/cleanliness,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hallway/secondary/exit)
+"iA" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/medical/morgue)
+"iB" = (
+/obj/machinery/door/airlock/silver{
+	name = "Dormitories"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/dorms)
+"iD" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/assistant/override,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"iI" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/window/reinforced/spawner/west,
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"iN" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/toilet)
+"iR" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"iV" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"iY" = (
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/obj/item/reagent_containers/glass/beaker/synthflesh,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"ja" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Work Room";
+	req_access_txt = "31"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"je" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"jg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"jh" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"jr" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "light"
+	},
+/area/hallway/secondary/exit)
+"jx" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"jA" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/security{
+	name = "Storage Security Office";
+	req_access_txt = "1"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/qm)
+"jC" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"jE" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"jF" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Break Room APC";
+	pixel_x = 25
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"jI" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"jJ" = (
+/obj/machinery/computer/med_data{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"jL" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"jP" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/toilet)
+"jQ" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"jW" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Security vault door checkpoint";
+	pixel_y = 30
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"jY" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"kf" = (
+/obj/structure/chair/f13chair2{
+	dir = 8;
+	icon_state = "f13chair2"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/camera/autoname{
+	dir = 10;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/heads/hop)
+"kj" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"kl" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"kr" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"kv" = (
+/obj/structure/janitorialcart,
+/obj/item/mop,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Custodial Closet APC";
+	pixel_x = -30
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/janitor)
+"kA" = (
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"kD" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	id = 102;
+	name = "Window Shutters"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"kI" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/crew_quarters/bar/atrium)
+"kL" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Escape Wing";
+	req_access_txt = null
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/hallway/secondary/exit)
+"kQ" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"lb" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"lh" = (
+/obj/item/clothing/suit/armor/vest/alt,
+/obj/effect/turf_decal/bot,
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"lk" = (
+/obj/machinery/chem_heater,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"ln" = (
+/obj/structure/table,
+/obj/item/trash/plate,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"lp" = (
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side,
+/area/medical/medbay/central)
+"lw" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/hallway/secondary/exit)
+"lz" = (
+/obj/structure/closet/crate/bin,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Chemistry APC";
+	pixel_x = -26
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"lA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hallway/secondary/exit)
+"lD" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/vending/wallmed{
+	pixel_x = -30
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"lF" = (
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"lP" = (
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"lR" = (
+/obj/effect/turf_decal{
+	dir = 4;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"lS" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"lU" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side,
+/area/f13/underground/vault_atrium_upper)
+"lV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 8;
+	icon_state = "rare"
+	},
+/area/medical/medbay/central)
+"lW" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"lY" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hallway/secondary/exit)
+"lZ" = (
+/obj/effect/landmark/start/cyborg,
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"mb" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/paper_bin,
+/obj/item/folder/white,
+/obj/item/folder/white,
+/obj/item/pen,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
+/area/medical/medbay/central)
+"mi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"ml" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"mn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"mo" = (
+/obj/machinery/door/airlock/research{
+	name = "Research Office";
+	req_access_txt = "47"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"ms" = (
+/obj/structure/table,
+/obj/item/folder/blue,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"mv" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess/bluechess2,
+/area/crew_quarters/dorms)
+"mw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"my" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/machinery/camera/autoname{
+	dir = 5;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"mG" = (
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"mH" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"mN" = (
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"nf" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"nn" = (
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"np" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"nr" = (
+/obj/structure/table,
+/obj/item/storage/box/bodybags,
+/obj/item/storage/box/bodybags,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"ny" = (
+/obj/machinery/newscaster/security_unit{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"nz" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Chief of Security";
+	req_access_txt = "19"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hos)
+"nB" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"nG" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"nI" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"nM" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"nO" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"nZ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Medical Center APC";
+	pixel_x = -30
+	},
+/obj/machinery/rnd/production/techfab/department/medical,
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"oa" = (
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"of" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Office";
+	req_access_txt = "19"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"oy" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"oB" = (
+/obj/machinery/newscaster,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"oE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"oF" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"oH" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "1"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"oI" = (
+/obj/machinery/rnd/production/protolathe/department/science,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"oL" = (
+/obj/structure/sign/poster/official/build{
+	pixel_x = -32
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"oM" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "rampdowntop"
+	},
+/area/f13/underground/vault_atrium_upper)
+"oR" = (
+/obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 3;
+	name = "3maintenance loot spawner"
+	},
+/obj/structure/closet/cardboard/metal{
+	opened = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"oY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"oZ" = (
+/obj/machinery/biogenerator,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"pb" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"pc" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"pd" = (
+/obj/structure/sign/warning/nosmoking,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/medical/chemistry)
+"pe" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"pi" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"pt" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"pw" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
+/area/f13/underground/vault_atrium_upper)
+"pB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/obj/machinery/computer/rdconsole/core/vault{
+	dir = 4;
+	icon_state = "computer"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"pF" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/qm)
+"pL" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"pM" = (
+/obj/structure/table,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side,
+/area/f13/underground/vault_atrium_upper)
+"pQ" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Overseer Office";
+	req_access_txt = "19"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"qa" = (
+/obj/machinery/vending/snack/random,
+/obj/effect/turf_decal/bot,
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"qe" = (
+/obj/structure/sign/warning/nosmoking,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"qp" = (
+/turf/closed/indestructible/vaultdoor,
+/area/f13/underground/vault_atrium_upper)
+"qr" = (
+/obj/effect/landmark/start/f13/vaultengineer,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"qu" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Work Room";
+	req_access_txt = "31"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"qw" = (
+/obj/structure/sign/directions/evac{
+	dir = 4;
+	pixel_y = 8
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 8
+	},
+/obj/structure/sign/directions/command{
+	dir = 1;
+	pixel_y = -8
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"qA" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/closed/indestructible/rock,
+/area/f13/underground/mountain)
+"qB" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"qD" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"qE" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"qF" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal{
+	dir = 4;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"qI" = (
+/obj/machinery/computer/robotics,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"qO" = (
+/obj/machinery/computer/crew{
+	dir = 1;
+	icon_state = "computer"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/vault_atrium_upper)
+"qQ" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"qS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"rc" = (
+/obj/structure/bed,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/obj/item/bedsheet/yellow,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"rg" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"rh" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 102;
+	name = "Vault Door Security Checkpoint"
+	},
+/turf/open/floor/plating,
+/area/security/checkpoint)
+"rj" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Office";
+	req_access_txt = "19"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"rq" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"rs" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Escape Wing";
+	req_access_txt = null
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/hallway/secondary/exit)
+"rv" = (
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/hallway/secondary/exit)
+"rA" = (
+/obj/effect/landmark/start/f13/vaultdoctor,
+/obj/structure/chair/f13chair2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"rC" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"rD" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"rH" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"rI" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"rK" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Storage Office APC";
+	pixel_x = 25
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/qm)
+"rM" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"rW" = (
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	name = "Vault Atrium APC";
+	pixel_y = -25
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"sb" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/door/poddoor/shutters{
+	id = 101;
+	name = "Chute Shutter"
+	},
+/turf/open/floor/plasteel/f13/vault_floor,
+/area/f13/underground/vault_atrium_upper)
+"sd" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/east,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"sf" = (
+/obj/structure/chair/f13chair2{
+	dir = 4;
+	icon_state = "f13chair2"
+	},
+/obj/effect/landmark/start/f13/vaultdoctor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"sh" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"sk" = (
+/obj/machinery/rnd/production/circuit_imprinter/department/science,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"sl" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 10;
+	icon_state = "warningline_red"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"sn" = (
+/obj/machinery/vending/hydronutrients,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"so" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"sv" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"sx" = (
+/obj/structure/mirror,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hallway/secondary/exit)
+"sH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
+"sL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	id = "genroom";
+	name = "Generator Access";
+	req_access_txt = "63"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"sP" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess/bluechess2,
+/area/crew_quarters/toilet)
+"sQ" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"sU" = (
+/obj/machinery/computer/crew,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"sY" = (
+/obj/machinery/computer/card{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"ta" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/sign/departments/security{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 1;
+	icon_state = "redcorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"tc" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/medical/chemistry)
+"tf" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"to" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/toilet)
+"tp" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/bot,
+/obj/item/flashlight/pen,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"tq" = (
+/obj/machinery/vending/hydroseeds,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"tt" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Generator Room";
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"ty" = (
+/obj/machinery/computer/secure_data,
+/obj/structure/sign/plaques/golden{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"tI" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/toilet)
+"tJ" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"tM" = (
+/obj/effect/turf_decal/caution/stand_clear,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"tO" = (
+/obj/structure/vaultdoor{
+	pixel_x = -32;
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
+"tR" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/lootdrop/costume,
+/obj/effect/spawner/lootdrop/costume,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"tS" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"tX" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"ub" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/heads/hos)
+"ui" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/closet/cardboard/metal{
+	opened = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"uj" = (
+/obj/machinery/gibber,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"uk" = (
+/obj/machinery/status_display,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/quartermaster/storage)
+"um" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5;
+	icon_state = "warningline"
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"up" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"us" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"uu" = (
+/obj/structure/chair/f13chair2{
+	dir = 4;
+	icon_state = "f13chair2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/qm)
+"ux" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"uA" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"uB" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/science/research)
+"uC" = (
+/obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"uF" = (
+/obj/structure/closet/crate/bin,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/qm)
+"uG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultengineer,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"uJ" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"uK" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/item/stack/sheet/mineral/uranium,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	id = "genroom";
+	name = "Generator Access";
+	req_access_txt = "63"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"uN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"uY" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 4;
+	icon_state = "redcorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"vc" = (
+/obj/effect/landmark/start/ai,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/ai_monitored/turret_protected/ai_upload)
+"vf" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/pack/ketchup,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"vk" = (
+/obj/machinery/computer/aifixer,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/ai_monitored/turret_protected/ai_upload)
+"vp" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Bot Control APC";
+	pixel_z = 25
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"vr" = (
+/obj/structure/bed,
+/obj/item/bedsheet{
+	icon_state = "sheetbrown"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"vu" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1;
+	icon_state = "red"
+	},
+/area/f13/underground/vault_atrium_upper)
+"vw" = (
+/obj/effect/decal/remains/human,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/mountain)
+"vA" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"vL" = (
+/obj/effect/landmark/start/assistant/override,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"vM" = (
+/obj/structure/sign/directions/security{
+	dir = 4;
+	icon_state = "direction_sec"
+	},
+/obj/structure/sign/directions/science{
+	dir = 4;
+	icon_state = "direction_sci";
+	pixel_y = -8
+	},
+/obj/structure/sign/directions/evac{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/heads/hop)
+"vQ" = (
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"vR" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/window/reinforced/spawner/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"vY" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"vZ" = (
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "1"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"wd" = (
+/obj/machinery/chem_dispenser,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"wi" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/closet,
+/obj/item/storage/box/ids,
+/obj/item/storage/box/PDAs,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hop)
+"wl" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 4;
+	icon_state = "leftsecure"
+	},
+/obj/machinery/door/window/westright{
+	name = "Access Queue"
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hop)
+"wr" = (
+/obj/machinery/vending/cigarette,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"ws" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/item/storage/box/masks,
+/obj/item/storage/box/gloves,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"wu" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "1"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"wv" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"ww" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "rampdowntop"
+	},
+/area/f13/underground/vault_atrium_upper)
+"wx" = (
+/obj/structure/table,
+/obj/item/storage/box/lights/mixed{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/box/lights/mixed,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/janitor)
+"wy" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/dorms)
+"wC" = (
+/obj/effect/turf_decal{
+	dir = 4;
+	icon_state = "warningline"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"wE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green/side,
+/area/f13/underground/vault_atrium_upper)
+"wI" = (
+/obj/machinery/computer/security{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hop)
+"wJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/assistant/override,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"wQ" = (
+/obj/structure/table,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5;
+	icon_state = "warningline"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"xe" = (
+/obj/structure/closet/secure_closet/medical2,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	id = 100;
+	name = "Surgery Shutters";
+	pixel_x = 30
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"xh" = (
+/obj/machinery/vending/engineering,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"xk" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/mining/glass{
+	name = "Work Room";
+	req_access_txt = "31"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/quartermaster/storage)
+"xm" = (
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor5"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"xn" = (
+/obj/machinery/computer/operating,
+/obj/machinery/camera/autoname{
+	dir = 5;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"xo" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"xu" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"xx" = (
+/obj/machinery/door/window/brigdoor/northright{
+	name = "R&D Server";
+	req_access_txt = "47"
+	},
+/obj/machinery/rnd/server/vault,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"xy" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"xz" = (
+/obj/effect/landmark/start/f13/vaultscientist,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"xI" = (
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"xJ" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"xM" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/hallway/secondary/exit)
+"xO" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"xV" = (
+/obj/machinery/rnd/production/techfab/department/engineering,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"xW" = (
+/obj/structure/table,
+/obj/machinery/camera/autoname{
+	dir = 10;
+	icon_state = "camera"
+	},
+/obj/machinery/button/door{
+	id = 103;
+	name = "Blast Doors"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"ya" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"ye" = (
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"yf" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"ym" = (
+/obj/machinery/recycler,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "VaultRec"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"yo" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"ys" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/qm)
+"yu" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"yv" = (
+/obj/item/reagent_containers/pill/patch/jet,
+/obj/item/reagent_containers/pill/patch/jet,
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/cardboard/metal{
+	opened = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"yC" = (
+/obj/machinery/door/airlock/silver{
+	name = "Dormitories"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/crew_quarters/dorms)
+"yG" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"yL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"yM" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/ai_monitored/turret_protected/ai_upload)
+"yN" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"yS" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"yT" = (
+/obj/structure/table,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/gun/medbeam,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Vault 223 Medbay APC";
+	pixel_x = -25
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"yY" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"za" = (
+/obj/structure/table,
+/obj/item/storage/pill_bottle/chem_tin/radx,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"zc" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/engine/engineering)
+"zd" = (
+/obj/machinery/computer/med_data{
+	dir = 8;
+	icon_state = "computer"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/medbay/central)
+"zg" = (
+/obj/structure/table,
+/obj/item/storage/box/engineer/radio,
+/obj/item/storage/box/lights/tubes,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"zp" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"zq" = (
+/obj/effect/decal/cleanable/oil,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "VaultRec"
+	},
+/obj/structure/window/spawner/west,
+/obj/structure/window/spawner,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"zr" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"zt" = (
+/obj/machinery/seed_extractor,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"zu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"zv" = (
+/obj/machinery/computer/upload/ai,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"zF" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"zH" = (
+/obj/machinery/mecha_part_fabricator,
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"zK" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/machinery/door/window/eastleft,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"zO" = (
+/obj/structure/chair/f13chair2{
+	dir = 8;
+	icon_state = "f13chair2"
+	},
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"zQ" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/heads/cmo)
+"zU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"zV" = (
+/obj/machinery/door/airlock/silver{
+	name = "Bathroom"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/crew_quarters/toilet)
+"zW" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"zX" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/dorms)
+"Ab" = (
+/obj/machinery/shower{
+	dir = 4;
+	name = "emergency shower"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"Ad" = (
+/obj/machinery/vending/engivend,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"Al" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/quartermaster/qm)
+"Ap" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"Ar" = (
+/obj/structure/chair/f13chair2{
+	dir = 1;
+	icon_state = "f13chair2"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"AF" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"AG" = (
+/obj/structure/sign/departments/medbay/alt,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/medical/medbay/central)
+"AK" = (
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"AL" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/ai_monitored/turret_protected/ai_upload)
+"AO" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"AP" = (
+/obj/docking_port/stationary{
+	area_type = /area/hallway/secondary/exit;
+	dir = 4;
+	dwidth = 12;
+	height = 18;
+	id = "emergency_home";
+	name = "BoxStation emergency evac bay";
+	width = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/hallway/secondary/exit)
+"AR" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1;
+	icon_state = "warningline_red"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
+"AW" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/janitor)
+"AX" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1;
+	icon_state = "red"
+	},
+/area/f13/underground/vault_atrium_upper)
+"AZ" = (
+/obj/structure/chair/f13chair2{
+	dir = 4;
+	icon_state = "f13chair2"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultheadofsecurity,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/heads/hos)
+"Bk" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/landmark/start/f13/vaultdoctor,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/f13chair2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/medbay/central)
+"Bl" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	id = 101;
+	name = "Garbage chute shutter"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"Bm" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Chief Office APC";
+	pixel_x = -25
+	},
+/obj/item/folder/blue,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hos)
+"Bt" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"By" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hydroponics/garden)
+"BF" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"BM" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"BN" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 9;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"BQ" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"BT" = (
+/obj/structure/table,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/pillbottles,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"BV" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"BX" = (
+/obj/machinery/rnd/destructive_analyzer,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"BZ" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 5;
+	icon_state = "warningline_red"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Cd" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Cf" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"Ci" = (
+/obj/structure/table,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Cj" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"Cm" = (
+/obj/structure/bed,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"Cp" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 1;
+	icon_state = "rare"
+	},
+/area/medical/medbay/central)
+"Cr" = (
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/mountain)
+"Cs" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/item/pen,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Ct" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Overseer's Office APC";
+	pixel_x = 25
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"Cu" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1;
+	icon_state = "warningline_red"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Cw" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"Cx" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/ai_monitored/turret_protected/ai_upload)
+"CD" = (
+/obj/machinery/vending/tool,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"CF" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Escape Hall APC";
+	pixel_y = 30
+	},
+/obj/machinery/vending/cigarette,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"CH" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"CJ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/doorButtons/vaultButton,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"CM" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/dorms)
+"CP" = (
+/obj/machinery/computer/security{
+	network = list("vault")
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"CR" = (
+/obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"CS" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/bottle/goldschlager,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"CT" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/janitor)
+"CZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/effect/turf_decal{
+	dir = 4;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"De" = (
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side,
+/area/medical/medbay/central)
+"Df" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "rampdowntop"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Dk" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/ai_monitored/turret_protected/ai_upload)
+"Ds" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
+"Dt" = (
+/obj/structure/chair/f13chair2{
+	dir = 8;
+	icon_state = "f13chair2"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"Du" = (
+/obj/machinery/door/window,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "VaultRec"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"Dv" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
+/area/medical/medbay/central)
+"DA" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"DB" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/security/brig)
+"DJ" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/blood,
+/obj/item/reagent_containers/blood,
+/obj/item/reagent_containers/blood/AMinus,
+/obj/item/reagent_containers/blood/BMinus{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/blood/BPlus{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OPlus{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/APlus,
+/obj/item/reagent_containers/blood/random,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"DN" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"DS" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/heads/hop)
+"DZ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/eastleft{
+	dir = 8;
+	icon_state = "right"
+	},
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"Ec" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Ef" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"Ej" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/quartermaster/storage)
+"Ev" = (
+/obj/structure/chair/f13chair2{
+	dir = 4;
+	icon_state = "f13chair2"
+	},
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"EB" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"EE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"EF" = (
+/obj/machinery/light,
+/obj/structure/window/reinforced/spawner/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"EL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"ER" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/west,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"ES" = (
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"EU" = (
+/obj/structure/table,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"EW" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"EX" = (
+/obj/structure/table/optable,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"Fc" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1;
+	icon_state = "red"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Fe" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"Fj" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Fl" = (
+/obj/structure/sign/warning/radiation/rad_area,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Fn" = (
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "1"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"Fp" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"Fr" = (
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 1;
+	icon_state = "rare"
+	},
+/area/medical/medbay/central)
+"Fu" = (
+/obj/structure/table,
+/obj/machinery/light,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Fx" = (
+/obj/structure/bed,
+/obj/item/bedsheet/green,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"Fy" = (
+/obj/structure/closet/crate/bin,
+/obj/structure/sign/departments/cargo{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side,
+/area/f13/underground/vault_atrium_upper)
+"FB" = (
+/obj/structure/sign/poster/official/work_for_a_future,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"FH" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"FI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"FL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side,
+/area/f13/underground/vault_atrium_upper)
+"FM" = (
+/obj/machinery/door/airlock/command{
+	name = "Bot Control";
+	req_access_txt = "19"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"FP" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"FY" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Ga" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 9;
+	icon_state = "warningline_red"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Gd" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/mountain)
+"Ge" = (
+/obj/effect/landmark/start/assistant/override,
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 8;
+	icon_state = "redcorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Gp" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"Gt" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/research{
+	name = "Research Office";
+	req_access_txt = "47"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"Gv" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/heads/hos)
+"Gz" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/suit/radiation,
+/obj/item/clothing/head/radiation,
+/obj/item/storage/pill_bottle/chem_tin/radx,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"GB" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/crew_quarters/bar/atrium)
+"GC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/computer/med_data{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"GF" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"GG" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/medical/sleeper)
+"GH" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"GN" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/ai_monitored/security/armory)
+"GQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"GZ" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Brig APC";
+	pixel_x = 30
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"Ha" = (
+/obj/structure/noticeboard/staff,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Hc" = (
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "Science APC";
+	pixel_y = -25
+	},
+/obj/structure/cable,
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"Hp" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"Hx" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultscientist,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"Hy" = (
+/obj/structure/chair/f13chair2,
+/obj/effect/landmark/start/f13/vaultdoctor,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"HE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = 32
+	},
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"HI" = (
+/obj/effect/turf_decal{
+	dir = 4;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"HO" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"HQ" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"HS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"HT" = (
+/obj/effect/landmark/start/f13/vaultscientist,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"HU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"HX" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"HZ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"Ib" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Ih" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Il" = (
+/obj/machinery/microwave/stove,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/crew_quarters/bar/atrium)
+"Im" = (
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/medbay/central)
+"Ip" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/airlock/public/glass{
+	req_access_txt = "31"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
+"It" = (
+/obj/structure/bed,
+/obj/item/bedsheet/red,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"Iw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hallway/secondary/exit)
+"Ix" = (
+/obj/machinery/holopad,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultengineer,
+/obj/effect/turf_decal,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"Iz" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/eastleft{
+	dir = 8;
+	icon_state = "right"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"IB" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"IR" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/overseer_office)
+"IS" = (
+/obj/machinery/door/airlock/command{
+	name = "ID Control";
+	req_access_txt = "19"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/heads/hop)
+"IV" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"IY" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
+/area/f13/underground/vault_atrium_upper)
+"Jb" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Jf" = (
+/obj/structure/table,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Id Controll Office APC";
+	pixel_x = 25
+	},
+/obj/item/folder/blue,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hop)
+"Ji" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"Jj" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"Jn" = (
+/obj/structure/table,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/effect/spawner/lootdrop/f13/junkspawners,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Ju" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"Jv" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"Jy" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"JA" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/corner{
+	dir = 8;
+	icon_state = "purplecorner"
+	},
+/area/f13/underground/vault_atrium_upper)
+"JB" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"JE" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"JK" = (
+/obj/docking_port/stationary{
+	area_type = /area/f13/underground/vault_atrium_upper;
+	dheight = 0;
+	dir = 8;
+	dwidth = 1;
+	height = 3;
+	id = "vault_elevator_top";
+	json_key = null;
+	name = "vault elevator top";
+	roundstart_template = /datum/map_template/shuttle/vault/elevator;
+	width = 4
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/underground/vault_atrium_upper)
+"JN" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"JQ" = (
+/obj/item/instrument/piano_synth,
+/obj/item/instrument/guitar,
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"JR" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"Kc" = (
+/obj/machinery/door/airlock,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/janitor)
+"Kh" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/bot,
+/obj/item/clothing/neck/stethoscope,
+/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Ko" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Kv" = (
+/obj/effect/landmark/start/f13/vaultdoctor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"Ky" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/heads/hop)
+"Kz" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "5"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 8;
+	icon_state = "rare"
+	},
+/area/medical/chemistry)
+"KA" = (
+/obj/machinery/door/airlock/public/glass{
+	req_access_txt = "31"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/door/poddoor{
+	id = 103;
+	name = "Vault Blastdoor 1"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
+"KO" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"KS" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1;
+	icon_state = "red"
+	},
+/area/f13/underground/vault_atrium_upper)
+"KU" = (
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"KV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
+/area/f13/underground/vault_atrium_upper)
+"KW" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"KX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"KZ" = (
+/obj/machinery/computer/security,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"Le" = (
+/obj/effect/spawner/lootdrop/f13/medical/vault/equipment,
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"Lf" = (
+/obj/structure/chair/f13chair2,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/qm)
+"Lh" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Dining Hall APC";
+	pixel_x = -30
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"Ln" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/flask,
+/obj/item/reagent_containers/food/drinks/flask,
+/obj/item/reagent_containers/food/drinks/flask,
+/obj/item/reagent_containers/food/drinks/shaker,
+/obj/structure/sign/barsign{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"Lq" = (
+/obj/machinery/rnd/production/techfab/department/security,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"Lr" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/vending/medical,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Ls" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/crew_quarters/bar/atrium)
+"Lu" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"LE" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side,
+/area/f13/underground/vault_atrium_upper)
+"LP" = (
+/obj/structure/guncase/shotgun,
+/obj/item/gun/ballistic/shotgun/trench,
+/obj/item/gun/ballistic/shotgun/trench,
+/obj/item/gun/ballistic/shotgun/trench,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"LV" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"LY" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultscientist,
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor5"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"Mf" = (
+/obj/structure/table,
+/obj/item/folder/yellow,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/qm)
+"Mk" = (
+/obj/structure/table,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"Ml" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/landmark/start/cyborg,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"Mo" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Mx" = (
+/obj/structure/table,
+/obj/machinery/door/window/southleft{
+	dir = 1;
+	name = "Chemistry Desk";
+	req_access_txt = "33"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"My" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/janitor)
+"Mz" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"MC" = (
+/obj/machinery/camera/autoname{
+	dir = 5;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"MF" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/bar/atrium)
+"MJ" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/camera/autoname{
+	dir = 6;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/qm)
+"MM" = (
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "1"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/checkpoint)
+"MS" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "rampdowntop"
+	},
+/area/medical/morgue)
+"MU" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess/bluechess2,
+/area/crew_quarters/dorms)
+"Nb" = (
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"Nd" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/closet,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/shield/riot,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hos)
+"Nh" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Nk" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"Np" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"Nx" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"NA" = (
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"NB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"NK" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/sign/warning/radiation{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"NR" = (
+/obj/machinery/door/airlock/glass_large,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/crew_quarters/bar/atrium)
+"NU" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Od" = (
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
+/area/medical/medbay/central)
+"Of" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Og" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/hallway/secondary/exit)
+"Ok" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1;
+	icon_state = "red"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Ow" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/security/checkpoint)
+"Oy" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 6;
+	icon_state = "rare"
+	},
+/area/medical/medbay/central)
+"Oz" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Dormitory APC";
+	pixel_y = 30
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/dorms)
+"OK" = (
+/obj/structure/chair/f13chair2,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"OL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"OM" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"OO" = (
+/obj/structure/table,
+/obj/item/defibrillator/loaded,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"OP" = (
+/obj/structure/table,
+/obj/item/storage/box/beakers,
+/obj/effect/turf_decal/bot,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"OS" = (
+/obj/machinery/door/airlock/medical{
+	name = "Operating Theatre";
+	req_access_txt = "45; 5"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 8;
+	icon_state = "rare"
+	},
+/area/medical/sleeper)
+"OU" = (
+/obj/structure/sign/directions/evac{
+	dir = 4;
+	pixel_y = 8
+	},
+/obj/structure/sign/directions/security{
+	dir = 1
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/security/brig)
+"OW" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/closed/indestructible/rock,
+/area/f13/underground/mountain)
+"OZ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/f13/underground/overseer_office)
+"Pa" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Pi" = (
+/obj/structure/table,
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"Pj" = (
+/obj/structure/bed,
+/obj/item/bedsheet/blue,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"Pr" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/security/brig)
+"PC" = (
+/obj/structure/sign/directions/engineering{
+	dir = 8
+	},
+/obj/structure/sign/directions/supply{
+	dir = 8;
+	icon_state = "direction_supply";
+	pixel_y = -8
+	},
+/obj/structure/sign/directions/command{
+	dir = 4;
+	icon_state = "direction_bridge";
+	pixel_y = 8
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/crew_quarters/heads/hos)
+"PF" = (
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side,
+/area/f13/underground/vault_atrium_upper)
+"PG" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	icon_state = "rwindow"
+	},
+/obj/structure/closet/secure_closet/medical3,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"PN" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"PY" = (
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"Qa" = (
+/obj/machinery/jukebox,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/crew_quarters/bar/atrium)
+"Qc" = (
+/obj/machinery/chem_master,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/chemistry)
+"Qf" = (
+/obj/machinery/computer/card{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hop)
+"Qm" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor,
+/area/medical/morgue)
+"Qo" = (
+/obj/machinery/camera/autoname{
+	dir = 6;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Qs" = (
+/obj/machinery/vending/snack,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Qu" = (
+/obj/machinery/holopad,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"QE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"QL" = (
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"QX" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/maintenance/central/secondary)
+"QY" = (
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/underground/vault_atrium_upper)
+"Ra" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"Rd" = (
+/obj/structure/sign/poster/official/report_crimes{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Rn" = (
+/obj/machinery/status_display,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/overseer_office)
+"Rr" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Storage APC";
+	pixel_x = -25
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"Rv" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/checkpoint)
+"RD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"RE" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/landmark/start/f13/vaultsecurityofficer,
+/obj/machinery/camera/autoname{
+	dir = 6;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"RG" = (
+/obj/machinery/computer/security{
+	dir = 4;
+	icon_state = "computer"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hos)
+"RI" = (
+/obj/structure/simple_door/metal/fence,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/mountain)
+"RM" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"RP" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side,
+/area/f13/underground/vault_atrium_upper)
+"RQ" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/vault_atrium_upper)
+"RV" = (
+/obj/machinery/sleeper,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"RW" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"RY" = (
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/bot,
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/engine/engineering)
+"Sb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Sf" = (
+/obj/machinery/newscaster/security_unit{
+	pixel_y = -30
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"Sh" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/item/paper_bin,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Si" = (
+/obj/machinery/vending/snack/random,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Sn" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Sq" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"St" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Sw" = (
+/obj/structure/bed,
+/obj/item/bedsheet/blue,
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/dorms)
+"Sz" = (
+/obj/machinery/vending/snack,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/crew_quarters/heads/cmo)
+"SG" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"SJ" = (
+/obj/machinery/door/airlock/silver{
+	name = "Hydroponics"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/area/hydroponics/garden)
+"SK" = (
+/obj/effect/landmark/start/assistant/override,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"SQ" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"SS" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"SV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"SY" = (
+/obj/structure/chair/f13chair2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/landmark/start/f13/overseer,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"SZ" = (
+/obj/effect/landmark/secequipment,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"Te" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"Tj" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/dorms)
+"Tn" = (
+/obj/structure/bodycontainer/morgue,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"To" = (
+/obj/structure/chair/f13chair2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"TB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"TE" = (
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple,
+/area/science/research)
+"TH" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Chief of Security";
+	req_access_txt = "19"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hos)
+"TI" = (
+/obj/machinery/vending/nukacolavendfull,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/camera/autoname{
+	dir = 6;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"TO" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"TP" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"TQ" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/toilet)
+"TR" = (
+/obj/machinery/computer/secure_data{
+	dir = 4;
+	icon_state = "computer"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/crew_quarters/heads/hos)
+"TT" = (
+/obj/machinery/light,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"TZ" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/toilet)
+"Uf" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Ul" = (
+/obj/machinery/newscaster{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Ur" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/red,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"Ux" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"UA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1;
+	icon_state = "warningline_red"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
+"UE" = (
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/crew_quarters/bar/atrium)
+"UG" = (
+/obj/structure/bed,
+/obj/item/bedsheet/ian,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"UN" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"UO" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/area/medical/morgue)
+"UU" = (
+/obj/structure/chair/stool/f13stool{
+	name = "stool"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"UV" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"UX" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/structure/sign/departments/science{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
+/area/f13/underground/vault_atrium_upper)
+"UZ" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"Vd" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/reagent_dispensers/watertank,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/janitor)
+"Vf" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/closed/indestructible/rock,
+/area/f13/underground/mountain)
+"Vm" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/f13/underground/vault_atrium_upper)
+"Vo" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"Vu" = (
+/obj/structure/bed,
+/obj/item/bedsheet/purple,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"Vv" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"Vz" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/obj/structure/chair/f13chair2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"VB" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"VC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"VD" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating,
+/area/crew_quarters/heads/hop)
+"VF" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"VH" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/item/folder/red,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"VO" = (
+/obj/structure/sign/poster/official/anniversary_vintage_reprint,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/science/research)
+"Wc" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/qm)
+"Wg" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/corner{
+	dir = 8;
+	icon_state = "rarecorner"
+	},
+/area/medical/medbay/central)
+"Wi" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics/garden)
+"Wj" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"Wl" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Wn" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"Wr" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/medical/chemistry)
+"Wv" = (
+/turf/closed/indestructible/rock,
+/area/f13/underground/mountain)
+"WE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"WI" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/engine/engineering)
+"WJ" = (
+/obj/structure/table,
+/obj/item/clothing/head/chefhat,
+/obj/item/reagent_containers/food/condiment/enzyme,
+/obj/item/reagent_containers/food/condiment/enzyme,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
+"WL" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/corner,
+/area/f13/underground/vault_atrium_upper)
+"WM" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/sign/departments/engineering{
+	pixel_y = 32
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1;
+	icon_state = "yellow"
+	},
+/area/f13/underground/vault_atrium_upper)
+"WU" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "0"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
+	dir = 4;
+	icon_state = "rare"
+	},
+/area/medical/morgue)
+"Xa" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/pack/ketchup,
+/obj/item/reagent_containers/food/snacks/popcorn,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"Xd" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"Xj" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"Xl" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"Xu" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/security/brig)
+"Xv" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Toilets APC";
+	pixel_y = 30
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
+/area/crew_quarters/toilet)
+"Xw" = (
+/obj/structure/chair/f13chair2{
+	dir = 4;
+	icon_state = "f13chair2"
+	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"XC" = (
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "1"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
+"XG" = (
+/obj/machinery/autolathe,
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"XK" = (
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor6"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"XM" = (
+/obj/effect/decal/cleanable/robot_debris/old,
+/obj/machinery/door/window,
+/obj/structure/closet/crate,
+/obj/structure/window/spawner/east,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"XR" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
+"XS" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"XT" = (
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor5"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"XZ" = (
+/obj/structure/chair/f13chair2{
+	dir = 4;
+	icon_state = "f13chair2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"Yg" = (
+/obj/structure/chair/f13chair2{
+	dir = 1;
+	icon_state = "f13chair2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side,
+/area/f13/underground/vault_atrium_upper)
+"Yj" = (
+/obj/machinery/door/airlock/silver{
+	name = "Bathroom"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/crew_quarters/toilet)
+"Ym" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"Yo" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/heads/hop)
+"Yq" = (
+/obj/structure/table,
+/obj/machinery/light,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"Yu" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
+"Yx" = (
+/obj/machinery/light,
+/obj/effect/turf_decal{
+	dir = 4;
+	icon_state = "warningline"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
+"Yz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe"
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"YC" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
+/area/quartermaster/storage)
+"YD" = (
+/obj/machinery/holopad,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"YF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"YI" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/crew_quarters/heads/hos)
+"YQ" = (
+/obj/machinery/computer/upload/borg,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"YS" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/corner{
+	dir = 4;
+	icon_state = "rarecorner"
+	},
+/area/medical/medbay/central)
+"YW" = (
+/obj/effect/landmark/start/f13/vaultdoctor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"Zc" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -30
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/camera/motion{
+	c_tag = "Bot Control";
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/ai_monitored/turret_protected/ai_upload)
+"Zh" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
+"Zl" = (
+/obj/structure/table,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"Zs" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/machinery/door/window/eastleft{
+	dir = 8;
+	icon_state = "right"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/hallway/secondary/exit)
+"Zv" = (
+/obj/structure/table,
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	name = "Exam Room APC";
+	pixel_y = -25
+	},
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/effect/turf_decal/bot,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
+/area/medical/sleeper)
+"Zw" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 5;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
+"ZB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = 100;
+	name = "Surgery Shutters"
+	},
+/turf/open/floor/plating,
+/area/medical/sleeper)
+"ZC" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	icon_state = "rwindow"
+	},
+/obj/machinery/vending/wardrobe/medi_wardrobe,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/medical/medbay/central)
+"ZF" = (
+/obj/structure/bed,
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_x = -32
+	},
+/obj/item/bedsheet/random,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/dorms)
+"ZL" = (
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"ZV" = (
+/obj/machinery/light/small{
+	dir = 4;
+	light_color = "#d8b1b1"
+	},
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/security/brig)
+"ZZ" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/crew_quarters/heads/hos)
+
+(1,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+zc
+zc
+zc
+zc
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(2,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+Ab
+en
+Gz
+zc
+zc
+zc
+zc
+RQ
+RQ
+RQ
+Ej
+Ej
+Ej
+Ej
+Ej
+Ej
+Ej
+Ej
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(3,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+eN
+gI
+xo
+NK
+lD
+bh
+tt
+iq
+oL
+PF
+ja
+mG
+mG
+bN
+Rr
+ui
+aM
+Ej
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(4,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+Ad
+JE
+qr
+ER
+iI
+hl
+zc
+cK
+Sn
+RP
+Ej
+hq
+XT
+so
+mG
+mG
+oR
+Ej
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(5,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+CD
+xm
+cA
+JB
+Xl
+ab
+WI
+xy
+Sn
+Yg
+Ej
+zq
+mn
+mG
+mG
+so
+Te
+Ej
+Wv
+Wv
+Wv
+Wv
+Wv
+GN
+GN
+GN
+GN
+GN
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(6,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+xh
+mN
+uG
+uK
+hH
+DA
+WI
+vL
+Sn
+LE
+uk
+Du
+mn
+Le
+yv
+mG
+Te
+Ej
+Wv
+Wv
+Wv
+Wv
+Wv
+GN
+LP
+my
+nf
+GN
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(7,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+hy
+mN
+Ix
+sL
+hH
+kr
+WI
+EW
+Sn
+pM
+Ej
+ym
+mn
+lP
+Qu
+XK
+YC
+Ej
+Ej
+RQ
+RQ
+RQ
+RQ
+GN
+LP
+rH
+nf
+GN
+GN
+GN
+GN
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(8,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+RY
+mN
+gF
+sv
+yY
+ml
+WI
+vL
+up
+Yg
+Ej
+XM
+Wn
+mG
+mG
+mG
+Te
+jE
+Ej
+QY
+QY
+QY
+QY
+GN
+yL
+BV
+yL
+zW
+ZL
+cs
+GN
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(9,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+hy
+mN
+gF
+sd
+vR
+EF
+zc
+WM
+HU
+Fy
+Ej
+SS
+mG
+so
+mG
+mG
+Te
+bf
+Ej
+QY
+QY
+QY
+QY
+GN
+Jv
+ZL
+ZL
+ZL
+Fe
+ay
+GN
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(10,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+zg
+xV
+EB
+HE
+TO
+XR
+eP
+Ih
+UV
+FL
+qu
+BF
+VC
+pi
+yf
+BF
+nM
+bx
+Ej
+QY
+QY
+JK
+QY
+GN
+lh
+lh
+lh
+ZL
+SV
+VH
+GN
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(11,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zc
+zc
+zc
+zc
+zc
+zc
+zc
+zc
+eB
+Sn
+aa
+RQ
+RQ
+Al
+jA
+Al
+Al
+Al
+xk
+Ej
+Ip
+Ip
+Ip
+Ip
+GN
+GN
+GN
+GN
+of
+rj
+GN
+GN
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(12,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Gv
+Nd
+Gv
+RG
+TR
+Bm
+Gv
+Cd
+Sn
+Rd
+RQ
+RQ
+Al
+pF
+bZ
+uF
+ir
+BN
+ck
+Sn
+Sn
+HU
+Sn
+ey
+WL
+Ow
+jW
+AK
+Nk
+bA
+Ow
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(13,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Gv
+ub
+TH
+ub
+ZZ
+AZ
+Gv
+tJ
+Sn
+HU
+RQ
+RQ
+Al
+MJ
+uu
+Lf
+Mf
+Mo
+xu
+UV
+xu
+YD
+xu
+Nh
+lU
+Fn
+rI
+oE
+DN
+ht
+Ow
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(14,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+IR
+IR
+IR
+IR
+IR
+Gv
+nz
+YI
+dp
+PC
+OK
+Sn
+HU
+RQ
+RQ
+Al
+ys
+rK
+Wc
+ir
+iD
+Sn
+Vz
+jC
+Jb
+Vz
+NB
+Ge
+Ow
+Ow
+Ow
+MM
+Ow
+Ow
+Ow
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(15,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+IR
+es
+aW
+jJ
+ux
+IR
+Zw
+oa
+EE
+aX
+be
+Sn
+Ux
+RQ
+RQ
+Al
+Al
+Al
+Al
+Al
+ij
+uC
+RQ
+RQ
+RQ
+qe
+Zh
+rW
+Ow
+CP
+Rv
+Nk
+Ra
+kD
+Ow
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(16,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+AL
+AL
+AL
+AL
+AL
+AL
+Rn
+Hp
+Hp
+Hp
+TP
+OZ
+Ko
+Sn
+NB
+oM
+NB
+Sn
+Sn
+Ev
+jx
+cg
+Ev
+wr
+RQ
+RQ
+RM
+NB
+hF
+Jb
+Cs
+hF
+Sn
+RM
+Ow
+CJ
+jI
+gJ
+HQ
+xW
+Ow
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(17,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+AL
+Gp
+Zc
+Vo
+Cx
+AL
+zv
+Hp
+BQ
+Bl
+tS
+OZ
+Ko
+HU
+KO
+Df
+Ib
+KU
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+tf
+RQ
+RQ
+dx
+SK
+HU
+HU
+Sn
+Sn
+RQ
+bR
+Ow
+rh
+rh
+rh
+Ow
+bR
+qp
+qp
+qp
+dB
+Cr
+Cr
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(18,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+AL
+np
+vk
+sh
+jQ
+AL
+YQ
+Hp
+xO
+aA
+Sf
+IR
+jg
+Sn
+Fj
+RQ
+RQ
+RQ
+Vm
+Vm
+Ha
+HU
+Sn
+Sn
+Sn
+SK
+oM
+NB
+HU
+HU
+HU
+Sn
+Sn
+KA
+fH
+CH
+bk
+bj
+BZ
+Uf
+Ds
+qp
+UA
+ww
+Cr
+Cr
+vw
+Cr
+vw
+Wv
+Wv
+Wv
+"}
+(19,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+AL
+vp
+vc
+Ml
+IB
+FM
+eE
+jh
+SY
+pb
+QE
+pQ
+EL
+xu
+GH
+qO
+RQ
+RQ
+az
+aY
+sb
+up
+Sn
+Sn
+Sn
+Sn
+oM
+NB
+HU
+HU
+HU
+Sn
+up
+KA
+fH
+bj
+Cu
+bj
+St
+tM
+sH
+tO
+UA
+fH
+Cr
+Cr
+Cr
+Cr
+Cr
+Wv
+Wv
+Wv
+"}
+(20,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+AL
+tX
+Dk
+Lu
+jQ
+AL
+ip
+UN
+xO
+ms
+yu
+IR
+xI
+HU
+ES
+RQ
+RQ
+RQ
+aG
+Vm
+qw
+Sb
+Sn
+Sn
+Sn
+Sn
+oM
+be
+HU
+HU
+HU
+Sn
+Sn
+KA
+fH
+SQ
+sl
+fn
+Ga
+RD
+sH
+qp
+AR
+fH
+Cr
+Cr
+Cr
+Cr
+Wv
+Wv
+Wv
+Wv
+"}
+(21,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+AL
+yN
+GQ
+Ym
+yM
+AL
+qI
+UN
+Bt
+BQ
+Cw
+OZ
+Ko
+Sn
+KO
+Df
+PN
+MC
+pt
+Sn
+Sn
+bj
+HU
+Sn
+tf
+RQ
+oB
+wJ
+Sn
+Sn
+HU
+HU
+Sn
+RQ
+Fl
+RQ
+RQ
+RQ
+RQ
+RQ
+Fl
+qp
+qp
+qp
+QX
+Cr
+vw
+Cr
+Wv
+Wv
+Wv
+Wv
+"}
+(22,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+AL
+AL
+AL
+AL
+AL
+AL
+Rn
+UN
+Hp
+Hp
+uJ
+OZ
+Ko
+Sn
+NB
+oM
+NB
+Sn
+pt
+zO
+jC
+fx
+zO
+iR
+RQ
+RQ
+RM
+NB
+Vz
+Jb
+jC
+Vz
+HU
+RM
+GG
+GG
+GG
+GG
+GG
+GG
+Wv
+Wv
+Wv
+Wv
+Cr
+Cr
+Cr
+Cr
+Cr
+Wv
+Wv
+Wv
+"}
+(23,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+IR
+Ct
+hA
+sY
+ux
+IR
+Xd
+NA
+rD
+aX
+NB
+Sn
+pt
+tc
+tc
+tc
+tc
+tc
+tc
+tc
+yS
+CR
+RQ
+RQ
+FB
+RQ
+kl
+gW
+ZB
+DJ
+xn
+rq
+oF
+GG
+Wv
+Wv
+Wv
+Wv
+Wv
+Cr
+Cr
+Cr
+Cr
+Cr
+Wv
+Cr
+"}
+(24,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+IR
+IR
+IR
+Ky
+Ky
+Ky
+dM
+VD
+wl
+vM
+OK
+Sn
+Yz
+tc
+za
+Cj
+lz
+wd
+Qc
+Wr
+NB
+Sn
+gD
+Jb
+jC
+hF
+HU
+Sn
+ZB
+Nb
+EX
+fb
+Yq
+GG
+Wv
+Wv
+Wv
+Wv
+Wv
+vw
+Cr
+Cr
+Cr
+Cr
+Gd
+Cr
+"}
+(25,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Ky
+DS
+IS
+DS
+Yo
+kf
+Ky
+tJ
+Sn
+us
+tc
+OP
+Cj
+mi
+GF
+Hy
+Mx
+wJ
+Sn
+Sn
+Sn
+fl
+Sn
+Sn
+SK
+ZB
+Kv
+oy
+aL
+Zv
+GG
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Cr
+Cr
+Cr
+Cr
+Gd
+Cr
+"}
+(26,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Ky
+wi
+Ky
+wI
+Qf
+Jf
+Ky
+Cd
+Sn
+pt
+tc
+BT
+Cj
+fV
+FP
+lk
+Wr
+NB
+SK
+Sn
+Sn
+Sn
+KU
+Qs
+iR
+GG
+xe
+dL
+bB
+iY
+GG
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Cr
+Cr
+Cr
+RI
+Cr
+"}
+(27,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+My
+My
+My
+My
+My
+RQ
+RQ
+RQ
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+uY
+Sn
+pt
+tc
+tc
+pd
+Kz
+in
+in
+in
+lV
+AG
+in
+Sn
+HU
+in
+AG
+in
+GG
+GG
+OS
+GG
+GG
+GG
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Cr
+Cr
+Cr
+Gd
+Cr
+"}
+(28,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+My
+kv
+CT
+wx
+My
+Sn
+Sn
+Sn
+DB
+Jj
+Jj
+fX
+pc
+Vv
+DB
+SZ
+da
+Lq
+DB
+KS
+up
+ak
+Od
+hZ
+jL
+Wl
+Kh
+nZ
+OO
+Mz
+jL
+lp
+fl
+Sn
+Fr
+jL
+um
+yT
+nr
+Mz
+PG
+ws
+in
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Cr
+Cr
+Gd
+Cr
+"}
+(29,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+My
+Vd
+AW
+AW
+Kc
+xu
+ae
+Sn
+DB
+Cm
+Jj
+Xu
+WE
+Jj
+vZ
+kA
+kA
+kA
+Pr
+KS
+Sn
+aZ
+in
+Sh
+XS
+mH
+KW
+mH
+Oy
+YS
+hO
+in
+mb
+Dv
+in
+XS
+KW
+FY
+KW
+Pa
+jL
+Fu
+in
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Cr
+Gd
+Cr
+"}
+(30,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+zX
+zX
+zX
+zX
+kl
+NB
+Sn
+DB
+DB
+DB
+DB
+rg
+Jj
+DB
+sU
+kA
+kA
+Pr
+Fc
+Sn
+Ar
+in
+gX
+Mz
+vA
+tp
+Lr
+Wg
+BM
+KW
+De
+Bk
+gY
+Cp
+Pa
+jL
+RV
+GC
+YW
+ZC
+rC
+in
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Cr
+"}
+(31,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+Sw
+Tj
+Sw
+zX
+Sn
+NB
+Sn
+DB
+Jj
+Jj
+Jj
+WE
+Jj
+DB
+ty
+To
+nI
+DB
+AX
+Sn
+Ci
+iA
+iA
+WU
+iA
+iA
+zQ
+gV
+zQ
+zQ
+in
+zd
+Im
+in
+in
+in
+in
+in
+in
+in
+in
+in
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(32,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+CM
+Tj
+Tj
+iB
+Sn
+NB
+Sn
+DB
+Cm
+Jj
+Pr
+AO
+Jj
+DB
+KZ
+kA
+kA
+Pr
+KS
+Sn
+Jn
+im
+EU
+UO
+Tn
+iA
+Ef
+FI
+eg
+zQ
+in
+in
+in
+in
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(33,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+Sw
+Tj
+Sw
+zX
+Sn
+NB
+Sn
+DB
+DB
+DB
+DB
+RE
+Jj
+vZ
+kA
+kA
+kA
+Pr
+KS
+Sn
+Ar
+iA
+hk
+FH
+Np
+iA
+sf
+Ji
+zu
+zQ
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(34,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+zX
+zX
+zX
+zX
+kl
+NB
+Sn
+DB
+Jj
+Jj
+Jj
+dw
+Jj
+DB
+ny
+ZV
+Ur
+DB
+KS
+Sn
+pt
+iA
+lS
+UO
+Tn
+iA
+xJ
+Ji
+Sz
+zQ
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(35,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+Sw
+Tj
+Sw
+zX
+Sn
+NB
+Sn
+DB
+Cm
+Jj
+Pr
+dw
+QL
+DB
+DB
+DB
+DB
+OU
+Ok
+xu
+Ec
+Qm
+MS
+fw
+nG
+iA
+rA
+jF
+qB
+zQ
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(36,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+CM
+Tj
+Tj
+iB
+Sn
+NB
+Sn
+DB
+DB
+DB
+DB
+wv
+OL
+oH
+UZ
+KX
+IV
+XC
+vu
+Sn
+gk
+uB
+uB
+uB
+uB
+uB
+uB
+uB
+zQ
+zQ
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(37,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+zX
+Sw
+Tj
+Sw
+zX
+Sn
+NB
+Sn
+DB
+Jj
+Jj
+Jj
+GZ
+Jj
+wu
+iv
+qS
+kA
+cH
+KS
+Sn
+pw
+mo
+eX
+PY
+wQ
+pB
+BX
+uB
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(38,1,1) = {"
+zX
+zX
+zX
+zX
+zX
+RQ
+zX
+zX
+zX
+zX
+zX
+Sn
+NB
+Sn
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+ta
+Sn
+UX
+uB
+PY
+xz
+PY
+YF
+hN
+VO
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(39,1,1) = {"
+zX
+Sw
+Sw
+Sw
+zX
+gW
+lb
+xu
+xu
+vY
+xu
+xu
+bs
+xu
+yo
+xu
+xu
+Of
+xu
+NU
+xu
+SG
+xu
+xu
+Df
+dD
+Sn
+pw
+eZ
+Xj
+xz
+ba
+sk
+oI
+uB
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(40,1,1) = {"
+zX
+CM
+Tj
+Tj
+iB
+Sn
+NB
+Sn
+HU
+Sn
+Sn
+Sn
+HU
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+oM
+Sn
+Sn
+pw
+eZ
+Wj
+xz
+zp
+aF
+Pi
+uB
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(41,1,1) = {"
+zX
+Sw
+Sw
+Sw
+zX
+kl
+NB
+Sn
+Sn
+Sn
+Sn
+Sn
+je
+aD
+Si
+Sn
+gW
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+Sn
+oM
+Sn
+Sn
+pw
+eZ
+cz
+HT
+Nx
+JN
+Hc
+uB
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(42,1,1) = {"
+zX
+zX
+zX
+zX
+zX
+Sn
+NB
+tI
+tI
+tI
+MF
+MF
+MF
+MF
+MF
+MF
+MF
+MF
+Ls
+MF
+MF
+MF
+MF
+MF
+MF
+RM
+Sn
+pw
+eZ
+fU
+LY
+pe
+lZ
+PY
+uB
+uB
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(43,1,1) = {"
+zX
+vr
+rc
+cO
+zX
+Sn
+NB
+tI
+TQ
+jP
+MF
+by
+by
+zr
+gG
+Ju
+MF
+Il
+UE
+Yu
+Ap
+UU
+ln
+Lh
+MF
+Sn
+Sn
+KV
+uB
+TE
+Hx
+zU
+zU
+mw
+xx
+uB
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(44,1,1) = {"
+zX
+Oz
+wy
+wy
+bz
+UV
+eU
+zV
+to
+TZ
+MF
+Fp
+Fp
+jY
+Fp
+Fp
+ya
+UE
+kI
+Yu
+Ap
+UU
+ln
+qE
+MF
+gW
+Sn
+IY
+Gt
+Nx
+hs
+Zl
+zH
+XG
+uB
+uB
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(45,1,1) = {"
+zX
+UG
+fq
+Vu
+zX
+Sn
+Sn
+tI
+Xv
+iN
+MF
+Fp
+jY
+jY
+Fp
+aI
+MF
+Qa
+kI
+RW
+Ap
+UU
+Xa
+qE
+MF
+Sn
+Sn
+JA
+hX
+hX
+hX
+hX
+hX
+hX
+hX
+hX
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(46,1,1) = {"
+zX
+zX
+zX
+zX
+zX
+HU
+HU
+tI
+tI
+tI
+MF
+WJ
+Fp
+if
+Fp
+uj
+MF
+fm
+UE
+Yu
+Ap
+fa
+fa
+zF
+NR
+xu
+xu
+aq
+SJ
+LV
+kj
+dV
+kj
+am
+oZ
+hX
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(47,1,1) = {"
+zX
+Pj
+ZF
+vr
+zX
+kl
+Ul
+tI
+ft
+ii
+MF
+MF
+MF
+MF
+MF
+MF
+MF
+Ln
+OM
+JQ
+bI
+Ap
+Ap
+Ap
+GB
+Sn
+Sn
+wE
+By
+VB
+Jy
+Jy
+Cf
+qQ
+kj
+hX
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(48,1,1) = {"
+zX
+mv
+MU
+MU
+yC
+Sn
+Sn
+Yj
+sP
+sP
+MF
+ed
+pL
+Mk
+CS
+uA
+MF
+nO
+ed
+Yu
+bI
+Sq
+vf
+UU
+MF
+Sn
+up
+wE
+By
+HS
+zt
+tq
+sn
+aK
+fj
+hX
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(49,1,1) = {"
+zX
+It
+Fx
+cO
+zX
+tR
+qa
+tI
+sP
+iN
+MF
+ed
+ed
+OM
+ed
+OM
+gE
+OM
+OM
+Yu
+bI
+UU
+ln
+UU
+MF
+Sn
+Sn
+wE
+By
+AF
+oY
+oY
+oY
+Wi
+kj
+hX
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(50,1,1) = {"
+zX
+zX
+zX
+zX
+zX
+RQ
+RQ
+tI
+tI
+tI
+MF
+OM
+OM
+kQ
+aC
+lF
+MF
+iw
+vQ
+Yu
+bI
+iV
+yG
+UU
+MF
+Qo
+Sn
+eH
+br
+aK
+kj
+ez
+kj
+HX
+nB
+hX
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(51,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+MF
+MF
+MF
+MF
+MF
+MF
+MF
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+rs
+rs
+kL
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+sx
+sx
+Og
+Og
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(52,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+nn
+ye
+XZ
+XZ
+XZ
+Xw
+hK
+ye
+ye
+TB
+lW
+XZ
+Xw
+XZ
+XZ
+ye
+ix
+HO
+HO
+zK
+Og
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(53,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+TI
+ye
+ye
+ye
+ye
+ye
+ye
+ye
+ye
+TB
+ye
+ye
+ye
+ye
+ye
+TT
+Og
+VF
+aQ
+aQ
+Og
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(54,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+CF
+JR
+Dt
+Dt
+Dt
+Dt
+JR
+JR
+JR
+rM
+JR
+JR
+JR
+JR
+JR
+JR
+HZ
+HZ
+HZ
+HZ
+dR
+OW
+qA
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(55,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+sQ
+ye
+ye
+ye
+ye
+ye
+ye
+ye
+qD
+uN
+ye
+ye
+ye
+ye
+ye
+ye
+Og
+Iz
+DZ
+Zs
+Og
+Wv
+Vf
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(56,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+qF
+HI
+HI
+HI
+lR
+lR
+CZ
+wC
+wC
+wC
+wC
+Yx
+lY
+lY
+lY
+lY
+lY
+lY
+lA
+Vf
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(57,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+rv
+rv
+lw
+rv
+rv
+rv
+rv
+AP
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+lw
+rv
+rv
+Iw
+Vf
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(58,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+Iw
+Vf
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(59,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+jr
+Iw
+Vf
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(60,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+rv
+rv
+xM
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+rv
+xM
+rv
+rv
+Iw
+Vf
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
+(61,1,1) = {"
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Og
+Iw
+Vf
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+Wv
+"}
