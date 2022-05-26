@@ -3700,12 +3700,6 @@
 	},
 /turf/open/floor/plating,
 /area/f13/admeme)
-"aom" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/closed/indestructible/rock,
-/area/f13/underground/mountain)
 "aow" = (
 /turf/open/floor/plating,
 /area/f13/farmhouse)
@@ -3828,12 +3822,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/hallway/secondary/exit)
-"aqs" = (
-/obj/structure/simple_door/bunker,
-/turf/open/floor/f13{
-	icon_state = "floordirty"
-	},
-/area/maintenance/disposal)
 "aqH" = (
 /obj/effect/overlay/junk/curtain,
 /turf/open/floor/wood/f13/old,
@@ -3929,13 +3917,17 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
-"asm" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+"arZ" = (
+/obj/structure/simple_door/bunker,
+/turf/open/floor/f13{
+	icon_state = "floordirty"
 	},
-/obj/machinery/computer/communications,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/hallway/secondary/exit)
+/area/maintenance/disposal)
+"asd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/roller,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/vault_atrium_upper)
 "aso" = (
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt,
@@ -4072,6 +4064,12 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
+"atM" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
 "auk" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -4099,14 +4097,6 @@
 	icon_state = "showroomfloor"
 	},
 /area/f13/underground/enclave_base)
-"auv" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/f13{
-	icon_state = "floordirty"
-	},
-/area/maintenance/disposal)
 "auP" = (
 /obj/structure/chair/f13chair2{
 	dir = 8;
@@ -4233,35 +4223,9 @@
 /turf/open/indestructible/ground/outside/desert,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
-"awD" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Escape Wing";
-	req_access_txt = null
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/hallway/secondary/exit)
 "awF" = (
 /obj/structure/cable{
 	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/hallway/secondary/exit)
-"awG" = (
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/hallway/secondary/exit)
@@ -4325,6 +4289,10 @@
 	},
 /turf/open/floor/plating,
 /area/f13/farmhouse)
+"azv" = (
+/obj/machinery/computer/communications,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
 "azF" = (
 /obj/effect/decal/remains/human,
 /turf/open/indestructible/ground/inside/mountain,
@@ -4471,12 +4439,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
-"aBI" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/hallway/secondary/exit)
 "aBJ" = (
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/hallway/secondary/exit)
@@ -4958,6 +4920,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
+"aEm" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/smes/magical,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/hallway/secondary/exit)
 "aEr" = (
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /turf/open/indestructible/ground/inside/mountain,
@@ -5184,6 +5153,14 @@
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
+"aFx" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "floordirty"
+	},
+/area/maintenance/disposal)
 "aFy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -9166,14 +9143,6 @@
 	icon_state = "right"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/hallway/secondary/exit)
-"aXy" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
 /area/hallway/secondary/exit)
 "aXz" = (
 /obj/structure/bed/mattress/pregame,
@@ -15919,11 +15888,6 @@
 	icon_state = "greendirtysolid"
 	},
 /area/f13/brotherhood)
-"bJm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/vault_atrium_upper)
 "bJp" = (
 /obj/structure/fence{
 	dir = 4
@@ -54353,7 +54317,7 @@ bLR
 aET
 acP
 acP
-acP
+aaa
 aaa
 aaa
 aaa
@@ -54756,8 +54720,8 @@ bRh
 acP
 acP
 acP
-acP
-acP
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -55159,7 +55123,7 @@ acP
 acP
 acP
 acP
-acP
+aaa
 aaa
 aaa
 aaa
@@ -56348,7 +56312,7 @@ aDJ
 aDJ
 aDo
 aod
-bJm
+asd
 aoj
 aCZ
 aod
@@ -59187,7 +59151,7 @@ acP
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -59590,7 +59554,7 @@ acP
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -59993,7 +59957,7 @@ aaa
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -60395,8 +60359,8 @@ aaa
 aaa
 acP
 acP
-aaa
-aaa
+acP
+acP
 acP
 acP
 aaa
@@ -60797,7 +60761,7 @@ aaa
 aaa
 aaa
 acP
-aaa
+acP
 acP
 acP
 acP
@@ -66819,7 +66783,7 @@ aaa
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -67220,7 +67184,7 @@ aaa
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -67621,8 +67585,8 @@ aaa
 aaa
 acP
 acP
-aaa
-aaa
+acP
+acP
 aaa
 aaa
 aaa
@@ -68023,8 +67987,8 @@ aaa
 acP
 acP
 acP
-aaa
-aaa
+acP
+acP
 aaa
 aaa
 aaa
@@ -72808,7 +72772,7 @@ apZ
 apZ
 avN
 asC
-awD
+avN
 apZ
 apZ
 apZ
@@ -72848,7 +72812,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+acP
 acP
 acP
 acP
@@ -73210,7 +73174,7 @@ aUm
 ane
 asp
 aVB
-awF
+aEm
 aWd
 anm
 aUm
@@ -73250,7 +73214,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+acP
 acP
 acP
 acP
@@ -73652,7 +73616,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+acP
 acP
 acP
 acP
@@ -74014,19 +73978,18 @@ auP
 axg
 axg
 awo
-awG
-axg
-asm
-axg
-axg
-axg
-axg
-aBI
-aBI
-aBI
-aBI
-aXy
-aom
+atM
+asp
+azv
+asp
+asp
+asp
+asp
+aXb
+aXb
+aXb
+aXb
+apZ
 aaa
 aaa
 aaa
@@ -74054,6 +74017,7 @@ aaa
 aaa
 aaa
 aaa
+acP
 acP
 acP
 acP
@@ -74454,7 +74418,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+acP
 acP
 acP
 acP
@@ -74854,8 +74818,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+acP
+acP
 acP
 acP
 acP
@@ -75254,8 +75218,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+acP
+acP
 acP
 acP
 acP
@@ -75655,8 +75619,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+acP
+acP
 acP
 acP
 acP
@@ -76055,8 +76019,8 @@ aaa
 aaa
 acP
 acP
-aaa
-aaa
+acP
+acP
 acP
 acP
 acP
@@ -77261,9 +77225,9 @@ aaa
 acP
 acP
 acP
-aaa
-aaa
-aaa
+acP
+acP
+acP
 aaa
 aaa
 aaa
@@ -77663,8 +77627,8 @@ aaa
 acP
 acP
 acP
-aaa
-aaa
+acP
+acP
 aaa
 aaa
 aaa
@@ -78066,7 +78030,7 @@ aaa
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -78468,7 +78432,7 @@ aaa
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -78871,7 +78835,7 @@ aaa
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -79274,7 +79238,7 @@ acP
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -79678,7 +79642,7 @@ acP
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -80082,7 +80046,7 @@ acP
 acP
 acP
 acP
-aaa
+acP
 aaa
 aaa
 aaa
@@ -80479,14 +80443,14 @@ aaa
 aaa
 aaa
 aaa
-aaa
 acP
 acP
 acP
 acP
 acP
-aaa
-aaa
+acP
+acP
+acP
 aaa
 aaa
 aaa
@@ -80882,14 +80846,14 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
 acP
 acP
 acP
 acP
 acP
-aaa
+acP
+acP
+acP
 aaa
 aaa
 aaa
@@ -81286,13 +81250,13 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
 acP
 acP
 acP
-aaa
-aaa
+acP
+acP
+acP
+acP
 aaa
 aaa
 aaa
@@ -81689,7 +81653,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+acP
 acP
 acP
 acP
@@ -82093,7 +82057,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+acP
 acP
 acP
 acP
@@ -93732,7 +93696,7 @@ aaa
 aaa
 aaa
 axQ
-auv
+aFx
 aSq
 aDh
 axQ
@@ -94137,7 +94101,7 @@ axQ
 aDS
 aFo
 bJS
-aqs
+arZ
 bJS
 bJS
 bJS
