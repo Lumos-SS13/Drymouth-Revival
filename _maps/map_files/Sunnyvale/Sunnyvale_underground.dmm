@@ -4857,6 +4857,13 @@
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/engine/engineering)
+"mt" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
+	dir = 9
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/water,
+/area/f13/underground/vault_atrium_upper)
 "mA" = (
 /obj/structure/chair{
 	dir = 1
@@ -4864,24 +4871,29 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
 "mB" = (
-/obj/structure/table,
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
-/area/hydroponics)
+/area/science/research)
 "mD" = (
-/obj/machinery/power/apc/auto_name/west,
+/obj/structure/table,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
+"mF" = (
+/obj/machinery/power/port_gen/pacman/super{
+	anchored = 1
+	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/hydroponics)
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
 "mH" = (
-/obj/machinery/seed_extractor,
-/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
-/area/hydroponics)
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
 "mI" = (
 /obj/structure/noticeboard/ce{
 	pixel_y = 32
@@ -4912,6 +4924,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"ns" = (
+/obj/structure/closet/crate/freezer,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
+	icon_state = "showroomfloor";
+	name = "tile"
+	},
+/area/crew_quarters/bar/atrium)
 "nt" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -4930,6 +4949,36 @@
 	icon_state = "red"
 	},
 /area/security/brig)
+"nA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/port_gen/pacman/super{
+	anchored = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"nE" = (
+/obj/structure/noticeboard/staff{
+	pixel_y = 32
+	},
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/vault_atrium_upper)
+"nL" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
 "nV" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plasteel/f13/vault_floor/white,
@@ -4971,6 +5020,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"oy" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/white,
+/area/science/research)
 "oz" = (
 /obj/machinery/light{
 	dir = 8;
@@ -4979,27 +5034,28 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
 "oB" = (
-/turf/open/floor/plasteel/f13/vault_floor/green/side,
-/area/crew_quarters/dorms)
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/vault_atrium_upper)
 "oC" = (
-/obj/machinery/power/port_gen/pacman/super{
-	anchored = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /obj/structure/cable{
-	icon_state = "0-2"
+	icon_state = "2-8"
 	},
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
 "oD" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#e8eaff"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/crew_quarters/dorms)
+/obj/structure/simple_door/bunker,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/vault_atrium_upper)
 "oJ" = (
 /obj/structure/chair/stool,
+/obj/effect/landmark/start/f13/vaultdweller,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/quartermaster/storage)
 "oR" = (
@@ -5010,6 +5066,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
+"oW" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/auto_name/north,
+/turf/open/floor/plasteel/f13/vault_floor/purple/white,
+/area/science/research)
 "oX" = (
 /obj/structure/chair/f13chair2{
 	dir = 8
@@ -5022,7 +5085,11 @@
 	},
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
-/area/f13/underground/vault_atrium_upper)
+/area/science/research)
+"pa" = (
+/obj/machinery/computer/security,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "pg" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
@@ -5037,10 +5104,10 @@
 	},
 /area/f13/underground/vault_atrium_upper)
 "pk" = (
-/obj/machinery/hydroponics/constructable,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
 "pp" = (
@@ -5061,22 +5128,35 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
 "pO" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/white,
-/area/f13/underground/vault_atrium_upper)
+/obj/structure/simple_door/bunker,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "pR" = (
 /turf/open/floor/plasteel/f13/vault_floor/green/corner{
 	dir = 8;
 	icon_state = "greencorner"
 	},
 /area/f13/underground/vault_atrium_upper)
+"pV" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
 "pY" = (
 /turf/open/floor/plasteel/f13/vault_floor/green/corner{
 	dir = 1;
 	icon_state = "greencorner"
 	},
+/area/f13/underground/vault_atrium_upper)
+"qd" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
 "qi" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -5086,15 +5166,12 @@
 /obj/structure/chair{
 	dir = 4
 	},
+/obj/effect/landmark/start/f13/vaultdoctor,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
 "qk" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/engine/engineering)
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/medical/medbay/central)
 "qo" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/white,
@@ -5115,45 +5192,60 @@
 	icon_state = "red"
 	},
 /area/security/brig)
+"ri" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
+/area/crew_quarters/bar/atrium)
+"rn" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics)
 "rw" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
 /area/f13/underground/vault_atrium_upper)
 "rz" = (
-/obj/machinery/shower{
-	dir = 8
-	},
 /obj/machinery/door/window/eastleft{
 	dir = 8;
 	icon_state = "right"
 	},
+/obj/structure/toilet{
+	dir = 8
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/crew_quarters/dorms)
 "rC" = (
-/obj/machinery/power/port_gen/pacman/super{
-	anchored = 1
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
 	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/engine/engineering)
+/area/f13/underground/overseer_office)
+"rN" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/vault_atrium_upper)
 "rP" = (
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/hydroponics)
+"rQ" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/corner{
+	dir = 4
+	},
+/area/f13/underground/vault_atrium_upper)
 "rX" = (
 /obj/structure/simple_door/bunker/glass,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
 /area/f13/underground/vault_atrium_upper)
 "sb" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"sc" = (
+/obj/structure/chair/stool/retro/backed{
+	dir = 1
+	},
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/vault_atrium_upper)
 "sn" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5185,6 +5277,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"sO" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/science/research)
 "sP" = (
 /obj/structure/closet/anchored,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
@@ -5280,20 +5375,23 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
 "uD" = (
-/obj/structure/closet/crate/hydroponics,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
 "uL" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/crew_quarters/dorms)
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
 "uQ" = (
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/quartermaster/storage)
+"uR" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics)
 "uT" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -5315,6 +5413,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
+"vg" = (
+/obj/structure/table,
+/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "vi" = (
 /obj/machinery/light{
 	dir = 1;
@@ -5324,6 +5427,7 @@
 /area/f13/underground/vault_atrium_upper)
 "vq" = (
 /obj/structure/table,
+/obj/item/clothing/neck/apron/chef,
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
 "vv" = (
@@ -5338,6 +5442,17 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"vX" = (
+/obj/machinery/power/apc/auto_name/south,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
+"vY" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/quartermaster/storage)
 "wa" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
@@ -5375,6 +5490,10 @@
 	icon_state = "red"
 	},
 /area/security/brig)
+"wL" = (
+/obj/effect/landmark/start/f13/vaultdoctor,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "wU" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor5"
@@ -5390,6 +5509,11 @@
 	icon_state = "2-i"
 	},
 /area/hydroponics)
+"xW" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/corner{
+	dir = 1
+	},
+/area/f13/underground/vault_atrium_upper)
 "xY" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
@@ -5402,17 +5526,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
 "yf" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
 "yj" = (
 /obj/structure/toilet{
@@ -5430,6 +5548,12 @@
 /obj/item/stamp/qm,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"yB" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/crew_quarters/dorms)
 "yE" = (
 /obj/structure/closet/crate,
 /obj/effect/turf_decal/delivery,
@@ -5472,6 +5596,20 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"zf" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/structure/filingcabinet,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
+"zi" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "zm" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
@@ -5479,6 +5617,17 @@
 "zo" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
+"zq" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
+	dir = 4
+	},
+/obj/structure/simple_door/bunker,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
+"zM" = (
+/obj/structure/lattice/catwalk,
+/turf/open/water,
+/area/f13/underground/vault_atrium_upper)
 "zY" = (
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -5491,6 +5640,7 @@
 /obj/machinery/shower{
 	dir = 8
 	},
+/obj/structure/decoration/vent,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
 "Aw" = (
@@ -5498,18 +5648,28 @@
 /turf/open/indestructible,
 /area/f13/tcoms)
 "AB" = (
-/obj/machinery/power/port_gen/pacman/super{
-	anchored = 1
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
+"AK" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
 	},
-/obj/structure/cable,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/engine/engineering)
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
 "AP" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/effect/landmark/start/f13/vaultdweller,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/janitor)
+"AQ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/vault_atrium_upper)
 "AR" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate,
@@ -5569,17 +5729,15 @@
 /area/crew_quarters/dorms)
 "BB" = (
 /turf/open/floor/plasteel/f13/vault_floor/purple/white,
-/area/f13/underground/vault_atrium_upper)
+/area/science/research)
 "BG" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
 "BO" = (
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
+/obj/effect/landmark/start/f13/vaultscientist,
 /turf/open/floor/plasteel/f13/vault_floor/purple/white,
-/area/f13/underground/vault_atrium_upper)
+/area/science/research)
 "BP" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -5589,6 +5747,15 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
+"BT" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/f13/underground/cave)
+"Cl" = (
+/obj/machinery/vending/engineering,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
 "Cm" = (
 /obj/structure/closet/secure_closet/evidence,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -5616,6 +5783,12 @@
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/crew_quarters/dorms)
+"CI" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/crew_quarters/dorms)
 "CR" = (
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -5628,6 +5801,15 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/security/brig)
+"Df" = (
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics)
+"Dn" = (
+/obj/structure/table,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "Dq" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -5656,23 +5838,34 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
 "DZ" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
+/obj/structure/simple_door/bunker/glass,
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-2"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/engine/engineering)
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
 "Ei" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
 "Ek" = (
 /obj/structure/table/optable,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
 "Ez" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"EA" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/landmark/start/f13/vaultscientist,
+/turf/open/floor/plasteel/f13/vault_floor/purple/white,
+/area/science/research)
 "EI" = (
 /obj/structure/table,
 /obj/structure/cable{
@@ -5699,11 +5892,23 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
+"Fo" = (
+/obj/structure/table,
+/obj/item/storage/pill_bottle/chem_tin/radx,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
 "Fp" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/janitorialcart,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/janitor)
+"Fw" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "Fx" = (
 /obj/structure/chair/left{
 	dir = 1
@@ -5768,6 +5973,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
+"Gx" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/science/research)
 "GA" = (
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -5823,6 +6034,10 @@
 "Hs" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_upper)
+"HE" = (
+/obj/machinery/computer/med_data,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "HG" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
 	dir = 8;
@@ -5867,6 +6082,16 @@
 	icon_state = "yellow"
 	},
 /area/f13/underground/vault_atrium_upper)
+"IQ" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
 "IR" = (
 /obj/machinery/light{
 	dir = 8;
@@ -5874,6 +6099,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
+"IS" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/storage/pill_bottle/chem_tin/radx,
+/obj/item/storage/pill_bottle/chem_tin/radx,
+/obj/item/storage/pill_bottle/chem_tin/radx,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "IV" = (
 /obj/machinery/computer/operating{
 	dir = 4
@@ -5903,6 +6135,15 @@
 	icon_state = "2-i"
 	},
 /area/medical/medbay/central)
+"JU" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
 "JY" = (
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -5912,10 +6153,15 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
 "JZ" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/science/research)
+"Kf" = (
+/obj/machinery/atmospherics/pipe/manifold/cyan/hidden{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/water,
 /area/f13/underground/vault_atrium_upper)
 "Kk" = (
 /obj/structure/cable{
@@ -5966,6 +6212,19 @@
 	icon_state = "yellowcorner"
 	},
 /area/f13/underground/vault_atrium_upper)
+"KH" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/closet,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
+"KJ" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/blue,
+/obj/item/folder/blue,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "KK" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/cable{
@@ -5981,11 +6240,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/quartermaster/storage)
 "Lb" = (
-/obj/effect/spawner/lootdrop/maintenance{
-	lootcount = 2;
-	name = "2maintenance loot spawner"
-	},
-/obj/effect/spawner/lootdrop/maintenance,
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "VaultRec"
@@ -6001,14 +6255,35 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"Lk" = (
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
 "Ll" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
 /area/f13/underground/vault_atrium_upper)
+"Lr" = (
+/obj/structure/table,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "LB" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/white,
+/area/science/research)
+"LO" = (
+/obj/machinery/computer{
+	desc = "Looks like the water chip is broken. Better find a new one.";
+	name = "broken computer";
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_upper)
 "LU" = (
 /obj/structure/table,
@@ -6080,6 +6355,10 @@
 "MK" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
+"MX" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
 "Nc" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/storage/toolbox/mechanical,
@@ -6112,10 +6391,15 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
+"NW" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/quartermaster/storage)
 "NX" = (
 /obj/structure/chair/f13chair2{
 	dir = 8
 	},
+/obj/effect/landmark/start/f13/vaultheadofsecurity,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/security/brig)
 "Oe" = (
@@ -6125,6 +6409,19 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/engine/engineering)
+"Og" = (
+/obj/machinery/power/port_gen/pacman/super{
+	anchored = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
+"Oh" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/vault_atrium_upper)
 "Oi" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/south,
@@ -6133,6 +6430,12 @@
 	name = "tile"
 	},
 /area/crew_quarters/bar/atrium)
+"Oq" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/science/research)
 "Ot" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -6154,6 +6457,12 @@
 /obj/structure/bed,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/security/brig)
+"OK" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "Pr" = (
 /obj/machinery/light{
 	dir = 1
@@ -6172,6 +6481,7 @@
 "PG" = (
 /obj/structure/table,
 /obj/item/mop,
+/obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/janitor)
 "PI" = (
@@ -6181,10 +6491,30 @@
 	icon_state = "red"
 	},
 /area/security/brig)
+"PJ" = (
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
 "PL" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/crew_quarters/dorms)
+"PO" = (
+/obj/machinery/atmospherics/pipe/manifold/cyan/hidden{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/water,
+/area/f13/underground/vault_atrium_upper)
+"PX" = (
+/obj/machinery/computer/crew,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "PZ" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -6214,18 +6544,32 @@
 "QB" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/crew_quarters/bar/atrium)
+"QC" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/medical/medbay/central)
 "QM" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
 	},
 /area/security/brig)
 "QZ" = (
-/obj/machinery/power/port_gen/pacman/super{
-	anchored = 1
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 5
 	},
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 5
+	},
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 5
+	},
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
 "Rf" = (
 /obj/machinery/light{
@@ -6289,8 +6633,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/vault_atrium_upper)
 "RQ" = (
-/obj/structure/rack/shelf_metal,
-/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
+/obj/machinery/light,
+/obj/structure/closet/crate/hydroponics,
+/turf/open/floor/plasteel/f13/vault_floor/green,
 /area/hydroponics)
 "Sf" = (
 /obj/structure/rack/shelf_metal,
@@ -6305,6 +6650,9 @@
 "Si" = (
 /obj/structure/table,
 /obj/item/weldingtool,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
 "Sj" = (
@@ -6371,6 +6719,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/landmark/start/f13/vaultdweller,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
 "Tk" = (
@@ -6378,6 +6727,10 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"Tl" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/crew_quarters/dorms)
 "Tn" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
@@ -6387,6 +6740,13 @@
 /obj/item/stamp/denied,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"Ty" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/landmark/start/f13/vaultscientist,
+/turf/open/floor/plasteel/f13/vault_floor/purple/white,
+/area/science/research)
 "TB" = (
 /obj/machinery/processor,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite{
@@ -6394,6 +6754,10 @@
 	name = "tile"
 	},
 /area/crew_quarters/bar/atrium)
+"TD" = (
+/obj/machinery/computer/secure_data,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "TJ" = (
 /obj/structure/table,
 /obj/machinery/light/small,
@@ -6418,13 +6782,17 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/white,
-/area/f13/underground/vault_atrium_upper)
+/area/science/research)
 "TQ" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
+"TX" = (
+/obj/structure/chair/office,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "Uh" = (
 /obj/structure/sink{
 	dir = 4;
@@ -6438,6 +6806,29 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
+"Uu" = (
+/obj/structure/reagent_dispensers/cooking_oil{
+	desc = "A huge metal tank for storing water. Currently filled with a brown and smelly liquid..";
+	name = "huge water tank"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
+"Ux" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/structure/mirror{
+	pixel_x = -26
+	},
+/obj/item/radio/intercom{
+	frequency = 1361;
+	name = "Vault Intercom";
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/crew_quarters/dorms)
 "UD" = (
 /obj/structure/rack/shelf_metal,
 /turf/open/floor/plasteel/f13/vault_floor/white,
@@ -6471,7 +6862,11 @@
 /area/crew_quarters/bar/atrium)
 "UX" = (
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/underground/vault_atrium_upper)
+/area/science/research)
+"UZ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/underground/overseer_office)
 "Vj" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -6487,6 +6882,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/security/brig)
+"Vp" = (
+/obj/machinery/computer/card,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "Vq" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -6501,6 +6903,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
+"VC" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/crew_quarters/bar/atrium)
 "VE" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -6509,6 +6915,12 @@
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/security/brig)
+"VL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/medical/medbay/central)
 "VN" = (
 /obj/structure/table,
 /obj/item/radio/intercom{
@@ -6524,9 +6936,13 @@
 /area/engine/engineering)
 "Wh" = (
 /obj/machinery/light,
-/obj/structure/closet/crate/bin,
+/obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
+"Wm" = (
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white/whitebluechess,
+/area/f13/underground/vault_atrium_upper)
 "Wy" = (
 /obj/structure/closet,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -6537,6 +6953,12 @@
 "WM" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
+"WS" = (
+/obj/structure/table,
+/obj/item/folder/white,
+/obj/item/folder/white,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
 "Xc" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -6550,6 +6972,10 @@
 /obj/structure/closet/crate/freezer,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
+"XB" = (
+/obj/machinery/vending/engivend,
+/turf/open/floor/plasteel/f13/vault_floor/yellow,
+/area/engine/engineering)
 "XJ" = (
 /obj/structure/table,
 /obj/machinery/cell_charger{
@@ -6560,6 +6986,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/engine/engineering)
+"Ye" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc/auto_name/west,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics)
 "Yf" = (
 /obj/structure/sink{
 	dir = 8;
@@ -6576,12 +7009,15 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
 "Ys" = (
-/obj/structure/rack/shelf_metal,
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
-/area/hydroponics)
+/obj/structure/filingcabinet,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/underground/overseer_office)
 "YA" = (
 /obj/machinery/vending/hydroseeds,
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/hydroponics)
 "YC" = (
@@ -6589,6 +7025,10 @@
 	icon_state = "2-i"
 	},
 /area/crew_quarters/bar/atrium)
+"YD" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/overseer_office)
 "YF" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
@@ -6598,6 +7038,14 @@
 /obj/item/pen,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/engine/engineering)
+"YO" = (
+/obj/structure/bodycontainer/morgue,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/medical/medbay/central)
+"YW" = (
+/obj/machinery/seed_extractor,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics)
 "YX" = (
 /obj/structure/chair/right,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
@@ -6607,6 +7055,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/auto_name/west,
+/obj/structure/closet,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/medical/medbay/central)
 "Zi" = (
@@ -6616,6 +7065,13 @@
 "Zu" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/crew_quarters/dorms)
+"Zx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/engine/engineering)
 "Zy" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/red/side,
@@ -6624,12 +7080,19 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
-"ZO" = (
-/obj/machinery/light{
-	dir = 1
+"ZL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/crew_quarters/dorms)
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/hydroponics)
+"ZO" = (
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/f13/underground/vault_atrium_upper)
 "ZW" = (
 /obj/machinery/recycler,
 /obj/machinery/conveyor{
@@ -6642,11 +7105,23 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/quartermaster/storage)
-"ZZ" = (
+"ZY" = (
+/obj/machinery/power/port_gen/pacman/super{
+	anchored = 1
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
+"ZZ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/landmark/start/f13/vaultdweller,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/underground/vault_atrium_upper)
 
 (1,1,1) = {"
 aa
@@ -18290,13 +18765,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+Bt
+Bt
+Bt
+Bt
+Bt
+Bt
 aa
 aa
 aa
@@ -18547,13 +19022,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+mW
+Zu
+mW
+Zu
+mW
+Bt
 aa
 aa
 aa
@@ -18804,13 +19279,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+ta
+Zu
+Tl
+Zu
+PL
+Bt
 aa
 aa
 aa
@@ -19061,13 +19536,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+mW
+Zu
+Zu
+Zu
+mW
+Bt
 aa
 aa
 aa
@@ -19315,19 +19790,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+Bt
+Bt
+Bt
+Bt
+Bt
+CG
+Bt
+Bt
+Bt
+CD
+CD
+CD
 aa
 aa
 aa
@@ -19572,19 +20047,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+mW
+yB
+mW
+Bt
+MK
+MK
+MK
+CD
+Uu
+Uu
+Uu
+CD
 aa
 aa
 aa
@@ -19829,19 +20304,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+Zu
+Zu
+Zu
+Bt
+MK
+MK
+MK
+CD
+Kf
+PO
+mt
+CD
 aa
 aa
 aa
@@ -20086,20 +20561,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Bt
+mW
+Tl
+Zu
+CG
+MK
+MK
+MK
+CD
+zq
+CD
+CD
+CD
+CD
 aa
 aa
 aa
@@ -20338,25 +20813,25 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rC
+rC
+rC
+rC
+rC
+Bt
+Zu
+Zu
+Zu
+Bt
+mc
+MK
+MK
+CD
+PJ
+zM
+zM
+LO
+CD
 aa
 aa
 aa
@@ -20593,27 +21068,27 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+rC
+rC
+rC
+Ys
+zf
+uL
+mH
 Bt
+mW
+CI
+mW
 Bt
-Bt
-Bt
-Bt
-Bt
-Bt
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+MK
+lZ
+mP
+DZ
+JU
+ZZ
+pV
+IQ
+CD
 aa
 aa
 aa
@@ -20850,28 +21325,28 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+rC
+TD
+AB
+AB
+uL
+uL
+uL
+rC
 Bt
-mW
-Zu
-mW
-Zu
-mW
 Bt
+Bt
+Bt
+rQ
+sn
+MK
+CD
+Lk
+zM
+zM
+vX
+CD
 aa
-aa
-aa
-xP
-xP
-xP
-xP
-xP
-xP
-Ot
 aa
 aa
 aa
@@ -21107,29 +21582,29 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-Bt
-ta
-Zu
-Zu
-Zu
-PL
-Bt
-Bt
-Bt
-Bt
+rC
+pa
+AB
+YD
+zi
+uL
+uL
+UZ
+oB
+AQ
+oB
+pq
+ZO
+sn
+MK
 xP
-mH
-rP
-mD
-rP
-RQ
-Ot
-Ot
+xP
+xP
+xP
+xP
+xP
+aa
+aa
 Ot
 Ot
 Ot
@@ -21364,30 +21839,30 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-Bt
-mW
-Zu
-Zu
-Zu
-mW
-Bt
-Zu
-Zu
-Zu
-xP
-mB
-rP
-OE
-rP
-Ys
-Ot
-iR
 rC
+Vp
+AB
+TX
+YD
+uL
+uL
+pO
+oB
+oB
+oB
+oD
+ZO
+sn
+MK
+xP
+oR
+rP
+Ye
+RQ
+xP
+Ot
+Ot
+Ot
 sb
 QZ
 Ot
@@ -21621,32 +22096,32 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-Bt
-Bt
-Bt
-CG
-Bt
-Bt
-Bt
-Zu
-Zu
+rC
+HE
+AB
+KJ
+YD
 uL
+uL
+UZ
+oB
+oB
+oB
+pq
+ZO
+sn
+Vv
 xP
 YA
 rP
 OE
-rP
-RQ
-Ot
-qk
-Ei
-DZ
-ZZ
+Df
+xP
+nA
+iR
+mF
+wU
+nt
 vU
 YJ
 zm
@@ -21878,32 +22353,32 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-Bt
-Zu
-Zu
-Zu
+rC
+PX
+AB
+AB
+uL
+uL
+uL
+rC
+CD
 oD
-Zu
-Zu
-Zu
-Zu
-Zu
+CD
+CD
+xW
+sn
+MK
 xP
 Rx
 rP
 OE
-rP
-RQ
-Ot
-Ei
+YW
+xP
+nL
+Zx
 oC
 yf
-AB
+Me
 vU
 Vq
 sr
@@ -22135,32 +22610,32 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-Bt
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
-Zu
+rC
+rC
+rC
+uL
+AK
+uL
+uL
+rC
+oB
+oB
+oB
+CD
+MK
+sn
+MK
 xP
 xP
 xP
 GS
 xP
 xP
-Ot
-nt
-wU
+Og
+Ei
+ZY
 to
-Me
+Ez
 vU
 VO
 Ez
@@ -22394,25 +22869,25 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-Bt
-Bt
-Bt
-CG
-Bt
-Bt
-Bt
-Zu
-Zu
+rC
+rC
+rC
+rC
+rC
+CD
 oB
+oB
+oB
+CD
+MK
+sn
+SI
 wa
 CE
 rP
 OE
-rP
-CE
+rn
+xP
 Ot
 Ot
 Ot
@@ -22654,19 +23129,19 @@ aa
 aa
 aa
 aa
-Bt
-mW
-Zu
-Zu
-Zu
-mW
-Bt
-ZO
-Zu
+aa
+CD
+Oh
 oB
+oB
+rN
+CD
+mc
+sn
+SI
 wa
 CE
-rP
+uR
 OE
 rP
 CE
@@ -22681,7 +23156,7 @@ Ot
 IC
 Ot
 Ot
-aa
+BT
 aa
 aa
 aa
@@ -22911,22 +23386,22 @@ JD
 aa
 aa
 aa
-Bt
-ta
-Zu
-Zu
-Zu
-PL
-Bt
+aa
+CD
+nE
+oB
+oB
+oB
+CD
 MK
-MK
+sn
 SI
 xP
-oR
+Zi
 rP
 pk
 rP
-Zi
+CE
 Ot
 Kk
 MD
@@ -22937,8 +23412,8 @@ Ot
 Qm
 SF
 Ez
-Ot
-aa
+XB
+BT
 aa
 aa
 aa
@@ -23162,21 +23637,21 @@ Mj
 JD
 nV
 nV
-zo
+YO
 DF
 JD
 JD
 JD
 JD
 JD
-mW
-Zu
-mW
-Zu
-mW
-Bt
+CD
+Oh
+oB
+oB
+oB
+CD
 MK
-MK
+sn
 IY
 xP
 uD
@@ -23193,9 +23668,9 @@ Ez
 IC
 Ez
 Ez
-VE
-Ot
-aa
+Ez
+MX
+BT
 aa
 aa
 aa
@@ -23433,12 +23908,12 @@ Bt
 Bt
 Bt
 MK
-MK
+sn
 SI
 wa
 CE
 rP
-OE
+ZL
 rP
 CE
 Ot
@@ -23451,8 +23926,8 @@ Ot
 mI
 Ez
 th
-Ot
-aa
+Cl
+BT
 aa
 aa
 aa
@@ -23680,36 +24155,36 @@ zo
 zo
 JD
 Je
+wL
 zo
 zo
-zo
-UD
+IS
 JD
 Yf
 Yf
-Zu
+Ux
 Bt
 MK
-MK
+sn
 SI
 wa
 CE
 rP
 OE
 rP
-CE
+Zi
 Ot
 Ei
 FZ
 Nm
 Oe
-zm
+YJ
 Ot
 Zz
 Si
-Vq
+Fo
 Ot
-aa
+BT
 aa
 aa
 aa
@@ -23932,7 +24407,7 @@ JD
 JD
 JD
 zo
-zo
+wL
 zo
 zo
 wt
@@ -23947,7 +24422,7 @@ Zu
 Zu
 CG
 MK
-MK
+sn
 pR
 xP
 xP
@@ -24193,9 +24668,9 @@ RB
 RB
 zo
 JD
+Dn
 qo
-qo
-zo
+wL
 zo
 UD
 JD
@@ -24203,8 +24678,8 @@ yj
 FE
 rz
 Bt
-MK
-MK
+mc
+sn
 MK
 pR
 tU
@@ -24461,7 +24936,7 @@ Bt
 Bt
 Bt
 MK
-lZ
+qd
 mP
 mP
 mP
@@ -24700,7 +25175,7 @@ aa
 aa
 aa
 JD
-qo
+Lr
 Ek
 IV
 JD
@@ -24710,7 +25185,7 @@ zo
 oz
 zo
 qj
-qo
+OK
 JD
 Ll
 Ll
@@ -24957,20 +25432,20 @@ aa
 aa
 aa
 JD
-zo
+Fw
 zo
 CR
 JD
-Ou
+KH
 zo
 zo
 zo
+vg
 qo
-qo
-qo
+WS
 JD
 Ks
-Sn
+sc
 Ll
 Cz
 pq
@@ -25215,7 +25690,7 @@ aa
 aa
 JD
 JD
-Je
+zo
 zo
 wt
 Gr
@@ -25485,7 +25960,7 @@ mA
 JD
 Ks
 Sn
-Ll
+Wm
 sP
 pq
 MK
@@ -25993,9 +26468,9 @@ JD
 JD
 JD
 JD
-IR
-sn
-MK
+QC
+VL
+qk
 CD
 CD
 pq
@@ -27017,15 +27492,15 @@ aa
 aa
 aa
 aa
-CD
-CD
-CD
-CD
-RD
-sn
-MK
-CD
-CD
+mB
+mB
+mB
+mB
+Gx
+Oq
+sO
+mB
+mB
 YC
 YC
 qi
@@ -27274,14 +27749,14 @@ aa
 aa
 aa
 aa
-CD
+mB
 BB
 BB
-CD
-CD
+mB
+mB
 oY
-CD
-CD
+mB
+mB
 UX
 YC
 YX
@@ -27531,14 +28006,14 @@ aa
 aa
 aa
 aa
-CD
+mB
 BB
 BB
 TO
 BB
 LB
 BB
-CD
+mB
 YC
 YC
 AV
@@ -27560,7 +28035,7 @@ Mu
 WM
 uQ
 Xi
-Xi
+vY
 Xi
 Mx
 vL
@@ -27788,18 +28263,18 @@ aa
 aa
 aa
 aa
-CD
-BB
-BB
-BB
-BB
-LB
+mB
+oW
+oy
+Ty
+oy
+EA
 BB
 BB
 YC
 tG
 QB
-QB
+VC
 QB
 vc
 QB
@@ -27810,7 +28285,7 @@ Tt
 oX
 vL
 Ss
-WM
+NW
 WM
 LU
 EI
@@ -28045,12 +28520,12 @@ aa
 aa
 aa
 aa
-CD
+mB
 BB
 BB
 BB
 BB
-LB
+BB
 BB
 BB
 YC
@@ -28069,7 +28544,7 @@ Sq
 WM
 WM
 WM
-SR
+mD
 Tb
 Kx
 vL
@@ -28302,14 +28777,14 @@ aa
 aa
 aa
 aa
-CD
-CD
-CD
-CD
-CD
+mB
+mB
+mB
+mB
+mB
 JZ
-CD
-CD
+mB
+mB
 YC
 YC
 QB
@@ -28559,12 +29034,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-CD
+mB
 BB
-LB
+BB
+mB
+BB
+BB
 BB
 BB
 BB
@@ -28816,11 +29291,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-CD
-pO
+mB
+BB
+BB
+JZ
+BB
 BO
 BB
 BB
@@ -28828,12 +29303,12 @@ BB
 YC
 Kv
 Kv
-Kv
+ri
 Vx
 YC
 TB
 tP
-UV
+ns
 YC
 aa
 vL
@@ -29073,10 +29548,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-CD
+mB
+BB
+BB
+mB
 BB
 BB
 BB
@@ -29330,15 +29805,15 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-CD
-CD
-CD
-CD
-CD
-CD
+mB
+mB
+mB
+mB
+mB
+mB
+mB
+mB
+mB
 YC
 Kv
 uC
