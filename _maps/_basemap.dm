@@ -5,7 +5,7 @@
 #ifndef LOWMEMORYMODE
 	#ifdef ALL_MAPS
 		#include "map_files\Sunnyvale\Sunnyvale.dmm"
-		#include "map_files\Sunnyvale\Sunnyvale-underground.dmm"
+		#include "map_files\Sunnyvale\Sunnyvale_underground.dmm"
 		#include "map_files\Pahrump\Dungeons.dmm"
 
 		#ifdef TRAVISBUILDING
