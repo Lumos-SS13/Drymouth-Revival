@@ -4981,7 +4981,7 @@
 /area/engine/engineering)
 "nV" = (
 /obj/machinery/iv_drip,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "nW" = (
 /obj/structure/cable{
@@ -5341,6 +5341,12 @@
 /area/f13/underground/vault_atrium_upper)
 "uc" = (
 /obj/structure/rack/shelf_metal,
+/obj/item/clothing/suit/armor/vest/vault,
+/obj/item/clothing/suit/armor/vest/vault,
+/obj/item/clothing/suit/armor/vest/vault,
+/obj/item/clothing/head/helmet/riot/vaultsec,
+/obj/item/clothing/head/helmet/riot/vaultsec,
+/obj/item/clothing/head/helmet/riot/vaultsec,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/security/brig)
 "ug" = (
@@ -5477,8 +5483,15 @@
 "wx" = (
 /obj/structure/rack/shelf_metal,
 /obj/machinery/light/small,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
+"wy" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
 "wH" = (
 /obj/structure/table,
 /obj/machinery/power/apc/auto_name/west,
@@ -5641,7 +5654,7 @@
 	dir = 8
 	},
 /obj/structure/decoration/vent,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "Aw" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
@@ -5677,9 +5690,9 @@
 /area/quartermaster/storage)
 "AT" = (
 /obj/structure/guncase/shotgun,
-/obj/item/gun/ballistic/shotgun/police,
-/obj/item/gun/ballistic/shotgun/police,
-/obj/item/gun/ballistic/shotgun/police,
+/obj/item/gun/ballistic/automatic/pistol/n99,
+/obj/item/gun/ballistic/automatic/pistol/n99,
+/obj/item/gun/ballistic/automatic/pistol/n99,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/security/brig)
 "AV" = (
@@ -5825,7 +5838,7 @@
 /obj/machinery/computer/med_data{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "DM" = (
 /obj/structure/cable{
@@ -5854,7 +5867,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "Ez" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -5907,7 +5920,7 @@
 	dir = 4;
 	pixel_x = 11
 	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "Fx" = (
 /obj/structure/chair/left{
@@ -6104,13 +6117,13 @@
 /obj/item/storage/pill_bottle/chem_tin/radx,
 /obj/item/storage/pill_bottle/chem_tin/radx,
 /obj/item/storage/pill_bottle/chem_tin/radx,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "IV" = (
 /obj/machinery/computer/operating{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "IY" = (
 /obj/machinery/light,
@@ -6217,7 +6230,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/closet,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "KJ" = (
 /obj/structure/table/reinforced,
@@ -6269,7 +6282,7 @@
 "Lr" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "LB" = (
 /obj/structure/cable{
@@ -6341,7 +6354,7 @@
 /area/quartermaster/storage)
 "Mz" = (
 /obj/structure/closet,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "MD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6376,7 +6389,7 @@
 /area/engine/engineering)
 "Nx" = (
 /obj/structure/closet/secure_closet/medical2,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "NI" = (
 /obj/machinery/light{
@@ -6608,7 +6621,7 @@
 /area/hydroponics)
 "RB" = (
 /obj/structure/bed,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "RD" = (
 /obj/machinery/light{
@@ -6827,11 +6840,11 @@
 	name = "Vault Intercom";
 	pixel_y = -32
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/crew_quarters/dorms)
 "UD" = (
 /obj/structure/rack/shelf_metal,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "UE" = (
 /obj/item/radio/intercom{
@@ -6970,7 +6983,7 @@
 /area/quartermaster/storage)
 "Xy" = (
 /obj/structure/closet/crate/freezer,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "XB" = (
 /obj/machinery/vending/engivend,
@@ -7002,7 +7015,7 @@
 /obj/structure/mirror{
 	pixel_x = -26
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/crew_quarters/dorms)
 "Yp" = (
 /obj/structure/simple_door/bunker,
@@ -7040,7 +7053,7 @@
 /area/engine/engineering)
 "YO" = (
 /obj/structure/bodycontainer/morgue,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "YW" = (
 /obj/machinery/seed_extractor,
@@ -7056,7 +7069,7 @@
 	},
 /obj/machinery/power/apc/auto_name/west,
 /obj/structure/closet,
-/turf/open/floor/plasteel/f13/vault_floor/white,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/medical/medbay/central)
 "Zi" = (
 /obj/structure/table,
@@ -26749,7 +26762,7 @@ MK
 sn
 Gn
 QM
-uc
+wy
 ma
 ME
 QM
