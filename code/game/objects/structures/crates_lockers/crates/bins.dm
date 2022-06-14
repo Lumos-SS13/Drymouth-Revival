@@ -58,7 +58,7 @@
 	barricade = FALSE
 	anchorable = FALSE
 
-/obj/structure/closet/crate/bin/trash_fallout/attackby(obj/item/W, mob/user, params)
+/obj/structure/closet/crate/bin/trashbin/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/storage/bag/trash))
 		var/obj/item/storage/bag/trash/T = W
 		to_chat(user, "<span class='notice'>You fill the bag.</span>")
@@ -70,7 +70,7 @@
 	else
 		return ..()
 
-/obj/structure/closet/crate/bin/trash_fallout/proc/do_animated()
+/obj/structure/closet/crate/bin/trashbin/proc/do_animated()
 	playsound(loc, open_sound, 15, 1, -3)
 	flick("animate_trashbin", src)
 	spawn(13)
