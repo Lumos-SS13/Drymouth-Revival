@@ -56,7 +56,7 @@ window "mainwindow"
 		anchor2 = none
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
-		title = "Fallout: Lone Star"
+		title = "Fallout: Drymouth Revival"
 		icon = 'icons\\gamelogo.png'
 		macro = "default"
 		menu = "menu"

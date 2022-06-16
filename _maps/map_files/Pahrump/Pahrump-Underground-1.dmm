@@ -7154,7 +7154,7 @@
 /area/f13/brotherhood/rnd)
 "ejL" = (
 /obj/machinery/door/airlock/medical{
-	armor = list("melee" = 50, "bullet" = 50, "laser" = 30, "energy" = 20, "bomb" = 10, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 70);
+	armor = list("melee"=50,"bullet"=50,"laser"=30,"energy"=20,"bomb"=10,"bio"=100,"rad"=100,"fire"=80,"acid"=70);
 	name = "Clinic";
 	req_one_access_txt = "124"
 	},
@@ -8674,11 +8674,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/den)
-"fgP" = (
-/obj/item/clothing/suit/armor/f13/rangercombat/foxcustom,
-/obj/item/clothing/head/helmet/f13/ncr/rangercombat/foxcustom,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "fgZ" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
@@ -22184,7 +22179,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/poddoor/shutters{
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 75, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70);
+	armor = list("melee"=20,"bullet"=20,"laser"=20,"energy"=75,"bomb"=20,"bio"=100,"rad"=100,"fire"=100,"acid"=70);
 	id = "bosdoors3";
 	name = "brotherhood shutters"
 	},
@@ -22648,7 +22643,7 @@
 "oRQ" = (
 /obj/machinery/vending/wallmed{
 	pixel_y = 30;
-	products = list(/obj/item/reagent_containers/syringe = 3, /obj/item/reagent_containers/pill/patch/styptic = 10, /obj/item/reagent_containers/pill/patch/silver_sulf = 10, /obj/item/reagent_containers/medspray/styptic = 4, /obj/item/reagent_containers/medspray/silver_sulf = 4, /obj/item/reagent_containers/pill/charcoal = 2, /obj/item/reagent_containers/medspray/sterilizine = 2)
+	products = list(/obj/item/reagent_containers/syringe=3,/obj/item/reagent_containers/pill/patch/styptic=10,/obj/item/reagent_containers/pill/patch/silver_sulf=10,/obj/item/reagent_containers/medspray/styptic=4,/obj/item/reagent_containers/medspray/silver_sulf=4,/obj/item/reagent_containers/pill/charcoal=2,/obj/item/reagent_containers/medspray/sterilizine=2)
 	},
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -27397,7 +27392,7 @@
 "slX" = (
 /obj/machinery/vending/wallmed{
 	pixel_y = 30;
-	products = list(/obj/item/reagent_containers/syringe = 3, /obj/item/reagent_containers/pill/patch/styptic = 10, /obj/item/reagent_containers/pill/patch/silver_sulf = 10, /obj/item/reagent_containers/medspray/styptic = 4, /obj/item/reagent_containers/medspray/silver_sulf = 4, /obj/item/reagent_containers/pill/charcoal = 2, /obj/item/reagent_containers/medspray/sterilizine = 2)
+	products = list(/obj/item/reagent_containers/syringe=3,/obj/item/reagent_containers/pill/patch/styptic=10,/obj/item/reagent_containers/pill/patch/silver_sulf=10,/obj/item/reagent_containers/medspray/styptic=4,/obj/item/reagent_containers/medspray/silver_sulf=4,/obj/item/reagent_containers/pill/charcoal=2,/obj/item/reagent_containers/medspray/sterilizine=2)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -27823,7 +27818,6 @@
 /area/f13/followers)
 "sJm" = (
 /obj/structure/table/wood/bar,
-/obj/item/clothing/head/welding/weldingfire,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "sJt" = (
@@ -29276,16 +29270,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/brotherhood/rnd)
-"tRl" = (
-/obj/structure/lattice{
-	layer = 3
-	},
-/obj/item/toy/gun/m41{
-	desc = "A pre-war toy rifle issued to children across the continent.";
-	name = "Toy Pulse Rifle"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/brotherhood/operations)
 "tRt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -37578,7 +37562,7 @@ xVz
 xVz
 xVz
 rDS
-fgP
+xVz
 lAL
 aoj
 aoj
@@ -95004,7 +94988,7 @@ wKL
 jtN
 jtN
 jtN
-tRl
+jtN
 jtN
 wKL
 jNr
